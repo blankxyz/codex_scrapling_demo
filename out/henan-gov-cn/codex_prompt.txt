@@ -1,0 +1,38 @@
+Use the spider-authoring skill.
+
+Task:
+Generate a Scrapling spider and tests for the site 'henan-gov-cn' using the marker file below and the unified schema at schemas/news_article.schema.json.
+
+Requirements:
+1. Prefer scrapling.fetchers.Fetcher; switch to DynamicFetcher only if truly required.
+2. Use fallback selector chains from marker candidates, not a single fragile selector.
+3. Output:
+   - spiders/henan-gov-cn.py
+   - tests/test_henan-gov-cn.py
+4. Keep field names aligned with schemas/news_article.schema.json.
+5. Save fixtures for regression testing if you need to fetch sample pages.
+
+Target URL:
+https://gd.henan.gov.cn/sy/tz/
+
+Marker JSON:
+{
+  "site_slug": "henan-gov-cn",
+  "list_url": "https://gd.henan.gov.cn/sy/tz/",
+  "list_link_selector": "#articleList > div.col-xs-12.col-sm-12 > div.articleList_listBox a",
+  "detail_sample_url": "http://gd.henan.gov.cn/2025/12-02/3269560.html",
+  "sample_links": [
+    {
+      "text": "严正声明",
+      "href": "http://gd.henan.gov.cn/2025/12-02/3269560.html"
+    },
+    {
+      "text": "河南省广播电视局关于公布河南省微短剧拍摄取景地的通知",
+      "href": "http://gd.henan.gov.cn/2025/09-24/3230158.html"
+    },
+    {
+      "text": "2025年全国广播电视播音员主持人资格考试（河南考区）相关事宜通知...",
+      "href": "http://gd.henan.gov.cn/2025/09-18/3228069.html"
+    }
+  ]
+}

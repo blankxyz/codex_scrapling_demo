@@ -1,0 +1,39 @@
+Use the spider-authoring skill.
+
+Task:
+Generate a Scrapling spider and tests for the site 'yntv-cn' using the marker file below and the unified schema at schemas/news_article.schema.json.
+
+Requirements:
+1. Prefer scrapling.fetchers.Fetcher; switch to DynamicFetcher only if truly required.
+2. Use fallback selector chains from marker candidates, not a single fragile selector.
+3. Output:
+   - spiders/yntv-cn.py
+   - tests/test_yntv-cn.py
+4. Keep field names aligned with schemas/news_article.schema.json.
+5. Save fixtures for regression testing if you need to fetch sample pages.
+6. Do not using bs4.
+Target URL:
+https://mmr.yntv.cn/mmr/tplby.html?sectionid=89&page=1
+
+Marker JSON:
+{
+  "site_slug": "yntv-cn",
+  "list_url": "https://mmr.yntv.cn/mmr/tplby.html?sectionid=89&page=1",
+  "list_link_selector": "#page_list_video > div.special_section2.row a",
+  "detail_sample_url": "https://www.yntv.cn/video/20250702/1751425471742822.html",
+  "sample_links": [
+    {
+      "text": "",
+      "href": "https://www.yntv.cn/video/20250702/1751425471742822.html"
+    },
+    {
+      "text": "",
+      "href": "https://www.yntv.cn/video/20250702/1751425471742822.html"
+    },
+    {
+      "text": "Summer has arrived, and Yunnan’s Eryuan wetlands welcome a p",
+      "href": "https://www.yntv.cn/video/20250702/1751425471742822.html"
+    }
+  ],
+  "requires_dynamic": true
+}

@@ -1,0 +1,39 @@
+Use the spider-authoring skill.
+
+Task:
+Generate a Scrapling spider and tests for the site 'ccwb-cn' using the marker file below and the unified schema at schemas/news_article.schema.json.
+
+Requirements:
+1. Prefer scrapling.fetchers.Fetcher; switch to DynamicFetcher only if truly required.
+2. Use fallback selector chains from marker candidates, not a single fragile selector.
+3. Output:
+   - spiders/ccwb-cn.py
+   - tests/test_ccwb-cn.py
+4. Keep field names aligned with schemas/news_article.schema.json.
+5. Save fixtures for regression testing if you need to fetch sample pages.
+6. Do not using bs4.
+
+Target URL:
+https://www.ccwb.cn/col459.html
+
+Marker JSON:
+{
+  "site_slug": "ccwb-cn",
+  "list_url": "https://www.ccwb.cn/col459.html",
+  "list_link_selector": "html > body > div.kpContentBox > div.wrap > div.kpConBoxC a",
+  "detail_sample_url": "https://www.ccwb.cn/content/202604/13/c868387.html",
+  "sample_links": [
+    {
+      "text": "“走出一条中国特色城市现代化新路子”（总书记的人民情怀） 热点新闻 2026-04-13 15:22:28",
+      "href": "/content/202604/13/c868387.html"
+    },
+    {
+      "text": "时政微周刊丨总书记的一周（4月6日—4月12日） 热点新闻 2026-04-13 15:22:13",
+      "href": "/content/202604/13/c868395.html"
+    },
+    {
+      "text": "习言道丨与中国同行就是与机遇同行 热点新闻 2026-04-13 15:22:21",
+      "href": "/content/202604/13/c868389.html"
+    }
+  ]
+}

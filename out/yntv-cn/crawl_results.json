@@ -1,0 +1,14 @@
+{
+  "site_slug": "yntv-cn",
+  "list_url": "https://mmr.yntv.cn/mmr/tplby.html?sectionid=89&page=1",
+  "total_links": 0,
+  "success_count": 0,
+  "error_count": 1,
+  "items": [],
+  "errors": [
+    {
+      "url": "https://mmr.yntv.cn/mmr/tplby.html?sectionid=89&page=1",
+      "error": "collect_links_failed: Failed to perform, curl: (6) Could not resolve host: mmr.yntv.cn. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+    }
+  ]
+}
