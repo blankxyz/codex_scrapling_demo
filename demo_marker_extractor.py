@@ -208,6 +208,28 @@ def _author_candidates(soup: BeautifulSoup, max_candidates: int) -> list[dict[st
     return _dedupe(cands, max_candidates)
 
 
+def find_selector_by_text(html: str, text: str) -> Optional[str]:
+    """在 HTML 中搜索包含 text 的最浅层元素，返回其 CSS 路径；找不到返回 None。"""
+    needle = _clean_text(text)
+    if not needle:
+        return None
+    soup = BeautifulSoup(html, "lxml")
+    best: Optional[Tag] = None
+    best_depth = 9999
+    for tag in soup.find_all(True):
+        if tag.name in NOISE_TAGS | {"html", "body", "head"}:
+            continue
+        tag_text = _clean_text(tag.get_text(" ", strip=True))
+        if needle in tag_text:
+            depth = len(list(tag.parents))
+            if depth < best_depth:
+                best_depth = depth
+                best = tag
+    if best is None:
+        return None
+    return _css_path(best)
+
+
 def _title_matches_any_link(links: list[Tag], title_hint: str) -> bool:
     """检查是否有任意链接文本包含 title_hint（或反向包含）。"""
     hint = title_hint.strip()
