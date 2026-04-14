@@ -417,6 +417,7 @@ def analyze_html(
     time_candidates = _time_candidates(soup, max_candidates=max_candidates)
     content_candidates = _content_candidates(soup, max_candidates=max_candidates)
     list_link_candidates = _list_link_candidates(soup, max_candidates=max_candidates, title_hint=title_hint)
+    author_candidates = _author_candidates(soup, max_candidates=max_candidates)
 
     marker = {
         "site_slug": site_slug,
@@ -428,6 +429,7 @@ def analyze_html(
         "time_candidates": time_candidates,
         "content_candidates": content_candidates,
         "list_link_candidates": list_link_candidates,
+        "author_candidates": author_candidates,
         "api_candidates": _api_candidates(xhr_responses or [], max_candidates=max_candidates),
         "notes": [
             "Prefer title/time/content top-ranked selectors first.",
