@@ -14,6 +14,7 @@ TITLE_PAT = re.compile(r"(title|headline|article-title|content_title|detail-titl
 TIME_PAT = re.compile(r"(time|date|pub|publish|updated|update|posted|created)", re.I)
 CONTENT_PAT = re.compile(r"(content|article|body|post|detail|editor|main|text|TRS_Editor)", re.I)
 LIST_PAT = re.compile(r"(list|news|article|item|entry|card|link)", re.I)
+AUTHOR_PAT = re.compile(r"(author|byline|writer|reporter|记者|作者|来源|source)", re.I)
 NOISE_TAGS = {"script", "style", "noscript", "svg", "footer", "header", "nav", "aside", "form"}
 
 try:
@@ -40,7 +41,7 @@ def _slugify_site(url: str) -> str:
     return re.sub(r"[^a-zA-Z0-9-]+", "-", core).strip("-").lower() or "site"
 
 
-def fetch_html(url: str, render: str = "auto") -> tuple[str, dict[str, Any]]:
+def fetch_html(url: str, render: str = "auto") -> tuple[str, list[Any], dict[str, Any]]:
     meta: dict[str, Any] = {"engine": None, "render_mode": render}
     if render in {"static", "auto"} and Fetcher is not None:
         try:
@@ -50,19 +51,20 @@ def fetch_html(url: str, render: str = "auto") -> tuple[str, dict[str, Any]]:
                 html = html.decode("utf-8", errors="ignore")
             meta["engine"] = "scrapling.Fetcher"
             meta["status"] = getattr(page, "status", None)
-            return html, meta
+            return html, [], meta
         except Exception as e:
             meta["static_error"] = repr(e)
 
     if render in {"dynamic", "auto"} and DynamicFetcher is not None:
         try:
-            page = DynamicFetcher.fetch(url, headless=True, network_idle=True)
+            page = DynamicFetcher.fetch(url, headless=True, network_idle=True, capture_xhr=r".*")
             html = getattr(page, "text", None) or getattr(page, "body", b"")
             if isinstance(html, bytes):
                 html = html.decode("utf-8", errors="ignore")
             meta["engine"] = "scrapling.DynamicFetcher"
             meta["status"] = getattr(page, "status", None)
-            return html, meta
+            xhr_responses = getattr(page, "captured_xhr", [])
+            return html, xhr_responses, meta
         except Exception as e:
             meta["dynamic_error"] = repr(e)
 
@@ -187,6 +189,25 @@ def _content_candidates(soup: BeautifulSoup, max_candidates: int) -> list[dict[s
     return _dedupe(cands, max_candidates)
 
 
+def _author_candidates(soup: BeautifulSoup, max_candidates: int) -> list[dict[str, Any]]:
+    cands: list[Candidate] = []
+    for tag in soup.find_all(["span", "p", "em", "a", "div"]):
+        if tag.name in NOISE_TAGS:
+            continue
+        text = _clean_text(tag.get_text(" ", strip=True))
+        if not text or len(text) < 2 or len(text) > 30:
+            continue
+        score = 0
+        if _has_keyword(tag, AUTHOR_PAT):
+            score += 60
+        if tag.name in {"span", "em"}:
+            score += 10
+        if score == 0:
+            continue
+        cands.append(Candidate(selector=_css_path(tag), score=score, preview=text, text_len=len(text)))
+    return _dedupe(cands, max_candidates)
+
+
 def _title_matches_any_link(links: list[Tag], title_hint: str) -> bool:
     """检查是否有任意链接文本包含 title_hint（或反向包含）。"""
     hint = title_hint.strip()
@@ -247,6 +268,69 @@ def _list_link_candidates(
     return deduped
 
 
+_API_URL_PAT = re.compile(r"(/api/|/json|/data/|/v\d+/)", re.I)
+_ARTICLE_KEYS = {"title", "content", "publish_time", "data", "list", "items", "article", "news", "body", "text"}
+
+
+def _api_candidates(xhr_responses: list[Any], max_candidates: int = 6) -> list[dict[str, Any]]:
+    cands: list[dict[str, Any]] = []
+    for resp in xhr_responses:
+        try:
+            ct = ""
+            headers = getattr(resp, "headers", {}) or {}
+            if isinstance(headers, dict):
+                ct = headers.get("content-type", "") or headers.get("Content-Type", "")
+            if "application/json" not in ct:
+                continue
+            body = getattr(resp, "body", None) or getattr(resp, "text", None) or b""
+            if isinstance(body, str):
+                raw = body
+            else:
+                raw = body.decode("utf-8", errors="ignore")
+            data = json.loads(raw)
+        except Exception:
+            continue
+
+        if not isinstance(data, (dict, list)):
+            continue
+
+        size = len(raw.encode("utf-8"))
+        url = getattr(resp, "url", "") or ""
+        status = getattr(resp, "status", 0) or 0
+
+        score = 0
+        if _API_URL_PAT.search(url):
+            score += 40
+        top_keys = set(data.keys()) if isinstance(data, dict) else set()
+        if top_keys & _ARTICLE_KEYS:
+            score += 50
+        if 1024 <= size <= 200 * 1024:
+            score += 20
+        if status == 200:
+            score += 10
+
+        if score == 0:
+            continue
+
+        # Build a compact preview: truncate lists to 1 item, cap total length at 300 chars
+        if isinstance(data, list):
+            preview: Any = data[:1]
+        else:
+            preview = {}
+            for k, v in data.items():
+                preview[k] = v[:1] if isinstance(v, list) else v
+        cands.append({
+            "url": url,
+            "status": status,
+            "score": score,
+            "size_bytes": size,
+            "preview": json.dumps(preview, ensure_ascii=False)[:300],
+        })
+
+    cands.sort(key=lambda x: -x["score"])
+    return cands[:max_candidates]
+
+
 def _signals(soup: BeautifulSoup) -> dict[str, Any]:
     return {
         "has_article_tag": soup.find("article") is not None,
@@ -279,17 +363,16 @@ Prioritize these over the candidate lists below. Use candidate lists only as fal
     return f"""Use the spider-authoring skill.
 
 Task:
-Generate a Scrapling spider and tests for the site '{site_slug}' using the marker file below and the unified schema at schemas/news_article.schema.json.
+Generate a Scrapling spider for the site '{site_slug}' using the marker file below and the unified schema at schemas/news_article.schema.json.
 {confirmed_section}
 Requirements:
-1. Prefer scrapling.fetchers.Fetcher; switch to DynamicFetcher only if truly required.
+1. Check marker's "requires_dynamic" field: if true, use DynamicFetcher; otherwise use Fetcher.
 2. Use fallback selector chains from marker candidates, not a single fragile selector.
-3. Output:
-   - spiders/{site_slug}.py
-   - tests/test_{site_slug}.py
+3. Output: spiders/{site_slug}.py
 4. Keep field names aligned with schemas/news_article.schema.json.
-5. Save fixtures for regression testing if you need to fetch sample pages.
-6. Do not using bs4.
+5. Do not use bs4.
+6. Do not generate test files. Run `python -m py_compile spiders/{site_slug}.py` to verify syntax only.
+
 Target URL:
 {url}
 
@@ -300,6 +383,7 @@ Marker JSON:
 
 def analyze_html(
     html: str, url: str, fetch_meta: dict[str, Any],
+    xhr_responses: list[Any] | None = None,
     max_candidates: int = 6, title_hint: str = "",
 ) -> dict[str, Any]:
     soup = BeautifulSoup(html, "lxml")
@@ -320,6 +404,7 @@ def analyze_html(
         "time_candidates": time_candidates,
         "content_candidates": content_candidates,
         "list_link_candidates": list_link_candidates,
+        "api_candidates": _api_candidates(xhr_responses or [], max_candidates=max_candidates),
         "notes": [
             "Prefer title/time/content top-ranked selectors first.",
             "If selector drift occurs, keep multiple fallback selectors in the spider.",
@@ -335,5 +420,6 @@ def analyze_html(
 
 
 def analyze_url(url: str, render: str = "auto", max_candidates: int = 6) -> dict[str, Any]:
-    html, fetch_meta = fetch_html(url=url, render=render)
-    return analyze_html(html=html, url=url, fetch_meta=fetch_meta, max_candidates=max_candidates)
+    html, xhr_responses, fetch_meta = fetch_html(url=url, render=render)
+    return analyze_html(html=html, url=url, fetch_meta=fetch_meta,
+                        xhr_responses=xhr_responses, max_candidates=max_candidates)
