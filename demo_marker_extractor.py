@@ -210,12 +210,14 @@ def _author_candidates(soup: BeautifulSoup, max_candidates: int) -> list[dict[st
 
 def find_selector_by_text(html: str, text: str) -> Optional[str]:
     """在 HTML 中搜索包含 text 的最浅层元素，返回其 CSS 路径；找不到返回 None。"""
+    if not html:
+        return None
     needle = _clean_text(text)
     if not needle:
         return None
     soup = BeautifulSoup(html, "lxml")
     best: Optional[Tag] = None
-    best_depth = 9999
+    best_depth = float("inf")
     for tag in soup.find_all(True):
         if tag.name in NOISE_TAGS | {"html", "body", "head"}:
             continue
