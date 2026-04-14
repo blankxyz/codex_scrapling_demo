@@ -1,5 +1,3 @@
-import sys, os
-sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 from demo_marker_extractor import _author_candidates
 from bs4 import BeautifulSoup
 

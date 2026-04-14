@@ -14,7 +14,7 @@ TITLE_PAT = re.compile(r"(title|headline|article-title|content_title|detail-titl
 TIME_PAT = re.compile(r"(time|date|pub|publish|updated|update|posted|created)", re.I)
 CONTENT_PAT = re.compile(r"(content|article|body|post|detail|editor|main|text|TRS_Editor)", re.I)
 LIST_PAT = re.compile(r"(list|news|article|item|entry|card|link)", re.I)
-AUTHOR_PAT = re.compile(r"(author|byline|writer|reporter|记者|作者|来源|source)", re.I)
+AUTHOR_PAT = re.compile(r"(author|byline|writer|reporter|记者|作者)", re.I)
 NOISE_TAGS = {"script", "style", "noscript", "svg", "footer", "header", "nav", "aside", "form"}
 
 try:
