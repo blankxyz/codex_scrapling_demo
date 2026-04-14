@@ -85,6 +85,24 @@ def show_link_candidates_table(candidates: list[dict[str, Any]]) -> None:
     console.print()
 
 
+def show_api_candidates_table(candidates: list[dict[str, Any]]) -> None:
+    table = Table(
+        title="[bold]检测到 API 接口[/bold]",
+        box=box.ROUNDED,
+        show_lines=True,
+        header_style="bold green",
+    )
+    table.add_column("序号", style="dim", width=4, justify="right")
+    table.add_column("评分", justify="right", width=6)
+    table.add_column("大小", justify="right", width=8)
+    table.add_column("URL", max_width=70)
+    for i, c in enumerate(candidates, 1):
+        size_kb = f"{c['size_bytes'] // 1024} KB"
+        table.add_row(str(i), str(c.get("score", "")), size_kb, c.get("url", ""))
+    console.print(table)
+    console.print()
+
+
 def show_confirmed_summary(confirmed: dict[str, str]) -> None:
     lines = []
     label_map = {
@@ -92,6 +110,7 @@ def show_confirmed_summary(confirmed: dict[str, str]) -> None:
         "title_selector": "标题选择器",
         "time_selector": "时间选择器",
         "content_selector": "正文选择器",
+        "author_selector": "作者选择器",
     }
     for key, val in confirmed.items():
         label = label_map.get(key, key)

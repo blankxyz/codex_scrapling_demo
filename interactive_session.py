@@ -188,29 +188,29 @@ class InteractiveSession:
             console.rule("[bold cyan]分析详情页字段[/bold cyan]")
             try:
                 with show_spinner(f"正在抓取详情页样本：{detail_sample_url}"):
+                    # detail_html 仅用于 CSS 候选分析，详情页无需 API 检测，故丢弃 xhr_responses
                     detail_html, _, detail_fetch_meta = fetch_html(detail_sample_url, render=render)
                 detail_result = analyze_html(detail_html, detail_sample_url, detail_fetch_meta)
                 detail_marker = detail_result["marker"]
             except Exception as exc:
                 console.print(f"[yellow]详情页抓取失败：{exc}，跳过字段分析。[/yellow]")
-                detail_marker = {}
+            else:
+                field_map = [
+                    ("title", "标题", "title_candidates"),
+                    ("time", "时间", "time_candidates"),
+                    ("content", "正文", "content_candidates"),
+                    ("author", "作者", "author_candidates"),
+                ]
+                detail_confirmed: dict[str, str] = {}
+                for field_key, field_label, cand_key in field_map:
+                    candidates = detail_marker.get(cand_key, [])
+                    sel = _pick_field_candidate(field_label, candidates, detail_html)
+                    if sel:
+                        detail_confirmed[f"{field_key}_selector"] = sel
 
-            field_map = [
-                ("title", "标题", "title_candidates"),
-                ("time", "时间", "time_candidates"),
-                ("content", "正文", "content_candidates"),
-                ("author", "作者", "author_candidates"),
-            ]
-            detail_confirmed: dict[str, str] = {}
-            for field_key, field_label, cand_key in field_map:
-                candidates = detail_marker.get(cand_key, [])
-                sel = _pick_field_candidate(field_label, candidates, detail_html)
-                if sel:
-                    detail_confirmed[f"{field_key}_selector"] = sel
-
-            if detail_confirmed:
-                confirmed.update(detail_confirmed)
-                show_confirmed_summary(confirmed)
+                if detail_confirmed:
+                    confirmed.update(detail_confirmed)
+                    show_confirmed_summary(confirmed)
 
         ok = questionary.confirm("保存 marker.json？").ask()
         if not ok:
