@@ -191,7 +191,7 @@ def _content_candidates(soup: BeautifulSoup, max_candidates: int) -> list[dict[s
 
 def _author_candidates(soup: BeautifulSoup, max_candidates: int) -> list[dict[str, Any]]:
     cands: list[Candidate] = []
-    for tag in soup.find_all(["span", "p", "em", "a", "div"]):
+    for tag in soup.find_all(["span", "p", "em"]):
         if tag.name in NOISE_TAGS:
             continue
         text = _clean_text(tag.get_text(" ", strip=True))
@@ -200,8 +200,8 @@ def _author_candidates(soup: BeautifulSoup, max_candidates: int) -> list[dict[st
         score = 0
         if _has_keyword(tag, AUTHOR_PAT):
             score += 60
-        if tag.name in {"span", "em"}:
-            score += 10
+            if tag.name in {"span", "em", "p"}:
+                score += 10
         if score == 0:
             continue
         cands.append(Candidate(selector=_css_path(tag), score=score, preview=text, text_len=len(text)))
