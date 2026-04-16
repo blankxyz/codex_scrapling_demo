@@ -1,0 +1,266 @@
+{
+  "source_url": "https://www.hinews.cn/module/b0ba0a6167674227932bbeca1cc20e77",
+  "slug": "hinews-cn-module-b0ba0a6167674227932bbeca1cc20e77",
+  "analysis_method": "Chrome CDP page target plus browser-observed DOM/network capture. No search engine and no non-browser target fetching used as primary evidence.",
+  "site": {
+    "domain": "www.hinews.cn",
+    "base_url": "https://www.hinews.cn",
+    "detail_base_domains": [
+      "https://www.hinews.cn"
+    ],
+    "page_title": "海南时政_南海网",
+    "column_name": "时政",
+    "language": "Chinese",
+    "platform": "Nuxt SSR module/detail pages"
+  },
+  "list": {
+    "first_page_only": false,
+    "item_count": 20,
+    "item_selector": "ul.l_list > li",
+    "link_selector": "ul.l_list > li h3 a",
+    "title_selector": "ul.l_list > li h3 a",
+    "publish_time_selector": "ul.l_list > li ul.brief_box li:first-child",
+    "source_selector": "ul.l_list > li ul.brief_box li:nth-child(2)",
+    "image_selector": "ul.l_list > li img.row_two_img",
+    "wait_selector": "ul.l_list > li h3 a",
+    "first_page_titles": [
+      {
+        "index": 1,
+        "title": "海南省与‌国家电力投资集团举行工作会谈",
+        "url": "/page?n=2816535&m=1&s=1044",
+        "type": "article",
+        "publish_time": "2026-04-15",
+        "source": "海南日报",
+        "image": ""
+      },
+      {
+        "index": 2,
+        "title": "海南省政府与华为技术有限公司签署合作备忘录，冯飞、刘小明出席签约仪式",
+        "url": "/page?n=2816532&m=1&s=1044",
+        "type": "article",
+        "publish_time": "2026-04-15",
+        "source": "海南日报",
+        "image": ""
+      },
+      {
+        "index": 3,
+        "title": "冯飞刘小明会见出席全球产业招商大会的央国企负责人",
+        "url": "/page?n=2816498&m=1&s=1044",
+        "type": "article",
+        "publish_time": "2026-04-14",
+        "source": "海南日报客户端",
+        "image": "https://qiniu-rmt-data.hinews.cn/common/img/IMG_12a906309c8449f78721234d590a0382.jpeg"
+      },
+      {
+        "index": 4,
+        "title": "投资中国·2026海南自由贸易港全球产业招商大会开幕",
+        "url": "/page?n=2816418&m=1&s=1044",
+        "type": "article",
+        "publish_time": "2026-04-14",
+        "source": "海南日报",
+        "image": "https://qiniu-rmt-data.hinews.cn/common/img/IMG_f58414030dbc40d3be04ec741fa68ea8.jpeg"
+      },
+      {
+        "index": 5,
+        "title": "第六届中国国际消费品博览会暨2026“购在中国”国际消费季启动仪式在海口举行",
+        "url": "/page?n=2816143&m=1&s=1044",
+        "type": "article",
+        "publish_time": "2026-04-13",
+        "source": "海南日报客户端",
+        "image": "https://qiniu-rmt-data.hinews.cn/common/img/IMG_e7d90f55777a4004bec0425e27df9c60.jpeg"
+      },
+      {
+        "index": 6,
+        "title": "肖捷率队来琼调研海南自由贸易港法与旅游法实施情况 冯飞刘小明参加座谈",
+        "url": "/page?n=2815458&m=1&s=1044",
+        "type": "article",
+        "publish_time": "2026-04-11",
+        "source": "海南日报",
+        "image": "https://qiniu-rmt-data.hinews.cn/common/img/IMG_dde1ba92cc524ca0a690b3e8c312eccc.jpeg?imageslim"
+      },
+      {
+        "index": 7,
+        "title": "海南省树立和践行正确政绩观学习教育集中整治暨“我为群众办实事”工作动员部署会召开",
+        "url": "/page?n=2815409&m=1&s=1044",
+        "type": "article",
+        "publish_time": "2026-04-11",
+        "source": "海南日报",
+        "image": "https://qiniu-rmt-data.hinews.cn/common/img/IMG_bbbca076ca2f423a925bb07c6d52061a.jpeg"
+      },
+      {
+        "index": 8,
+        "title": "中共中央批准：邹广同志任中共海南省委常委",
+        "url": "/page?n=2815261&m=1&s=1044",
+        "type": "article",
+        "publish_time": "2026-04-11",
+        "source": "中共海南省委组织部",
+        "image": "https://qiniu-rmt-data.hinews.cn/common/img/IMG_5050f3591c4743cd9db8e0f7255004e0.jpeg?imageslim"
+      },
+      {
+        "index": 9,
+        "title": "海南省各民主党派、无党派人士“参政为公、实干为民”主题教育动员会召开",
+        "url": "/page?n=2815259&m=1&s=1044",
+        "type": "article",
+        "publish_time": "2026-04-11",
+        "source": "海南日报",
+        "image": ""
+      },
+      {
+        "index": 10,
+        "title": "蒋作君率全国政协党外委员考察团来琼考察，冯飞、刘小明出席考察座谈会，李荣灿参加相关活动",
+        "url": "/page?n=2815252&m=1&s=1044",
+        "type": "article",
+        "publish_time": "2026-04-11",
+        "source": "海南日报",
+        "image": "https://qiniu-rmt-data.hinews.cn/common/img/IMG_d0ddd8c7d761490898ca712f65d8cce7.jpeg"
+      },
+      {
+        "index": 11,
+        "title": "海南省建设国际旅游消费中心和旅游市场整治领导小组会议：高标准打造海洋特色文化和旅游目的地",
+        "url": "/page?n=2814893&m=1&s=1044",
+        "type": "article",
+        "publish_time": "2026-04-09",
+        "source": "海南日报",
+        "image": "https://qiniu-rmt-data.hinews.cn/common/img/IMG_544613c31975493db667e55d025e2df9.jpeg?imageslim"
+      },
+      {
+        "index": 12,
+        "title": "省委召开专题会议，研究推进中央巡视反馈意见整改和以案促改促治工作",
+        "url": "/page?n=2814880&m=1&s=1044",
+        "type": "article",
+        "publish_time": "2026-04-09",
+        "source": "海南日报",
+        "image": "https://qiniu-rmt-data.hinews.cn/common/img/IMG_b7ec279ea53b49d8bfc2828fed1a1710.jpeg?imageslim"
+      },
+      {
+        "index": 13,
+        "title": "省政协八届常委会第二十三次会议召开 李荣灿主持并讲话",
+        "url": "/page?n=2813351&m=1&s=1044",
+        "type": "article",
+        "publish_time": "2026-04-04",
+        "source": "海南日报",
+        "image": ""
+      },
+      {
+        "index": 14,
+        "title": "省人大常委会党组（扩大）会议召开 部署深化“人大聚力 法治护航自贸港封关运作十大行动”",
+        "url": "/page?n=2813350&m=1&s=1044",
+        "type": "article",
+        "publish_time": "2026-04-04",
+        "source": "海南日报",
+        "image": ""
+      },
+      {
+        "index": 15,
+        "title": "海南海外联谊会六届一次常务理事会议召开",
+        "url": "/page?n=2813349&m=1&s=1044",
+        "type": "article",
+        "publish_time": "2026-04-04",
+        "source": "海南日报",
+        "image": ""
+      },
+      {
+        "index": 16,
+        "title": "省委常委会召开会议，传达学习习近平总书记重要文章和重要讲话、贺信精神，研究部署我省开展学习教育和清明假期防灭火等工作",
+        "url": "/page?n=2812917&m=1&s=1044",
+        "type": "article",
+        "publish_time": "2026-04-02",
+        "source": "海南日报",
+        "image": "https://qiniu-rmt-data.hinews.cn/common/img/IMG_6dbc07e2923a4d2d88159e5e857cb1d5.jpeg?imageslim"
+      },
+      {
+        "index": 17,
+        "title": "八届省委审计委员会第六次会议：以高质量审计监督护航海南自由贸易港建设和高质量发展",
+        "url": "/page?n=2812882&m=1&s=1044",
+        "type": "article",
+        "publish_time": "2026-04-02",
+        "source": "海南日报",
+        "image": "https://qiniu-rmt-data.hinews.cn/common/img/IMG_bf0b950200aa4a34b883d08e5c487e4c.jpeg?imageslim"
+      },
+      {
+        "index": 18,
+        "title": "海南省与中国证监会举行工作会谈，吴清、冯飞、刘小明参加",
+        "url": "/page?n=2812619&m=1&s=1044",
+        "type": "article",
+        "publish_time": "2026-04-02",
+        "source": "海南日报",
+        "image": "https://qiniu-rmt-data.hinews.cn/common/img/IMG_d95b8bb21453446186221fe6f48517e9.jpeg"
+      },
+      {
+        "index": 19,
+        "title": "海南开展集中义务植树活动，冯飞、刘小明、李荣灿参加",
+        "url": "/page?n=2812537&m=1&s=1044",
+        "type": "article",
+        "publish_time": "2026-04-01",
+        "source": "海南日报",
+        "image": "https://qiniu-rmt-data.hinews.cn/common/img/IMG_7a87642d70cd4ce8b48a937d01e8ca3b.jpeg"
+      },
+      {
+        "index": 20,
+        "title": "省推进“一带一路”建设工作领导小组会议：搭平台建机制谋项目促共赢，在深度融入共建“一带一路”中展现更大作为",
+        "url": "/page?n=2812460&m=1&s=1044",
+        "type": "article",
+        "publish_time": "2026-04-01",
+        "source": "海南日报",
+        "image": "https://qiniu-rmt-data.hinews.cn/common/img/IMG_ebd7c48d052a4714aad64c9761fd5c56.jpeg?imageslim"
+      }
+    ]
+  },
+  "api": {
+    "exists": false,
+    "capture_xhr": "",
+    "method": "",
+    "path": "",
+    "channel_id": "b0ba0a6167674227932bbeca1cc20e77",
+    "page_param": "",
+    "page_size_param": "",
+    "dynamic_token": false,
+    "response_paths": {
+      "rows": "",
+      "page": "",
+      "total": "",
+      "detail_url": "",
+      "title": "",
+      "publish_time": "",
+      "column_name": "",
+      "source": ""
+    },
+    "notes": [
+      "No browser-observed XHR/fetch request returned list rows for this module page.",
+      "The module page is server-rendered HTML with stable detail links under /page?n=...&m=1&s=1044.",
+      "The observed browser capture only included Nuxt build metadata and telemetry, not content JSON."
+    ]
+  },
+  "detail": {
+    "sample_url": "https://www.hinews.cn/page?n=2816535&m=1&s=1044",
+    "template": "article",
+    "title_selector": "h2.page_h2",
+    "meta_selector": "ul.page_brief",
+    "content_selector": "#bs_content",
+    "publish_time_regex": "(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2})",
+    "source_regex": "来源：\\s*(.+)$",
+    "views_regex": "",
+    "wait_selector": "h2.page_h2",
+    "content_duplicated": true,
+    "observed_title": "海南省与‌国家电力投资集团举行工作会谈",
+    "observed_content_length": 540,
+    "notes": [
+      "The first paragraph in #bs_content repeats the title, and the second paragraph is a subtitle/standfirst.",
+      "Main article paragraphs use p.formatted under #bs_content."
+    ]
+  },
+  "spider_strategy": {
+    "session": "FetcherSession",
+    "google_search": false,
+    "network_idle": false,
+    "pagination": "none observed; a 查看更多 button exists but no href or browser-observed XHR was triggered during initial load",
+    "notes": [
+      "This module page can be crawled by direct HTML fetching without browser rendering.",
+      "Detail pages are also SSR HTML and expose source/time/content directly in DOM.",
+      "If later pagination is required, analyze the 查看更多 button interaction separately because no initial list API was observed."
+    ]
+  },
+  "evidence": {
+    "probe_file": "analysis_outputs/_hinews_cn_module_b0ba0a6167674227932bbeca1cc20e77_probe.json"
+  }
+}

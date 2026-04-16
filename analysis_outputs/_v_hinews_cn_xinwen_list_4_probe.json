@@ -1,0 +1,1212 @@
+{
+  "source_url": "https://v.hinews.cn/xinwen/list-4.html",
+  "cdp_url": "http://127.0.0.1:9222",
+  "saved_at": 1776247813,
+  "dom": {
+    "url": "https://v.hinews.cn/xinwen/list-4.html",
+    "title": "椰现场——椰视频",
+    "bodyText": "首页 本土新闻 椰现场 椰天下 瞰海南 椰直播 椰访谈 主播说新闻 新媒体出品 当前位置：椰视频首页 > 椰现场 椰现场 天海防务智船制造与研发项目落户三亚崖州湾 赋能自贸港海洋经济新发展丨消博聊“企”来 聚焦深海产业 辰海智造基金落地三亚崖州湾科技城丨消博聊“企”来 29个生物医学新技术项目集中亮相！乐城这场医疗健康专场活动释放健康消费强引力 海南自贸港全球产业招商大会数字经济专场高光回顾丨自贸潮涌 向数图强 研学热潮涌动！多校学子走进儋州市科技馆，共探科学奥秘 自贸财新鲜：一场大会看海南招商热何以从“流量”变“留量”？ 中国银行举办“百万同行 悦享中国”GBIC大会 暨“来华通”APP全球推介会 Ta来消博了 | 老盐季亮相消博会 海南味道走向世界 校长在线｜全球通申六七个Offer，哈罗海口学子甜蜜的烦恼 校长在线｜哈罗学生申请英美院校，在海南上学凭啥更有竞争力 车型首展！华为携“五界”车型与首款鸿蒙AI眼镜亮相第六届消博会 | ta来消博了 山海同心庆“三月三” 三亚大东海广场变身民族体育狂欢大舞台 科大讯飞副总裁战文宇：全方位深耕海南市场，以AI技术助力自贸港建设 | 消博聊“企”来 旅游零售巨头奥纬达Avolta：期待参与海南离岛免税业务 | 消博聊“企”来 开联低空亮相海南低空经济招商专场 将参建垂直起降基地、深耕全链路低空服务 | 消博聊“企”来 数智AI+体验馆：中国移动把“未来生活”带上消博 九款风味美食飘香！万宁“三月三”太好吃了｜走进长丰·记者Vlog 含“金”量十足！18家银行集体“牵手”新海航 | 自贸财新鲜 « 1 2 3 4 5 6 7 8 ... 1983 1984 » 关于我们 | 广告服务 | 法律声明 | 网站地图 | 跟帖评论自律管理承诺书 海南南海网传媒股份有限公司 版权所有 1999-2025 地址：海南省海口市金盘路30号新闻大厦9楼 电话：(86)0898-66810806 传真：0898-66810545 违法和不良信息举报电话：966123 违法和不良信息举报邮箱：nhwwljb@163.com 互联网新闻信息服务许可证:4612006002 信息网络传播视听节目许可证:2108281 互联网出版许可证:琼字001号 增值电信业务经营许可证:琼B2-2008008 广告经营许可证：460000100120 琼公网监备号:46010602000273号 南海网备案号 琼ICP备09005000号",
+    "anchors": [
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "http://www.hinews.cn/",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "cBlack",
+        "id": "",
+        "href": "https://v.hinews.cn/",
+        "src": "",
+        "text": "首页",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "cBlack",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/list-1.html",
+        "src": "",
+        "text": "本土新闻",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "cBlack",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/list-4.html",
+        "src": "",
+        "text": "椰现场",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "cBlack",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/list-7.html",
+        "src": "",
+        "text": "椰天下",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "cBlack",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/list-11.html",
+        "src": "",
+        "text": "瞰海南",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "cBlack",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/list-18.html",
+        "src": "",
+        "text": "椰直播",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "cBlack",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/list-20.html",
+        "src": "",
+        "text": "椰访谈",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "cBlack",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/list-22.html",
+        "src": "",
+        "text": "主播说新闻",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "cBlack",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/list-23.html",
+        "src": "",
+        "text": "新媒体出品",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "http://v.hinews.cn/",
+        "src": "",
+        "text": "椰视频首页",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "椰现场",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/show-1530195.html",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/show-1530195.html",
+        "src": "",
+        "text": "天海防务智船制造与研发项目落户三亚崖州湾 赋能自贸港海洋经济新发展丨消博聊“企”来",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/show-1530194.html",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/show-1530194.html",
+        "src": "",
+        "text": "聚焦深海产业 辰海智造基金落地三亚崖州湾科技城丨消博聊“企”来",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/show-1530193.html",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/show-1530193.html",
+        "src": "",
+        "text": "29个生物医学新技术项目集中亮相！乐城这场医疗健康专场活动释放健康消费强引力",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/show-1530192.html",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/show-1530192.html",
+        "src": "",
+        "text": "海南自贸港全球产业招商大会数字经济专场高光回顾丨自贸潮涌 向数图强",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/show-1530189.html",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/show-1530189.html",
+        "src": "",
+        "text": "研学热潮涌动！多校学子走进儋州市科技馆，共探科学奥秘",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/show-1530186.html",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/show-1530186.html",
+        "src": "",
+        "text": "自贸财新鲜：一场大会看海南招商热何以从“流量”变“留量”？",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/show-1530185.html",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/show-1530185.html",
+        "src": "",
+        "text": "中国银行举办“百万同行 悦享中国”GBIC大会 暨“来华通”APP全球推介会",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/show-1530183.html",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/show-1530183.html",
+        "src": "",
+        "text": "Ta来消博了 | 老盐季亮相消博会 海南味道走向世界",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/show-1530179.html",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/show-1530179.html",
+        "src": "",
+        "text": "校长在线｜全球通申六七个Offer，哈罗海口学子甜蜜的烦恼",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/show-1530178.html",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/show-1530178.html",
+        "src": "",
+        "text": "校长在线｜哈罗学生申请英美院校，在海南上学凭啥更有竞争力",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/show-1530177.html",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/show-1530177.html",
+        "src": "",
+        "text": "车型首展！华为携“五界”车型与首款鸿蒙AI眼镜亮相第六届消博会 | ta来消博了",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/show-1530176.html",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/show-1530176.html",
+        "src": "",
+        "text": "山海同心庆“三月三” 三亚大东海广场变身民族体育狂欢大舞台",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/show-1530174.html",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/show-1530174.html",
+        "src": "",
+        "text": "科大讯飞副总裁战文宇：全方位深耕海南市场，以AI技术助力自贸港建设 | 消博聊“企”来",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/show-1530173.html",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/show-1530173.html",
+        "src": "",
+        "text": "旅游零售巨头奥纬达Avolta：期待参与海南离岛免税业务 | 消博聊“企”来",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/show-1530171.html",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/show-1530171.html",
+        "src": "",
+        "text": "开联低空亮相海南低空经济招商专场 将参建垂直起降基地、深耕全链路低空服务 | 消博聊“企”来",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/show-1530170.html",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/show-1530170.html",
+        "src": "",
+        "text": "数智AI+体验馆：中国移动把“未来生活”带上消博",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/show-1530169.html",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/show-1530169.html",
+        "src": "",
+        "text": "九款风味美食飘香！万宁“三月三”太好吃了｜走进长丰·记者Vlog",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/show-1530166.html",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/show-1530166.html",
+        "src": "",
+        "text": "含“金”量十足！18家银行集体“牵手”新海航 | 自贸财新鲜",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/list-4.html?page=2",
+        "src": "",
+        "text": "2",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/list-4.html?page=3",
+        "src": "",
+        "text": "3",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/list-4.html?page=4",
+        "src": "",
+        "text": "4",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/list-4.html?page=5",
+        "src": "",
+        "text": "5",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/list-4.html?page=6",
+        "src": "",
+        "text": "6",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/list-4.html?page=7",
+        "src": "",
+        "text": "7",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/list-4.html?page=8",
+        "src": "",
+        "text": "8",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/list-4.html?page=1983",
+        "src": "",
+        "text": "1983",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/list-4.html?page=1984",
+        "src": "",
+        "text": "1984",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://v.hinews.cn/xinwen/list-4.html?page=2",
+        "src": "",
+        "text": "»",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "cGray f14",
+        "id": "",
+        "href": "http://emarketing.hinews.cn/yg_page.php?xuh=440",
+        "src": "",
+        "text": "关于我们",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "cGray f14",
+        "id": "",
+        "href": "http://emarketing.hinews.cn/",
+        "src": "",
+        "text": "广告服务",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "cGray f14",
+        "id": "",
+        "href": "http://emarketing.hinews.cn/index_temp.php?xuh=331",
+        "src": "",
+        "text": "法律声明",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "cGray f14",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "网站地图",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "cGray f14",
+        "id": "",
+        "href": "http://www.hinews.cn/news/system/2017/03/07/031009245.shtml",
+        "src": "",
+        "text": "跟帖评论自律管理承诺书",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "http://emarketing.hinews.cn/yg_page.php?xuh=440",
+        "src": "",
+        "text": "关于我们",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "http://emarketing.hinews.cn/",
+        "src": "",
+        "text": "广告服务",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://tech.hinews.cn/",
+        "src": "",
+        "text": "技术服务",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "http://emarketing.hinews.cn/index_temp.php?xuh=331",
+        "src": "",
+        "text": "法律声明",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "http://www.hinews.cn/news/system/2017/03/07/031009245.shtml",
+        "src": "",
+        "text": "跟帖评论自律管理承诺书",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://beian.miit.gov.cn/",
+        "src": "",
+        "text": "琼ICP备09005000号",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "javascript:;",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://www.12377.cn/",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://www.piyao.org.cn/",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "http://www.cyberpolice.cn/wfjb/",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://www.12377.cn/node_548446.htm",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      }
+    ],
+    "likely": [
+      {
+        "tag": "li",
+        "className": "",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "天海防务智船制造与研发项目落户三亚崖州湾 赋能自贸港海洋经济新发展丨消博聊“企”来",
+        "childCount": 1
+      },
+      {
+        "tag": "li",
+        "className": "",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "聚焦深海产业 辰海智造基金落地三亚崖州湾科技城丨消博聊“企”来",
+        "childCount": 1
+      },
+      {
+        "tag": "li",
+        "className": "",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "29个生物医学新技术项目集中亮相！乐城这场医疗健康专场活动释放健康消费强引力",
+        "childCount": 1
+      },
+      {
+        "tag": "li",
+        "className": "",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "海南自贸港全球产业招商大会数字经济专场高光回顾丨自贸潮涌 向数图强",
+        "childCount": 1
+      },
+      {
+        "tag": "li",
+        "className": "",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "研学热潮涌动！多校学子走进儋州市科技馆，共探科学奥秘",
+        "childCount": 1
+      },
+      {
+        "tag": "li",
+        "className": "",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "自贸财新鲜：一场大会看海南招商热何以从“流量”变“留量”？",
+        "childCount": 1
+      },
+      {
+        "tag": "li",
+        "className": "",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "中国银行举办“百万同行 悦享中国”GBIC大会 暨“来华通”APP全球推介会",
+        "childCount": 1
+      },
+      {
+        "tag": "li",
+        "className": "",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "Ta来消博了 | 老盐季亮相消博会 海南味道走向世界",
+        "childCount": 1
+      },
+      {
+        "tag": "li",
+        "className": "",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "校长在线｜全球通申六七个Offer，哈罗海口学子甜蜜的烦恼",
+        "childCount": 1
+      },
+      {
+        "tag": "li",
+        "className": "",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "校长在线｜哈罗学生申请英美院校，在海南上学凭啥更有竞争力",
+        "childCount": 1
+      },
+      {
+        "tag": "li",
+        "className": "",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "车型首展！华为携“五界”车型与首款鸿蒙AI眼镜亮相第六届消博会 | ta来消博了",
+        "childCount": 1
+      },
+      {
+        "tag": "li",
+        "className": "",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "山海同心庆“三月三” 三亚大东海广场变身民族体育狂欢大舞台",
+        "childCount": 1
+      },
+      {
+        "tag": "li",
+        "className": "",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "科大讯飞副总裁战文宇：全方位深耕海南市场，以AI技术助力自贸港建设 | 消博聊“企”来",
+        "childCount": 1
+      },
+      {
+        "tag": "li",
+        "className": "",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "旅游零售巨头奥纬达Avolta：期待参与海南离岛免税业务 | 消博聊“企”来",
+        "childCount": 1
+      },
+      {
+        "tag": "li",
+        "className": "",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "开联低空亮相海南低空经济招商专场 将参建垂直起降基地、深耕全链路低空服务 | 消博聊“企”来",
+        "childCount": 1
+      },
+      {
+        "tag": "li",
+        "className": "",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "数智AI+体验馆：中国移动把“未来生活”带上消博",
+        "childCount": 1
+      },
+      {
+        "tag": "li",
+        "className": "",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "九款风味美食飘香！万宁“三月三”太好吃了｜走进长丰·记者Vlog",
+        "childCount": 1
+      },
+      {
+        "tag": "li",
+        "className": "",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "含“金”量十足！18家银行集体“牵手”新海航 | 自贸财新鲜",
+        "childCount": 1
+      }
+    ],
+    "headings": [],
+    "html": "<html xmlns=\"http://www.w3.org/1999/xhtml\"><head>\n        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"renderer\" content=\"webkit\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n        <title>椰现场——椰视频</title>\n    <meta name=\"Keywords\" content=\"海南视频,宽频,海网,网络视频,椰视频,明星娱乐,视频新闻,海南娱乐,海南新闻,405频道,海南访谈,海南视频门户,海南视频网站,视频之家,海南视频新闻,海南视频资源,海南视频下载\">\n    <meta name=\"Description\" content=\"椰视频是海南视频门户，是海南最具影响力的视频网站，包括新闻、资讯、旅游、娱乐、访谈等节目，全天候开展多机位全球网络直播，在海南有线电视同步开辟405频道，提供一个了解海南、纵览世界的全新海南视频门户。\">\n    <meta name=\"apple-mobile-web-app-capable\" content=\"yes\">\n    <link href=\"/static/ysp/pc/css/pub_2019.css\" rel=\"stylesheet\" type=\"text/css\">\n    <link href=\"/static/ysp/pc/css/ysp191218.css\" rel=\"stylesheet\" type=\"text/css\">\n        <link href=\"/static/ysp/pc/css/ysp.css\" rel=\"stylesheet\" type=\"text/css\">\n        <!--[if IE 8]>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/ysp/pc/css/ie8.css\"/>\n    <![endif]-->\n</head>\n<body>\n<div class=\"ysp01 bg_w\">\n    <!--导航-->\n    <div class=\"content\">\n    <div class=\"marauto\">\n        <div class=\"left  mt50\">\n            <div class=\"w140 left\"><a href=\"http://www.hinews.cn\"><img class=\"logo1\" src=\"/static/index/images/hinews_logo1.png\" alt=\"南海网\"></a></div>\n            <div class=\"w41 left logo_line \"> </div>\n            <div class=\"right\"><a href=\"/\"><img src=\"/static/ysp/pc/image/v_logo.png\" alt=\"椰视频\" class=\"logo2\"></a></div>\n        </div>\n        <div class=\"ysp_02\">\n            <div class=\"nav nav1 mt30\">\n                <ul>\n                    <li><a href=\"/\" class=\"cBlack\">首页</a></li>\n                                                                                                                                                                                                                                                        <li><a href=\"/xinwen/list-1.html\" class=\"cBlack\" target=\"_blank\">本土新闻</a></li>\n                                                                                                                                                                            <li class=\"active\"><a href=\"/xinwen/list-4.html\" class=\"cBlack\" target=\"_blank\">椰现场</a></li>\n                                                                                                                                    <li><a href=\"/xinwen/list-7.html\" class=\"cBlack\" target=\"_blank\">椰天下</a></li>\n                                                                                                                <li><a href=\"/xinwen/list-11.html\" class=\"cBlack\" target=\"_blank\">瞰海南</a></li>\n                                                                        <li><a href=\"/xinwen/list-18.html\" class=\"cBlack\" target=\"_blank\">椰直播</a></li>\n                                                                                            <li><a href=\"/xinwen/list-20.html\" class=\"cBlack\" target=\"_blank\">椰访谈</a></li>\n                                                                        <li><a href=\"/xinwen/list-22.html\" class=\"cBlack\" target=\"_blank\">主播说新闻</a></li>\n                                                                        <li><a href=\"/xinwen/list-23.html\" class=\"cBlack\" target=\"_blank\">新媒体出品</a></li>\n                                                                                                    </ul>\n                <div class=\"clear\"></div>\n            </div>\n        </div>\n        <div class=\"search_box\">\n            <form id=\"search_form\" method=\"post\" action=\"/index/search\">\n                <input type=\"text\" class=\"textbox f14\" name=\"q\" placeholder=\"请输入搜索关键词\">\n                <input type=\"submit\" class=\"s_btn f18\" value=\"搜索\">\n            </form>\n        </div>\n        <div class=\"clear\"></div>\n    </div>\n</div>\n    <div class=\"clear\"></div>\n    <div class=\"dh\">\n        <div class=\"content\">当前位置：<a href=\"http://v.hinews.cn/\">椰视频首页</a> &gt; 椰现场</div>\n    </div>\n    <!--瞰海南-->\n    <div class=\"content lanmu\">\n        <div class=\"mt50 lfet\">\n            <div class=\"biaoti left\"><a>椰现场</a></div>\n            <div class=\"y_03 right\" style=\"float:right\">\n                <!--<div class=\"nav003 nav3\">\n                    <ul>\n                        <li><a href=\"list.php?id=2\" class=\"cBlack \">突发</a></li>\n                        <li><a href=\"list.php?id=3\" class=\"cBlack \">活动</a></li>\n                        <li><a href=\"list.php?id=4\" class=\"cBlack \">访谈</a></li>\n                    </ul>\n                </div>-->\n            </div>\n        </div>\n        <div class=\"clear\"></div>\n        <div class=\"ysp06 mt50\">\n            <ul>\n                                <li>\n                    <div class=\"left bor3 shipinPic\"> <a href=\"/xinwen/show-1530195.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/d7c795279bca4cd15ca87f008354f229.jpg\"> </a>\n                        <div class=\"shipinTxtBg\"><a href=\"/xinwen/show-1530195.html\" target=\"_blank\">天海防务智船制造与研发项目落户三亚崖州湾 赋能自贸港海洋经济新发展丨消博聊“企”来</a></div>\n                    </div>\n                </li>\n                                <li>\n                    <div class=\"left bor3 shipinPic\"> <a href=\"/xinwen/show-1530194.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/5dee31ff402258f0a2386f9f4d689860.jpg\"> </a>\n                        <div class=\"shipinTxtBg\"><a href=\"/xinwen/show-1530194.html\" target=\"_blank\">聚焦深海产业 辰海智造基金落地三亚崖州湾科技城丨消博聊“企”来</a></div>\n                    </div>\n                </li>\n                                <li>\n                    <div class=\"left bor3 shipinPic\"> <a href=\"/xinwen/show-1530193.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/4b42b62980148cefba30697158f8ca0a.jpg\"> </a>\n                        <div class=\"shipinTxtBg\"><a href=\"/xinwen/show-1530193.html\" target=\"_blank\">29个生物医学新技术项目集中亮相！乐城这场医疗健康专场活动释放健康消费强引力</a></div>\n                    </div>\n                </li>\n                                <li>\n                    <div class=\"left bor3 shipinPic\"> <a href=\"/xinwen/show-1530192.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/4ae37c9f8130208fa055dead344cac1a.jpg\"> </a>\n                        <div class=\"shipinTxtBg\"><a href=\"/xinwen/show-1530192.html\" target=\"_blank\">海南自贸港全球产业招商大会数字经济专场高光回顾丨自贸潮涌 向数图强</a></div>\n                    </div>\n                </li>\n                                <li>\n                    <div class=\"left bor3 shipinPic\"> <a href=\"/xinwen/show-1530189.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/e674030c53955fcc97727cbf56951684.jpg\"> </a>\n                        <div class=\"shipinTxtBg\"><a href=\"/xinwen/show-1530189.html\" target=\"_blank\">研学热潮涌动！多校学子走进儋州市科技馆，共探科学奥秘</a></div>\n                    </div>\n                </li>\n                                <li>\n                    <div class=\"left bor3 shipinPic\"> <a href=\"/xinwen/show-1530186.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/ec49a5607ec6560d886f5c3b17bb2b67.jpg\"> </a>\n                        <div class=\"shipinTxtBg\"><a href=\"/xinwen/show-1530186.html\" target=\"_blank\">自贸财新鲜：一场大会看海南招商热何以从“流量”变“留量”？</a></div>\n                    </div>\n                </li>\n                                <li>\n                    <div class=\"left bor3 shipinPic\"> <a href=\"/xinwen/show-1530185.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/1d5d1be5802179d413328f36286c7142.jpg\"> </a>\n                        <div class=\"shipinTxtBg\"><a href=\"/xinwen/show-1530185.html\" target=\"_blank\">中国银行举办“百万同行 悦享中国”GBIC大会 暨“来华通”APP全球推介会</a></div>\n                    </div>\n                </li>\n                                <li>\n                    <div class=\"left bor3 shipinPic\"> <a href=\"/xinwen/show-1530183.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/492c34ab815181ddfba04ad6f2be1b42.jpg\"> </a>\n                        <div class=\"shipinTxtBg\"><a href=\"/xinwen/show-1530183.html\" target=\"_blank\">Ta来消博了 | 老盐季亮相消博会 海南味道走向世界</a></div>\n                    </div>\n                </li>\n                                <li>\n                    <div class=\"left bor3 shipinPic\"> <a href=\"/xinwen/show-1530179.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/bcbe7f57df618ffcb341eb17bbf4f5cc.jpg\"> </a>\n                        <div class=\"shipinTxtBg\"><a href=\"/xinwen/show-1530179.html\" target=\"_blank\">校长在线｜全球通申六七个Offer，哈罗海口学子甜蜜的烦恼</a></div>\n                    </div>\n                </li>\n                                <li>\n                    <div class=\"left bor3 shipinPic\"> <a href=\"/xinwen/show-1530178.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/8f01cb7cbaa0a10c261529ba4539951d.jpg\"> </a>\n                        <div class=\"shipinTxtBg\"><a href=\"/xinwen/show-1530178.html\" target=\"_blank\">校长在线｜哈罗学生申请英美院校，在海南上学凭啥更有竞争力</a></div>\n                    </div>\n                </li>\n                                <li>\n                    <div class=\"left bor3 shipinPic\"> <a href=\"/xinwen/show-1530177.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/21d61862d130efbf412c1b7e0d1ff870.jpg\"> </a>\n                        <div class=\"shipinTxtBg\"><a href=\"/xinwen/show-1530177.html\" target=\"_blank\">车型首展！华为携“五界”车型与首款鸿蒙AI眼镜亮相第六届消博会 | ta来消博了</a></div>\n                    </div>\n                </li>\n                                <li>\n                    <div class=\"left bor3 shipinPic\"> <a href=\"/xinwen/show-1530176.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/69cbcad0fa68508d418e6544d33bbc7c.jpg\"> </a>\n                        <div class=\"shipinTxtBg\"><a href=\"/xinwen/show-1530176.html\" target=\"_blank\">山海同心庆“三月三” 三亚大东海广场变身民族体育狂欢大舞台</a></div>\n                    </div>\n                </li>\n                                <li>\n                    <div class=\"left bor3 shipinPic\"> <a href=\"/xinwen/show-1530174.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/218a39e2278eb5f1537fb566e4e529ae.jpg\"> </a>\n                        <div class=\"shipinTxtBg\"><a href=\"/xinwen/show-1530174.html\" target=\"_blank\">科大讯飞副总裁战文宇：全方位深耕海南市场，以AI技术助力自贸港建设 | 消博聊“企”来</a></div>\n                    </div>\n                </li>\n                                <li>\n                    <div class=\"left bor3 shipinPic\"> <a href=\"/xinwen/show-1530173.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/2a4db146bf6a37e608b0a43f73c14aed.jpg\"> </a>\n                        <div class=\"shipinTxtBg\"><a href=\"/xinwen/show-1530173.html\" target=\"_blank\">旅游零售巨头奥纬达Avolta：期待参与海南离岛免税业务 | 消博聊“企”来</a></div>\n                    </div>\n                </li>\n                                <li>\n                    <div class=\"left bor3 shipinPic\"> <a href=\"/xinwen/show-1530171.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/68dcbff5fc68cd1aeba95c2eac202367.jpg\"> </a>\n                        <div class=\"shipinTxtBg\"><a href=\"/xinwen/show-1530171.html\" target=\"_blank\">开联低空亮相海南低空经济招商专场 将参建垂直起降基地、深耕全链路低空服务 | 消博聊“企”来</a></div>\n                    </div>\n                </li>\n                                <li>\n                    <div class=\"left bor3 shipinPic\"> <a href=\"/xinwen/show-1530170.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/79cc4c476d308cd9aa23099d50221e96.jpg\"> </a>\n                        <div class=\"shipinTxtBg\"><a href=\"/xinwen/show-1530170.html\" target=\"_blank\">数智AI+体验馆：中国移动把“未来生活”带上消博</a></div>\n                    </div>\n                </li>\n                                <li>\n                    <div class=\"left bor3 shipinPic\"> <a href=\"/xinwen/show-1530169.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/11fdeea579bb153126808281d117f12b.jpg\"> </a>\n                        <div class=\"shipinTxtBg\"><a href=\"/xinwen/show-1530169.html\" target=\"_blank\">九款风味美食飘香！万宁“三月三”太好吃了｜走进长丰·记者Vlog</a></div>\n                    </div>\n                </li>\n                                <li>\n                    <div class=\"left bor3 shipinPic\"> <a href=\"/xinwen/show-1530166.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/e6f800d5a4ced8a217dcfaa99dce137c.jpg\"> </a>\n                        <div class=\"shipinTxtBg\"><a href=\"/xinwen/show-1530166.html\" target=\"_blank\">含“金”量十足！18家银行集体“牵手”新海航 | 自贸财新鲜</a></div>\n                    </div>\n                </li>\n                            </ul>\n            <div class=\"clear\"></div>\n        </div>\n        <ul class=\"pagination\"><li class=\"disabled\"><span>«</span></li> <li class=\"active\"><span>1</span></li><li><a href=\"/xinwen/list-4.html?page=2\">2</a></li><li><a href=\"/xinwen/list-4.html?page=3\">3</a></li><li><a href=\"/xinwen/list-4.html?page=4\">4</a></li><li><a href=\"/xinwen/list-4.html?page=5\">5</a></li><li><a href=\"/xinwen/list-4.html?page=6\">6</a></li><li><a href=\"/xinwen/list-4.html?page=7\">7</a></li><li><a href=\"/xinwen/list-4.html?page=8\">8</a></li><li class=\"disabled\"><span>...</span></li><li><a href=\"/xinwen/list-4.html?page=1983\">1983</a></li><li><a href=\"/xinwen/list-4.html?page=1984\">1984</a></li> <li><a href=\"/xinwen/list-4.html?page=2\">»</a></li></ul>    </div>\n</div>\n<div id=\"from\" class=\"undis\"></div>\n<div class=\"clear\"></div>\n<!--版权-->\n<div class=\"content\">\n    <div class=\"clear\"></div>\n    <div class=\"ysp_bg3\">\n        <div class=\"bq_bottom\">\n            <div class=\"cGray\">\n                <a href=\"http://emarketing.hinews.cn/yg_page.php?xuh=440\" target=\"_blank\" class=\"cGray f14\">关于我们</a>　|　\n                <a href=\"http://emarketing.hinews.cn/\" target=\"_blank\" class=\"cGray f14\">广告服务</a>　|　\n                <a href=\"http://emarketing.hinews.cn/index_temp.php?xuh=331\" target=\"_blank\" class=\"cGray f14\">法律声明</a>　|　\n                <a target=\"_blank\" class=\"cGray f14\">网站地图</a>　|　\n                <a href=\"http://www.hinews.cn/news/system/2017/03/07/031009245.shtml\" target=\"_blank\" class=\"cGray f14\">跟帖评论自律管理承诺书</a></div>\n            <div class=\"cGray l24 f14\">\n                <div class=\"com-footer\">\n                    <div class=\"com-footer-txt\">\n                        <a href=\"http://emarketing.hinews.cn/yg_page.php?xuh=440\" target=\"_blank\">关于我们</a>　|　\n                        <a href=\"http://emarketing.hinews.cn/\" target=\"_blank\">广告服务</a>　|　\n                        <a href=\"https://tech.hinews.cn\" target=\"_blank\">技术服务</a>　|　\n                        <a href=\"http://emarketing.hinews.cn/index_temp.php?xuh=331\" target=\"_blank\">法律声明</a>　|　\n                        <a href=\"http://www.hinews.cn/news/system/2017/03/07/031009245.shtml\" target=\"_blank\">跟帖评论自律管理承诺书</a>\n                    </div>\n                    <div class=\"cGray l24 f14\">\n                        海南南海网传媒股份有限公司 版权所有　1999-2025   地址：海南省海口市金盘路30号新闻大厦9楼 电话：(86)0898-66810806　 传真：0898-66810545<br>\n                        违法和不良信息举报电话：966123　违法和不良信息举报邮箱：nhwwljb@163.com<br>\n                        互联网新闻信息服务许可证:4612006002　信息网络传播视听节目许可证:2108281　互联网出版许可证:琼字001号  <br>\n                        增值电信业务经营许可证:琼B2-2008008　广告经营许可证：460000100120　琼公网监备号:46010602000273号 <br>\n                        南海网备案号 <a href=\"https://beian.miit.gov.cn\" target=\"_blank\">琼ICP备09005000号</a></div>\n                    <div class=\"f1\">\n                        <ul>\n                            <li style=\"display: inline-block;\"><a href=\"javascript:;\"><img src=\"https://www.hinews.cn/icon/BusinessWebsite.jpg\" class=\"loaded\"></a></li>\n                            <li style=\"display: inline-block;padding-left:20px;\"><a href=\"https://www.12377.cn/\" target=\"_blank\"><img src=\"https://www.hinews.cn/icon/ReportingCenter.jpg\" class=\"loaded\"></a></li>\n                            <li style=\"display: inline-block;padding-left:20px;\"><a href=\"https://www.piyao.org.cn/\" target=\"_blank\"><img src=\"https://www.hinews.cn/icon/RefuteRumor.jpg\" class=\"loaded\"></a></li>\n                            <li style=\"display: inline-block;padding-left:20px;\"><a href=\"http://www.cyberpolice.cn/wfjb/\" target=\"_blank\"><img src=\"https://www.hinews.cn/icon/NetPolice.jpg\" class=\"loaded\"></a></li>\n                            <li style=\"display: inline-block;padding-left:20px;\"><a href=\"https://www.12377.cn/node_548446.htm\" target=\"_blank\"><img src=\"https://www.hinews.cn/icon/NetworkReportApp.jpg\" class=\"loaded\"></a></li>\n                        </ul>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n<div class=\"clear\"></div>\n<script src=\"https://hm.baidu.com/hm.js?e961ba8c3a97d0f810fb262c8682d2ee\"></script><script src=\"//www.hinews.cn/2018index/js/jquery-1.7.2.min.js\"></script>\n<script src=\"//www.hinews.cn/2018index/js/jquery.flexslider-min.js\"></script>\n<script>\n    if (navigator.appName === 'Microsoft Internet Explorer') { //判断是否是IE浏览器\n        if (navigator.userAgent.match(/Trident/i) && navigator.userAgent.match(/MSIE 8.0/i)) { //判断是否是IE8\n            $('.ysp03 li:nth-child(6n)').css('margin-right', '0');\n            $('.ysp05 li:nth-child(4n)').css('margin-right', '0');\n            $('.ysp06 li:nth-child(4n)').css('margin-right', '0');\n            $('.u_list li:nth-child(6n)').css('margin-right', '0');\n            $('.u_list p').css('display', '-webkit-box');\n            $('.related_v_u ul li:nth-child(6n)').css('margin-right', '0');\n        }\n    }\n    $(document).ready(function() {\n        jQuery.jqtab = function(tabtit, tab_conbox, shijian) {\n            $(tab_conbox).children(\"li\").hide();\n            $(tabtit).find(\"li:first\").addClass(\"thistab\").show();\n            $(tab_conbox).find(\"li:first\").show();\n            $(tabtit).find(\"li\").bind(shijian, function() {\n               /* clearInterval(time),function(){\n                    autoPlay();\n                }*/\n                $(this).addClass(\"thistab\").siblings(\"li\").removeClass(\"thistab\");\n                var activeindex = $(tabtit).find(\"li\").index(this);\n                $(tab_conbox).children().eq(activeindex).show().siblings().hide();\n                return false;\n            });\n\n        };\n        /*调用方法如下：*/\n        $.jqtab(\"#tabs\", \"#tab_conbox\", \"mouseenter\");\n    });\n    var num = 0;\n    var i = 0;\n    function change(){\n        $(\"#tabs\").find(\"li\").eq(i).addClass(\"thistab\").siblings(\"li\").removeClass(\"thistab\");\n        $(\"#tab_conbox\").find(\"li\").eq(i).css(\"display\",\"list-item\").siblings(\"li\").css(\"display\",\"none\");\n        i++;\n        if(i==4){\n            i=0;\n        }\n    }\n    function autoPlay(){\n        time = setInterval(function(){\n            num++;\n            if(num>=4){\n                num=0;\n            }\n            change();\n        },2000);\n    }\n    //autoPlay();\n</script>\n<script>\n    var _hmt = _hmt || [];\n    (function() {\n        var hm = document.createElement(\"script\");\n        hm.src = \"https://hm.baidu.com/hm.js?e961ba8c3a97d0f810fb262c8682d2ee\";\n        var s = document.getElementsByTagName(\"script\")[0];\n        s.parentNode.insertBefore(hm, s);\n    })();\n</script>\n\n</body></html>"
+  },
+  "network": [
+    {
+      "url": "https://v.hinews.cn/xinwen/list-4.html",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "document",
+      "request_headers": {
+        ":authority": "v.hinews.cn",
+        ":method": "GET",
+        ":path": "/xinwen/list-4.html",
+        ":scheme": "https",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en;q=0.9",
+        "priority": "u=0, i",
+        "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\"",
+        "sec-fetch-dest": "document",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-site": "none",
+        "sec-fetch-user": "?1",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+      },
+      "response_headers": {
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-CSRF-TOKEN, X-Requested-With",
+        "access-control-allow-methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
+        "access-control-allow-origin": "*",
+        "content-encoding": "gzip",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Wed, 15 Apr 2026 10:09:59 GMT",
+        "ohc-cache-hit": "qd9ct122 [1], wzix102 [1]",
+        "server": "nginx",
+        "set-cookie": "INDEX_SITEID=1; path=/\nDIRNAME=%2Fzh; path=/\nPHPSESSID=cd3487ae2b366b06a3e709ed920be19a; path=/",
+        "vary": "Accept-Encoding",
+        "x-cache-status": "MISS"
+      },
+      "body": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n    <meta name=\"renderer\" content=\"webkit\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n        <title>椰现场&mdash;&mdash;椰视频</title>\n    <meta name=\"Keywords\" content=\"海南视频,宽频,海网,网络视频,椰视频,明星娱乐,视频新闻,海南娱乐,海南新闻,405频道,海南访谈,海南视频门户,海南视频网站,视频之家,海南视频新闻,海南视频资源,海南视频下载\">\n    <meta name=\"Description\" content=\"椰视频是海南视频门户，是海南最具影响力的视频网站，包括新闻、资讯、旅游、娱乐、访谈等节目，全天候开展多机位全球网络直播，在海南有线电视同步开辟405频道，提供一个了解海南、纵览世界的全新海南视频门户。\">\n    <meta name=\"apple-mobile-web-app-capable\" content=\"yes\">\n    <link href=\"/static/ysp/pc/css/pub_2019.css\" rel=\"stylesheet\" type=\"text/css\">\n    <link href=\"/static/ysp/pc/css/ysp191218.css\" rel=\"stylesheet\" type=\"text/css\">\n        <link href=\"/static/ysp/pc/css/ysp.css\" rel=\"stylesheet\" type=\"text/css\">\n        <!--[if IE 8]>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/ysp/pc/css/ie8.css\"/>\n    <![endif]-->\n</head>\n<body>\n<div class=\"ysp01 bg_w\">\n    <!--导航-->\n    <div class=\"content\">\n    <div class=\"marauto\">\n        <div class=\"left  mt50\">\n            <div class=\"w140 left\"><a href=\"http://www.hinews.cn\"><img class='logo1' src=\"/static/index/images/hinews_logo1.png\" alt=\"南海网\" /></a></div>\n            <div class=\"w41 left logo_line \"> </div>\n            <div class=\"right\"><a href=\"/\"><img src=\"/static/ysp/pc/image/v_logo.png\" alt=\"椰视频\" class='logo2' /></a></div>\n        </div>\n        <div class=\"ysp_02\">\n            <div class=\"nav nav1 mt30\">\n                <ul>\n                    <li ><a href=\"/\" class=\"cBlack\">首页</a></li>\n                                                                                                                                                                                                                                                        <li ><a href=\"/xinwen/list-1.html\" class=\"cBlack\" target=\"_blank\">本土新闻</a></li>\n                                                                                                                                                                            <li class=\"active\"><a href=\"/xinwen/list-4.html\" class=\"cBlack\" target=\"_blank\">椰现场</a></li>\n                                                                                                                                    <li ><a href=\"/xinwen/list-7.html\" class=\"cBlack\" target=\"_blank\">椰天下</a></li>\n                                                                                                                <li ><a href=\"/xinwen/list-11.html\" class=\"cBlack\" target=\"_blank\">瞰海南</a></li>\n                                                                        <li ><a href=\"/xinwen/list-18.html\" class=\"cBlack\" target=\"_blank\">椰直播</a></li>\n                                                                                            <li ><a href=\"/xinwen/list-20.html\" class=\"cBlack\" target=\"_blank\">椰访谈</a></li>\n                                                                        <li ><a href=\"/xinwen/list-22.html\" class=\"cBlack\" target=\"_blank\">主播说新闻</a></li>\n                                                                        <li ><a href=\"/xinwen/list-23.html\" class=\"cBlack\" target=\"_blank\">新媒体出品</a></li>\n                                                                                                    </ul>\n                <div class=\"clear\"></div>\n            </div>\n        </div>\n        <div class=\"search_box\">\n            <form id=\"search_form\" method=\"post\" action=\"/index/search\">\n                <input type=\"text\" class=\"textbox f14\" name=\"q\" placeholder=\"请输入搜索关键词\">\n                <input type=\"submit\" class=\"s_btn f18\" value=\"搜索\">\n            </form>\n        </div>\n        <div class=\"clear\"></div>\n    </div>\n</div>\n    <div class=\"clear\"></div>\n    <div class=\"dh\">\n        <div class='content'>当前位置：<a href=\"http://v.hinews.cn/\">椰视频首页</a> > 椰现场</div>\n    </div>\n    <!--瞰海南-->\n    <div class=\"content lanmu\">\n        <div class=\"mt50 lfet\">\n            <div class=\"biaoti left\"><a>椰现场</a></div>\n            <div class=\"y_03 right\" style=\"float:right\">\n                <!--<div class=\"nav003 nav3\">\n                    <ul>\n                        <li><a href=\"list.php?id=2\" class=\"cBlack \">突发</a></li>\n                        <li><a href=\"list.php?id=3\" class=\"cBlack \">活动</a></li>\n                        <li><a href=\"list.php?id=4\" class=\"cBlack \">访谈</a></li>\n                    </ul>\n                </div>-->\n            </div>\n        </div>\n        <div class=\"clear\"></div>\n        <div class=\"ysp06 mt50\">\n            <ul>\n                                <li>\n                    <div class=\"left bor3 shipinPic\"> <a href=\"/xinwen/show-1530195.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/d7c795279bca4cd15ca87f008354f229.jpg\" /> </a>\n                        <div class=\"shipinTxtBg\"><a href=\"/xinwen/show-1530195.html\" target=\"_blank\">天海防务智船制造与研发项目落户三亚崖州湾 赋能自贸港海洋经济新发展丨消博聊&ldquo;企&rdquo;来</a></div>\n                    </div>\n                </li>\n                                <li>\n                    <div class=\"left bor3 shipinPic\"> <a href=\"/xinwen/show-1530194.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/5dee31ff402258f0a2386f9f4d689860.jpg\" /> </a>\n                        <div class=\"shipinTxtBg\"><a href=\"/xinwen/show-1530194.html\" target=\"_blank\">聚焦深海产业 辰海智造基金落地三亚崖州湾科技城丨消博聊&ldquo;企&rdquo;来</a></div>\n                    </div>\n                </li>\n                                <li>\n                    <div class=\"left bor3 shipinPic\"> <a href=\"/xinwen/show-1530193.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/4b42b62980148cefba30697158f8ca0a.jpg\" /> </a>\n                        <div class=\"shipinTxtBg\"><a href=\"/xinwen/show-1530193.html\" target=\"_blank\">29个生物医学新技术项目集中亮相！乐城这场医疗健康专场活动释放健康消费强引力</a></div>\n                    </div>\n                </li>\n                                <li>\n                    <div class=\"left bor3 shipinPic\"> <a href=\"/xinwen/show-1530192.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/4ae37c9f8130208fa055dead344cac1a.jpg\" /> </a>\n                        <div class=\"shipinTxtBg\"><a href=\"/xinwen/show-1530192.html\" target=\"_blank\">海南自贸港全球产业招商大会数字经济专场高光回顾丨自贸潮涌 向数图强</a></div>\n                    </div>\n                </li>\n                                <li>\n                    <div class=\"left bor3 shipinPic\"> <a href=\"/xinwen/show-1530189.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/e674030c53955fcc97727cbf56951684.jpg\" /> </a>\n                        <div class=\"shipinTxtBg\"><a href=\"/xinwen/show-1530189.html\" target=\"_blank\">研学热潮涌动！多校学子走进儋州市科技馆，共探科学奥秘</a></div>\n                    </div>\n                </li>\n                                <li>\n                    <div class=\"left bor3 shipinPic\"> <a href=\"/xinwen/show-1530186.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/ec49a5607ec6560d886f5c3b17bb2b67.jpg\" /> </a>\n                        <div class=\"shipinTxtBg\"><a href=\"/xinwen/show-1530186.html\" target=\"_blank\">自贸财新鲜：一场大会看海南招商热何以从&ldquo;流量&rdquo;变&ldquo;留量&rdquo;？</a></div>\n                    </div>\n                </li>\n                                <li>\n                    <div class=\"left bor3 shipinPic\"> <a href=\"/xinwen/show-1530185.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/1d5d1be5802179d413328f36286c7142.jpg\" /> </a>\n                        <div class=\"shipinTxtBg\"><a href=\"/xinwen/show-1530185.html\" target=\"_blank\">中国银行举办&ldquo;百万同行 悦享中国&rdquo;GBIC大会 暨&ldquo;来华通&rdquo;APP全球推介会</a></div>\n                    </div>\n                </li>\n                                <li>\n                    <div class=\"left bor3 shipinPic\"> <a href=\"/xinwen/show-1530183.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/492c34ab815181ddfba04ad6f2be1b42.jpg\" /> </a>\n                        <div class=\"shipinTxtBg\"><a href=\"/xinwen/show-1530183.html\" target=\"_blank\">Ta来消博了 | 老盐季亮相消博会 海南味道走向世界</a></div>\n                    </div>\n                </li>\n                                <li>\n                    <div class=\"left bor3 shipinPic\"> <a href=\"/xinwen/show-1530179.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/bcbe7f57df618ffcb341eb17bbf4f5cc.jpg\" /> </a>\n                        <div class=\"shipinTxtBg\"><a href=\"/xinwen/show-1530179.html\" target=\"_blank\">校长在线｜全球通申六七个Offer，哈罗海口学子甜蜜的烦恼</a></div>\n                    </div>\n                </li>\n                                <li>\n                    <div class=\"left bor3 shipinPic\"> <a href=\"/xinwen/show-1530178.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/8f01cb7cbaa0a10c261529ba4539951d.jpg\" /> </a>\n                        <div class=\"shipinTxtBg\"><a href=\"/xinwen/show-1530178.html\" target=\"_blank\">校长在线｜哈罗学生申请英美院校，在海南上学凭啥更有竞争力</a></div>\n                    </div>\n                </li>\n                                <li>\n                    <div class=\"left bor3 shipinPic\"> <a href=\"/xinwen/show-1530177.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/21d61862d130efbf412c1b7e0d1ff870.jpg\" /> </a>\n                        <div class=\"shipinTxtBg\"><a href=\"/xinwen/show-1530177.html\" target=\"_blank\">车型首展！华为携&ldquo;五界&rdquo;车型与首款鸿蒙AI眼镜亮相第六届消博会 | ta来消博了</a></div>\n                    </div>\n                </li>\n                                <li>\n                    <div class=\"left bor3 shipinPic\"> <a href=\"/xinwen/show-1530176.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/69cbcad0fa68508d418e6544d33bbc7c.jpg\" /> </a>\n                        <div class=\"shipinTxtBg\"><a href=\"/xinwen/show-1530176.html\" target=\"_blank\">山海同心庆&ldquo;三月三&rdquo; 三亚大东海广场变身民族体育狂欢大舞台</a></div>\n                    </div>\n                </li>\n                                <li>\n                    <div class=\"left bor3 shipinPic\"> <a href=\"/xinwen/show-1530174.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/218a39e2278eb5f1537fb566e4e529ae.jpg\" /> </a>\n                        <div class=\"shipinTxtBg\"><a href=\"/xinwen/show-1530174.html\" target=\"_blank\">科大讯飞副总裁战文宇：全方位深耕海南市场，以AI技术助力自贸港建设 | 消博聊&ldquo;企&rdquo;来</a></div>\n                    </div>\n                </li>\n                                <li>\n                    <div class=\"left bor3 shipinPic\"> <a href=\"/xinwen/show-1530173.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/2a4db146bf6a37e608b0a43f73c14aed.jpg\" /> </a>\n                        <div class=\"shipinTxtBg\"><a href=\"/xinwen/show-1530173.html\" target=\"_blank\">旅游零售巨头奥纬达Avolta：期待参与海南离岛免税业务 | 消博聊&ldquo;企&rdquo;来</a></div>\n                    </div>\n                </li>\n                                <li>\n                    <div class=\"left bor3 shipinPic\"> <a href=\"/xinwen/show-1530171.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/68dcbff5fc68cd1aeba95c2eac202367.jpg\" /> </a>\n                        <div class=\"shipinTxtBg\"><a href=\"/xinwen/show-1530171.html\" target=\"_blank\">开联低空亮相海南低空经济招商专场 将参建垂直起降基地、深耕全链路低空服务 | 消博聊&ldquo;企&rdquo;来</a></div>\n                    </div>\n                </li>\n                                <li>\n                    <div class=\"left bor3 shipinPic\"> <a href=\"/xinwen/show-1530170.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/79cc4c476d308cd9aa23099d50221e96.jpg\" /> </a>\n                        <div class=\"shipinTxtBg\"><a href=\"/xinwen/show-1530170.html\" target=\"_blank\">数智AI+体验馆：中国移动把&ldquo;未来生活&rdquo;带上消博</a></div>\n                    </div>\n                </li>\n                                <li>\n                    <div class=\"left bor3 shipinPic\"> <a href=\"/xinwen/show-1530169.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/11fdeea579bb153126808281d117f12b.jpg\" /> </a>\n                        <div class=\"shipinTxtBg\"><a href=\"/xinwen/show-1530169.html\" target=\"_blank\">九款风味美食飘香！万宁&ldquo;三月三&rdquo;太好吃了｜走进长丰&middot;记者Vlog</a></div>\n                    </div>\n                </li>\n                                <li>\n                    <div class=\"left bor3 shipinPic\"> <a href=\"/xinwen/show-1530166.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/e6f800d5a4ced8a217dcfaa99dce137c.jpg\" /> </a>\n                        <div class=\"shipinTxtBg\"><a href=\"/xinwen/show-1530166.html\" target=\"_blank\">含&ldquo;金&rdquo;量十足！18家银行集体&ldquo;牵手&rdquo;新海航 | 自贸财新鲜</a></div>\n                    </div>\n                </li>\n                            </ul>\n            <div class=\"clear\"></div>\n        </div>\n        <ul class=\"pagination\"><li class=\"disabled\"><span>&laquo;</span></li> <li class=\"active\"><span>1</span></li><li><a href=\"/xinwen/list-4.html?page=2\">2</a></li><li><a href=\"/xinwen/list-4.html?page=3\">3</a></li><li><a href=\"/xinwen/list-4.html?page=4\">4</a></li><li><a href=\"/xinwen/list-4.html?page=5\">5</a></li><li><a href=\"/xinwen/list-4.html?page=6\">6</a></li><li><a href=\"/xinwen/list-4.html?page=7\">7</a></li><li><a href=\"/xinwen/list-4.html?page=8\">8</a></li><li class=\"disabled\"><span>...</span></li><li><a href=\"/xinwen/list-4.html?page=1983\">1983</a></li><li><a href=\"/xinwen/list-4.html?page=1984\">1984</a></li> <li><a href=\"/xinwen/list-4.html?page=2\">&raquo;</a></li></ul>    </div>\n</div>\n<div id=\"from\" class=\"undis\"></div>\n<div class=\"clear\"></div>\n<!--版权-->\n<div class=\"content\">\n    <div class=\"clear\"></div>\n    <div class=\"ysp_bg3\">\n        <div class=\"bq_bottom\">\n            <div class=\"cGray\">\n                <a href=\"http://emarketing.hinews.cn/yg_page.php?xuh=440\" target=\"_blank\" class=\"cGray f14\">关于我们</a>　|　\n                <a href=\"http://emarketing.hinews.cn/\" target=\"_blank\" class=\"cGray f14\">广告服务</a>　|　\n                <a href=\"http://emarketing.hinews.cn/index_temp.php?xuh=331\" target=\"_blank\" class=\"cGray f14\">法律声明</a>　|　\n                <a target=\"_blank\" class=\"cGray f14\">网站地图</a>　|　\n                <a href=\"http://www.hinews.cn/news/system/2017/03/07/031009245.shtml\" target=\"_blank\" class=\"cGray f14\">跟帖评论自律管理承诺书</a></div>\n            <div class=\"cGray l24 f14\">\n                <div class=\"com-footer\">\n                    <div class=\"com-footer-txt\">\n                        <a href=\"http://emarketing.hinews.cn/yg_page.php?xuh=440\" target=\"_blank\">关于我们</a>　|　\n                        <a href=\"http://emarketing.hinews.cn/\" target=\"_blank\">广告服务</a>　|　\n                        <a href=\"https://tech.hinews.cn\" target=\"_blank\">技术服务</a>　|　\n                        <a href=\"http://emarketing.hinews.cn/index_temp.php?xuh=331\" target=\"_blank\">法律声明</a>　|　\n                        <a href=\"http://www.hinews.cn/news/system/2017/03/07/031009245.shtml\" target=\"_blank\">跟帖评论自律管理承诺书</a>\n                    </div>\n                    <div class=\"cGray l24 f14\">\n                        海南南海网传媒股份有限公司 版权所有　1999-2025   地址：海南省海口市金盘路30号新闻大厦9楼 电话：(86)0898-66810806　 传真：0898-66810545<br>\n                        违法和不良信息举报电话：966123　违法和不良信息举报邮箱：nhwwljb@163.com<br>\n                        互联网新闻信息服务许可证:4612006002　信息网络传播视听节目许可证:2108281　互联网出版许可证:琼字001号  <br>\n                        增值电信业务经营许可证:琼B2-2008008　广告经营许可证：460000100120　琼公网监备号:46010602000273号 <br>\n                        南海网备案号 <a href=\"https://beian.miit.gov.cn\" target=\"_blank\">琼ICP备09005000号</a></div>\n                    <div class=\"f1\">\n                        <ul>\n                            <li style=\"display: inline-block;\"><a href=\"javascript:;\"><img src=\"https://www.hinews.cn/icon/BusinessWebsite.jpg\" class=\"loaded\"></a></li>\n                            <li style=\"display: inline-block;padding-left:20px;\"><a href=\"https://www.12377.cn/\" target=\"_blank\"><img src=\"https://www.hinews.cn/icon/ReportingCenter.jpg\" class=\"loaded\"></a></li>\n                            <li style=\"display: inline-block;padding-left:20px;\"><a href=\"https://www.piyao.org.cn/\" target=\"_blank\"><img src=\"https://www.hinews.cn/icon/RefuteRumor.jpg\" class=\"loaded\"></a></li>\n                            <li style=\"display: inline-block;padding-left:20px;\"><a href=\"http://www.cyberpolice.cn/wfjb/\" target=\"_blank\"><img src=\"https://www.hinews.cn/icon/NetPolice.jpg\" class=\"loaded\"></a></li>\n                            <li style=\"display: inline-block;padding-left:20px;\"><a href=\"https://www.12377.cn/node_548446.htm\" target=\"_blank\"><img src=\"https://www.hinews.cn/icon/NetworkReportApp.jpg\" class=\"loaded\"></a></li>\n                        </ul>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n<div class=\"clear\"></div>\n<script src=\"//www.hinews.cn/2018index/js/jquery-1.7.2.min.js\"></script>\n<script src=\"//www.hinews.cn/2018index/js/jquery.flexslider-min.js\"></script>\n<script>\n    if (navigator.appName === 'Microsoft Internet Explorer') { //判断是否是IE浏览器\n        if (navigator.userAgent.match(/Trident/i) && navigator.userAgent.match(/MSIE 8.0/i)) { //判断是否是IE8\n            $('.ysp03 li:nth-child(6n)').css('margin-right', '0');\n            $('.ysp05 li:nth-child(4n)').css('margin-right', '0');\n            $('.ysp06 li:nth-child(4n)').css('margin-right', '0');\n            $('.u_list li:nth-child(6n)').css('margin-right', '0');\n            $('.u_list p').css('display', '-webkit-box');\n            $('.related_v_u ul li:nth-child(6n)').css('margin-right', '0');\n        }\n    }\n    $(document).ready(function() {\n        jQuery.jqtab = function(tabtit, tab_conbox, shijian) {\n            $(tab_conbox).children(\"li\").hide();\n            $(tabtit).find(\"li:first\").addClass(\"thistab\").show();\n            $(tab_conbox).find(\"li:first\").show();\n            $(tabtit).find(\"li\").bind(shijian, function() {\n               /* clearInterval(time),function(){\n                    autoPlay();\n                }*/\n                $(this).addClass(\"thistab\").siblings(\"li\").removeClass(\"thistab\");\n                var activeindex = $(tabtit).find(\"li\").index(this);\n                $(tab_conbox).children().eq(activeindex).show().siblings().hide();\n                return false;\n            });\n\n        };\n        /*调用方法如下：*/\n        $.jqtab(\"#tabs\", \"#tab_conbox\", \"mouseenter\");\n    });\n    var num = 0;\n    var i = 0;\n    function change(){\n        $(\"#tabs\").find(\"li\").eq(i).addClass(\"thistab\").siblings(\"li\").removeClass(\"thistab\");\n        $(\"#tab_conbox\").find(\"li\").eq(i).css(\"display\",\"list-item\").siblings(\"li\").css(\"display\",\"none\");\n        i++;\n        if(i==4){\n            i=0;\n        }\n    }\n    function autoPlay(){\n        time = setInterval(function(){\n            num++;\n            if(num>=4){\n                num=0;\n            }\n            change();\n        },2000);\n    }\n    //autoPlay();\n</script>\n<script>\n    var _hmt = _hmt || [];\n    (function() {\n        var hm = document.createElement(\"script\");\n        hm.src = \"https://hm.baidu.com/hm.js?e961ba8c3a97d0f810fb262c8682d2ee\";\n        var s = document.getElementsByTagName(\"script\")[0];\n        s.parentNode.insertBefore(hm, s);\n    })();\n</script>\n</body>\n</html>"
+    }
+  ],
+  "detail": {
+    "url": "https://v.hinews.cn/xinwen/show-1530195.html",
+    "title": "天海防务智船制造与研发项目落户三亚崖州湾 赋能自贸港海洋经济新发展丨消博聊“企”来——椰视频",
+    "bodyText": "首页 本土新闻 椰现场 椰天下 瞰海南 椰直播 椰访谈 主播说新闻 新媒体出品 00:00/01:16 倍速 50% 75% 100% 18:10:12 天海防务智船制造与研发项目落户三亚崖州湾 赋能自贸港海洋经济新发展丨消博聊“企”来 2026年04月15日 17:38 来源：南海网、新海南客户端 编辑：彭枭 最近 热点 聚焦深海产业 辰海智造基金落地三亚崖州湾科技城丨消博聊“企”来 29个生物医学新技术项目集中亮相！乐城这场医疗健康专场活动释放健康消费强引力 海南自贸港全球产业招商大会数字经济专场高光回顾丨自贸潮涌 向数图强 国安，有我 研学热潮涌动！多校学子走进儋州市科技馆，共探科学奥秘 4月14日，2026年海南自由贸易港全球产业招商大会暨三亚市深海科技与未来产业推介会在海口举办。活动现场，天海融合防务装备技术股份有限公司（以下简称天海防务） 与三亚崖州湾科技城管理局正式签约，“天海防务智船制造与研发项目”将落户科技城，聚焦无人艇、智能船舶、文旅船舶及深海装备研发。 据了解，天海防务是国内集船海工程设计、建造、监理于一体的综合解决方案提供商，核心布局船海工程、防务装备、新能源三大领域，在特种船艇、智能船舶及深海装备领域技术领先。 南海网、新海南客户端 记者/拍摄：潘頔 剪辑：陈永娴 王家旋（实习） 相关视频 Ta来消博了 | 老盐季亮相消博会 海南味道走向世界 校长在线｜全球通申六七个Offer，哈罗海口学子甜蜜的烦恼 校长在线｜哈罗学生申请英美院校，在海南上学凭啥更有竞争力 车型首展！华为携“五界”车型与首款鸿蒙AI眼镜亮相第六届消博会 | ta来消博了 山海同心庆“三月三” 三亚大东海广场变身民族体育狂欢大舞台 科大讯飞副总裁战文宇：全方位深耕海南市场，以AI技术助力自贸港建设 | 消博聊“企”来 聚焦深海产业 辰海智造基金落地三亚崖州湾科技城丨消博聊“企”来 29个生物医学新技术项目集中亮相！乐城这场医疗健康专场活动释放健康消费强引力 海南自贸港全球产业招商大会数字经济专场高光回顾丨自贸潮涌 向数图强 研学热潮涌动！多校学子走进儋州市科技馆，共探科学奥秘 自贸财新鲜：一场大会看海南招商热何以从“流量”变“留量”？ 中国银行举办“百万同行 悦享中国”GBIC大会 暨“来华通”APP全球推介会 Ta来消博了 | 老盐季亮相消博会 海南味道走向世界 校长在线｜全球通申六七个Offer，哈罗海口学子甜蜜的烦恼 校长在线｜哈罗学生申请英美院校，在海南上学凭啥更有竞争力 车型首展！华为携“五界”车型与首款鸿蒙AI眼镜亮相第六届消博会 | ta来消博了 山海同心庆“三月三” 三亚大东海广场变身民族体育狂欢大舞台 科大讯飞副总裁战文宇：全方位深耕海南市场，以AI技术助力自贸港建设 | 消博聊“企”来 聚焦深海产业 辰海智造基金落地三亚崖州湾科技城丨消博聊“企”来 29个生物医学新技术项目集中亮相！乐城这场医疗健康专场活动释放健康消费强引力 海南自贸港全球产业招商大会数字经济专场高光回顾丨自贸潮涌 向数图强 研学热潮涌动！多校学子走进儋州市科技馆，共探科学奥秘 自贸财新鲜：一场大会看海南招商热何以从“流量”变“留量”？ 中国银行举办“百万同行 悦享中国”GBIC大会 暨“来华通”APP全球推介会 关于我们 | 广告服务 | 法律声明 | 网站地图 | 跟帖评论自律管理承诺书 海南南海网传媒股份有限公司 版权所有 1999-2025 地址：海南省海口市金盘路30号新闻大厦9楼 电话：(86)0898-66810806 传真：0898-66810545 违法和不良信息举报电话：966123 违法和不良信息举报邮箱：nhwwljb@163.com 互联网新闻信息服务许可证:4612006002 信息网络传播视听节目许可证:2108281 互联网出版许可证:琼字001号 增值电信业务经营许可证:琼B2-2008008 广告经营许可证：460000100120 琼公网监备号:46010602000273号 南海网备案号 琼ICP备09005000号",
+    "headings": [
+      {
+        "tag": "div",
+        "className": "ck-about-title",
+        "id": "",
+        "text": "Load:"
+      },
+      {
+        "tag": "div",
+        "className": "ck-about-title",
+        "id": "",
+        "text": "Duration:"
+      },
+      {
+        "tag": "div",
+        "className": "ck-about-title",
+        "id": "",
+        "text": "Size:"
+      },
+      {
+        "tag": "div",
+        "className": "ck-about-title",
+        "id": "",
+        "text": "Volume:"
+      },
+      {
+        "tag": "div",
+        "className": "ck-about-title",
+        "id": "",
+        "text": "Fps:"
+      },
+      {
+        "tag": "div",
+        "className": "ck-about-title",
+        "id": "",
+        "text": "Sudio decoded:"
+      },
+      {
+        "tag": "div",
+        "className": "ck-about-title",
+        "id": "",
+        "text": "Video decoded:"
+      }
+    ],
+    "contentCandidates": [
+      {
+        "tag": "div",
+        "className": "content",
+        "id": "",
+        "text": "首页 本土新闻 椰现场 椰天下 瞰海南 椰直播 椰访谈 主播说新闻 新媒体出品"
+      },
+      {
+        "tag": "div",
+        "className": "content",
+        "id": "",
+        "text": "00:00/01:16 倍速 50% 75% 100% 18:10:12 天海防务智船制造与研发项目落户三亚崖州湾 赋能自贸港海洋经济新发展丨消博聊“企”来 2026年04月15日 17:38 来源：南海网、新海南客户端 编辑：彭枭 最近 热点 聚焦深海产业 辰海智造基金落地三亚崖州湾科技城丨消博聊“企”来 29个生物医学新技术项目集中亮相！乐城这场医疗健康专场活动释放健康消费强引力 海南自贸港全球产业招商大会数字经济专场高光回顾丨自贸潮涌 向数图强 国安，有我 研学热潮涌动！多校学子走进儋州市科技馆，共探科学奥秘"
+      },
+      {
+        "tag": "p",
+        "className": "f16",
+        "id": "",
+        "text": "聚焦深海产业 辰海智造基金落地三亚崖州湾科技城丨消博聊“企”来"
+      },
+      {
+        "tag": "p",
+        "className": "f16",
+        "id": "",
+        "text": "29个生物医学新技术项目集中亮相！乐城这场医疗健康专场活动释放健康消费强引力"
+      },
+      {
+        "tag": "p",
+        "className": "f16",
+        "id": "",
+        "text": "海南自贸港全球产业招商大会数字经济专场高光回顾丨自贸潮涌 向数图强"
+      },
+      {
+        "tag": "p",
+        "className": "f16",
+        "id": "",
+        "text": "研学热潮涌动！多校学子走进儋州市科技馆，共探科学奥秘"
+      },
+      {
+        "tag": "p",
+        "className": "f16",
+        "id": "",
+        "text": "戴上手环即可“无痛”减肥 减肥人士的黑科技来了"
+      },
+      {
+        "tag": "p",
+        "className": "f16",
+        "id": "",
+        "text": "相约消博会：风味美食免费品尝 一站逛遍时尚香港"
+      },
+      {
+        "tag": "div",
+        "className": "content",
+        "id": "",
+        "text": "4月14日，2026年海南自由贸易港全球产业招商大会暨三亚市深海科技与未来产业推介会在海口举办。活动现场，天海融合防务装备技术股份有限公司（以下简称天海防务） 与三亚崖州湾科技城管理局正式签约，“天海防务智船制造与研发项目”将落户科技城，聚焦无人艇、智能船舶、文旅船舶及深海装备研发。 据了解，天海防务是国内集船海工程设计、建造、监理于一体的综合解决方案提供商，核心布局船海工程、防务装备、新能源三大领域，在特种船艇、智能船舶及深海装备领域技术领先。 南海网、新海南客户端 记者/拍摄：潘頔 剪辑：陈永娴 王家旋（实习） 相关视频 Ta来消博了 | 老盐季亮相消博会 海南味道走向世界 校长在线｜全球通申六七个Offer，哈罗海口学子甜蜜的烦恼 校长在线｜哈罗学生申请英美院校，在海南上学凭啥更有竞争力 车型首展！华为携“五界”车型与首款鸿蒙AI眼镜亮相第六届消博会 | ta来消博了 山海同心庆“三月三” 三亚大东海广场变身民族体育狂欢大舞台 科大讯飞副总裁战文宇：全方位深耕海南市场，以AI技术助力自贸港建设 | 消博聊“企”来 聚焦深海产业 辰海智造基金落地三亚崖州湾科技城丨消博聊“企”来 29个生物医学新技术项目集中亮相！乐城这场医疗健康专场活动释放健康消费强引力 海南自贸港全球产业招商大会数字经济专场高光回顾丨自贸潮涌 向数图强 研学热潮涌动！多校学子走进儋州市科技馆，共探科学奥秘 自贸财新鲜：一场大会看海南招商热何以从“流量”变“留量”？ 中国银行举办“百万同行 悦享中国”GBIC大会 暨“来华通”APP全球推介会 Ta来消博了 | 老盐季亮相消博会 海南味道走向世界 校长在线｜全球通申六七个Offer，哈罗海口学子甜蜜的烦恼 校长在线｜哈罗学生申请英美院校，在海南上学凭啥更有竞争力 车型首展！华为携“五界”车型与首款鸿蒙AI眼镜亮相第六届消博会 | ta来消博了 山海同心庆“三月三” 三亚大东海广场变身民族体育狂欢大舞台 科大讯飞副总裁战文宇：全方位深耕海南市场，以AI技术助力自贸港建设 | 消博聊“企”来 聚焦深海产业 辰海智造基金落地三亚崖州湾科技城丨消博聊“企”来 29个生物医学新技术项目集中亮相！乐城这场医疗健康专场活动释放健康消费强引力 海南自贸港全球产业招商大会数字经济专场高光回顾丨自贸潮涌 向数图强 研学热潮涌动！多校学子走进儋州市科技馆，共探科学奥秘"
+      },
+      {
+        "tag": "p",
+        "className": "formatted",
+        "id": "",
+        "text": "4月14日，2026年海南自由贸易港全球产业招商大会暨三亚市深海科技与未来产业推介会在海口举办。活动现场，天海融合防务装备技术股份有限公司（以下简称天海防务） 与三亚崖州湾科技城管理局正式签约，“天海防务智船制造与研发项目”将落户科技城，聚焦无人艇、智能船舶、文旅船舶及深海装备研发。"
+      },
+      {
+        "tag": "p",
+        "className": "formatted",
+        "id": "",
+        "text": "据了解，天海防务是国内集船海工程设计、建造、监理于一体的综合解决方案提供商，核心布局船海工程、防务装备、新能源三大领域，在特种船艇、智能船舶及深海装备领域技术领先。"
+      },
+      {
+        "tag": "p",
+        "className": "formatted",
+        "id": "",
+        "text": "南海网、新海南客户端 记者/拍摄：潘頔 剪辑：陈永娴 王家旋（实习）"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "Ta来消博了 | 老盐季亮相消博会 海南味道走向世界"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "校长在线｜全球通申六七个Offer，哈罗海口学子甜蜜的烦恼"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "校长在线｜哈罗学生申请英美院校，在海南上学凭啥更有竞争力"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "车型首展！华为携“五界”车型与首款鸿蒙AI眼镜亮相第六届消博会 | ta来消博了"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "山海同心庆“三月三” 三亚大东海广场变身民族体育狂欢大舞台"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "科大讯飞副总裁战文宇：全方位深耕海南市场，以AI技术助力自贸港建设 | 消博聊“企”来"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "聚焦深海产业 辰海智造基金落地三亚崖州湾科技城丨消博聊“企”来"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "29个生物医学新技术项目集中亮相！乐城这场医疗健康专场活动释放健康消费强引力"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "海南自贸港全球产业招商大会数字经济专场高光回顾丨自贸潮涌 向数图强"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "研学热潮涌动！多校学子走进儋州市科技馆，共探科学奥秘"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "自贸财新鲜：一场大会看海南招商热何以从“流量”变“留量”？"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "中国银行举办“百万同行 悦享中国”GBIC大会 暨“来华通”APP全球推介会"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "Ta来消博了 | 老盐季亮相消博会 海南味道走向世界"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "校长在线｜全球通申六七个Offer，哈罗海口学子甜蜜的烦恼"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "校长在线｜哈罗学生申请英美院校，在海南上学凭啥更有竞争力"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "车型首展！华为携“五界”车型与首款鸿蒙AI眼镜亮相第六届消博会 | ta来消博了"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "山海同心庆“三月三” 三亚大东海广场变身民族体育狂欢大舞台"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "科大讯飞副总裁战文宇：全方位深耕海南市场，以AI技术助力自贸港建设 | 消博聊“企”来"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "聚焦深海产业 辰海智造基金落地三亚崖州湾科技城丨消博聊“企”来"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "29个生物医学新技术项目集中亮相！乐城这场医疗健康专场活动释放健康消费强引力"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "海南自贸港全球产业招商大会数字经济专场高光回顾丨自贸潮涌 向数图强"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "研学热潮涌动！多校学子走进儋州市科技馆，共探科学奥秘"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "自贸财新鲜：一场大会看海南招商热何以从“流量”变“留量”？"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "中国银行举办“百万同行 悦享中国”GBIC大会 暨“来华通”APP全球推介会"
+      },
+      {
+        "tag": "div",
+        "className": "content",
+        "id": "",
+        "text": "关于我们 | 广告服务 | 法律声明 | 网站地图 | 跟帖评论自律管理承诺书 海南南海网传媒股份有限公司 版权所有 1999-2025 地址：海南省海口市金盘路30号新闻大厦9楼 电话：(86)0898-66810806 传真：0898-66810545 违法和不良信息举报电话：966123 违法和不良信息举报邮箱：nhwwljb@163.com 互联网新闻信息服务许可证:4612006002 信息网络传播视听节目许可证:2108281 互联网出版许可证:琼字001号 增值电信业务经营许可证:琼B2-2008008 广告经营许可证：460000100120 琼公网监备号:46010602000273号 南海网备案号 琼ICP备09005000号"
+      }
+    ],
+    "html": "<html xmlns=\"http://www.w3.org/1999/xhtml\"><head>\n        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"renderer\" content=\"webkit\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n        <title>天海防务智船制造与研发项目落户三亚崖州湾 赋能自贸港海洋经济新发展丨消博聊“企”来——椰视频</title>\n    <meta name=\"Keywords\" content=\"天海防务智船制造与研发项目落户三亚崖州湾 赋能自贸港海洋经济新发展丨消博聊“企”来,视频，椰视频\">\n    <meta name=\"Description\" content=\"天海防务智船制造与研发项目落户三亚崖州湾 赋能自贸港海洋经济新发展丨消博聊“企”来——椰视频\">\n    <meta name=\"apple-mobile-web-app-capable\" content=\"yes\">\n    <link href=\"/static/ysp/pc/css/pub_2019.css\" rel=\"stylesheet\" type=\"text/css\">\n    <link href=\"/static/ysp/pc/css/ysp191218.css\" rel=\"stylesheet\" type=\"text/css\">\n        <link href=\"/static/ysp/pc/css/ysp.css\" rel=\"stylesheet\" type=\"text/css\">\n        <link rel=\"stylesheet\" href=\"/static/ckplayer/css/ckplayer.css?v=1\">\n    <link rel=\"stylesheet\" href=\"/static/plugins/layui/css/layui.css\">\n    <script src=\"https://hm.baidu.com/hm.js?e961ba8c3a97d0f810fb262c8682d2ee\"></script><script type=\"text/javascript\" src=\"/static/ckplayer/js/ckplayer.js\"></script>\n    <script type=\"text/javascript\" src=\"/static/plugins/layui/layui.js\"></script>\n        <!--[if IE 8]>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/ysp/pc/css/ie8.css\"/>\n    <![endif]-->\n<link id=\"layuicss-layer\" rel=\"stylesheet\" href=\"https://v.hinews.cn/static/plugins/layui/css/modules/layer/default/layer.css?v=3.1.1\" media=\"all\"></head>\n<body>\n<!--导航-->\n<div class=\"content\">\n    <div class=\"marauto\">\n        <div class=\"left  mt50\">\n            <div class=\"w140 left\"><a href=\"http://www.hinews.cn\"><img class=\"logo1\" src=\"/static/index/images/hinews_logo1.png\" alt=\"南海网\"></a></div>\n            <div class=\"w41 left logo_line \"> </div>\n            <div class=\"right\"><a href=\"/\"><img src=\"/static/ysp/pc/image/v_logo.png\" alt=\"椰视频\" class=\"logo2\"></a></div>\n        </div>\n        <div class=\"ysp_02\">\n            <div class=\"nav nav1 mt30\">\n                <ul>\n                    <li><a href=\"/\" class=\"cBlack\">首页</a></li>\n                                                                                                                                                                                                                                                        <li><a href=\"/xinwen/list-1.html\" class=\"cBlack\" target=\"_blank\">本土新闻</a></li>\n                                                                                                                                                                            <li><a href=\"/xinwen/list-4.html\" class=\"cBlack\" target=\"_blank\">椰现场</a></li>\n                                                                                                                                    <li><a href=\"/xinwen/list-7.html\" class=\"cBlack\" target=\"_blank\">椰天下</a></li>\n                                                                                                                <li><a href=\"/xinwen/list-11.html\" class=\"cBlack\" target=\"_blank\">瞰海南</a></li>\n                                                                        <li><a href=\"/xinwen/list-18.html\" class=\"cBlack\" target=\"_blank\">椰直播</a></li>\n                                                                                            <li><a href=\"/xinwen/list-20.html\" class=\"cBlack\" target=\"_blank\">椰访谈</a></li>\n                                                                        <li><a href=\"/xinwen/list-22.html\" class=\"cBlack\" target=\"_blank\">主播说新闻</a></li>\n                                                                        <li><a href=\"/xinwen/list-23.html\" class=\"cBlack\" target=\"_blank\">新媒体出品</a></li>\n                                                                                                    </ul>\n                <div class=\"clear\"></div>\n            </div>\n        </div>\n        <div class=\"search_box\">\n            <form id=\"search_form\" method=\"post\" action=\"/index/search\">\n                <input type=\"text\" class=\"textbox f14\" name=\"q\" placeholder=\"请输入搜索关键词\">\n                <input type=\"submit\" class=\"s_btn f18\" value=\"搜索\">\n            </form>\n        </div>\n        <div class=\"clear\"></div>\n    </div>\n</div>\n<!--首屏-->\n<div class=\"ysp_bg4\">\n    <div class=\"content\">\n        <div class=\"videobox\">\n            <div class=\"video_ob\">\n                <div id=\"a1\" style=\"width: 100%; height: 100%;\"><div class=\"ckplayer-ckplayer\"><div class=\"ck-main\"><div class=\"ck-video\"><video width=\"100%\" height=\"100%\" preload=\"metadata\" controlslist=\"nodownload\" x-webkit-airplay=\"true\" x5-video-orientation=\"portraint\" playsinline=\"true\" webkit-playsinline=\"true\" x5-playsinline=\"true\" src=\"https://v-data.hinews.cn/vod/20260415/e82bb4c88cb2f4fca8e63cd77bff7244_720x1280.mp4\" poster=\"https://v-data.hinews.cn/img/20260415/d7c795279bca4cd15ca87f008354f229.jpg\"></video></div><div class=\"ck-loading\" style=\"display: none;\"></div><div class=\"ck-bar\"><div class=\"ck-bar-progress\"><div class=\"ck-bar-progress-bg\"><div class=\"ck-bar-progress-load\" style=\"width: 1.14204%;\"></div><div class=\"ck-bar-progress-play\"></div><div class=\"ck-bar-progress-mouseline\"></div></div><div class=\"ck-bar-progress-slider\"></div></div><div class=\"ck-bar-playandpause\"><button type=\"button\" class=\"ck-bar-btn ck-btn-play\" style=\"display: block;\"></button><button type=\"button\" class=\"ck-bar-btn ck-btn-pause\" style=\"display: none;\"></button><button type=\"button\" class=\"ck-bar-btn ck-btn-refresh\" style=\"display: none;\"></button></div><div class=\"ck-bar-btn ck-bar-next\" style=\"display: none;\"></div><div class=\"ck-bar-time\">00:00/01:16</div><button type=\"button\" class=\"ck-btn-backlive\" style=\"display: none;\">返回直播</button><div class=\"ck-bar-fullandexit\"><button type=\"button\" class=\"ck-bar-btn ck-btn-full\"></button><button type=\"button\" class=\"ck-bar-btn ck-btn-exitfull\"></button></div><div class=\"ck-bar-webfullandexit\" style=\"display: none;\"><button type=\"button\" class=\"ck-bar-btn ck-btn-webfull\"></button><button type=\"button\" class=\"ck-bar-btn ck-btn-exitwebfull\"></button></div><div class=\"ck-bar-theatreandexit\" style=\"display: none;\"><button type=\"button\" class=\"ck-bar-btn ck-btn-theatre\"></button><button type=\"button\" class=\"ck-bar-btn ck-btn-exittheatre\"></button></div><div class=\"ck-bar-volumebox\"><button type=\"button\" class=\"ck-bar-btn ck-btn-muted\"></button><button type=\"button\" class=\"ck-bar-btn ck-btn-exitmuted\" style=\"display: none;\"></button><div class=\"ck-bar-volume\" style=\"\"><div class=\"ck-bar-volumex\"><div class=\"ck-bar-volume-txt\">80</div><div class=\"ck-bar-volume-bg\"><div class=\"ck-bar-volume-pp\" style=\"margin-top: 28px;\"></div></div><div class=\"ck-bar-volume-slider\" style=\"top: 63px;\"></div></div></div></div><div class=\"ck-bar-playbackrate-box\" style=\"display: block;\"><div class=\"ck-bar-playbackrate\">倍速</div><div class=\"ck-bar-playbackrate-bg-box ck-list-bg-box\" style=\"width: 71px; height: 243px; left: -9.5px;\"><div class=\"ck-list-bg\" style=\"width: 71px;\"><button type=\"button\" class=\"ck-list-p\" data-i=\"5\" data-val=\"4\">4倍</button><button type=\"button\" class=\"ck-list-p\" data-i=\"4\" data-val=\"2\">2倍</button><button type=\"button\" class=\"ck-list-p\" data-i=\"3\" data-val=\"1.5\">1.5倍</button><button type=\"button\" class=\"ck-list-p\" data-i=\"2\" data-val=\"1.25\">1.25倍</button><button type=\"button\" class=\"ck-list-p ck-list-p-focus\" data-i=\"1\" data-val=\"1\">1倍</button><button type=\"button\" class=\"ck-list-p\" data-i=\"0\" data-val=\"0.75\">0.75倍</button></div></div></div><div class=\"ck-bar-track-box\" style=\"display: none;\"><div class=\"ck-bar-track\">字幕</div><div class=\"ck-bar-track-bg-box ck-list-bg-box\"></div></div><div class=\"ck-bar-definition-box\" style=\"display: none;\"><div class=\"ck-bar-definition\">清晰度</div><div class=\"ck-bar-definition-bg-box ck-list-bg-box\"></div></div></div><div class=\"ck-right-bar ck-right-bar-hide\" style=\"display: none;\"><button type=\"button\" class=\"ck-bar-btn ck-btn-screenshot\"></button><div class=\"ck-right-bar-smallwindows\"><button type=\"button\" class=\"ck-bar-btn ck-btn-smallwindows-open\"></button><button type=\"button\" class=\"ck-bar-btn ck-btn-smallwindows-close\"></button></div><div class=\"ck-right-bar-loop\"><button type=\"button\" class=\"ck-bar-btn ck-btn-loop-open\" style=\"display: none;\"></button><button type=\"button\" class=\"ck-bar-btn ck-btn-loop-close\" style=\"display: block;\"></button></div></div><div class=\"ck-top-bar ck-top-bar-hide\"><div class=\"ck-top-bar-zoom\"><div class=\"ck-top-bar-zoom-container\"><div class=\"ck-top-bar-zoom-left\"><div class=\"ck-top-bar-zoom-button-50\"></div></div><div class=\"ck-top-bar-zoom-right\">50%</div></div><div class=\"ck-top-bar-zoom-container\"><div class=\"ck-top-bar-zoom-left\"><div class=\"ck-top-bar-zoom-button-75\"></div></div><div class=\"ck-top-bar-zoom-right\">75%</div></div><div class=\"ck-top-bar-zoom-container\"><div class=\"ck-top-bar-zoom-left\"><div class=\"ck-top-bar-zoom-button-100\"></div></div><div class=\"ck-top-bar-zoom-right\">100%</div></div></div><div class=\"ck-top-bar-title\"></div><div class=\"ck-top-bar-time\">18:10:12</div></div><div class=\"ck-screenshot\"><div class=\"ck-screenshot-img\"></div><div class=\"ck-screenshot-bar\"><a class=\"ck-screenshot-btn ck-screenshot-down\">下载</a><button type=\"button\" class=\"ck-screenshot-btn ck-screenshot-close\">关闭</button></div></div><div class=\"ck-center-play\" style=\"display: block;\"></div><div class=\"ck-buffer\" style=\"display: none;\"></div><div class=\"ck-message\"></div><div class=\"ck-tip\" style=\"display: none; left: 564.5px; top: -1px;\"><div class=\"ck-content ck-content-float-auto\"></div><div class=\"ck-triangle ck-triangle-auto\"></div></div><div class=\"ck-yytf\" style=\"display: none;\"><div class=\"ck-yytf-front-link\"></div><div class=\"ck-yytf-front-picture\"></div><div class=\"ck-yytf-top\"><div class=\"ck-yytf-countdown\"></div><div class=\"ck-yytf-closetime\"></div><div class=\"ck-yytf-closead\">关闭广告</div></div><div class=\"ck-yytf-bottom\"><div class=\"ck-yytf-fullandexit\"><button type=\"button\" class=\"ck-yytf-btn ck-yytf-fullandexit-full\"></button><button type=\"button\" class=\"ck-yytf-btn ck-yytf-fullandexit-exitfull\"></button></div><div class=\"ck-yytf-mutedandexit\"><button type=\"button\" class=\"ck-yytf-btn ck-yytf-mutedandexit-muted\"></button><button type=\"button\" class=\"ck-yytf-btn ck-yytf-mutedandexit-exitmuted\"></button></div><div class=\"ck-yytf-details\">查看详情</div></div></div><div class=\"ck-pause-yytf\"></div><div class=\"ck-about\"><div class=\"ck-about-bar\"><button type=\"button\" class=\"ck-bar-btn ck-btn-about-copy\"></button><button type=\"button\" class=\"ck-bar-btn ck-btn-about-close\"></button></div><ul><li><div class=\"ck-about-title\">Load:</div><div class=\"ck-about-content\">0.87 second</div></li><li><div class=\"ck-about-title\">Duration:</div><div class=\"ck-about-content\">76 second</div></li><li><div class=\"ck-about-title\">Size:</div><div class=\"ck-about-content\">720x1280</div></li><li><div class=\"ck-about-title\">Volume:</div><div class=\"ck-about-content\">80%</div></li><li><div class=\"ck-about-title\">Fps:</div><div class=\"ck-about-content\">60fps</div></li><li><div class=\"ck-about-title\">Sudio decoded:</div><div class=\"ck-about-content\">0 Byte</div></li><li><div class=\"ck-about-title\">Video decoded:</div><div class=\"ck-about-content\">0 Byte</div></li></ul></div><div class=\"ck-tempTime\">00:00/01:16</div><textarea style=\"display: none;\">Load::0.87 second\nDuration::76 second\nSize::720x1280\nVolume::80%\nFps::60fps\nSudio decoded::0 Byte\nVideo decoded::0 Byte\n</textarea></div></div>\n                                    </div>\n            </div>\n            <div class=\"v_brief  left\"><a class=\"cWhite f22\">天海防务智船制造与研发项目落户三亚崖州湾 赋能自贸港海洋经济新发展丨消博聊“企”来</a></div>\n            <div class=\"f16 ml10 left cGray_d2 v_word\"><span class=\"\">2026年04月15日 17:38</span>\n                <span>来源：<a href=\"潘頔 陈永娴 王家旋\" target=\"_blank\" class=\"cGray_d2\">南海网、新海南客户端</a></span><span></span>\n                <span>编辑：彭枭</span>\n                <span class=\"copycode\"> <a><img src=\"/static/ysp/pc/image/z10.png\"></a> </span>\n                <script>\n                    layui.use(['layer'], function () {\n                        var $ = layui.jquery;\n                        $(document).on(\"click\", \".copycode\", function () {\n                            var index = layer.open({\n                                id: 'insert-form',\n                                type: 2,\n                                title: '播放代码',\n                                content: \"/index/show/play.html?id=1530195\",\n                                btn: ['关闭'],\n                                area: ['50%', '70%'],\n                            });\n                        });\n                    });\n                </script>\n                <div class=\"bshare-custom \" style=\"display:inline-block;vertical-align: text-top;\">\n                    <!--<font class=\"f16\" style=\"vertical-align: bottom;\">分享到：</font>\n                    <div class=\"bsPromo bsPromo2\"></div>\n                    <a title=\"分享到微信\" class=\"bshare-weixin\" href=\"javascript:void(0);\"></a>\n                    <a title=\"分享到新浪微博\" class=\"bshare-sinaminiblog\" href=\"javascript:void(0);\"></a>\n                    <a title=\"分享到QQ空间\" class=\"bshare-qzone\" href=\"javascript:void(0);\"></a>\n                    <a title=\"更多平台\" class=\"bshare-more bshare-more-icon more-style-addthis\"></a>-->\n                </div>\n            </div>\n            <div class=\"clear\"></div>\n        </div>\n        <div class=\"v_tab  \">\n            <ul class=\" tabs list-inline\" id=\"tabs\">\n                <li class=\"thistab\"><a href=\"javascript:;\">最近</a></li>\n                <li><a href=\"javascript:;\">热点</a></li>\n            </ul>\n            <ul class=\"tab_conbox\" id=\"tab_conbox\">\n                <li class=\"\" style=\"\">\n                                                                <div class=\"tab_con\"><a href=\"/xinwen/show-1530194.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/5dee31ff402258f0a2386f9f4d689860.jpg\" class=\"loaded\">\n                        <p class=\"f16\">聚焦深海产业 辰海智造基金落地三亚崖州湾科技城丨消博聊“企”来</p>\n                    </a></div>\n                                                                                   <div class=\"tab_con\"><a href=\"/xinwen/show-1530193.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/4b42b62980148cefba30697158f8ca0a.jpg\" class=\"loaded\">\n                        <p class=\"f16\">29个生物医学新技术项目集中亮相！乐城这场医疗健康专场活动释放健康消费强引力</p>\n                    </a></div>\n                                                                                   <div class=\"tab_con\"><a href=\"/xinwen/show-1530192.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/4ae37c9f8130208fa055dead344cac1a.jpg\" class=\"loaded\">\n                        <p class=\"f16\">海南自贸港全球产业招商大会数字经济专场高光回顾丨自贸潮涌 向数图强</p>\n                    </a></div>\n                                                                                   <div class=\"tab_con\"><a href=\"/xinwen/show-1530190.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/468555571fd3ee4f08e588bb5a569687.jpg\" class=\"loaded\">\n                        <p class=\"f16\">国安，有我</p>\n                    </a></div>\n                                                                                   <div class=\"tab_con\"><a href=\"/xinwen/show-1530189.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/e674030c53955fcc97727cbf56951684.jpg\" class=\"loaded\">\n                        <p class=\"f16\">研学热潮涌动！多校学子走进儋州市科技馆，共探科学奥秘</p>\n                    </a></div>\n                                                                          </li>\n                <li class=\"\" style=\"display: none;\">\n                                                                    <div class=\"tab_con\"><a href=\"/xinwen/show-1530106.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260414/61e3dd5850d5122efbe1c893c527e7aa.jpg\" class=\"loaded\">\n                            <p class=\"f16\">戴上手环即可“无痛”减肥 减肥人士的黑科技来了</p>\n                        </a></div>\n                                                                                        <div class=\"tab_con\"><a href=\"/xinwen/show-1530152.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260414/6eaa421e3e46af0e251605aeb7e3001e.jpg\" class=\"loaded\">\n                            <p class=\"f16\">跟随海外传播官的脚步，共赴山海之约</p>\n                        </a></div>\n                                                                                        <div class=\"tab_con\"><a href=\"/xinwen/show-1530108.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260414/a0c774f36edabfbcd9aa9f028b264308.jpg\" class=\"loaded\">\n                            <p class=\"f16\">美国视频博主“拖米阿叔”的海南故事</p>\n                        </a></div>\n                                                                                        <div class=\"tab_con\"><a href=\"/xinwen/show-1530107.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260414/5f8bc110ba9dc2de50bbcc50340e3bd0.jpg\" class=\"loaded\">\n                            <p class=\"f16\">海南“乡姐阿碧”的数字逆袭故事</p>\n                        </a></div>\n                                                                                        <div class=\"tab_con\"><a href=\"/xinwen/show-1530128.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260414/00154dbd467a3ce4ca52d9efab874d06.jpg\" class=\"loaded\">\n                            <p class=\"f16\">相约消博会：风味美食免费品尝 一站逛遍时尚香港</p>\n                        </a></div>\n                                                                            </li>\n            </ul>\n        </div>\n        <div class=\"clear\"></div>\n    </div>\n</div><div class=\"ckplayer-ckplayer-menu\"><div class=\"ck-li\"><a href=\"http://v.hinews.cn/\" target=\"_blank\">椰视频</a></div></div>\n<!--<div class=\"ad_box content\" style=\"margin-top:10px;\">\n\t<a href=\"https://android.myapp.com/myapp/detail.htm?apkName=com.newhainan&ADTAG=mobile\" target=\"_blank\"><img src=\"http://baisha.hinews.cn/pic/003/206/617/00320661774_fb4b2a59.jpg\"/></a>\n</div>-->\n<!--相关视频-->\n<div class=\"content\">\n    <div style=\"padding-top:10px;font-size: 16px;line-height: 28px; width:1213px;\"><p class=\"formatted\" style=\"text-indent:2em;text-align:justify;line-height:1.875rem;margin-bottom:1.875rem;font-size:1.1875rem\">4月14日，2026年海南自由贸易港全球产业招商大会暨三亚市深海科技与未来产业推介会在海口举办。活动现场，天海融合防务装备技术股份有限公司（以下简称天海防务） 与三亚崖州湾科技城管理局正式签约，“天海防务智船制造与研发项目”将落户科技城，聚焦无人艇、智能船舶、文旅船舶及深海装备研发。</p><p class=\"formatted\" style=\"text-indent:2em;text-align:justify;line-height:1.875rem;margin-bottom:1.875rem;font-size:1.1875rem\">据了解，天海防务是国内集船海工程设计、建造、监理于一体的综合解决方案提供商，核心布局船海工程、防务装备、新能源三大领域，在特种船艇、智能船舶及深海装备领域技术领先。</p><p class=\"formatted\" style=\"text-indent:2em;text-align:justify;line-height:1.875rem;margin-bottom:1.875rem;font-size:1.1875rem\">南海网、新海南客户端 记者/拍摄：潘頔&nbsp; 剪辑：陈永娴 王家旋（实习）</p></div>\n\n    <div class=\"related_v\">\n        <div class=\"whjlbox  mt50 mb20\">\n            <div class=\" ml6 f24 fb\"><a class=\"cGreen\">相关视频</a></div>\n        </div>\n    </div>\n    <div class=\"related_v_u\">\n        <div class=\"flexslider flex_page\">\n            \n        <div class=\"flex-viewport\" style=\"overflow: hidden; position: relative;\"><ul class=\"slides\" style=\"width: 800%; transition-duration: 0s; transform: translate3d(-1700px, 0px, 0px);\"><li class=\"clone\" aria-hidden=\"true\" style=\"width: 1700px; float: left; display: block;\">\n                    <ul class=\"u_list\">\n                                                                                                                                                                                                                                                                                                                                                                        <li>\n                            <div class=\"bor1\">\n                                <a href=\"/xinwen/show-1530183.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/492c34ab815181ddfba04ad6f2be1b42.jpg\" width=\"270\" height=\"176\" draggable=\"false\"></a>\n                                <a href=\"/xinwen/show-1530183.html\" target=\"_blank\"><p>Ta来消博了 | 老盐季亮相消博会 海南味道走向世界</p></a>\n                            </div>\n                        </li>\n                                                                                                <li>\n                            <div class=\"bor1\">\n                                <a href=\"/xinwen/show-1530179.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/bcbe7f57df618ffcb341eb17bbf4f5cc.jpg\" width=\"270\" height=\"176\" draggable=\"false\"></a>\n                                <a href=\"/xinwen/show-1530179.html\" target=\"_blank\"><p>校长在线｜全球通申六七个Offer，哈罗海口学子甜蜜的烦恼</p></a>\n                            </div>\n                        </li>\n                                                                                                <li>\n                            <div class=\"bor1\">\n                                <a href=\"/xinwen/show-1530178.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/8f01cb7cbaa0a10c261529ba4539951d.jpg\" width=\"270\" height=\"176\" draggable=\"false\"></a>\n                                <a href=\"/xinwen/show-1530178.html\" target=\"_blank\"><p>校长在线｜哈罗学生申请英美院校，在海南上学凭啥更有竞争力</p></a>\n                            </div>\n                        </li>\n                                                                                                <li>\n                            <div class=\"bor1\">\n                                <a href=\"/xinwen/show-1530177.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/21d61862d130efbf412c1b7e0d1ff870.jpg\" width=\"270\" height=\"176\" draggable=\"false\"></a>\n                                <a href=\"/xinwen/show-1530177.html\" target=\"_blank\"><p>车型首展！华为携“五界”车型与首款鸿蒙AI眼镜亮相第六届消博会 | ta来消博了</p></a>\n                            </div>\n                        </li>\n                                                                                                <li>\n                            <div class=\"bor1\">\n                                <a href=\"/xinwen/show-1530176.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/69cbcad0fa68508d418e6544d33bbc7c.jpg\" width=\"270\" height=\"176\" draggable=\"false\"></a>\n                                <a href=\"/xinwen/show-1530176.html\" target=\"_blank\"><p>山海同心庆“三月三” 三亚大东海广场变身民族体育狂欢大舞台</p></a>\n                            </div>\n                        </li>\n                                                                                                <li>\n                            <div class=\"bor1\">\n                                <a href=\"/xinwen/show-1530174.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/218a39e2278eb5f1537fb566e4e529ae.jpg\" width=\"270\" height=\"176\" draggable=\"false\"></a>\n                                <a href=\"/xinwen/show-1530174.html\" target=\"_blank\"><p>科大讯飞副总裁战文宇：全方位深耕海南市场，以AI技术助力自贸港建设 | 消博聊“企”来</p></a>\n                            </div>\n                        </li>\n                                                                    </ul>\n                </li>\n                <li style=\"width: 1700px; float: left; display: block;\" class=\"flex-active-slide\">\n                    <ul class=\"u_list\">\n                                                                        <li>\n                            <div class=\"bor1\">\n                                <a href=\"/xinwen/show-1530194.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/5dee31ff402258f0a2386f9f4d689860.jpg\" width=\"270\" height=\"176\" draggable=\"false\"></a>\n                                <a href=\"/xinwen/show-1530194.html\" target=\"_blank\"><p>聚焦深海产业 辰海智造基金落地三亚崖州湾科技城丨消博聊“企”来</p></a>\n                            </div>\n                        </li>\n                                                                                                <li>\n                            <div class=\"bor1\">\n                                <a href=\"/xinwen/show-1530193.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/4b42b62980148cefba30697158f8ca0a.jpg\" width=\"270\" height=\"176\" draggable=\"false\"></a>\n                                <a href=\"/xinwen/show-1530193.html\" target=\"_blank\"><p>29个生物医学新技术项目集中亮相！乐城这场医疗健康专场活动释放健康消费强引力</p></a>\n                            </div>\n                        </li>\n                                                                                                <li>\n                            <div class=\"bor1\">\n                                <a href=\"/xinwen/show-1530192.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/4ae37c9f8130208fa055dead344cac1a.jpg\" width=\"270\" height=\"176\" draggable=\"false\"></a>\n                                <a href=\"/xinwen/show-1530192.html\" target=\"_blank\"><p>海南自贸港全球产业招商大会数字经济专场高光回顾丨自贸潮涌 向数图强</p></a>\n                            </div>\n                        </li>\n                                                                                                <li>\n                            <div class=\"bor1\">\n                                <a href=\"/xinwen/show-1530189.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/e674030c53955fcc97727cbf56951684.jpg\" width=\"270\" height=\"176\" draggable=\"false\"></a>\n                                <a href=\"/xinwen/show-1530189.html\" target=\"_blank\"><p>研学热潮涌动！多校学子走进儋州市科技馆，共探科学奥秘</p></a>\n                            </div>\n                        </li>\n                                                                                                <li>\n                            <div class=\"bor1\">\n                                <a href=\"/xinwen/show-1530186.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/ec49a5607ec6560d886f5c3b17bb2b67.jpg\" width=\"270\" height=\"176\" draggable=\"false\"></a>\n                                <a href=\"/xinwen/show-1530186.html\" target=\"_blank\"><p>自贸财新鲜：一场大会看海南招商热何以从“流量”变“留量”？</p></a>\n                            </div>\n                        </li>\n                                                                                                <li>\n                            <div class=\"bor1\">\n                                <a href=\"/xinwen/show-1530185.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/1d5d1be5802179d413328f36286c7142.jpg\" width=\"270\" height=\"176\" draggable=\"false\"></a>\n                                <a href=\"/xinwen/show-1530185.html\" target=\"_blank\"><p>中国银行举办“百万同行 悦享中国”GBIC大会 暨“来华通”APP全球推介会</p></a>\n                            </div>\n                        </li>\n                                                                                                                                                                                                                                                                                                                                                                    </ul>\n                </li>\n                <li style=\"width: 1700px; float: left; display: block;\">\n                    <ul class=\"u_list\">\n                                                                                                                                                                                                                                                                                                                                                                        <li>\n                            <div class=\"bor1\">\n                                <a href=\"/xinwen/show-1530183.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/492c34ab815181ddfba04ad6f2be1b42.jpg\" width=\"270\" height=\"176\" draggable=\"false\"></a>\n                                <a href=\"/xinwen/show-1530183.html\" target=\"_blank\"><p>Ta来消博了 | 老盐季亮相消博会 海南味道走向世界</p></a>\n                            </div>\n                        </li>\n                                                                                                <li>\n                            <div class=\"bor1\">\n                                <a href=\"/xinwen/show-1530179.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/bcbe7f57df618ffcb341eb17bbf4f5cc.jpg\" width=\"270\" height=\"176\" draggable=\"false\"></a>\n                                <a href=\"/xinwen/show-1530179.html\" target=\"_blank\"><p>校长在线｜全球通申六七个Offer，哈罗海口学子甜蜜的烦恼</p></a>\n                            </div>\n                        </li>\n                                                                                                <li>\n                            <div class=\"bor1\">\n                                <a href=\"/xinwen/show-1530178.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/8f01cb7cbaa0a10c261529ba4539951d.jpg\" width=\"270\" height=\"176\" draggable=\"false\"></a>\n                                <a href=\"/xinwen/show-1530178.html\" target=\"_blank\"><p>校长在线｜哈罗学生申请英美院校，在海南上学凭啥更有竞争力</p></a>\n                            </div>\n                        </li>\n                                                                                                <li>\n                            <div class=\"bor1\">\n                                <a href=\"/xinwen/show-1530177.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/21d61862d130efbf412c1b7e0d1ff870.jpg\" width=\"270\" height=\"176\" draggable=\"false\"></a>\n                                <a href=\"/xinwen/show-1530177.html\" target=\"_blank\"><p>车型首展！华为携“五界”车型与首款鸿蒙AI眼镜亮相第六届消博会 | ta来消博了</p></a>\n                            </div>\n                        </li>\n                                                                                                <li>\n                            <div class=\"bor1\">\n                                <a href=\"/xinwen/show-1530176.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/69cbcad0fa68508d418e6544d33bbc7c.jpg\" width=\"270\" height=\"176\" draggable=\"false\"></a>\n                                <a href=\"/xinwen/show-1530176.html\" target=\"_blank\"><p>山海同心庆“三月三” 三亚大东海广场变身民族体育狂欢大舞台</p></a>\n                            </div>\n                        </li>\n                                                                                                <li>\n                            <div class=\"bor1\">\n                                <a href=\"/xinwen/show-1530174.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/218a39e2278eb5f1537fb566e4e529ae.jpg\" width=\"270\" height=\"176\" draggable=\"false\"></a>\n                                <a href=\"/xinwen/show-1530174.html\" target=\"_blank\"><p>科大讯飞副总裁战文宇：全方位深耕海南市场，以AI技术助力自贸港建设 | 消博聊“企”来</p></a>\n                            </div>\n                        </li>\n                                                                    </ul>\n                </li>\n            <li style=\"width: 1700px; float: left; display: block;\" class=\"clone\" aria-hidden=\"true\">\n                    <ul class=\"u_list\">\n                                                                        <li>\n                            <div class=\"bor1\">\n                                <a href=\"/xinwen/show-1530194.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/5dee31ff402258f0a2386f9f4d689860.jpg\" width=\"270\" height=\"176\" draggable=\"false\"></a>\n                                <a href=\"/xinwen/show-1530194.html\" target=\"_blank\"><p>聚焦深海产业 辰海智造基金落地三亚崖州湾科技城丨消博聊“企”来</p></a>\n                            </div>\n                        </li>\n                                                                                                <li>\n                            <div class=\"bor1\">\n                                <a href=\"/xinwen/show-1530193.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/4b42b62980148cefba30697158f8ca0a.jpg\" width=\"270\" height=\"176\" draggable=\"false\"></a>\n                                <a href=\"/xinwen/show-1530193.html\" target=\"_blank\"><p>29个生物医学新技术项目集中亮相！乐城这场医疗健康专场活动释放健康消费强引力</p></a>\n                            </div>\n                        </li>\n                                                                                                <li>\n                            <div class=\"bor1\">\n                                <a href=\"/xinwen/show-1530192.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/4ae37c9f8130208fa055dead344cac1a.jpg\" width=\"270\" height=\"176\" draggable=\"false\"></a>\n                                <a href=\"/xinwen/show-1530192.html\" target=\"_blank\"><p>海南自贸港全球产业招商大会数字经济专场高光回顾丨自贸潮涌 向数图强</p></a>\n                            </div>\n                        </li>\n                                                                                                <li>\n                            <div class=\"bor1\">\n                                <a href=\"/xinwen/show-1530189.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/e674030c53955fcc97727cbf56951684.jpg\" width=\"270\" height=\"176\" draggable=\"false\"></a>\n                                <a href=\"/xinwen/show-1530189.html\" target=\"_blank\"><p>研学热潮涌动！多校学子走进儋州市科技馆，共探科学奥秘</p></a>\n                            </div>\n                        </li>\n                                                                                                <li>\n                            <div class=\"bor1\">\n                                <a href=\"/xinwen/show-1530186.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/ec49a5607ec6560d886f5c3b17bb2b67.jpg\" width=\"270\" height=\"176\" draggable=\"false\"></a>\n                                <a href=\"/xinwen/show-1530186.html\" target=\"_blank\"><p>自贸财新鲜：一场大会看海南招商热何以从“流量”变“留量”？</p></a>\n                            </div>\n                        </li>\n                                                                                                <li>\n                            <div class=\"bor1\">\n                                <a href=\"/xinwen/show-1530185.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/1d5d1be5802179d413328f36286c7142.jpg\" width=\"270\" height=\"176\" draggable=\"false\"></a>\n                                <a href=\"/xinwen/show-1530185.html\" target=\"_blank\"><p>中国银行举办“百万同行 悦享中国”GBIC大会 暨“来华通”APP全球推介会</p></a>\n                            </div>\n                        </li>\n                                                                                                                                                                                                                                                                                                                                                                    </ul>\n                </li></ul></div><ul class=\"flex-direction-nav p_n\"><li><a class=\"flex-prev\" href=\"#\"></a></li><li><a class=\"flex-next\" href=\"#\"></a></li></ul></div>\n    </div>\n</div>\n<!--为您推荐-->\n<div class=\"clear\"></div>\n<!--版权-->\n<div class=\"content\">\n    <div class=\"clear\"></div>\n    <div class=\"ysp_bg3\">\n        <div class=\"bq_bottom\">\n            <div class=\"cGray\">\n                <a href=\"http://emarketing.hinews.cn/yg_page.php?xuh=440\" target=\"_blank\" class=\"cGray f14\">关于我们</a>　|　\n                <a href=\"http://emarketing.hinews.cn/\" target=\"_blank\" class=\"cGray f14\">广告服务</a>　|　\n                <a href=\"http://emarketing.hinews.cn/index_temp.php?xuh=331\" target=\"_blank\" class=\"cGray f14\">法律声明</a>　|　\n                <a target=\"_blank\" class=\"cGray f14\">网站地图</a>　|　\n                <a href=\"http://www.hinews.cn/news/system/2017/03/07/031009245.shtml\" target=\"_blank\" class=\"cGray f14\">跟帖评论自律管理承诺书</a></div>\n            <div class=\"cGray l24 f14\">\n                <div class=\"com-footer\">\n                    <div class=\"com-footer-txt\">\n                        <a href=\"http://emarketing.hinews.cn/yg_page.php?xuh=440\" target=\"_blank\">关于我们</a>　|　\n                        <a href=\"http://emarketing.hinews.cn/\" target=\"_blank\">广告服务</a>　|　\n                        <a href=\"https://tech.hinews.cn\" target=\"_blank\">技术服务</a>　|　\n                        <a href=\"http://emarketing.hinews.cn/index_temp.php?xuh=331\" target=\"_blank\">法律声明</a>　|　\n                        <a href=\"http://www.hinews.cn/news/system/2017/03/07/031009245.shtml\" target=\"_blank\">跟帖评论自律管理承诺书</a>\n                    </div>\n                    <div class=\"cGray l24 f14\">\n                        海南南海网传媒股份有限公司 版权所有　1999-2025   地址：海南省海口市金盘路30号新闻大厦9楼 电话：(86)0898-66810806　 传真：0898-66810545<br>\n                        违法和不良信息举报电话：966123　违法和不良信息举报邮箱：nhwwljb@163.com<br>\n                        互联网新闻信息服务许可证:4612006002　信息网络传播视听节目许可证:2108281　互联网出版许可证:琼字001号  <br>\n                        增值电信业务经营许可证:琼B2-2008008　广告经营许可证：460000100120　琼公网监备号:46010602000273号 <br>\n                        南海网备案号 <a href=\"https://beian.miit.gov.cn\" target=\"_blank\">琼ICP备09005000号</a></div>\n                    <div class=\"f1\">\n                        <ul>\n                            <li style=\"display: inline-block;\"><a href=\"javascript:;\"><img src=\"https://www.hinews.cn/icon/BusinessWebsite.jpg\" class=\"loaded\"></a></li>\n                            <li style=\"display: inline-block;padding-left:20px;\"><a href=\"https://www.12377.cn/\" target=\"_blank\"><img src=\"https://www.hinews.cn/icon/ReportingCenter.jpg\" class=\"loaded\"></a></li>\n                            <li style=\"display: inline-block;padding-left:20px;\"><a href=\"https://www.piyao.org.cn/\" target=\"_blank\"><img src=\"https://www.hinews.cn/icon/RefuteRumor.jpg\" class=\"loaded\"></a></li>\n                            <li style=\"display: inline-block;padding-left:20px;\"><a href=\"http://www.cyberpolice.cn/wfjb/\" target=\"_blank\"><img src=\"https://www.hinews.cn/icon/NetPolice.jpg\" class=\"loaded\"></a></li>\n                            <li style=\"display: inline-block;padding-left:20px;\"><a href=\"https://www.12377.cn/node_548446.htm\" target=\"_blank\"><img src=\"https://www.hinews.cn/icon/NetworkReportApp.jpg\" class=\"loaded\"></a></li>\n                        </ul>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n<div class=\"clear\"></div>\n<script src=\"//www.hinews.cn/2018index/js/jquery-1.7.2.min.js\"></script>\n<script src=\"//www.hinews.cn/2018index/js/jquery.flexslider-min.js\"></script>\n<!--<script type=\"text/javascript\" charset=\"utf-8\" src=\"//static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=&amp;pophcol=2&amp;lang=zh\"></script>\n<script type=\"text/javascript\" charset=\"utf-8\" src=\"//static.bshare.cn/b/bshareC0.js\"></script>-->\n<script>\n    if (navigator.appName === 'Microsoft Internet Explorer') { //判断是否是IE浏览器\n        if (navigator.userAgent.match(/Trident/i) && navigator.userAgent.match(/MSIE 8.0/i)) { //判断是否是IE8\n            $('.ysp03 li:nth-child(6n)').css('margin-right', '0');\n            $('.ysp05 li:nth-child(4n)').css('margin-right', '0');\n            $('.ysp06 li:nth-child(4n)').css('margin-right', '0');\n            $('.u_list li:nth-child(6n)').css('margin-right', '0');\n            $('.u_list p').css('display', '-webkit-box');\n            $('.related_v_u ul li:nth-child(6n)').css('margin-right', '0');\n        }\n    }\n    $(document).ready(function() {\n        jQuery.jqtab = function(tabtit, tab_conbox, shijian) {\n            $(tab_conbox).children(\"li\").hide();\n            $(tabtit).find(\"li:first\").addClass(\"thistab\").show();\n            $(tab_conbox).find(\"li:first\").show();\n            $(tabtit).find(\"li\").bind(shijian, function() {\n               /* clearInterval(time),function(){\n                    autoPlay();\n                }*/\n                $(this).addClass(\"thistab\").siblings(\"li\").removeClass(\"thistab\");\n                var activeindex = $(tabtit).find(\"li\").index(this);\n                $(tab_conbox).children().eq(activeindex).show().siblings().hide();\n                return false;\n            });\n\n        };\n        /*调用方法如下：*/\n        $.jqtab(\"#tabs\", \"#tab_conbox\", \"mouseenter\");\n    });\n    var num = 0;\n    var i = 0;\n    function change(){\n        $(\"#tabs\").find(\"li\").eq(i).addClass(\"thistab\").siblings(\"li\").removeClass(\"thistab\");\n        $(\"#tab_conbox\").find(\"li\").eq(i).css(\"display\",\"list-item\").siblings(\"li\").css(\"display\",\"none\");\n        i++;\n        if(i==4){\n            i=0;\n        }\n    }\n    function autoPlay(){\n        time = setInterval(function(){\n            num++;\n            if(num>=4){\n                num=0;\n            }\n            change();\n        },2000);\n    }\n    //autoPlay();\n</script>\n<script>\n    $(\".flex_page\").flexslider({\n        animation: \"slide\",\n        slideDirection: \"horizontal\",\n        slideshow: false,\n        pauseOnHover: true,\n        controlNav: false,\n        directionNav: true,\n        touch: true, //是否支持触摸滑动\n        directionNav: true, //是否显示左右控制按钮\n    });\n    $(\".intro\").hover(function() {\n        $(\".intro_box\").toggle();\n    });\n</script>\n<script>\n    var _hmt = _hmt || [];\n    (function() {\n        var hm = document.createElement(\"script\");\n        hm.src = \"https://hm.baidu.com/hm.js?e961ba8c3a97d0f810fb262c8682d2ee\";\n        var s = document.getElementsByTagName(\"script\")[0];\n        s.parentNode.insertBefore(hm, s);\n    })();\n</script>\n\n\n</body></html>",
+    "network": [
+      {
+        "url": "https://v.hinews.cn/xinwen/show-1530195.html",
+        "status": 200,
+        "method": "GET",
+        "resource_type": "document",
+        "request_headers": {
+          ":authority": "v.hinews.cn",
+          ":method": "GET",
+          ":path": "/xinwen/show-1530195.html",
+          ":scheme": "https",
+          "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+          "accept-encoding": "gzip, deflate, br, zstd",
+          "accept-language": "en-US,en;q=0.9",
+          "cookie": "INDEX_SITEID=1; DIRNAME=%2Fzh; PHPSESSID=cd3487ae2b366b06a3e709ed920be19a",
+          "priority": "u=0, i",
+          "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"Linux\"",
+          "sec-fetch-dest": "document",
+          "sec-fetch-mode": "navigate",
+          "sec-fetch-site": "none",
+          "sec-fetch-user": "?1",
+          "upgrade-insecure-requests": "1",
+          "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+        },
+        "response_headers": {
+          "access-control-allow-credentials": "true",
+          "access-control-allow-headers": "Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-CSRF-TOKEN, X-Requested-With",
+          "access-control-allow-methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
+          "access-control-allow-origin": "*",
+          "content-encoding": "gzip",
+          "content-type": "text/html; charset=utf-8",
+          "date": "Wed, 15 Apr 2026 10:10:07 GMT",
+          "ohc-cache-hit": "qd9ct122 [1], xaix170 [1]",
+          "server": "nginx",
+          "set-cookie": "INDEX_SITEID=1; path=/\nDIRNAME=%2Fzh; path=/\nPHPSESSID=cd3487ae2b366b06a3e709ed920be19a; path=/",
+          "vary": "Accept-Encoding",
+          "x-cache-status": "MISS"
+        },
+        "body": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n    <meta name=\"renderer\" content=\"webkit\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n        <title>天海防务智船制造与研发项目落户三亚崖州湾 赋能自贸港海洋经济新发展丨消博聊&ldquo;企&rdquo;来&mdash;&mdash;椰视频</title>\n    <meta name=\"Keywords\" content=\"天海防务智船制造与研发项目落户三亚崖州湾 赋能自贸港海洋经济新发展丨消博聊&ldquo;企&rdquo;来,视频，椰视频\">\n    <meta name=\"Description\" content=\"天海防务智船制造与研发项目落户三亚崖州湾 赋能自贸港海洋经济新发展丨消博聊&ldquo;企&rdquo;来&mdash;&mdash;椰视频\">\n    <meta name=\"apple-mobile-web-app-capable\" content=\"yes\">\n    <link href=\"/static/ysp/pc/css/pub_2019.css\" rel=\"stylesheet\" type=\"text/css\">\n    <link href=\"/static/ysp/pc/css/ysp191218.css\" rel=\"stylesheet\" type=\"text/css\">\n        <link href=\"/static/ysp/pc/css/ysp.css\" rel=\"stylesheet\" type=\"text/css\">\n        <link rel=\"stylesheet\" href=\"/static/ckplayer/css/ckplayer.css?v=1\">\n    <link rel=\"stylesheet\" href=\"/static/plugins/layui/css/layui.css\" />\n    <script type=\"text/javascript\" src=\"/static/ckplayer/js/ckplayer.js\"></script>\n    <script type=\"text/javascript\" src=\"/static/plugins/layui/layui.js\"></script>\n        <!--[if IE 8]>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/ysp/pc/css/ie8.css\"/>\n    <![endif]-->\n</head>\n<body>\n<!--导航-->\n<div class=\"content\">\n    <div class=\"marauto\">\n        <div class=\"left  mt50\">\n            <div class=\"w140 left\"><a href=\"http://www.hinews.cn\"><img class='logo1' src=\"/static/index/images/hinews_logo1.png\" alt=\"南海网\" /></a></div>\n            <div class=\"w41 left logo_line \"> </div>\n            <div class=\"right\"><a href=\"/\"><img src=\"/static/ysp/pc/image/v_logo.png\" alt=\"椰视频\" class='logo2' /></a></div>\n        </div>\n        <div class=\"ysp_02\">\n            <div class=\"nav nav1 mt30\">\n                <ul>\n                    <li ><a href=\"/\" class=\"cBlack\">首页</a></li>\n                                                                                                                                                                                                                                                        <li ><a href=\"/xinwen/list-1.html\" class=\"cBlack\" target=\"_blank\">本土新闻</a></li>\n                                                                                                                                                                            <li ><a href=\"/xinwen/list-4.html\" class=\"cBlack\" target=\"_blank\">椰现场</a></li>\n                                                                                                                                    <li ><a href=\"/xinwen/list-7.html\" class=\"cBlack\" target=\"_blank\">椰天下</a></li>\n                                                                                                                <li ><a href=\"/xinwen/list-11.html\" class=\"cBlack\" target=\"_blank\">瞰海南</a></li>\n                                                                        <li ><a href=\"/xinwen/list-18.html\" class=\"cBlack\" target=\"_blank\">椰直播</a></li>\n                                                                                            <li ><a href=\"/xinwen/list-20.html\" class=\"cBlack\" target=\"_blank\">椰访谈</a></li>\n                                                                        <li ><a href=\"/xinwen/list-22.html\" class=\"cBlack\" target=\"_blank\">主播说新闻</a></li>\n                                                                        <li ><a href=\"/xinwen/list-23.html\" class=\"cBlack\" target=\"_blank\">新媒体出品</a></li>\n                                                                                                    </ul>\n                <div class=\"clear\"></div>\n            </div>\n        </div>\n        <div class=\"search_box\">\n            <form id=\"search_form\" method=\"post\" action=\"/index/search\">\n                <input type=\"text\" class=\"textbox f14\" name=\"q\" placeholder=\"请输入搜索关键词\">\n                <input type=\"submit\" class=\"s_btn f18\" value=\"搜索\">\n            </form>\n        </div>\n        <div class=\"clear\"></div>\n    </div>\n</div>\n<!--首屏-->\n<div class=\"ysp_bg4\">\n    <div class=\"content\">\n        <div class=\"videobox\">\n            <div class=\"video_ob\">\n                <div id=\"a1\" style=\"width: 100%; height: 100%;\">\n                                        <!--<strong>提示：您的Flash Player版本过低</strong>-->\n                                        <script>\n                        var videoObject = {\n                            container: '#a1', //视频容器\n                            poster: \"https://v-data.hinews.cn/img/20260415/d7c795279bca4cd15ca87f008354f229.jpg\",//封面图片\n                            plug: '',\n                            video: 'https://v-data.hinews.cn/vod/20260415/e82bb4c88cb2f4fca8e63cd77bff7244_720x1280.mp4'//视频地址\n                        };\n                        var player = new ckplayer(videoObject)\n                    </script>\n                                    </div>\n            </div>\n            <div class=\"v_brief  left\"><a class=\"cWhite f22\">天海防务智船制造与研发项目落户三亚崖州湾 赋能自贸港海洋经济新发展丨消博聊“企”来</a></div>\n            <div class=\"f16 ml10 left cGray_d2 v_word\"><span class=\"\">2026年04月15日 17:38</span>\n                <span>来源：<a href=\"潘頔 陈永娴 王家旋\" target=\"_blank\" class=\"cGray_d2\">南海网、新海南客户端</a></span><span></span>\n                <span>编辑：彭枭</span>\n                <span class=\"copycode\"> <a><img src=\"/static/ysp/pc/image/z10.png\"></a> </span>\n                <script>\n                    layui.use(['layer'], function () {\n                        var $ = layui.jquery;\n                        $(document).on(\"click\", \".copycode\", function () {\n                            var index = layer.open({\n                                id: 'insert-form',\n                                type: 2,\n                                title: '播放代码',\n                                content: \"/index/show/play.html?id=1530195\",\n                                btn: ['关闭'],\n                                area: ['50%', '70%'],\n                            });\n                        });\n                    });\n                </script>\n                <div class=\"bshare-custom \" style=\"display:inline-block;vertical-align: text-top;\">\n                    <!--<font class=\"f16\" style=\"vertical-align: bottom;\">分享到：</font>\n                    <div class=\"bsPromo bsPromo2\"></div>\n                    <a title=\"分享到微信\" class=\"bshare-weixin\" href=\"javascript:void(0);\"></a>\n                    <a title=\"分享到新浪微博\" class=\"bshare-sinaminiblog\" href=\"javascript:void(0);\"></a>\n                    <a title=\"分享到QQ空间\" class=\"bshare-qzone\" href=\"javascript:void(0);\"></a>\n                    <a title=\"更多平台\" class=\"bshare-more bshare-more-icon more-style-addthis\"></a>-->\n                </div>\n            </div>\n            <div class=\"clear\"></div>\n        </div>\n        <div class=\"v_tab  \">\n            <ul class=\" tabs list-inline\" id=\"tabs\">\n                <li class=\"thistab\"><a href=\"javascript:;\">最近</a></li>\n                <li><a href=\"javascript:;\">热点</a></li>\n            </ul>\n            <ul class=\"tab_conbox\" id=\"tab_conbox\">\n                <li class=\"\" style=\"display: none;\">\n                                                                <div class=\"tab_con\"><a href=\"/xinwen/show-1530194.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/5dee31ff402258f0a2386f9f4d689860.jpg\" class=\"loaded\">\n                        <p class=\"f16\">聚焦深海产业 辰海智造基金落地三亚崖州湾科技城丨消博聊&ldquo;企&rdquo;来</p>\n                    </a></div>\n                                                                                   <div class=\"tab_con\"><a href=\"/xinwen/show-1530193.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/4b42b62980148cefba30697158f8ca0a.jpg\" class=\"loaded\">\n                        <p class=\"f16\">29个生物医学新技术项目集中亮相！乐城这场医疗健康专场活动释放健康消费强引力</p>\n                    </a></div>\n                                                                                   <div class=\"tab_con\"><a href=\"/xinwen/show-1530192.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/4ae37c9f8130208fa055dead344cac1a.jpg\" class=\"loaded\">\n                        <p class=\"f16\">海南自贸港全球产业招商大会数字经济专场高光回顾丨自贸潮涌 向数图强</p>\n                    </a></div>\n                                                                                   <div class=\"tab_con\"><a href=\"/xinwen/show-1530190.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/468555571fd3ee4f08e588bb5a569687.jpg\" class=\"loaded\">\n                        <p class=\"f16\">国安，有我</p>\n                    </a></div>\n                                                                                   <div class=\"tab_con\"><a href=\"/xinwen/show-1530189.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/e674030c53955fcc97727cbf56951684.jpg\" class=\"loaded\">\n                        <p class=\"f16\">研学热潮涌动！多校学子走进儋州市科技馆，共探科学奥秘</p>\n                    </a></div>\n                                                                          </li>\n                <li class=\"\" style=\"display: list-item;\">\n                                                                    <div class=\"tab_con\"><a href=\"/xinwen/show-1530106.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260414/61e3dd5850d5122efbe1c893c527e7aa.jpg\" class=\"loaded\">\n                            <p class=\"f16\">戴上手环即可&ldquo;无痛&rdquo;减肥 减肥人士的黑科技来了</p>\n                        </a></div>\n                                                                                        <div class=\"tab_con\"><a href=\"/xinwen/show-1530152.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260414/6eaa421e3e46af0e251605aeb7e3001e.jpg\" class=\"loaded\">\n                            <p class=\"f16\">跟随海外传播官的脚步，共赴山海之约</p>\n                        </a></div>\n                                                                                        <div class=\"tab_con\"><a href=\"/xinwen/show-1530108.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260414/a0c774f36edabfbcd9aa9f028b264308.jpg\" class=\"loaded\">\n                            <p class=\"f16\">美国视频博主&ldquo;拖米阿叔&rdquo;的海南故事</p>\n                        </a></div>\n                                                                                        <div class=\"tab_con\"><a href=\"/xinwen/show-1530107.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260414/5f8bc110ba9dc2de50bbcc50340e3bd0.jpg\" class=\"loaded\">\n                            <p class=\"f16\">海南&ldquo;乡姐阿碧&rdquo;的数字逆袭故事</p>\n                        </a></div>\n                                                                                        <div class=\"tab_con\"><a href=\"/xinwen/show-1530128.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260414/00154dbd467a3ce4ca52d9efab874d06.jpg\" class=\"loaded\">\n                            <p class=\"f16\">相约消博会：风味美食免费品尝 一站逛遍时尚香港</p>\n                        </a></div>\n                                                                            </li>\n            </ul>\n        </div>\n        <div class=\"clear\"></div>\n    </div>\n</div>\n<!--<div class=\"ad_box content\" style=\"margin-top:10px;\">\n\t<a href=\"https://android.myapp.com/myapp/detail.htm?apkName=com.newhainan&ADTAG=mobile\" target=\"_blank\"><img src=\"http://baisha.hinews.cn/pic/003/206/617/00320661774_fb4b2a59.jpg\"/></a>\n</div>-->\n<!--相关视频-->\n<div class=\"content\">\n    <div style=\"padding-top:10px;font-size: 16px;line-height: 28px; width:1213px;\"><p class=\"formatted\" style=\"text-indent:2em;text-align:justify;line-height:1.875rem;margin-bottom:1.875rem;font-size:1.1875rem\">4月14日，2026年海南自由贸易港全球产业招商大会暨三亚市深海科技与未来产业推介会在海口举办。活动现场，天海融合防务装备技术股份有限公司（以下简称天海防务） 与三亚崖州湾科技城管理局正式签约，“天海防务智船制造与研发项目”将落户科技城，聚焦无人艇、智能船舶、文旅船舶及深海装备研发。</p><p class=\"formatted\" style=\"text-indent:2em;text-align:justify;line-height:1.875rem;margin-bottom:1.875rem;font-size:1.1875rem\">据了解，天海防务是国内集船海工程设计、建造、监理于一体的综合解决方案提供商，核心布局船海工程、防务装备、新能源三大领域，在特种船艇、智能船舶及深海装备领域技术领先。</p><p class=\"formatted\" style=\"text-indent:2em;text-align:justify;line-height:1.875rem;margin-bottom:1.875rem;font-size:1.1875rem\">南海网、新海南客户端 记者/拍摄：潘頔&nbsp; 剪辑：陈永娴 王家旋（实习）</p></div>\n\n    <div class=\"related_v\">\n        <div class=\"whjlbox  mt50 mb20\">\n            <div class=\" ml6 f24 fb\"><a class=\"cGreen\">相关视频</a></div>\n        </div>\n    </div>\n    <div class=\"related_v_u\">\n        <div class=\"flexslider flex_page\">\n            <ul class=\"slides\">\n                <li>\n                    <ul class=\"u_list\">\n                                                                        <li>\n                            <div class=\"bor1\">\n                                <a href=\"/xinwen/show-1530194.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/5dee31ff402258f0a2386f9f4d689860.jpg\" width=\"270\" height=\"176\"/></a>\n                                <a href=\"/xinwen/show-1530194.html\" target=\"_blank\"><p>聚焦深海产业 辰海智造基金落地三亚崖州湾科技城丨消博聊&ldquo;企&rdquo;来</p></a>\n                            </div>\n                        </li>\n                                                                                                <li>\n                            <div class=\"bor1\">\n                                <a href=\"/xinwen/show-1530193.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/4b42b62980148cefba30697158f8ca0a.jpg\" width=\"270\" height=\"176\"/></a>\n                                <a href=\"/xinwen/show-1530193.html\" target=\"_blank\"><p>29个生物医学新技术项目集中亮相！乐城这场医疗健康专场活动释放健康消费强引力</p></a>\n                            </div>\n                        </li>\n                                                                                                <li>\n                            <div class=\"bor1\">\n                                <a href=\"/xinwen/show-1530192.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/4ae37c9f8130208fa055dead344cac1a.jpg\" width=\"270\" height=\"176\"/></a>\n                                <a href=\"/xinwen/show-1530192.html\" target=\"_blank\"><p>海南自贸港全球产业招商大会数字经济专场高光回顾丨自贸潮涌 向数图强</p></a>\n                            </div>\n                        </li>\n                                                                                                <li>\n                            <div class=\"bor1\">\n                                <a href=\"/xinwen/show-1530189.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/e674030c53955fcc97727cbf56951684.jpg\" width=\"270\" height=\"176\"/></a>\n                                <a href=\"/xinwen/show-1530189.html\" target=\"_blank\"><p>研学热潮涌动！多校学子走进儋州市科技馆，共探科学奥秘</p></a>\n                            </div>\n                        </li>\n                                                                                                <li>\n                            <div class=\"bor1\">\n                                <a href=\"/xinwen/show-1530186.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/ec49a5607ec6560d886f5c3b17bb2b67.jpg\" width=\"270\" height=\"176\"/></a>\n                                <a href=\"/xinwen/show-1530186.html\" target=\"_blank\"><p>自贸财新鲜：一场大会看海南招商热何以从&ldquo;流量&rdquo;变&ldquo;留量&rdquo;？</p></a>\n                            </div>\n                        </li>\n                                                                                                <li>\n                            <div class=\"bor1\">\n                                <a href=\"/xinwen/show-1530185.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/1d5d1be5802179d413328f36286c7142.jpg\" width=\"270\" height=\"176\"/></a>\n                                <a href=\"/xinwen/show-1530185.html\" target=\"_blank\"><p>中国银行举办&ldquo;百万同行 悦享中国&rdquo;GBIC大会 暨&ldquo;来华通&rdquo;APP全球推介会</p></a>\n                            </div>\n                        </li>\n                                                                                                                                                                                                                                                                                                                                                                    </ul>\n                </li>\n                <li>\n                    <ul class=\"u_list\">\n                                                                                                                                                                                                                                                                                                                                                                        <li>\n                            <div class=\"bor1\">\n                                <a href=\"/xinwen/show-1530183.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/492c34ab815181ddfba04ad6f2be1b42.jpg\" width=\"270\" height=\"176\"/></a>\n                                <a href=\"/xinwen/show-1530183.html\" target=\"_blank\"><p>Ta来消博了 | 老盐季亮相消博会 海南味道走向世界</p></a>\n                            </div>\n                        </li>\n                                                                                                <li>\n                            <div class=\"bor1\">\n                                <a href=\"/xinwen/show-1530179.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/bcbe7f57df618ffcb341eb17bbf4f5cc.jpg\" width=\"270\" height=\"176\"/></a>\n                                <a href=\"/xinwen/show-1530179.html\" target=\"_blank\"><p>校长在线｜全球通申六七个Offer，哈罗海口学子甜蜜的烦恼</p></a>\n                            </div>\n                        </li>\n                                                                                                <li>\n                            <div class=\"bor1\">\n                                <a href=\"/xinwen/show-1530178.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/8f01cb7cbaa0a10c261529ba4539951d.jpg\" width=\"270\" height=\"176\"/></a>\n                                <a href=\"/xinwen/show-1530178.html\" target=\"_blank\"><p>校长在线｜哈罗学生申请英美院校，在海南上学凭啥更有竞争力</p></a>\n                            </div>\n                        </li>\n                                                                                                <li>\n                            <div class=\"bor1\">\n                                <a href=\"/xinwen/show-1530177.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/21d61862d130efbf412c1b7e0d1ff870.jpg\" width=\"270\" height=\"176\"/></a>\n                                <a href=\"/xinwen/show-1530177.html\" target=\"_blank\"><p>车型首展！华为携&ldquo;五界&rdquo;车型与首款鸿蒙AI眼镜亮相第六届消博会 | ta来消博了</p></a>\n                            </div>\n                        </li>\n                                                                                                <li>\n                            <div class=\"bor1\">\n                                <a href=\"/xinwen/show-1530176.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/69cbcad0fa68508d418e6544d33bbc7c.jpg\" width=\"270\" height=\"176\"/></a>\n                                <a href=\"/xinwen/show-1530176.html\" target=\"_blank\"><p>山海同心庆&ldquo;三月三&rdquo; 三亚大东海广场变身民族体育狂欢大舞台</p></a>\n                            </div>\n                        </li>\n                                                                                                <li>\n                            <div class=\"bor1\">\n                                <a href=\"/xinwen/show-1530174.html\" target=\"_blank\"><img src=\"https://v-data.hinews.cn/img/20260415/218a39e2278eb5f1537fb566e4e529ae.jpg\" width=\"270\" height=\"176\"/></a>\n                                <a href=\"/xinwen/show-1530174.html\" target=\"_blank\"><p>科大讯飞副总裁战文宇：全方位深耕海南市场，以AI技术助力自贸港建设 | 消博聊&ldquo;企&rdquo;来</p></a>\n                            </div>\n                        </li>\n                                                                    </ul>\n                </li>\n            </ul>\n        </div>\n    </div>\n</div>\n<!--为您推荐-->\n<div class=\"clear\"></div>\n<!--版权-->\n<div class=\"content\">\n    <div class=\"clear\"></div>\n    <div class=\"ysp_bg3\">\n        <div class=\"bq_bottom\">\n            <div class=\"cGray\">\n                <a href=\"http://emarketing.hinews.cn/yg_page.php?xuh=440\" target=\"_blank\" class=\"cGray f14\">关于我们</a>　|　\n                <a href=\"http://emarketing.hinews.cn/\" target=\"_blank\" class=\"cGray f14\">广告服务</a>　|　\n                <a href=\"http://emarketing.hinews.cn/index_temp.php?xuh=331\" target=\"_blank\" class=\"cGray f14\">法律声明</a>　|　\n                <a target=\"_blank\" class=\"cGray f14\">网站地图</a>　|　\n                <a href=\"http://www.hinews.cn/news/system/2017/03/07/031009245.shtml\" target=\"_blank\" class=\"cGray f14\">跟帖评论自律管理承诺书</a></div>\n            <div class=\"cGray l24 f14\">\n                <div class=\"com-footer\">\n                    <div class=\"com-footer-txt\">\n                        <a href=\"http://emarketing.hinews.cn/yg_page.php?xuh=440\" target=\"_blank\">关于我们</a>　|　\n                        <a href=\"http://emarketing.hinews.cn/\" target=\"_blank\">广告服务</a>　|　\n                        <a href=\"https://tech.hinews.cn\" target=\"_blank\">技术服务</a>　|　\n                        <a href=\"http://emarketing.hinews.cn/index_temp.php?xuh=331\" target=\"_blank\">法律声明</a>　|　\n                        <a href=\"http://www.hinews.cn/news/system/2017/03/07/031009245.shtml\" target=\"_blank\">跟帖评论自律管理承诺书</a>\n                    </div>\n                    <div class=\"cGray l24 f14\">\n                        海南南海网传媒股份有限公司 版权所有　1999-2025   地址：海南省海口市金盘路30号新闻大厦9楼 电话：(86)0898-66810806　 传真：0898-66810545<br>\n                        违法和不良信息举报电话：966123　违法和不良信息举报邮箱：nhwwljb@163.com<br>\n                        互联网新闻信息服务许可证:4612006002　信息网络传播视听节目许可证:2108281　互联网出版许可证:琼字001号  <br>\n                        增值电信业务经营许可证:琼B2-2008008　广告经营许可证：460000100120　琼公网监备号:46010602000273号 <br>\n                        南海网备案号 <a href=\"https://beian.miit.gov.cn\" target=\"_blank\">琼ICP备09005000号</a></div>\n                    <div class=\"f1\">\n                        <ul>\n                            <li style=\"display: inline-block;\"><a href=\"javascript:;\"><img src=\"https://www.hinews.cn/icon/BusinessWebsite.jpg\" class=\"loaded\"></a></li>\n                            <li style=\"display: inline-block;padding-left:20px;\"><a href=\"https://www.12377.cn/\" target=\"_blank\"><img src=\"https://www.hinews.cn/icon/ReportingCenter.jpg\" class=\"loaded\"></a></li>\n                            <li style=\"display: inline-block;padding-left:20px;\"><a href=\"https://www.piyao.org.cn/\" target=\"_blank\"><img src=\"https://www.hinews.cn/icon/RefuteRumor.jpg\" class=\"loaded\"></a></li>\n                            <li style=\"display: inline-block;padding-left:20px;\"><a href=\"http://www.cyberpolice.cn/wfjb/\" target=\"_blank\"><img src=\"https://www.hinews.cn/icon/NetPolice.jpg\" class=\"loaded\"></a></li>\n                            <li style=\"display: inline-block;padding-left:20px;\"><a href=\"https://www.12377.cn/node_548446.htm\" target=\"_blank\"><img src=\"https://www.hinews.cn/icon/NetworkReportApp.jpg\" class=\"loaded\"></a></li>\n                        </ul>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n<div class=\"clear\"></div>\n<script src=\"//www.hinews.cn/2018index/js/jquery-1.7.2.min.js\"></script>\n<script src=\"//www.hinews.cn/2018index/js/jquery.flexslider-min.js\"></script>\n<!--<script type=\"text/javascript\" charset=\"utf-8\" src=\"//static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=&amp;pophcol=2&amp;lang=zh\"></script>\n<script type=\"text/javascript\" charset=\"utf-8\" src=\"//static.bshare.cn/b/bshareC0.js\"></script>-->\n<script>\n    if (navigator.appName === 'Microsoft Internet Explorer') { //判断是否是IE浏览器\n        if (navigator.userAgent.match(/Trident/i) && navigator.userAgent.match(/MSIE 8.0/i)) { //判断是否是IE8\n            $('.ysp03 li:nth-child(6n)').css('margin-right', '0');\n            $('.ysp05 li:nth-child(4n)').css('margin-right', '0');\n            $('.ysp06 li:nth-child(4n)').css('margin-right', '0');\n            $('.u_list li:nth-child(6n)').css('margin-right', '0');\n            $('.u_list p').css('display', '-webkit-box');\n            $('.related_v_u ul li:nth-child(6n)').css('margin-right', '0');\n        }\n    }\n    $(document).ready(function() {\n        jQuery.jqtab = function(tabtit, tab_conbox, shijian) {\n            $(tab_conbox).children(\"li\").hide();\n            $(tabtit).find(\"li:first\").addClass(\"thistab\").show();\n            $(tab_conbox).find(\"li:first\").show();\n            $(tabtit).find(\"li\").bind(shijian, function() {\n               /* clearInterval(time),function(){\n                    autoPlay();\n                }*/\n                $(this).addClass(\"thistab\").siblings(\"li\").removeClass(\"thistab\");\n                var activeindex = $(tabtit).find(\"li\").index(this);\n                $(tab_conbox).children().eq(activeindex).show().siblings().hide();\n                return false;\n            });\n\n        };\n        /*调用方法如下：*/\n        $.jqtab(\"#tabs\", \"#tab_conbox\", \"mouseenter\");\n    });\n    var num = 0;\n    var i = 0;\n    function change(){\n        $(\"#tabs\").find(\"li\").eq(i).addClass(\"thistab\").siblings(\"li\").removeClass(\"thistab\");\n        $(\"#tab_conbox\").find(\"li\").eq(i).css(\"display\",\"list-item\").siblings(\"li\").css(\"display\",\"none\");\n        i++;\n        if(i==4){\n            i=0;\n        }\n    }\n    function autoPlay(){\n        time = setInterval(function(){\n            num++;\n            if(num>=4){\n                num=0;\n            }\n            change();\n        },2000);\n    }\n    //autoPlay();\n</script>\n<script>\n    $(\".flex_page\").flexslider({\n        animation: \"slide\",\n        slideDirection: \"horizontal\",\n        slideshow: false,\n        pauseOnHover: true,\n        controlNav: false,\n        directionNav: true,\n        touch: true, //是否支持触摸滑动\n        directionNav: true, //是否显示左右控制按钮\n    });\n    $(\".intro\").hover(function() {\n        $(\".intro_box\").toggle();\n    });\n</script>\n<script>\n    var _hmt = _hmt || [];\n    (function() {\n        var hm = document.createElement(\"script\");\n        hm.src = \"https://hm.baidu.com/hm.js?e961ba8c3a97d0f810fb262c8682d2ee\";\n        var s = document.getElementsByTagName(\"script\")[0];\n        s.parentNode.insertBefore(hm, s);\n    })();\n</script>\n</body>\n</html>\n"
+      }
+    ]
+  }
+}

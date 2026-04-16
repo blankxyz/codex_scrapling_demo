@@ -1,0 +1,648 @@
+{
+  "source_url": "https://hkbtv.cn/#/common1858408493966991361?type=1858408493966991361",
+  "slug": "hkbtv-cn-common1858408493966991361",
+  "analysis_method": "Chrome CDP page target plus in-page browser fetch/XHR capture. No search engine and no direct target replay outside the browser used as primary evidence.",
+  "site": {
+    "domain": "hkbtv.cn",
+    "base_url": "https://hkbtv.cn",
+    "detail_base_domains": [
+      "https://hkbtv.cn",
+      "https://jy.dxywjy.cn"
+    ],
+    "page_title": "要闻 - 海广网",
+    "column_name": "要闻",
+    "language": "Chinese"
+  },
+  "list": {
+    "first_page_only": false,
+    "item_count": 20,
+    "article_item_count_estimate": 37,
+    "item_selector": ".cont_item",
+    "link_selector": ".module_card .list > .li section.card, .module_card_box2 > .li section.card_list",
+    "title_selector": ".module_card .list > .li .label, .module_card_box2 > .li .title",
+    "publish_time_selector": ".module_card .list > .li .text span:last-child, .module_card_box2 > .li .text span:last-child",
+    "source_selector": ".module_card .list > .li .text .item_text, .module_card_box2 > .li .text span:first-child",
+    "wait_selector": ".module_card .list > .li .label",
+    "first_page_titles": [
+      {
+        "index": 1,
+        "module": "最新播报",
+        "title": "郑丽文率团抵达大陆参访",
+        "url": "https://hkbtv.cn/#/article?type=article&id=6439661907059168057&articleType=0",
+        "type": "article",
+        "publish_time": "2026年04月07日 14时12分",
+        "source": "人民日报",
+        "article_id": "6439661907059168057",
+        "article_type": 0
+      },
+      {
+        "index": 2,
+        "module": "最新播报",
+        "title": "长征路上，有三个地方叫“瑞金”",
+        "url": "https://hkbtv.cn/#/article?type=article&id=6439661907059168040&articleType=0",
+        "type": "article",
+        "publish_time": "2026年04月07日 11时08分",
+        "source": "新华社",
+        "article_id": "6439661907059168040",
+        "article_type": 0
+      },
+      {
+        "index": 3,
+        "module": "最新播报",
+        "title": "中菲举行南海问题双边磋商",
+        "url": "https://hkbtv.cn/#/article?type=article&id=6439661907059167559&articleType=0",
+        "type": "article",
+        "publish_time": "2026年03月28日 20时31分",
+        "source": "央视新闻微信公众号",
+        "article_id": "6439661907059167559",
+        "article_type": 0
+      },
+      {
+        "index": 4,
+        "module": "最新播报",
+        "title": "国台办：统一后，台湾民众可以自驾直达北京",
+        "url": "https://hkbtv.cn/#/article?type=article&id=6439661907059167286&articleType=0",
+        "type": "article",
+        "publish_time": "2026年03月25日 12时10分",
+        "source": "新华社",
+        "article_id": "6439661907059167286",
+        "article_type": 0
+      },
+      {
+        "index": 5,
+        "module": "最新播报",
+        "title": "侵华日军暴行再添铁证！新一批731部队罪行档案今日公布",
+        "url": "https://hkbtv.cn/#/article?type=article&id=6439661907059160324&articleType=0",
+        "type": "article",
+        "publish_time": "2025年12月13日 15时26分",
+        "source": "海南日报",
+        "article_id": "6439661907059160324",
+        "article_type": 0
+      },
+      {
+        "index": 6,
+        "module": "最新播报",
+        "title": "擎开放之旗 领服贸之先——从服贸会之变看中国服务业开放新标杆",
+        "url": "https://hkbtv.cn/#/article?type=article&id=6439661907059153233&articleType=0",
+        "type": "article",
+        "publish_time": "2025年09月11日 14时11分",
+        "source": "新华社",
+        "article_id": "6439661907059153233",
+        "article_type": 0
+      },
+      {
+        "index": 7,
+        "module": "新闻轮播",
+        "title": "两岸交流合作再进一程！中央台办受权发布十项措施",
+        "url": "https://hkbtv.cn/#/article?type=article&id=6439661907059168347&articleType=0",
+        "type": "article",
+        "publish_time": "2026年04月12日 10时47分",
+        "source": "新华社",
+        "article_id": "6439661907059168347",
+        "article_type": 0
+      },
+      {
+        "index": 8,
+        "module": "新闻轮播",
+        "title": "国家安全 头等大事",
+        "url": "https://hkbtv.cn/#/article?type=article&id=6439661907059168296&articleType=0",
+        "type": "article",
+        "publish_time": "2026年04月11日 23时03分",
+        "source": "国家安全部微信公众号",
+        "article_id": "6439661907059168296",
+        "article_type": 0
+      },
+      {
+        "index": 9,
+        "module": "新闻轮播",
+        "title": "贯彻实施民族团结进步促进法 为实现中华民族伟大复兴凝聚磅礴法治力量",
+        "url": "https://hkbtv.cn/#/article?type=article&id=6439661907059168220&articleType=0",
+        "type": "article",
+        "publish_time": "2026年04月10日 17时10分",
+        "source": "国家民委",
+        "article_id": "6439661907059168220",
+        "article_type": 0
+      },
+      {
+        "index": 10,
+        "module": "新闻轮播",
+        "title": "中华人民共和国民族团结进步促进法",
+        "url": "https://hkbtv.cn/#/article?type=article&id=6439661907059168219&articleType=0",
+        "type": "article",
+        "publish_time": "2026年04月10日 17时10分",
+        "source": "国家民委微信公众号",
+        "article_id": "6439661907059168219",
+        "article_type": 0
+      },
+      {
+        "index": 11,
+        "module": "新闻轮播",
+        "title": "人民日报：推进中华民族共同体建设，实现中华民族伟大复兴",
+        "url": "https://hkbtv.cn/#/article?type=article&id=6439661907059168218&articleType=0",
+        "type": "article",
+        "publish_time": "2026年04月10日 17时09分",
+        "source": "国家民委微信公众号",
+        "article_id": "6439661907059168218",
+        "article_type": 0
+      },
+      {
+        "index": 12,
+        "module": "新闻轮播",
+        "title": "各地扎实开展树立和践行正确政绩观学习教育",
+        "url": "https://hkbtv.cn/#/article?type=article&id=6439661907059167857&articleType=0",
+        "type": "article",
+        "publish_time": "2026年04月03日 13时24分",
+        "source": "新华社",
+        "article_id": "6439661907059167857",
+        "article_type": 0
+      },
+      {
+        "index": 13,
+        "module": "热点要闻",
+        "title": "两岸专家：十项涉台新政充满诚意善意，为两岸关系和平发展注入强劲动能",
+        "url": "https://hkbtv.cn/#/article?type=article&id=6439661907059168433&articleType=0",
+        "type": "article",
+        "publish_time": "2026年04月13日 12时22分",
+        "source": "新华社",
+        "article_id": "6439661907059168433",
+        "article_type": 0
+      },
+      {
+        "index": 14,
+        "module": "热点要闻",
+        "title": "写在第六届中国国际消费品博览会举办之际",
+        "url": "https://hkbtv.cn/#/article?type=article&id=6439661907059168426&articleType=0",
+        "type": "article",
+        "publish_time": "2026年04月13日 12时20分",
+        "source": "新华社",
+        "article_id": "6439661907059168426",
+        "article_type": 0
+      },
+      {
+        "index": 15,
+        "module": "热点要闻",
+        "title": "权威数读｜一周“靓”数",
+        "url": "https://hkbtv.cn/#/article?type=article&id=6439661907059167552&articleType=0",
+        "type": "article",
+        "publish_time": "2026年03月28日 16时47分",
+        "source": "新华社",
+        "article_id": "6439661907059167552",
+        "article_type": 0
+      },
+      {
+        "index": 16,
+        "module": "热点要闻",
+        "title": "沃野染新绿 春耕绘丰景——从春耕一线看“十五五”开局农业生产新气象",
+        "url": "https://hkbtv.cn/#/article?type=article&id=6439661907059167099&articleType=0",
+        "type": "article",
+        "publish_time": "2026年03月21日 21时55分",
+        "source": "新华社",
+        "article_id": "6439661907059167099",
+        "article_type": 0
+      },
+      {
+        "index": 17,
+        "module": "热点要闻",
+        "title": "我在两会听信心｜沉甸甸的法典草案，写满守护绿水青山的“硬杠杠”",
+        "url": "https://hkbtv.cn/#/article?type=article&id=6439661907059166345&articleType=0",
+        "type": "article",
+        "publish_time": "2026年03月10日 15时52分",
+        "source": "新华社",
+        "article_id": "6439661907059166345",
+        "article_type": 0
+      },
+      {
+        "index": 18,
+        "module": "热点要闻",
+        "title": "新华时评｜安全生产检查要“除患”，坚决杜绝“走过场”",
+        "url": "https://hkbtv.cn/#/article?type=article&id=6439661907059164642&articleType=0",
+        "type": "article",
+        "publish_time": "2026年02月11日 14时29分",
+        "source": "新华社",
+        "article_id": "6439661907059164642",
+        "article_type": 0
+      },
+      {
+        "index": 19,
+        "module": "热点要闻",
+        "title": "中央经济工作会议中的“十五五”名词：“好房子”",
+        "url": "https://hkbtv.cn/#/article?type=article&id=6439661907059160979&articleType=0",
+        "type": "article",
+        "publish_time": "2025年12月22日 18时06分",
+        "source": "新华社",
+        "article_id": "6439661907059160979",
+        "article_type": 0
+      },
+      {
+        "index": 20,
+        "module": "热点要闻",
+        "title": "中国队8-1战胜日本队！",
+        "url": "https://hkbtv.cn/#/article?type=article&id=6439661907059159796&articleType=0",
+        "type": "article",
+        "publish_time": "2025年12月07日 23时35分",
+        "source": "新华社",
+        "article_id": "6439661907059159796",
+        "article_type": 0
+      },
+      {
+        "index": 21,
+        "module": "文章",
+        "title": "我国加快制造强国建设夯实高质量发展根基",
+        "url": "https://hkbtv.cn/#/article?type=article&id=6439661907059168531&articleType=0",
+        "type": "article",
+        "publish_time": "2026年04月14日 14时09分",
+        "source": "新华社",
+        "article_id": "6439661907059168531",
+        "article_type": 0
+      },
+      {
+        "index": 22,
+        "module": "文章",
+        "title": "公安部组织开展“强治理、护民安、促发展”主题宣传活动",
+        "url": "https://hkbtv.cn/#/article?type=article&id=6439661907059168473&articleType=0",
+        "type": "article",
+        "publish_time": "2026年04月13日 20时34分",
+        "source": "新华社",
+        "article_id": "6439661907059168473",
+        "article_type": 0
+      },
+      {
+        "index": 23,
+        "module": "文章",
+        "title": "写在中国（内蒙古）自由贸易试验区获批之际",
+        "url": "https://hkbtv.cn/#/article?type=article&id=6439661907059168202&articleType=0",
+        "type": "article",
+        "publish_time": "2026年04月10日 11时38分",
+        "source": "新华社",
+        "article_id": "6439661907059168202",
+        "article_type": 0
+      },
+      {
+        "index": 24,
+        "module": "文章",
+        "title": "新华社权威快报｜加大对新型隐性腐败惩治力度 两高发布最新司法解释",
+        "url": "https://hkbtv.cn/#/article?type=article&id=6439661907059168200&articleType=0",
+        "type": "article",
+        "publish_time": "2026年04月10日 11时38分",
+        "source": "新华社",
+        "article_id": "6439661907059168200",
+        "article_type": 0
+      },
+      {
+        "index": 25,
+        "module": "文章",
+        "title": "公安部等两部门部署金融领域“黑灰产”违法犯罪集群打击",
+        "url": "https://hkbtv.cn/#/article?type=article&id=6439661907059167892&articleType=0",
+        "type": "article",
+        "publish_time": "2026年04月03日 20时40分",
+        "source": "新华社",
+        "article_id": "6439661907059167892",
+        "article_type": 0
+      },
+      {
+        "index": 26,
+        "module": "文章",
+        "title": "为欺诈骗保“划红线”——国家医保局解读医保基金监管新规",
+        "url": "https://hkbtv.cn/#/article?type=article&id=6439661907059167741&articleType=0",
+        "type": "article",
+        "publish_time": "2026年04月01日 17时22分",
+        "source": "新华社",
+        "article_id": "6439661907059167741",
+        "article_type": 0
+      },
+      {
+        "index": 27,
+        "module": "文章",
+        "title": "博鳌亚洲论坛｜从全球经济治理的“旁观者”到“塑造者”：博鳌亚洲论坛嘉宾热议全球南方角色与作用",
+        "url": "https://hkbtv.cn/#/article?type=article&id=6439661907059167397&articleType=0",
+        "type": "article",
+        "publish_time": "2026年03月26日 13时28分",
+        "source": "新华社",
+        "article_id": "6439661907059167397",
+        "article_type": 0
+      },
+      {
+        "index": 28,
+        "module": "文章",
+        "title": "2025年度“中国科学十大进展”发布",
+        "url": "https://hkbtv.cn/#/article?type=article&id=6439661907059167332&articleType=0",
+        "type": "article",
+        "publish_time": "2026年03月25日 18时56分",
+        "source": "新华社",
+        "article_id": "6439661907059167332",
+        "article_type": 0
+      },
+      {
+        "index": 29,
+        "module": "文章",
+        "title": "首次写入国家五年规划，旅游强国怎么建、建什么？",
+        "url": "https://hkbtv.cn/#/article?type=article&id=6439661907059167329&articleType=0",
+        "type": "article",
+        "publish_time": "2026年03月25日 18时55分",
+        "source": "新华社",
+        "article_id": "6439661907059167329",
+        "article_type": 0
+      },
+      {
+        "index": 30,
+        "module": "文章",
+        "title": "博鳌亚洲论坛旗舰报告发布 亚洲仍是世界经济主要增长引擎",
+        "url": "https://hkbtv.cn/#/article?type=article&id=6439661907059167326&articleType=0",
+        "type": "article",
+        "publish_time": "2026年03月25日 18时54分",
+        "source": "经济参考网",
+        "article_id": "6439661907059167326",
+        "article_type": 0
+      },
+      {
+        "index": 31,
+        "module": "文章",
+        "title": "维护市场价格竞争环境 2026年市场监管部门将持续发力",
+        "url": "https://hkbtv.cn/#/article?type=article&id=6439661907059167311&articleType=0",
+        "type": "article",
+        "publish_time": "2026年03月25日 18时51分",
+        "source": "新华社",
+        "article_id": "6439661907059167311",
+        "article_type": 0
+      },
+      {
+        "index": 32,
+        "module": "文章",
+        "title": "国家发展改革委推出新一批重大外资项目",
+        "url": "https://hkbtv.cn/#/article?type=article&id=6439661907059166932&articleType=0",
+        "type": "article",
+        "publish_time": "2026年03月18日 20时31分",
+        "source": "新华社",
+        "article_id": "6439661907059166932",
+        "article_type": 0
+      },
+      {
+        "index": 33,
+        "module": "文章",
+        "title": "起步有力 开局良好——透视2026年中国经济开年表现",
+        "url": "https://hkbtv.cn/#/article?type=article&id=6439661907059166853&articleType=0",
+        "type": "article",
+        "publish_time": "2026年03月17日 13时57分",
+        "source": "新华社",
+        "article_id": "6439661907059166853",
+        "article_type": 0
+      },
+      {
+        "index": 34,
+        "module": "文章",
+        "title": "权威数读｜前2个月经济起步有力、开局良好",
+        "url": "https://hkbtv.cn/#/article?type=article&id=6439661907059166830&articleType=0",
+        "type": "article",
+        "publish_time": "2026年03月16日 23时33分",
+        "source": "新华社",
+        "article_id": "6439661907059166830",
+        "article_type": 0
+      },
+      {
+        "index": 35,
+        "module": "文章",
+        "title": "树立和践行正确政绩观｜深学细悟强党性 知行合一建新功——中央和国家机关扎实开展树立和践行正确政绩观学习教育",
+        "url": "https://hkbtv.cn/#/article?type=article&id=6439661907059166829&articleType=0",
+        "type": "article",
+        "publish_time": "2026年03月16日 23时33分",
+        "source": "新华社",
+        "article_id": "6439661907059166829",
+        "article_type": 0
+      },
+      {
+        "index": 36,
+        "module": "文章",
+        "title": "两会热词在基层｜韧性中国：练好内功 做强自身",
+        "url": "https://hkbtv.cn/#/article?type=article&id=6439661907059166695&articleType=0",
+        "type": "article",
+        "publish_time": "2026年03月15日 21时10分",
+        "source": "新华社",
+        "article_id": "6439661907059166695",
+        "article_type": 0
+      },
+      {
+        "index": 37,
+        "module": "文章",
+        "title": "两会热词在基层｜活力中国：向“新”而行 以“质”致远",
+        "url": "https://hkbtv.cn/#/article?type=article&id=6439661907059166626&articleType=0",
+        "type": "article",
+        "publish_time": "2026年03月14日 14时49分",
+        "source": "新华社",
+        "article_id": "6439661907059166626",
+        "article_type": 0
+      }
+    ]
+  },
+  "api": {
+    "exists": true,
+    "capture_xhr": "/tv-station/api/article/list",
+    "method": "POST",
+    "url_observed": "https://hkbtv.cn/tv-station/api/article/list",
+    "host": "https://hkbtv.cn",
+    "path": "/tv-station/api/article/list",
+    "channel_id": "1858408493966991361",
+    "page_param": "page",
+    "page_size_param": "limit",
+    "page_size": 20,
+    "publishing_path": 3,
+    "classify_level": 1,
+    "dynamic_token": false,
+    "request_body": {
+      "page": 1,
+      "limit": 20,
+      "publishingPath": 3,
+      "classifyCode": "1858408493966991361",
+      "classifyLevel": 1
+    },
+    "response_paths": {
+      "rows": "data.records",
+      "current": "data.current",
+      "total": "data.total",
+      "pages": "data.pages",
+      "module_name": "data.records[].newsColumnName",
+      "module_type": "data.records[].newColumnStyleTypeName",
+      "nested_articles": "data.records[].articles[]",
+      "detail_id": "data.records[].articles[].articleId",
+      "detail_type": "data.records[].articles[].articleType",
+      "detail_url": "build https://hkbtv.cn/#/article?type=article&id={articleId}&articleType={articleType}",
+      "title": "data.records[].articles[].title",
+      "publish_time": "data.records[].articles[].releaseTime",
+      "source": "data.records[].articles[].sourceArticle",
+      "image": "data.records[].articles[].coverMapAddress",
+      "summary": "data.records[].articles[].summary"
+    },
+    "sample_module": {
+      "newsColumnName": "热点要闻",
+      "newColumnStyleTypeName": "文章宫格",
+      "article_count": 8
+    }
+  },
+  "detail": {
+    "sample_url": "https://hkbtv.cn/#/article?type=article&id=6439661907059168433&articleType=0",
+    "template": "article",
+    "title_selector": ".article_title",
+    "meta_selector": ".page_content .article_content",
+    "content_selector": ".page_content .article_content p",
+    "publish_time_regex": "(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2})",
+    "source_regex": "([^\\d\\s]{2,})(?=\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2})",
+    "views_regex": "分享\\s*(\\d+)",
+    "wait_selector": ".article_title",
+    "content_duplicated": true,
+    "observed_title": "两岸专家：十项涉台新政充满诚意善意，为两岸关系和平发展注入强劲动能",
+    "observed_content_length": 2449
+  },
+  "detail_api": {
+    "exists": true,
+    "method": "POST",
+    "url_observed": "https://hkbtv.cn/tv-station/api/details/article",
+    "path": "/tv-station/api/details/article",
+    "request_body": {
+      "articleId": "6439661907059168433",
+      "articleType": "0"
+    },
+    "response_paths": {
+      "title": "data.title",
+      "subtitle": "data.subtitle",
+      "publish_time": "data.releaseTime",
+      "source": "data.sourceArticle",
+      "summary": "data.summary",
+      "content_html_escaped": "data.content",
+      "cover": "data.coverMapAddress",
+      "access_url": "data.accessUrl",
+      "attachments": "data.attachmentList",
+      "comments": "data.commentList"
+    },
+    "notes": [
+      "data.content is HTML-escaped and should be html-unescaped before extracting text or HTML.",
+      "The same article data is also rendered into the SPA detail route under #/article."
+    ]
+  },
+  "comment_api": {
+    "exists": true,
+    "method": "POST",
+    "url_observed": "https://hkbtv.cn/tv-station/api/details/comment",
+    "path": "/tv-station/api/details/comment",
+    "request_body": {
+      "articleId": "6439661907059168433",
+      "articleType": 0,
+      "publishType": 0,
+      "page": 1,
+      "limit": 10
+    },
+    "response_paths": {
+      "rows": "data.records",
+      "total": "data.total",
+      "current": "data.current",
+      "pages": "data.pages"
+    },
+    "sample_total": 0
+  },
+  "spider_strategy": {
+    "session": "FetcherSession for both list and detail APIs; browser is optional only for DOM validation or fallback.",
+    "google_search": false,
+    "network_idle": false,
+    "pagination": "POST /tv-station/api/article/list with page=2..data.pages (23 observed).",
+    "notes": [
+      "The route is a SPA hash page and rendered cards do not expose stable href anchors for article URLs.",
+      "Use the direct list API and build the route URL from articleId/articleType if a public page URL is required.",
+      "List records are mixed modules: some records contain nested article arrays for 专栏 sections, while later records are single-article cards.",
+      "For scraping article text, the direct detail API is cleaner than clicking the DOM because it returns title/source/releaseTime/content in one response.",
+      "Signed image URLs in coverMapAddress are browser-observed API values and may expire over time."
+    ]
+  },
+  "evidence": {
+    "probe_file": "analysis_outputs/_hkbtv_probe.json",
+    "classify_options": [
+      {
+        "classifyCode": "1858408448605593602",
+        "classifyName": "首页",
+        "classifyType": 0,
+        "children": null
+      },
+      {
+        "classifyCode": "1858408493966991361",
+        "classifyName": "要闻",
+        "classifyType": 0,
+        "children": null
+      },
+      {
+        "classifyCode": "1858408519833264130",
+        "classifyName": "时政",
+        "classifyType": 0,
+        "children": null
+      },
+      {
+        "classifyCode": "1858408543593996290",
+        "classifyName": "专题",
+        "classifyType": 0,
+        "children": null
+      },
+      {
+        "classifyCode": "1858408574329856001",
+        "classifyName": "海南",
+        "classifyType": 0,
+        "children": null
+      },
+      {
+        "classifyCode": "1858408600103854081",
+        "classifyName": "海口",
+        "classifyType": 0,
+        "children": null
+      },
+      {
+        "classifyCode": "1858408626095955969",
+        "classifyName": "自贸港",
+        "classifyType": 0,
+        "children": null
+      },
+      {
+        "classifyCode": "1858408646950035458",
+        "classifyName": "国内",
+        "classifyType": 0,
+        "children": null
+      },
+      {
+        "classifyCode": "1858408670501052417",
+        "classifyName": "国际",
+        "classifyType": 0,
+        "children": null
+      },
+      {
+        "classifyCode": "1858408691963305986",
+        "classifyName": "直播",
+        "classifyType": 0,
+        "children": null
+      },
+      {
+        "classifyCode": "1858408713408782337",
+        "classifyName": "视频",
+        "classifyType": 0,
+        "children": null
+      },
+      {
+        "classifyCode": "1858408734963310594",
+        "classifyName": "数字报",
+        "classifyType": 0,
+        "children": null
+      },
+      {
+        "classifyCode": "1858408752583581697",
+        "classifyName": "广播",
+        "classifyType": 0,
+        "children": null
+      },
+      {
+        "classifyCode": "1858408773009842177",
+        "classifyName": "电视",
+        "classifyType": 0,
+        "children": null
+      },
+      {
+        "classifyCode": "1858408794954440705",
+        "classifyName": "公告",
+        "classifyType": 0,
+        "children": null
+      }
+    ]
+  }
+}

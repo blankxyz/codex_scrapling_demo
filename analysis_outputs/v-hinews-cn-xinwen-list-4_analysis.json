@@ -1,0 +1,255 @@
+{
+  "source_url": "https://v.hinews.cn/xinwen/list-4.html",
+  "slug": "v-hinews-cn-xinwen-list-4",
+  "analysis_method": "Reusable local CDP probe tools/cdp_probe.py plus browser-observed DOM/detail capture. No search engine and no non-browser target fetching used as primary evidence.",
+  "site": {
+    "domain": "v.hinews.cn",
+    "base_url": "https://v.hinews.cn",
+    "detail_base_domains": [
+      "https://v.hinews.cn",
+      "https://v-data.hinews.cn"
+    ],
+    "page_title": "椰现场——椰视频",
+    "column_name": "椰现场",
+    "language": "Chinese",
+    "platform": "SSR list/detail pages with direct HTML video player"
+  },
+  "list": {
+    "first_page_only": false,
+    "item_count": 18,
+    "item_selector": ".ysp06 > ul > li",
+    "link_selector": ".ysp06 a[href*=\"/xinwen/show-\"]",
+    "title_selector": ".ysp06 .shipinTxtBg a, .ysp06 .bor1 p",
+    "publish_time_selector": "",
+    "source_selector": "",
+    "image_selector": ".ysp06 img",
+    "wait_selector": ".ysp06 a[href*=\"/xinwen/show-\"]",
+    "pagination_selector": "a[href*=\"/xinwen/list-4.html?page=\"]",
+    "first_page_titles": [
+      {
+        "index": 1,
+        "title": "天海防务智船制造与研发项目落户三亚崖州湾 赋能自贸港海洋经济新发展丨消博聊“企”来",
+        "url": "/xinwen/show-1530195.html",
+        "type": "video",
+        "publish_time": "",
+        "source": "",
+        "image": "https://v-data.hinews.cn/img/20260415/d7c795279bca4cd15ca87f008354f229.jpg"
+      },
+      {
+        "index": 2,
+        "title": "聚焦深海产业 辰海智造基金落地三亚崖州湾科技城丨消博聊“企”来",
+        "url": "/xinwen/show-1530194.html",
+        "type": "video",
+        "publish_time": "",
+        "source": "",
+        "image": "https://v-data.hinews.cn/img/20260415/5dee31ff402258f0a2386f9f4d689860.jpg"
+      },
+      {
+        "index": 3,
+        "title": "29个生物医学新技术项目集中亮相！乐城这场医疗健康专场活动释放健康消费强引力",
+        "url": "/xinwen/show-1530193.html",
+        "type": "video",
+        "publish_time": "",
+        "source": "",
+        "image": "https://v-data.hinews.cn/img/20260415/4b42b62980148cefba30697158f8ca0a.jpg"
+      },
+      {
+        "index": 4,
+        "title": "海南自贸港全球产业招商大会数字经济专场高光回顾丨自贸潮涌 向数图强",
+        "url": "/xinwen/show-1530192.html",
+        "type": "video",
+        "publish_time": "",
+        "source": "",
+        "image": "https://v-data.hinews.cn/img/20260415/4ae37c9f8130208fa055dead344cac1a.jpg"
+      },
+      {
+        "index": 5,
+        "title": "研学热潮涌动！多校学子走进儋州市科技馆，共探科学奥秘",
+        "url": "/xinwen/show-1530189.html",
+        "type": "video",
+        "publish_time": "",
+        "source": "",
+        "image": "https://v-data.hinews.cn/img/20260415/e674030c53955fcc97727cbf56951684.jpg"
+      },
+      {
+        "index": 6,
+        "title": "自贸财新鲜：一场大会看海南招商热何以从“流量”变“留量”？",
+        "url": "/xinwen/show-1530186.html",
+        "type": "video",
+        "publish_time": "",
+        "source": "",
+        "image": "https://v-data.hinews.cn/img/20260415/ec49a5607ec6560d886f5c3b17bb2b67.jpg"
+      },
+      {
+        "index": 7,
+        "title": "中国银行举办“百万同行 悦享中国”GBIC大会 暨“来华通”APP全球推介会",
+        "url": "/xinwen/show-1530185.html",
+        "type": "video",
+        "publish_time": "",
+        "source": "",
+        "image": "https://v-data.hinews.cn/img/20260415/1d5d1be5802179d413328f36286c7142.jpg"
+      },
+      {
+        "index": 8,
+        "title": "Ta来消博了 | 老盐季亮相消博会 海南味道走向世界",
+        "url": "/xinwen/show-1530183.html",
+        "type": "video",
+        "publish_time": "",
+        "source": "",
+        "image": "https://v-data.hinews.cn/img/20260415/492c34ab815181ddfba04ad6f2be1b42.jpg"
+      },
+      {
+        "index": 9,
+        "title": "校长在线｜全球通申六七个Offer，哈罗海口学子甜蜜的烦恼",
+        "url": "/xinwen/show-1530179.html",
+        "type": "video",
+        "publish_time": "",
+        "source": "",
+        "image": "https://v-data.hinews.cn/img/20260415/bcbe7f57df618ffcb341eb17bbf4f5cc.jpg"
+      },
+      {
+        "index": 10,
+        "title": "校长在线｜哈罗学生申请英美院校，在海南上学凭啥更有竞争力",
+        "url": "/xinwen/show-1530178.html",
+        "type": "video",
+        "publish_time": "",
+        "source": "",
+        "image": "https://v-data.hinews.cn/img/20260415/8f01cb7cbaa0a10c261529ba4539951d.jpg"
+      },
+      {
+        "index": 11,
+        "title": "车型首展！华为携“五界”车型与首款鸿蒙AI眼镜亮相第六届消博会 | ta来消博了",
+        "url": "/xinwen/show-1530177.html",
+        "type": "video",
+        "publish_time": "",
+        "source": "",
+        "image": "https://v-data.hinews.cn/img/20260415/21d61862d130efbf412c1b7e0d1ff870.jpg"
+      },
+      {
+        "index": 12,
+        "title": "山海同心庆“三月三” 三亚大东海广场变身民族体育狂欢大舞台",
+        "url": "/xinwen/show-1530176.html",
+        "type": "video",
+        "publish_time": "",
+        "source": "",
+        "image": "https://v-data.hinews.cn/img/20260415/69cbcad0fa68508d418e6544d33bbc7c.jpg"
+      },
+      {
+        "index": 13,
+        "title": "科大讯飞副总裁战文宇：全方位深耕海南市场，以AI技术助力自贸港建设 | 消博聊“企”来",
+        "url": "/xinwen/show-1530174.html",
+        "type": "video",
+        "publish_time": "",
+        "source": "",
+        "image": "https://v-data.hinews.cn/img/20260415/218a39e2278eb5f1537fb566e4e529ae.jpg"
+      },
+      {
+        "index": 14,
+        "title": "旅游零售巨头奥纬达Avolta：期待参与海南离岛免税业务 | 消博聊“企”来",
+        "url": "/xinwen/show-1530173.html",
+        "type": "video",
+        "publish_time": "",
+        "source": "",
+        "image": ""
+      },
+      {
+        "index": 15,
+        "title": "开联低空亮相海南低空经济招商专场 将参建垂直起降基地、深耕全链路低空服务 | 消博聊“企”来",
+        "url": "/xinwen/show-1530171.html",
+        "type": "video",
+        "publish_time": "",
+        "source": "",
+        "image": ""
+      },
+      {
+        "index": 16,
+        "title": "数智AI+体验馆：中国移动把“未来生活”带上消博",
+        "url": "/xinwen/show-1530170.html",
+        "type": "video",
+        "publish_time": "",
+        "source": "",
+        "image": ""
+      },
+      {
+        "index": 17,
+        "title": "九款风味美食飘香！万宁“三月三”太好吃了｜走进长丰·记者Vlog",
+        "url": "/xinwen/show-1530169.html",
+        "type": "video",
+        "publish_time": "",
+        "source": "",
+        "image": ""
+      },
+      {
+        "index": 18,
+        "title": "含“金”量十足！18家银行集体“牵手”新海航 | 自贸财新鲜",
+        "url": "/xinwen/show-1530166.html",
+        "type": "video",
+        "publish_time": "",
+        "source": "",
+        "image": ""
+      }
+    ]
+  },
+  "api": {
+    "exists": false,
+    "capture_xhr": "",
+    "method": "",
+    "path": "",
+    "channel_id": "4",
+    "page_param": "page",
+    "page_size_param": "",
+    "dynamic_token": false,
+    "response_paths": {
+      "rows": "",
+      "page": "",
+      "total": "",
+      "detail_url": "",
+      "title": "",
+      "publish_time": "",
+      "column_name": "",
+      "source": ""
+    },
+    "notes": [
+      "No browser-observed XHR/fetch request returned list rows for this list page.",
+      "The list page is server-rendered HTML with direct links under /xinwen/show-*.html.",
+      "Pagination uses normal href links such as /xinwen/list-4.html?page=2."
+    ]
+  },
+  "detail": {
+    "sample_url": "https://v.hinews.cn/xinwen/show-1530195.html",
+    "template": "video",
+    "title_selector": ".v_brief a",
+    "meta_selector": ".v_word",
+    "content_selector": "p.formatted",
+    "video_selector": ".videobox video",
+    "video_url_attr": "src",
+    "poster_attr": "poster",
+    "publish_time_regex": "(\\d{4}年\\d{2}月\\d{2}日 \\d{2}:\\d{2})",
+    "source_regex": "来源：\\s*(.+?)\\s*编辑：",
+    "editor_regex": "编辑：\\s*(.+)$",
+    "views_regex": "",
+    "wait_selector": ".videobox video",
+    "content_duplicated": false,
+    "observed_title": "天海防务智船制造与研发项目落户三亚崖州湾 赋能自贸港海洋经济新发展丨消博聊“企”来",
+    "observed_video_url": "https://v-data.hinews.cn/vod/20260415/e82bb4c88cb2f4fca8e63cd77bff7244_720x1280.mp4",
+    "observed_poster_url": "https://v-data.hinews.cn/img/20260415/d7c795279bca4cd15ca87f008354f229.jpg",
+    "observed_content_length": 183,
+    "notes": [
+      "The detail page exposes a direct MP4 URL in the video element src attribute.",
+      "Structured article text appears below the player as p.formatted paragraphs.",
+      "Related video blocks appear after the main content and should be excluded from正文提取."
+    ]
+  },
+  "spider_strategy": {
+    "session": "FetcherSession",
+    "google_search": false,
+    "network_idle": false,
+    "pagination": "href query pagination via ?page=N",
+    "notes": [
+      "This list page can be crawled by direct HTML fetching without browser rendering.",
+      "Detail pages are SSR HTML and expose title, metadata, MP4 URL, poster, and paragraph text directly in DOM.",
+      "This sampled section is video-first and is better suited to a video-program schema than a plain text-news schema."
+    ]
+  },
+  "probe_file": "analysis_outputs/_v_hinews_cn_xinwen_list_4_probe.json"
+}

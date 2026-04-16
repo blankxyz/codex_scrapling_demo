@@ -1,0 +1,162 @@
+{
+  "source_url": "https://www.tianya.tv/cat/%e5%81%a5%e5%ba%b7%e7%a7%91%e6%99%ae",
+  "slug": "tianya-tv-cat-jiankangkepu",
+  "analysis_method": "Chrome CDP page target plus browser-observed DOM/network capture. No search engine and no direct target replay outside the browser used as primary evidence.",
+  "site": {
+    "domain": "www.tianya.tv",
+    "base_url": "https://www.tianya.tv",
+    "detail_base_domains": [
+      "https://www.tianya.tv"
+    ],
+    "page_title": "健康科普 – 海南丽声",
+    "column_name": "健康科普",
+    "language": "Chinese",
+    "platform": "WordPress category archive"
+  },
+  "list": {
+    "first_page_only": false,
+    "item_count": 6,
+    "item_selector": "#recent-content > div[id^=\"post-\"]",
+    "link_selector": "#recent-content > div[id^=\"post-\"] h2.entry-title a",
+    "thumbnail_link_selector": "#recent-content > div[id^=\"post-\"] a.thumbnail-link",
+    "title_selector": "#recent-content > div[id^=\"post-\"] h2.entry-title a",
+    "publish_time_selector": "",
+    "category_selector": "#recent-content > div[id^=\"post-\"] .entry-category a",
+    "views_selector": "#recent-content > div[id^=\"post-\"] .entry-views .view-count",
+    "likes_selector": "#recent-content > div[id^=\"post-\"] .sl-button",
+    "wait_selector": "#recent-content > div[id^=\"post-\"] h2.entry-title a",
+    "first_page_titles": [
+      {
+        "index": 1,
+        "title": "女生经期如何正确洗澡？",
+        "url": "https://www.tianya.tv/1922.html",
+        "type": "video",
+        "category": "健康科普",
+        "views": "浏览 (55)",
+        "likes": "喜欢(15)",
+        "post_id": "1922",
+        "thumbnail": "https://www.tianya.tv/wp-content/uploads/2026/04/66-365x220.png"
+      },
+      {
+        "index": 2,
+        "title": "女性月经量“突然减少”是因为什么？",
+        "url": "https://www.tianya.tv/1919.html",
+        "type": "video",
+        "category": "健康科普",
+        "views": "浏览 (46)",
+        "likes": "喜欢(17)",
+        "post_id": "1919",
+        "thumbnail": "https://www.tianya.tv/wp-content/uploads/2026/04/4-365x220.png"
+      },
+      {
+        "index": 3,
+        "title": "月经来之前的征兆有哪些？",
+        "url": "https://www.tianya.tv/1917.html",
+        "type": "video",
+        "category": "健康科普",
+        "views": "浏览 (44)",
+        "likes": "喜欢(15)",
+        "post_id": "1917",
+        "thumbnail": "https://www.tianya.tv/wp-content/uploads/2026/04/88-365x220.png"
+      },
+      {
+        "index": 4,
+        "title": "月经提前VS月经推迟哪个更可怕？",
+        "url": "https://www.tianya.tv/1915.html",
+        "type": "video",
+        "category": "健康科普",
+        "views": "浏览 (43)",
+        "likes": "喜欢(17)",
+        "post_id": "1915",
+        "thumbnail": "https://www.tianya.tv/wp-content/uploads/2026/04/00-365x220.png"
+      },
+      {
+        "index": 5,
+        "title": "来月经可以上体育课吗？",
+        "url": "https://www.tianya.tv/1913.html",
+        "type": "video",
+        "category": "健康科普",
+        "views": "浏览 (44)",
+        "likes": "喜欢(16)",
+        "post_id": "1913",
+        "thumbnail": "https://www.tianya.tv/wp-content/uploads/2026/04/11-365x220.png"
+      },
+      {
+        "index": 6,
+        "title": "月经推迟竟然才是“正常的”吗？",
+        "url": "https://www.tianya.tv/1905.html",
+        "type": "video",
+        "category": "健康科普",
+        "views": "浏览 (42)",
+        "likes": "喜欢(15)",
+        "post_id": "1905",
+        "thumbnail": "https://www.tianya.tv/wp-content/uploads/2026/04/77-365x220.png"
+      }
+    ]
+  },
+  "api": {
+    "exists": false,
+    "capture_xhr": "",
+    "method": "",
+    "path": "",
+    "channel_id": "69",
+    "page_param": "",
+    "page_size_param": "",
+    "dynamic_token": false,
+    "response_paths": {
+      "rows": "",
+      "page": "",
+      "total": "",
+      "detail_url": "",
+      "title": "",
+      "publish_time": "",
+      "column_name": "",
+      "source": ""
+    },
+    "notes": [
+      "No browser-observed XHR/fetch request carried list rows for this category page.",
+      "The page is server-rendered HTML with real detail links.",
+      "Observed auxiliary requests include WordPress analytics and like-button endpoints, but they do not provide list data."
+    ],
+    "auxiliary_requests": []
+  },
+  "detail": {
+    "sample_url": "https://www.tianya.tv/1922.html",
+    "template": "video_post",
+    "title_selector": "h1.entry-title",
+    "meta_selector": ".entry-meta",
+    "author_selector": ".entry-author a",
+    "publish_time_selector": ".entry-date",
+    "content_selector": ".entry-content",
+    "publish_time_regex": "(\\d{4}年\\d{1,2}月\\d{1,2}日 \\d{1,2}:\\d{2})",
+    "source_regex": "",
+    "views_regex": "浏览\\((\\d+)\\)",
+    "wait_selector": "h1.entry-title",
+    "content_duplicated": false,
+    "observed_title": "女生经期如何正确洗澡？",
+    "observed_content_text_length": 435
+  },
+  "video_detail": {
+    "exists": true,
+    "media_selector": "video.wp-video-shortcode source[src], video.wp-video-shortcode[src]",
+    "media_source_regex": "<source[^>]+src=[\"\\']([^\"\\']+)",
+    "observed_media_source": "https://www.tianya.tv/wp-content/uploads/2026/04/【科普285】超重要！女生如何正确洗澡？成片.mp4?_=1",
+    "poster_selector": ".entry-content img.wp-post-image"
+  },
+  "spider_strategy": {
+    "session": "FetcherSession",
+    "google_search": false,
+    "network_idle": false,
+    "pagination": "none observed on current category page",
+    "notes": [
+      "This is a static WordPress category archive; direct HTML fetching is sufficient.",
+      "List items expose stable detail URLs like https://www.tianya.tv/1922.html.",
+      "No list API is needed for production crawling of this category page.",
+      "Detail pages are video posts with embedded mp4 sources and minimal article text.",
+      "If future category pages expose pagination, inspect .pagination/.page-numbers on those pages."
+    ]
+  },
+  "evidence": {
+    "probe_file": "analysis_outputs/_tianya_tv_cat_health_probe.json"
+  }
+}

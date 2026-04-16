@@ -1,0 +1,6 @@
+interface:
+  display_name: "Scrapling Spider Analysis"
+  short_description: "Analyze sites for Scrapling spiders"
+  default_prompt: "Use $scrapling-spider-analysis to analyze this list page with browser/CDP evidence and write outputs to analysis_outputs."
+policy:
+  allow_implicit_invocation: true

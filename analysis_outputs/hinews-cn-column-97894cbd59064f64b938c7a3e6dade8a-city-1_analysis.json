@@ -1,0 +1,132 @@
+{
+  "source_url": "https://www.hinews.cn/column/97894cbd59064f64b938c7a3e6dade8a?city=1",
+  "slug": "hinews-cn-column-97894cbd59064f64b938c7a3e6dade8a-city-1",
+  "analysis_method": "Chrome CDP direct browser analysis on the target page. Captured rendered first-page DOM, one detail-page DOM, and a load-more click that triggered the real list API. No search engine and no non-browser target fetching used as primary evidence.",
+  "site": {
+    "domain": "www.hinews.cn",
+    "base_url": "https://www.hinews.cn",
+    "api_base_url": "https://rm-comapi-pc.hinews.cn",
+    "detail_base_domains": [
+      "https://www.hinews.cn"
+    ],
+    "page_title": "海口新闻网_南海网",
+    "column_name": "海口频道",
+    "language": "Chinese",
+    "platform": "Nuxt SSR list page with load-more fetch pagination and SSR-style /page detail template"
+  },
+  "list": {
+    "first_page_only": false,
+    "item_count": 20,
+    "item_selector": "ul.l_list > li",
+    "link_selector": "ul.l_list > li h3 > a",
+    "title_selector": "ul.l_list > li h3 > a",
+    "publish_time_selector": "ul.l_list > li ul.brief_box > li:first-child",
+    "source_selector": "ul.l_list > li ul.brief_box > li:last-child",
+    "image_selector": "ul.l_list > li img.row_two_img",
+    "wait_selector": "ul.l_list > li h3 > a",
+    "pagination_selector": "button.more_list",
+    "first_page_titles": [
+      "2026环岛赛海口开赛 杜尚・拉约维奇力压群雄赢得揭幕战",
+      "海口以“加减法”优化城市更新营商环境",
+      "全球服务中心“海南站”揭牌落地海口秀英 琼粤协同赋能自贸港开放发展",
+      "第六届消博会出行攻略：打车、公交全指南",
+      "海口龙华区与济源市万洋集团签订战略合作协议 万洋集团贸易总部将落户龙华",
+      "海口秀英区多方合力爱心助农 销售冬瓜5万余斤",
+      "第六届消博会绿色消费主题活动在海口举行 发布绿色消费倡议",
+      "2026年海南招商大会人工智能专场在海口成功举办",
+      "一站“逛”全省百余精品楼盘 2026第二届海南自贸港房展会在海口开幕",
+      "国际艺术IP落地自贸港！第八届“钢琴岛”音乐节7月在海口启幕",
+      "香港澳至尊集团主席蔡志辉：今年计划在海口开设品牌旗舰专卖店",
+      "消博会最靓的 “仔”！排爆犬戴上智能眼镜硬核巡逻",
+      "侨商聚椰城 寻机消博会——“2026世界侨商海南行”活动启幕",
+      "80余家品牌齐聚，“老字号 新主场”主题活动在海口骑楼老街启动",
+      "2026年海南自贸港全球产业招商大会低空经济专场在海口举办 | 消博进行时",
+      "从枝头到全国 海口三门坡2000亩桂早荔抢“鲜”上市",
+      "封关机遇叠加消博会 海口综保区直播解锁进口消费品投资新路径",
+      "海南自贸港AI数智生态共创研讨会举办 秀英区首个科技企业孵化器正式启动",
+      "水木年华海口站演唱会18日唱响！凭消博会证件购票享专属折扣",
+      "2026中国品牌出海博览会将于10月在海口举办"
+    ],
+    "notes": [
+      "The first page is already present in rendered DOM on initial load.",
+      "Some list items do not have a thumbnail image, but the h3 link remains present.",
+      "Pagination is exposed as a load-more button that appends more rows into the same ul.l_list."
+    ]
+  },
+  "api": {
+    "exists": true,
+    "capture_xhr": "/open-service/content/getNewsIndexManyLevelByUuidSplit",
+    "method": "POST",
+    "path": "https://rm-comapi-pc.hinews.cn/open-service/content/getNewsIndexManyLevelByUuidSplit",
+    "channel_id": "97894cbd59064f64b938c7a3e6dade8a",
+    "page_param": "pageNo",
+    "page_size_param": "pageSize",
+    "page_size": 20,
+    "dynamic_token": false,
+    "request_form_data": {
+      "uuid": "97894cbd59064f64b938c7a3e6dade8a",
+      "pageNo": 2,
+      "siteId": 12
+    },
+    "response_paths": {
+      "rows": "data.list[]",
+      "page": "data.pageNo",
+      "page_size": "data.pageSize",
+      "total": "data.count",
+      "row_wrapper": "data.list[].moduleNewsDataBO",
+      "content_row": "data.list[].moduleNewsDataBO.contentNewsBO",
+      "detail_url": "derived as https://www.hinews.cn/page?n={data.list[].moduleNewsDataBO.contentNewsBO.id}&m=1&s={data.list[].moduleNewsDataBO.contentNewsBO.siteLayoutModuleArticleStyleId}",
+      "title": "data.list[].moduleNewsDataBO.contentNewsBO.title",
+      "publish_time": "data.list[].moduleNewsDataBO.contentNewsBO.publishTime",
+      "publish_timestamp": "data.list[].moduleNewsDataBO.contentNewsBO.timeStamp",
+      "column_name": "",
+      "source": "data.list[].moduleNewsDataBO.contentNewsBO.source.name",
+      "thumbnail": "data.list[].moduleNewsDataBO.contentNewsBO.thumbnail",
+      "detail_style_id": "data.list[].moduleNewsDataBO.contentNewsBO.siteLayoutModuleArticleStyleId",
+      "article_id": "data.list[].moduleNewsDataBO.contentNewsBO.id"
+    },
+    "notes": [
+      "The first page did not trigger this list API during initial load because rows were already SSR-rendered in DOM.",
+      "A browser click on the load-more button triggered pageNo=2 and appended 20 more rows.",
+      "data.count was null in the captured response, so pagination termination should not rely on a total-count field."
+    ]
+  },
+  "detail": {
+    "sample_url": "https://www.hinews.cn/page?n=2816953&m=1&s=1044",
+    "template": "article",
+    "title_selector": "h2.page_h2",
+    "meta_selector": "ul.page_brief",
+    "content_selector": "#bs_content > div:first-child",
+    "content_html_selector": "#bs_content > div:first-child",
+    "publish_time_selector": "ul.page_brief li:last-child",
+    "source_selector": "ul.page_brief li:first-child a",
+    "media_selector": "#bs_content img, #bs_content video[src]",
+    "publish_time_regex": "(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2})",
+    "source_regex": "来源：\\s*(.+?)(?=时间：|$)",
+    "views_regex": "",
+    "wait_selector": "h2.page_h2",
+    "content_duplicated": false,
+    "notes": [
+      "The main article body is in the first child div under #bs_content.",
+      "Author and editor text appear later inside #bs_content but outside the main first-child content block.",
+      "The captured sample also contains media tags inside the article body."
+    ]
+  },
+  "spider_strategy": {
+    "session": "AsyncStealthySession",
+    "google_search": false,
+    "network_idle": false,
+    "pagination": "first page from DOM; later pages by replaying POST pageNo pagination via /open-service/content/getNewsIndexManyLevelByUuidSplit",
+    "notes": [
+      "Use DOM selectors for the first page because rows are available immediately in rendered HTML.",
+      "For page >= 2, reuse the observed POST request with uuid and siteId fixed, incrementing pageNo.",
+      "Build detail URLs from article id plus siteLayoutModuleArticleStyleId when the API does not return a full URL field.",
+      "Keep list extraction scoped to ul.l_list to avoid right-rail side content."
+    ]
+  },
+  "probe_files": [
+    "analysis_outputs/_hinews_cn_column_97894cbd59064f64b938c7a3e6dade8a_probe_20260416.json",
+    "analysis_outputs/_hinews_cn_column_97894cbd59064f64b938c7a3e6dade8a_loadmore_probe_20260416.json",
+    "analysis_outputs/_hinews_cn_column_97894cbd59064f64b938c7a3e6dade8a_api_body_20260416.json"
+  ]
+}

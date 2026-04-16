@@ -1,0 +1,349 @@
+{
+  "source_url": "https://mmr.yntv.cn/mmr/btlby.html?sectionid=87,88&page=1&title=%E1%80%A1%E1%80%9B%E1%80%B1%E1%80%B8%E1%80%80%E1%80%BC%E1%80%AE%E1%80%B8%E1%80%9E%E1%80%90%E1%80%84%E1%80%BA%E1%80%B8",
+  "slug": "mmr-yntv-cn-btlby-sectionid-87-88",
+  "analysis_method": "Chrome CDP browser rendering and browser-captured network responses; no search engine and no non-browser target fetching used.",
+  "site": {
+    "domain": "mmr.yntv.cn",
+    "base_url": "https://mmr.yntv.cn",
+    "detail_base_domains": [
+      "https://www.yntv.cn",
+      "https://video.yntv.cn"
+    ],
+    "page_title": "အရေးကြီးသတင်း",
+    "column_name": "အရေးကြီးသတင်း",
+    "language": "Burmese/Myanmar with some English titles"
+  },
+  "list": {
+    "first_page_only": true,
+    "item_count": 30,
+    "item_selector": "li.sec2_right_item",
+    "link_selector": "li.sec2_right_item a[href^=\"https://www.yntv.cn/\"]",
+    "title_selector": "li.sec2_right_item .sec2_right_item_title",
+    "publish_time_selector": "li.sec2_right_item .sec2_right_time",
+    "wait_selector": "li.sec2_right_item a[href^=\"https://www.yntv.cn/\"]",
+    "first_page_titles": [
+      {
+        "index": 1,
+        "title": "ယူနန်ပြည်နယ် သဲဟုန်တွင် မမေ့နိုင်သော အရသာတစ်ခုရှိပြီး ၎င်းမှာ ခရမ်းချဉ်သီး ဆန်ခေါက်ဆွဲဖြစ်",
+        "url": "https://www.yntv.cn/news/20250826/1756191955753431.html",
+        "type": "news",
+        "publish_time": "2025-08-29 10:23:22",
+        "content_id": 753431
+      },
+      {
+        "index": 2,
+        "title": "ကူမင်းမှ မှိုမီးပန်းပွဲတော်သည် \"မှိုပုံပြင်\" ၏ စိတ်ကူးယဉ်ဆန်သော ခံစားချက်ကို အပြည့်အဝ ပေးစွမ်း",
+        "url": "https://www.yntv.cn/video/20250807/1754549359749674.html",
+        "type": "video",
+        "publish_time": "2025-08-07 16:22:08",
+        "content_id": 749674
+      },
+      {
+        "index": 3,
+        "title": "Aerial views of Mingguang Town, Tengchong, Yunnan",
+        "url": "https://www.yntv.cn/video/20250807/1754549383749676.html",
+        "type": "video",
+        "publish_time": "2025-08-07 16:21:58",
+        "content_id": 749676
+      },
+      {
+        "index": 4,
+        "title": "Is it difficult to receive packages in remote areas? Technology has a solution!",
+        "url": "https://www.yntv.cn/news/20250715/1752568058745239.html",
+        "type": "news",
+        "publish_time": "2025-07-15 16:52:25",
+        "content_id": 745239
+      },
+      {
+        "index": 5,
+        "title": "ဟဲခုန်နယ်ခြား စောင့်ဂိတ်မှ တရုတ်နိုင်ငံသို့ လတ်ဆတ်သော ဗီယက်နမ်ရွက်ခြောက် ၈ ဒသမ ၈ တန် ဝင်ရောက်",
+        "url": "https://www.yntv.cn/news/20250527/1748314278735940.html",
+        "type": "news",
+        "publish_time": "2025-05-27 15:59:32",
+        "content_id": 735940
+      },
+      {
+        "index": 6,
+        "title": "The 2,400 mu of wasabi in Zhenxiong County has entered the leaf and petiole harvesting period",
+        "url": "https://www.yntv.cn/news/20250527/1748314470735941.html",
+        "type": "news",
+        "publish_time": "2025-05-27 15:59:32",
+        "content_id": 735941
+      },
+      {
+        "index": 7,
+        "title": "The first \"Seven Bridges Chasing the Wind\" Dianchi Greenway Cycling Tour was launched in Kunming",
+        "url": "https://www.yntv.cn/news/20250526/1748247210735784.html",
+        "type": "news",
+        "publish_time": "2025-05-26 16:21:28",
+        "content_id": 735784
+      },
+      {
+        "index": 8,
+        "title": "Pet owners! The \"Travel Yunnan by Train\" circular tourist train now allows pets under 15kg to board (with quarantine certificates)",
+        "url": "https://www.yntv.cn/news/20250526/1748247349735785.html",
+        "type": "news",
+        "publish_time": "2025-05-26 16:21:19",
+        "content_id": 735785
+      },
+      {
+        "index": 9,
+        "title": "ယင်ကျန်းကောင်တီ၊ သဲဟုန်၊ ယူနန် တွင် ယခုအချိန်သည် စပါးပျိုးပင်များ စိုက်ပျိုးရန် အချိန်ကောင်းဖြစ်ပါသည်။",
+        "url": "https://www.yntv.cn/news/20250519/1747639413734383.html",
+        "type": "news",
+        "publish_time": "2025-05-19 15:59:07",
+        "content_id": 734383
+      },
+      {
+        "index": 10,
+        "title": "The red spheniscus in Menglian County, Yunnan Province, has entered the breeding season.",
+        "url": "https://www.yntv.cn/news/20250519/1747623252734358.html",
+        "type": "news",
+        "publish_time": "2025-05-19 11:22:42",
+        "content_id": 734358
+      },
+      {
+        "index": 11,
+        "title": "စက္ကူမြင်းစီးကာ ကခုန်ပြီး ဝမ်ရှန်းရှိကျွမ်းလူမျိုးတို့၏  စက္ကူမြင်းအက ကျက်သရေကို ခံစားလိုက်ပါ။",
+        "url": "https://www.yntv.cn/video/20250516/1747359992733827.html",
+        "type": "video",
+        "publish_time": "2025-05-16 13:28:12",
+        "content_id": 733827
+      },
+      {
+        "index": 12,
+        "title": "In the first quarter of 2025, the average proportion of days with good air quality in 339 cities in China was 84.8%, and two major pollutant indicators decreased",
+        "url": "https://www.yntv.cn/news/20250425/1745552793729927.html",
+        "type": "news",
+        "publish_time": "2025-04-27 11:40:42",
+        "content_id": 729927
+      },
+      {
+        "index": 13,
+        "title": "On April 23, 2025, China and Azerbaijan signed a visa exemption agreement",
+        "url": "https://www.yntv.cn/news/20250425/1745552661729926.html",
+        "type": "news",
+        "publish_time": "2025-04-27 11:40:36",
+        "content_id": 729926
+      },
+      {
+        "index": 14,
+        "title": "အဝါရောင်တို့ဟူးသည် ယူနန်ပြည်နယ်၊ ရွှမ်းဝိမ် ကောင်တီ တွင် အထူးအစားအစာဖြစ်ပါတယ်။",
+        "url": "https://www.yntv.cn/news/20250425/1745549971729918.html",
+        "type": "news",
+        "publish_time": "2025-04-27 11:40:25",
+        "content_id": 729918
+      },
+      {
+        "index": 15,
+        "title": "Thanks to photovoltaic water pumping, the problem of inconvenient water supply has been solved for 100,000 mu of farmland in Xuanwei City, Yunnan Province",
+        "url": "https://www.yntv.cn/news/20250425/1745552452729924.html",
+        "type": "news",
+        "publish_time": "2025-04-27 11:40:25",
+        "content_id": 729924
+      },
+      {
+        "index": 16,
+        "title": "Let's take a look at the changes of the \"two countries, two parks\" from satellite images",
+        "url": "https://www.yntv.cn/news/20250425/1745552546729925.html",
+        "type": "news",
+        "publish_time": "2025-04-27 11:40:25",
+        "content_id": 729925
+      },
+      {
+        "index": 17,
+        "title": "ပင်းချွမ်း ကောင်တီ၊ သာ့လီ၊ ယူနန်ပြည်နယ်မှသစ်သီးများသည်အာဆီယံနိုင်ငံများတွင်အလွန်ရေပန်းစားပါတယ်။ ",
+        "url": "https://www.yntv.cn/news/20250425/1745546818729895.html",
+        "type": "news",
+        "publish_time": "2025-04-27 11:36:52",
+        "content_id": 729895
+      },
+      {
+        "index": 18,
+        "title": "တူညီသောဘောင်ရှိ ဇီးသီးအပွင့် ပေါ်ရှိငှက်နှစ်ကောင်သည် အလွန်စိတ်ဝင်စားစရာကောင်းပါတယ်။",
+        "url": "https://www.yntv.cn/news/20250425/1745547521729904.html",
+        "type": "news",
+        "publish_time": "2025-04-27 11:36:45",
+        "content_id": 729904
+      },
+      {
+        "index": 19,
+        "title": "ယူနန်ပြည်နယ်ရှိ မွန်ဂိုလီးယားအပင် သည် လေးပုံတစ်ပုံ ရေခဲခေတ် (လွန်ခဲ့သည့် နှစ်သန်းပေါင်း ၂ သန်းခန့်က စတင်ခဲ့သော) မှ လွတ်မြောက်ခဲ့သော ရှေးဟောင်းအပင်ဖြစ်ပြီး အပင်နိုင်ငံ၏ \"သက်ရှိရုပ်ကြွင်း\" များထဲမှ တစ်ခုအဖြစ် လူသိများပါတယ်။  ",
+        "url": "https://www.yntv.cn/news/20250423/1745375274729489.html",
+        "type": "news",
+        "publish_time": "2025-04-27 11:34:18",
+        "content_id": 729489
+      },
+      {
+        "index": 20,
+        "title": "​The dried mangoes produced by workers in Jianshan County, Kampong Speu Province, Cambodia, only take 10 days to appear on the shelves of Chinese supermarkets",
+        "url": "https://www.yntv.cn/news/20250423/1745376803729507.html",
+        "type": "news",
+        "publish_time": "2025-04-27 11:34:18",
+        "content_id": 729507
+      },
+      {
+        "index": 21,
+        "title": "In Kaiyuan City, Honghe Prefecture, Yunnan Province, humanoid robots covered in silver and white flexibly completed high-altitude power grid operations after receiving instructions",
+        "url": "https://www.yntv.cn/news/20250423/1745376985729508.html",
+        "type": "news",
+        "publish_time": "2025-04-27 11:34:18",
+        "content_id": 729508
+      },
+      {
+        "index": 22,
+        "title": "This is Dali, Yunnan, a place that will make you fall in love with life. ",
+        "url": "https://www.yntv.cn/news/20250409/1744187683726660.html",
+        "type": "news",
+        "publish_time": "2025-04-10 10:33:47",
+        "content_id": 726660
+      },
+      {
+        "index": 23,
+        "title": "In Honghe, Yunnan, which is known as the \"Hometown of Rice Noodles\", how can you not give the rice noodles a try? ",
+        "url": "https://www.yntv.cn/news/20250409/1744187400726659.html",
+        "type": "news",
+        "publish_time": "2025-04-10 10:33:40",
+        "content_id": 726659
+      },
+      {
+        "index": 24,
+        "title": "Technicians are artificially pollinating Gastrodia elata",
+        "url": "https://www.yntv.cn/news/20250317/1742195268722607.html",
+        "type": "news",
+        "publish_time": "2025-03-17 15:11:15",
+        "content_id": 722607
+      },
+      {
+        "index": 25,
+        "title": "Electric two-wheelers, affectionately called \"small electric donkeys\" by the Chinese, have begun to be loved by overseas consumers",
+        "url": "https://www.yntv.cn/news/20250219/1739954940717924.html",
+        "type": "news",
+        "publish_time": "2025-02-20 10:50:41",
+        "content_id": 717924
+      },
+      {
+        "index": 26,
+        "title": "Walking into Mangtuan Village, Mengding Town, Dai paper with a history of more than 600 years is drying in the new Dai buildings",
+        "url": "https://www.yntv.cn/news/20250219/1739955095717925.html",
+        "type": "news",
+        "publish_time": "2025-02-20 10:50:33",
+        "content_id": 717925
+      },
+      {
+        "index": 27,
+        "title": "စက္ကူဖြတ်ခြင်းအနုပညာသည် တရုတ်နိုင်ငံတွင် ရှည်လျားသောသမိုင်းကြောင်းရှိ",
+        "url": "https://www.yntv.cn/news/20250124/1737700147713338.html",
+        "type": "news",
+        "publish_time": "2025-01-24 16:05:12",
+        "content_id": 713338
+      },
+      {
+        "index": 28,
+        "title": "ဟွာ့ရှန်းပွဲတော်သည် မြှောင်လူမျိုးတို့၏ ကြီးကျယ်ခမ်းနားသော ရိုးရာပွဲတော်တစ်ခုဖြစ်",
+        "url": "https://www.yntv.cn/news/20250124/1737701414713340.html",
+        "type": "news",
+        "publish_time": "2025-01-24 16:05:12",
+        "content_id": 713340
+      },
+      {
+        "index": 29,
+        "title": "On January 15, Shangri-La Shika Snow Mountain Snow Park officially opened, injecting new vitality into Diqing's winter tourism",
+        "url": "https://www.yntv.cn/news/20250117/1737083749711944.html",
+        "type": "news",
+        "publish_time": "2025-01-17 15:24:16",
+        "content_id": 711944
+      },
+      {
+        "index": 30,
+        "title": "ပေါင်ရှန်း ဒေသခံ တိုင်ရွာသားများသည် ကော်ဖီပြုလုပ်ရာတွင် ရှေးကျသောနည်းလမ်းကို အသုံးပြုကြ",
+        "url": "https://www.yntv.cn/news/20250117/1737079629711934.html",
+        "type": "news",
+        "publish_time": "2025-01-17 15:11:55",
+        "content_id": 711934
+      }
+    ]
+  },
+  "api": {
+    "exists": true,
+    "capture_xhr": "/api/cms/getsection",
+    "method": "GET",
+    "url_observed": "https://yntv-api.yntv.cn/api/cms/getsection?section_id=87,88&page=1&size=30&_=1776237570887",
+    "host": "https://yntv-api.yntv.cn",
+    "path": "/api/cms/getsection",
+    "section_id": "87,88",
+    "page_param": "page",
+    "page_size_param": "size",
+    "page_size": 30,
+    "cache_buster_param": "_",
+    "dynamic_token": false,
+    "last_page": 21,
+    "response_paths": {
+      "rows": "data",
+      "page": "request query: page",
+      "total": "",
+      "last_page": "msg.last_page",
+      "detail_url": "data[].url",
+      "title": "data[].title",
+      "publish_time": "data[].createtime (Unix seconds, UTC+8 display)",
+      "column_name": "source page title / request title parameter",
+      "source": "detail .text_info source text",
+      "type": "data[].type",
+      "image": "data[].image",
+      "description": "data[].description",
+      "media_content_url": "data[].content_url (empty in observed rows)"
+    },
+    "sample_row": {
+      "content_id": 753431,
+      "title": "ယူနန်ပြည်နယ် သဲဟုန်တွင် မမေ့နိုင်သော အရသာတစ်ခုရှိပြီး ၎င်းမှာ ခရမ်းချဉ်သီး ဆန်ခေါက်ဆွဲဖြစ်",
+      "image": "/uploads/20250826/01e5da3844f749bf994b62ee3919bc0a.jpg",
+      "description": "",
+      "url": "https://www.yntv.cn/news/20250826/1756191955753431.html",
+      "createtime": 1756434202,
+      "type": "news",
+      "content_url": ""
+    }
+  },
+  "detail": {
+    "sample_url": "https://www.yntv.cn/news/20250826/1756191955753431.html",
+    "template": "news",
+    "title_selector": "#page_details_text_wrap .content_left .text_title",
+    "meta_selector": "#page_details_text_wrap .content_left .text_info",
+    "publish_time_selector": "#page_details_text_wrap .content_left .text_time",
+    "content_selector": "#page_details_text_wrap .content_left > p",
+    "publish_time_regex": "发布日期:\\s*(\\d{4}年\\d{2}月\\d{2}日)",
+    "source_regex": "source：\\s*(.+)$",
+    "views_regex": "",
+    "wait_selector": "#page_details_text_wrap .content_left .text_title",
+    "content_duplicated": false,
+    "observed_title": "ယူနန်ပြည်နယ် သဲဟုန်တွင် မမေ့နိုင်သော အရသာတစ်ခုရှိပြီး ၎င်းမှာ ခရမ်းချဉ်သီး ဆန်ခေါက်ဆွဲဖြစ်",
+    "observed_content_length": 424
+  },
+  "video_detail": {
+    "sample_url": "https://www.yntv.cn/video/20250807/1754549359749674.html",
+    "template": "video",
+    "title_selector": "#page_details_text_wrap .content_left .text_title",
+    "meta_selector": "#page_details_text_wrap .content_left .text_info",
+    "publish_time_selector": "#page_details_text_wrap .content_left .text_time",
+    "description_selector": "#page_details_text_wrap .content_left > p",
+    "media_selector": "script containing Aliplayer source",
+    "media_source_regex": "\"source\"\\s*:\\s*\"([^\"]+)\"",
+    "cover_regex": "\"cover\"\\s*:\\s*\"([^\"]+)\"",
+    "observed_media_source": "https://video.yntv.cn/vod/20250807/71d610d4-9de7-422d-ae5c-713aae507061.mp4/index.m3u8",
+    "wait_selector": "#page_details_text_wrap .content_left .text_title"
+  },
+  "spider_strategy": {
+    "session": "AsyncDynamicSession (use AsyncStealthySession if runtime validation returns target-side 400/403)",
+    "google_search": false,
+    "network_idle": false,
+    "pagination": "none for current request; API supports page=2..last_page when needed",
+    "capture_xhr": "/api/cms/getsection",
+    "notes": [
+      "Production spider should not depend on CDP; CDP was used only for analysis.",
+      "Use browser-rendered XHR capture or call the browser-observed API from within the rendered session.",
+      "First page mixes news and video rows; preserve data[].type in metadata if downstream needs routing.",
+      "List API createtime is Unix seconds; visible page formats it as M-D-YYYY, HH:mm.",
+      "Detail pages are on www.yntv.cn while the list page is on mmr.yntv.cn; allow both domains."
+    ]
+  }
+}
