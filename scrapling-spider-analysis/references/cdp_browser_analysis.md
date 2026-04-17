@@ -2,13 +2,11 @@
 
 ## CDP Connection
 
-Use local Chrome CDP when the user has started it. Default to performing the real CDP action directly instead of probing health endpoints first:
+`tools/cdp_probe.py` 自动探测可用的 CDP 地址，无需手动指定。探测优先级：
+`--cdp-url` 参数值 → `$CHROME_CDP_URL` 环境变量 → `127.0.0.1:9222` → Docker bridge `172.17.0.1-20:9222`。
 
-```text
-http://127.0.0.1:9222
-```
-
-If the direct connection or tab action fails, report the concrete error and only then decide whether to debug CDP further or switch to another local browser-rendered method. Browser observations should include rendered DOM and network responses.
+若要覆盖探测结果，设置环境变量 `CHROME_CDP_URL` 或传入 `--cdp-url` 参数。
+Browser observations should include rendered DOM and network responses.
 
 When Python is needed for browser probing in this repo, use only the local virtualenv interpreter:
 
@@ -21,8 +19,9 @@ Do not call `python` or `python3` for analysis helpers.
 Prefer reusing the local generic probe before inventing a new site-specific script:
 
 ```bash
-env -u HTTP_PROXY -u HTTPS_PROXY -u http_proxy -u https_proxy \
-.venv/bin/python tools/cdp_probe.py \
+# CDP 地址自动探测，--cdp-url 可选（不传则自动发现）
+env -u HTTP_PROXY -u HTTPS_PROXY -u http_proxy -u https_proxy -u ALL_PROXY -u all_proxy \
+  .venv/bin/python tools/cdp_probe.py \
   --url "https://example.com/list.html" \
   --out analysis_outputs/_example_probe.json
 ```
