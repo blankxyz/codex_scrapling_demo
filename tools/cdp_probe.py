@@ -2,6 +2,7 @@ import argparse
 import asyncio
 import json
 import os
+import sys
 import time
 import urllib.error
 import urllib.request
@@ -194,7 +195,11 @@ async def main():
     out_path = Path(args.out)
     out_path.parent.mkdir(parents=True, exist_ok=True)
 
-    cdp_url = resolve_cdp_url(args.cdp_url)
+    try:
+        cdp_url = resolve_cdp_url(args.cdp_url)
+    except RuntimeError as exc:
+        print(f"error: {exc}", file=sys.stderr)
+        raise SystemExit(1) from None
     records = []
     async with async_playwright() as p:
         browser = await p.chromium.connect_over_cdp(cdp_url)
