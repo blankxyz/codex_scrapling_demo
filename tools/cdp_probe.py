@@ -18,7 +18,11 @@ _PROXY_KEYS = [
 
 
 def resolve_cdp_url(hint: str) -> str:
-    """Clear proxy env vars and probe candidates to find the first live CDP endpoint."""
+    """Clear proxy env vars and probe candidates to find the first live CDP endpoint.
+
+    NOTE: unconditionally removes all proxy env vars from the current process;
+    this is intentional and irreversible within the process lifetime.
+    """
     for key in _PROXY_KEYS:
         os.environ.pop(key, None)
 
