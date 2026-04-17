@@ -30,3 +30,59 @@ def test_clears_proxy_env_vars(monkeypatch):
 
     for key in ["HTTP_PROXY", "HTTPS_PROXY", "http_proxy", "https_proxy", "ALL_PROXY", "all_proxy"]:
         assert key not in os.environ, f"{key} should have been cleared"
+
+
+def test_returns_hint_when_it_responds():
+    """hint 地址能通时直接返回它，不尝试其他候选。"""
+    call_log: list[str] = []
+
+    def mock_urlopen(url, timeout=None):
+        call_log.append(url)
+        if "127.0.0.1:9222" in url:
+            return _mock_urlopen_success(url)
+        raise urllib.error.URLError("unreachable")
+
+    with patch("urllib.request.urlopen", side_effect=mock_urlopen):
+        result = resolve_cdp_url("http://127.0.0.1:9222")
+
+    assert result == "http://127.0.0.1:9222"
+    assert call_log == ["http://127.0.0.1:9222/json/version"]
+
+
+def test_falls_back_to_env_var(monkeypatch):
+    """hint 不通时使用 $CHROME_CDP_URL 指定的地址。"""
+    monkeypatch.setenv("CHROME_CDP_URL", "http://172.17.0.5:9222")
+
+    def mock_urlopen(url, timeout=None):
+        if "172.17.0.5:9222" in url:
+            return _mock_urlopen_success(url)
+        raise urllib.error.URLError("unreachable")
+
+    with patch("urllib.request.urlopen", side_effect=mock_urlopen):
+        result = resolve_cdp_url("http://127.0.0.1:9222")
+
+    assert result == "http://172.17.0.5:9222"
+
+
+def test_raises_when_all_fail():
+    """所有候选地址不通时抛出 RuntimeError，错误信息包含候选列表。"""
+    with patch("urllib.request.urlopen", side_effect=urllib.error.URLError("refused")):
+        with pytest.raises(RuntimeError, match="No reachable CDP endpoint found"):
+            resolve_cdp_url("http://127.0.0.1:9222")
+
+
+def test_deduplicates_candidates(monkeypatch):
+    """hint 与 127.0.0.1:9222 相同时，该地址只探测一次。"""
+    monkeypatch.delenv("CHROME_CDP_URL", raising=False)
+    call_log: list[str] = []
+
+    def mock_urlopen(url, timeout=None):
+        call_log.append(url)
+        if "127.0.0.1:9222" in url:
+            return _mock_urlopen_success(url)
+        raise urllib.error.URLError("unreachable")
+
+    with patch("urllib.request.urlopen", side_effect=mock_urlopen):
+        resolve_cdp_url("http://127.0.0.1:9222")
+
+    assert call_log.count("http://127.0.0.1:9222/json/version") == 1
