@@ -10,10 +10,7 @@ from tools.cdp_probe import resolve_cdp_url
 
 def _mock_urlopen_success(url, timeout=None):
     """模拟 urlopen 成功返回。"""
-    mock = MagicMock()
-    mock.__enter__ = lambda s: s
-    mock.__exit__ = MagicMock(return_value=False)
-    return mock
+    return MagicMock()
 
 
 def test_clears_proxy_env_vars(monkeypatch):
@@ -32,8 +29,9 @@ def test_clears_proxy_env_vars(monkeypatch):
         assert key not in os.environ, f"{key} should have been cleared"
 
 
-def test_returns_hint_when_it_responds():
+def test_returns_hint_when_it_responds(monkeypatch):
     """hint 地址能通时直接返回它，不尝试其他候选。"""
+    monkeypatch.delenv("CHROME_CDP_URL", raising=False)
     call_log: list[str] = []
 
     def mock_urlopen(url, timeout=None):
@@ -64,8 +62,9 @@ def test_falls_back_to_env_var(monkeypatch):
     assert result == "http://172.17.0.5:9222"
 
 
-def test_raises_when_all_fail():
+def test_raises_when_all_fail(monkeypatch):
     """所有候选地址不通时抛出 RuntimeError，错误信息包含候选列表。"""
+    monkeypatch.delenv("CHROME_CDP_URL", raising=False)
     with patch("urllib.request.urlopen", side_effect=urllib.error.URLError("refused")):
         with pytest.raises(RuntimeError, match="No reachable CDP endpoint found"):
             resolve_cdp_url("http://127.0.0.1:9222")
