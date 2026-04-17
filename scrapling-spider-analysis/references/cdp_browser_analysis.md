@@ -6,7 +6,17 @@
 `--cdp-url` 参数值 → `$CHROME_CDP_URL` 环境变量 → `127.0.0.1:9222` → Docker bridge `172.17.0.1-20:9222`。
 
 若要覆盖探测结果，设置环境变量 `CHROME_CDP_URL` 或传入 `--cdp-url` 参数。
-Browser observations should include rendered DOM and network responses.
+连接成功后，浏览器观测应包含渲染 DOM 和网络响应。
+
+### CDP 地址自动探测
+
+`cdp_probe.py` 按以下优先级自动探测，无需手动干预：
+
+1. `--cdp-url` 参数（或 `$CHROME_CDP_URL` 环境变量）
+2. `http://127.0.0.1:9222`
+3. Docker bridge 段 `172.17.0.1-20:9222`
+
+> **注意**：容器内部 IP（如 `172.17.x.x`）可被自动发现，但若端口映射到 `127.0.0.1:9222`，该地址优先命中。
 
 When Python is needed for browser probing in this repo, use only the local virtualenv interpreter:
 
