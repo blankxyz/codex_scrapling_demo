@@ -25,7 +25,7 @@ Use browser evidence. CDP is preferred when available because it exposes rendere
 - Do not use non-browser target fetching for site analysis. Avoid `curl`, `wget`, `requests`, or direct API calls to the target as evidence unless the user explicitly asks for a browser-observed request to be replayed for debugging.
 - If Python is needed during analysis, use only the current workspace virtualenv interpreter at `.venv/bin/python`.
 - Do not use `python`, `python3`, or any system interpreter for analysis commands, even as a fallback.
-- Default to Chrome CDP. `tools/cdp_probe.py` auto-detects the available CDP endpoint (tries `$CHROME_CDP_URL`, `127.0.0.1:9222`, then Docker bridge range `172.17.0.1-20`). Do not hardcode the CDP address in prompts or commands.
+- Default to Chrome CDP. `tools/cdp_probe.py` auto-detects the available CDP endpoint (tries `--cdp-url` value first, then `$CHROME_CDP_URL`, `127.0.0.1:9222`, then Docker bridge range `172.17.0.1-20`). Do not hardcode the CDP address in prompts or commands.
 - If CDP is unavailable, use local browser/dynamic rendering tools, not search.
 - If the user asks for first page only, do not click or request pagination except to verify whether pagination exists when explicitly needed.
 - Write analysis artifacts to `analysis_outputs/`.
@@ -43,7 +43,7 @@ Use browser evidence. CDP is preferred when available because it exposes rendere
    - If the direct CDP action fails, report the concrete error and either stop or switch to another local browser-rendered method when the workflow permits.
    - Before writing a new probe script, look for an existing reusable local probe tool and use it first. In this repo, prefer `tools/cdp_probe.py` for generic CDP DOM/network/detail capture.
    - When invoking that tool or any other Python helper, call it with `.venv/bin/python` explicitly.
-   - Always invoke `tools/cdp_probe.py` with the `env -u` proxy-clearing prefix:
+   - Always invoke `tools/cdp_probe.py` with the `env -u` proxy-clearing prefix (belt-and-suspenders: the tool also clears them internally, but the shell-level unset prevents proxy inheritance by Playwright child processes):
 
      ```bash
      env -u HTTP_PROXY -u HTTPS_PROXY -u http_proxy -u https_proxy -u ALL_PROXY -u all_proxy \
