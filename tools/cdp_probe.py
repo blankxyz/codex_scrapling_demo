@@ -43,7 +43,7 @@ def resolve_cdp_url(hint: str) -> str:
         try:
             urllib.request.urlopen(f"{addr}/json/version", timeout=1.5)
             return addr
-        except Exception as exc:
+        except (urllib.error.URLError, OSError) as exc:
             errors.append(f"{addr}: {exc}")
 
     raise RuntimeError(
