@@ -39,11 +39,19 @@ Use browser evidence. CDP is preferred when available because it exposes rendere
    - Write `analysis_outputs/<slug>_analysis.json`.
 
 2. Connect to browser:
-   - Prefer Chrome CDP: connect to `http://127.0.0.1:9222` directly or open/reuse a tab through that endpoint without a separate preflight probe.
-   - Do not spend steps validating `/json/version` or similar health endpoints before attempting the real browser action unless the user explicitly asks for CDP debugging.
+   - Prefer Chrome CDP: use `tools/cdp_probe.py` which auto-detects the endpoint. Do not hardcode `127.0.0.1:9222` in commands.
    - If the direct CDP action fails, report the concrete error and either stop or switch to another local browser-rendered method when the workflow permits.
    - Before writing a new probe script, look for an existing reusable local probe tool and use it first. In this repo, prefer `tools/cdp_probe.py` for generic CDP DOM/network/detail capture.
    - When invoking that tool or any other Python helper, call it with `.venv/bin/python` explicitly.
+   - Always invoke `tools/cdp_probe.py` with the `env -u` proxy-clearing prefix:
+
+     ```bash
+     env -u HTTP_PROXY -u HTTPS_PROXY -u http_proxy -u https_proxy -u ALL_PROXY -u all_proxy \
+       .venv/bin/python tools/cdp_probe.py \
+       --url "https://example.com/list.html" \
+       --out analysis_outputs/_example_probe.json
+     ```
+
    - Only write a one-off probe when the reusable script cannot capture a site-specific behavior that is required for analysis, and explain that gap briefly.
    - Open or reuse a tab for the list URL.
    - Enable DOM/runtime/network observation through CDP or browser automation.
