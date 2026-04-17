@@ -1,11 +1,55 @@
 import argparse
 import asyncio
 import json
+import os
 import time
+import urllib.error
+import urllib.request
 from pathlib import Path
 from urllib.parse import urlparse
 
 from playwright.async_api import async_playwright
+
+_PROXY_KEYS = [
+    "HTTP_PROXY", "HTTPS_PROXY", "http_proxy",
+    "https_proxy", "ALL_PROXY", "all_proxy",
+]
+
+
+def resolve_cdp_url(hint: str) -> str:
+    """Clear proxy env vars and probe candidates to find the first live CDP endpoint."""
+    for key in _PROXY_KEYS:
+        os.environ.pop(key, None)
+
+    seen: set[str] = set()
+    candidates: list[str] = []
+
+    def _add(addr: str) -> None:
+        normalized = addr.rstrip("/")
+        if normalized not in seen:
+            seen.add(normalized)
+            candidates.append(normalized)
+
+    _add(hint)
+    env_url = os.environ.get("CHROME_CDP_URL", "")
+    if env_url:
+        _add(env_url)
+    _add("http://127.0.0.1:9222")
+    for i in range(1, 21):
+        _add(f"http://172.17.0.{i}:9222")
+
+    errors: list[str] = []
+    for addr in candidates:
+        try:
+            urllib.request.urlopen(f"{addr}/json/version", timeout=1.5)
+            return addr
+        except Exception as exc:
+            errors.append(f"{addr}: {exc}")
+
+    raise RuntimeError(
+        "No reachable CDP endpoint found. Tried:\n"
+        + "\n".join(f"  {e}" for e in errors)
+    )
 
 
 def build_parser():
