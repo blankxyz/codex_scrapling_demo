@@ -194,9 +194,10 @@ async def main():
     out_path = Path(args.out)
     out_path.parent.mkdir(parents=True, exist_ok=True)
 
+    cdp_url = resolve_cdp_url(args.cdp_url)
     records = []
     async with async_playwright() as p:
-        browser = await p.chromium.connect_over_cdp(args.cdp_url)
+        browser = await p.chromium.connect_over_cdp(cdp_url)
         context = browser.contexts[0] if browser.contexts else await browser.new_context()
         page = await context.new_page()
 
@@ -267,7 +268,7 @@ async def main():
 
     payload = {
         "source_url": args.url,
-        "cdp_url": args.cdp_url,
+        "cdp_url": cdp_url,
         "saved_at": int(time.time()),
         "dom": dom,
         "network": records,
