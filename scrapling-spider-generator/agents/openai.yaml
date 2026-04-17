@@ -1,0 +1,6 @@
+interface:
+  display_name: "Scrapling Spider Generator"
+  short_description: "Generate runnable Scrapling spiders"
+  default_prompt: "Use $scrapling-spider-generator to generate a runnable Scrapling spider from the current analysis outputs."
+policy:
+  allow_implicit_invocation: true

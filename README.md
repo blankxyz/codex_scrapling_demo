@@ -1,90 +1,106 @@
-# Codex + Scrapling 无标注提标记 Demo
+# Codex Scrapling Demo
 
-这个 demo 的目标不是“直接让模型在线提取网页数据”，而是先自动从网页里提取一份 `marker.json`：
-- 页面类型推断
-- 标题/时间/正文/列表链接 的候选 CSS 选择器
-- 结构信号（有无 `<article>` / `<time>` 等）
-- 可直接喂给 Codex 的 prompt
+This directory contains three local Codex skills for a browser-first Scrapling crawler workflow.
 
-然后再由 Codex 依据 `marker.json` + 统一 schema 生成稳定的 Scrapling spider、测试和 fixtures。
+## Skills
 
-## 设计思路
+### `scrapling-spider-analysis`
 
-- **Scrapling 负责抓页面**  
-  静态页优先 `Fetcher`，需要渲染时再切 `DynamicFetcher`。Scrapling 官方文档说明，从 v0.3 开始 fetcher 会保持 session，不必每次都重开浏览器。  
-- **本 demo 负责自动提候选“标记”**  
-  不是只找一个 selector，而是提取多组候选选择器，便于后续由 Codex 做“定稿”。
-- **Codex 负责产出工程化代码**  
-  本仓库自带 `.agents/skills/spider-authoring/SKILL.md`，Codex 在当前目录启动时就能扫描到这个技能目录。
+Use this skill to analyze a list page before writing a crawler.
 
-## 目录
+Rules captured in the skill:
 
-- `analyze_url.py`：输入 URL，输出 `marker.json` 和 `codex_prompt.txt`
-- `demo_marker_extractor.py`：标记提取逻辑
-- `schemas/news_article.schema.json`：统一输出 schema
-- `.agents/skills/spider-authoring/SKILL.md`：给 Codex 的技能
-- `out/`：分析结果输出目录
+- Use browser/CDP evidence for analysis.
+- Do not use search engines.
+- Do not use non-browser target fetching as analysis evidence.
+- Use only `.venv/bin/python` for analysis-time Python commands; do not fall back to system `python` or `python3`.
+- Default to Chrome CDP at `http://127.0.0.1:9222` for analysis, without a separate preflight validation step.
+- Prefer reusing the generic local probe script at `tools/cdp_probe.py` before writing a one-off probe.
+- Save analysis results to `analysis_outputs/`.
+- Produce crawler-ready selectors, XHR/API findings, first-page titles, detail selectors, and strategy notes.
 
-## 安装
+Example prompt:
 
-推荐 Python 3.11：
-
-```bash
-uv venv --python 3.11
-source .venv/bin/activate
-uv pip install -r requirements.txt
+```text
+使用当前目录的 $scrapling-spider-analysis 分析这个列表页，并把结果输出到 analysis_outputs：https://example.com/list.html
 ```
 
-## 使用
+### `scrapling-spider-generator`
 
-### 1) 先跑自动提标记
+Use this skill to generate a runnable Scrapling spider from prior analysis outputs.
 
-```bash
-python analyze_url.py "https://example.com/article/123"
+Rules captured in the skill:
+
+- Read `analysis_outputs/*_analysis.json` and `analysis_outputs/*_analysis.md`.
+- Prefer browser-captured XHR/API findings from analysis.
+- Generate production spiders that do not depend on CDP.
+- Use only `.venv/bin/python` for generator-time Python commands and validation; do not fall back to system `python` or `python3`.
+- Use Scrapling dynamic rendering; prefer `AsyncStealthySession` for protected sites.
+- Do not add pagination unless explicitly requested.
+- If the generated spider uses `SECTIONS`, only the first page of each section should be fetched by default.
+- Preserve the user-provided output schema.
+- Every generated spider should include both text and video detail handling by default, and resolve the final type per detail page at runtime.
+- Do not rely on one sampled detail page or local content fragment to conclude an entire section is text-only or video-only.
+- Validate generated spider code with `py_compile`, and run it when feasible.
+
+Example prompt:
+
+```text
+使用当前目录的 $scrapling-spider-generator，根据 analysis_outputs 里的分析结果生成 Scrapling 爬虫。
 ```
 
-如果你怀疑是 JS 页面：
+### `scrapling-to-prefect-generator`
+
+Use this skill to convert an existing Scrapling spider in this repo into a Prefect spider for a separate target project such as `/home/blank/playground/prefect_demo/`.
+
+Rules captured in the skill:
+
+- Read the source spider first and preserve its extraction logic and item schema.
+- Rewrite the entrypoint into Prefect `@task` / `@flow` structure at the user-specified target path.
+- Adapt storage to the target Prefect project's `common/*`, choosing between `result_sink` and `spider_store` intentionally.
+- Allow the user to explicitly specify `accountcode`, and preserve that exact value in the converted spider.
+- Use only `.venv/bin/python` for conversion-time Python commands and validation.
+- Do not add pagination unless the source spider already had it or the user explicitly asks for it.
+
+## Recommended Workflow
+
+1. Start Chrome CDP for analysis when needed:
 
 ```bash
-python analyze_url.py "https://example.com/article/123" --render dynamic
+./start_chrome_cdp.sh
 ```
 
-程序会输出：
-- `out/<slug>/marker.json`
-- `out/<slug>/codex_prompt.txt`
+2. Analyze a list page:
 
-### 2) 再让 Codex 基于 marker 生成 spider
+```text
+使用当前目录的 $scrapling-spider-analysis 分析这个列表页，并把结果输出到 analysis_outputs：<list-url>
+```
 
-先安装 Codex CLI（官方文档示例）：
+3. Generate the spider:
+
+```text
+使用当前目录的 $scrapling-spider-generator，根据 analysis_outputs/hinews-cn-module-b0ba0a6167674227932bbeca1cc20e77_analysis 里的分析结果生成 Scrapling 爬虫。只抓第一页。
+```
+
+4. Run the generated spider:
 
 ```bash
-npm i -g @openai/codex
+.venv/bin/python spiders/<generated_spider>.py
 ```
 
-在本项目根目录运行：
+## Current Outputs
 
-```bash
-codex
-```
+- Analysis files go in `analysis_outputs/`.
+- Spider files go in `spiders/`.
+- Converted Prefect spiders should go to the separate target project, not this repo.
+- Local skills are stored in:
+  - `scrapling-spider-analysis/`
+  - `scrapling-spider-generator/`
+  - `scrapling-to-prefect-generator/`
 
-然后把 `out/<slug>/codex_prompt.txt` 的内容贴给 Codex，或者直接把核心要求粘进去，让它：
-- 读取 `marker.json`
-- 读取 `schemas/news_article.schema.json`
-- 使用 `spider-authoring` skill
-- 生成 `spiders/<site>.py`
-- 生成 `tests/test_<site>.py`
-- 保存 fixture
+## Notes
 
-## 期望效果
-
-你不再需要“每个站点每个字段都手动点一遍”，而是：
-1. 输入几个样本 URL
-2. 自动提候选标记
-3. 用 Codex 生成首版 extractor
-4. 通过测试和样本回归来确认
-
-## 注意
-
-- 这是最小 demo，不是完整产品。
-- 对复杂站点，候选 selector 不一定一次命中；本 demo 的价值在于把“人工逐字段标注”降到“审核候选 + 回归测试”。
-- 若目标页面需要登录、验证码或复杂交互，请优先在独立 fetch 步骤中解决，再进入提标记流程。
+- CDP is only for analysis unless explicitly requested otherwise.
+- Runtime crawler environments may not have CDP. Generated spiders should rely on Scrapling's browser rendering, not a local debug endpoint.
+- If normal dynamic rendering returns target-side `400` or similar anti-bot errors, use Scrapling stealth rendering in the generated spider.
+- For similar detail pages at scale, avoid partial-sample assumptions: generated spiders should inspect each detail page for both article-text and video-player signals.

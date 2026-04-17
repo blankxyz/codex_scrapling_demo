@@ -1,0 +1,6 @@
+interface:
+  display_name: "Scrapling To Prefect Generator"
+  short_description: "Convert Scrapling spiders to external Prefect flows"
+  default_prompt: "Use $scrapling-to-prefect-generator to convert an existing Scrapling spider in this repo into a Prefect spider for a separate target project while preserving extraction logic and adapting storage."
+policy:
+  allow_implicit_invocation: true
