@@ -53,8 +53,8 @@ def resolve_cdp_url(hint: str) -> str:
 
     raise RuntimeError(
         "No reachable CDP endpoint found. "
-        "If Chrome/Brave CDP is running on the host but this command is inside the Codex sandbox, "
-        "rerun the same probe command with escalated permissions or use the repo's docker-brave CDP backend.\n"
+        "If Chrome CDP is running on the host but this command is inside the Codex sandbox, "
+        "rerun the same probe command with escalated permissions.\n"
         "Tried:\n"
         + "\n".join(f"  {e}" for e in errors)
     )
@@ -62,7 +62,7 @@ def resolve_cdp_url(hint: str) -> str:
 
 def build_parser():
     parser = argparse.ArgumentParser(
-        description="Probe a list page through an existing Chrome CDP session and save DOM/network/detail evidence."
+        description="Probe a list page through an existing Chrome CDP session and save DOM/network/detail evidence. Can reuse an already open visible tab when needed."
     )
     parser.add_argument("--url", required=True, help="List page URL to analyze.")
     parser.add_argument("--out", required=True, help="Output JSON path.")
@@ -72,10 +72,25 @@ def build_parser():
         help="Chrome CDP endpoint. Default: http://127.0.0.1:9222",
     )
     parser.add_argument(
+        "--reuse-open-tab",
+        action="store_true",
+        help="Reuse an already open tab that matches --tab-url-prefix or --url instead of opening a new one.",
+    )
+    parser.add_argument(
+        "--tab-url-prefix",
+        default="",
+        help="URL prefix used to locate an already open tab when --reuse-open-tab is set. Default: --url",
+    )
+    parser.add_argument(
         "--list-wait-ms",
         type=int,
         default=5000,
         help="Extra wait after initial list-page load.",
+    )
+    parser.add_argument(
+        "--skip-networkidle",
+        action="store_true",
+        help="Do not wait for the networkidle load state; useful for pages with long-lived media or trackers.",
     )
     parser.add_argument(
         "--detail-wait-ms",
@@ -172,6 +187,27 @@ async def collect_detail_dom(page, max_html_chars):
     )
 
 
+def select_existing_page(pages, target_url: str, tab_url_prefix: str):
+    prefix = (tab_url_prefix or target_url).strip()
+    exact_matches = [page for page in pages if getattr(page, "url", "") == target_url]
+    if exact_matches:
+        return exact_matches[0]
+    prefix_matches = [page for page in pages if getattr(page, "url", "").startswith(prefix)]
+    if prefix_matches:
+        return prefix_matches[0]
+    return None
+
+
+async def wait_page_ready(page, extra_wait_ms: int, skip_networkidle: bool):
+    if not skip_networkidle:
+        try:
+            await page.wait_for_load_state("networkidle", timeout=15000)
+        except Exception:
+            pass
+    if extra_wait_ms > 0:
+        await page.wait_for_timeout(extra_wait_ms)
+
+
 def pick_detail_candidate(anchors, source_url):
     source = urlparse(source_url)
     source_host = source.netloc
@@ -211,7 +247,21 @@ async def main():
     async with async_playwright() as p:
         browser = await p.chromium.connect_over_cdp(cdp_url)
         context = browser.contexts[0] if browser.contexts else await browser.new_context()
-        page = await context.new_page()
+        existing_pages = []
+        for candidate_context in browser.contexts:
+            existing_pages.extend(candidate_context.pages)
+
+        page = None
+        if args.reuse_open_tab:
+            page = select_existing_page(existing_pages, args.url, args.tab_url_prefix)
+            if page is None:
+                print(
+                    f"error: no open tab matched {args.tab_url_prefix or args.url!r} while --reuse-open-tab was set",
+                    file=sys.stderr,
+                )
+                raise SystemExit(1)
+        else:
+            page = await context.new_page()
 
         async def on_response(resp):
             req = resp.request
@@ -230,13 +280,11 @@ async def main():
             )
 
         page.on("response", lambda resp: asyncio.create_task(on_response(resp)))
-        await page.goto(args.url, wait_until="domcontentloaded", timeout=60000)
-        try:
-            await page.wait_for_load_state("networkidle", timeout=15000)
-        except Exception:
-            pass
-        if args.list_wait_ms > 0:
-            await page.wait_for_timeout(args.list_wait_ms)
+        if args.reuse_open_tab:
+            await wait_page_ready(page, args.list_wait_ms, args.skip_networkidle)
+        else:
+            await page.goto(args.url, wait_until="domcontentloaded", timeout=60000)
+            await wait_page_ready(page, args.list_wait_ms, args.skip_networkidle)
 
         dom = await collect_page_dom(page, args.max_html_chars)
 
@@ -265,17 +313,13 @@ async def main():
 
                 dpage.on("response", lambda resp: asyncio.create_task(on_detail_response(resp)))
                 await dpage.goto(detail_url, wait_until="domcontentloaded", timeout=60000)
-                try:
-                    await dpage.wait_for_load_state("networkidle", timeout=15000)
-                except Exception:
-                    pass
-                if args.detail_wait_ms > 0:
-                    await dpage.wait_for_timeout(args.detail_wait_ms)
+                await wait_page_ready(dpage, args.detail_wait_ms, args.skip_networkidle)
                 detail = await collect_detail_dom(dpage, args.max_html_chars)
                 detail["network"] = detail_records
                 await dpage.close()
 
-        await page.close()
+        if not args.reuse_open_tab:
+            await page.close()
         await browser.close()
 
     payload = {

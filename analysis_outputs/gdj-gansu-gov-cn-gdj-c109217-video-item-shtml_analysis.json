@@ -1,0 +1,92 @@
+{
+  "source_url": "https://gdj.gansu.gov.cn/gdj/c109217/video_item.shtml",
+  "slug": "gdj-gansu-gov-cn-gdj-c109217-video-item-shtml",
+  "analysis_method": "local_visible_chrome_cdp_live_tab",
+  "site": {
+    "domain": "gdj.gansu.gov.cn",
+    "base_url": "https://gdj.gansu.gov.cn",
+    "page_title": "本土纪录片",
+    "column_name": "本土纪录片"
+  },
+  "list": {
+    "first_page_only": true,
+    "item_count": 20,
+    "item_selector": ".news_list-item ul.pagelist > li",
+    "link_selector": ".news_list-item ul.pagelist > li > a",
+    "title_selector": ".news_list-item ul.pagelist > li > a > p",
+    "publish_time_selector": ".news_list-item ul.pagelist > li > a > p > span",
+    "wait_selector": ".news_list-item ul.pagelist > li > a[href*='/gdj/c109217/'][href$='.shtml']",
+    "first_page_titles": [
+      "石窟中国 第一集",
+      "石窟中国 第二集",
+      "石窟中国 第三集",
+      "望首曲",
+      "马家窑•彩陶上的中国 第一集《发现》",
+      "马家窑•彩陶上的中国 第二集《密码》",
+      "马家窑•彩陶上的中国 第三集《流变》",
+      "戈壁是一片海——我在高原种夏菜",
+      "戈壁是一片海——香菇夫妻致富路",
+      "戈壁是一片海——沙海养虾人",
+      "戈壁是一片海——戈壁滩上致富果",
+      "戈壁是一片海——戈壁热带梦",
+      "探秘神鹰谷（上）",
+      "探秘神鹰谷（下）",
+      "南梁纪事 第一集《太白起义枪声响》",
+      "南梁纪事 第二集《黄土塬上举红旗》",
+      "南梁纪事 第三集《南梁川里建政权》",
+      "南梁纪事 第四集《边区引领新风尚》",
+      "南梁纪事 第五集《列宁小学播火种》",
+      "南梁纪事 第六集《红军长征过甘肃》"
+    ]
+  },
+  "api": {
+    "exists": false,
+    "capture_xhr": "",
+    "method": "GET",
+    "path": "",
+    "channel_id": "c0c8c340c68d4381998c567d89c3e38e",
+    "page_param": "",
+    "page_size_param": "",
+    "dynamic_token": false,
+    "response_paths": {
+      "rows": "",
+      "page": "",
+      "total": "",
+      "detail_url": "",
+      "title": "",
+      "publish_time": "",
+      "column_name": "",
+      "source": ""
+    }
+  },
+  "detail": {
+    "sample_url": "https://gdj.gansu.gov.cn/gdj/c109217/202604/174316729.shtml",
+    "title_selector": ".newsDetails #title_f, .newsDetails #title_mm",
+    "meta_selector": ".newsDetails .notice",
+    "content_selector": ".newsDetails #content",
+    "publish_time_regex": "发布时间：\\s*(\\d{4}-\\d{2}-\\d{2}\\s+\\d{2}:\\d{2}:\\d{2})",
+    "source_regex": "来源：\\s*([^\\s【]+)?",
+    "views_regex": "浏览次数[:：]\\s*(\\d+)",
+    "wait_selector": ".newsDetails #content video[src$='.mp4'], .newsDetails #content source[src$='.mp4']",
+    "content_duplicated": true
+  },
+  "spider_strategy": {
+    "session": "AsyncStealthySession",
+    "google_search": false,
+    "network_idle": false,
+    "pagination": "none",
+    "notes": [
+      "List page was analyzable only after attaching to the user-visible Chrome session.",
+      "The list is server-rendered HTML rather than XHR-fed JSON.",
+      "Page 1 contains 20 items and the paginator shows 8 pages, but page-turning behavior was not reverse-engineered in this run.",
+      "Detail pages are video details with a direct MP4 in .newsDetails #content video[src].",
+      "Desktop and mobile detail templates both exist in the same HTML; prefer desktop .newsDetails selectors first."
+    ]
+  },
+  "evidence": {
+    "used_cdp": true,
+    "cdp_url": "http://127.0.0.1:9222",
+    "visible_tab_probe": "analysis_outputs/gdj-gansu-gov-cn-gdj-c109217-video-item-shtml_visible_tab.json",
+    "detail_probe": "analysis_outputs/gdj-gansu-gov-cn-gdj-c109217-detail_visible.json"
+  }
+}

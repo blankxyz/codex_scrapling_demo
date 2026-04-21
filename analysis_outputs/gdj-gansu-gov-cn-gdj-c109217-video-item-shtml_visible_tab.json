@@ -1,0 +1,726 @@
+{
+  "url": "https://gdj.gansu.gov.cn/gdj/c109217/video_item.shtml",
+  "title": "本土纪录片",
+  "bodyText": "2026年4月21日 星期二 搜 索 首 页 新闻中心 政府信息公开 网上办事 互动交流 机关党建 陇上精品 首页>陇上精品>本土纪录片 陇上精品 本土纪录片 优秀公益广告 历年优秀 主题分类 网络视听节目 2025年全省原创网络视听节目展播 本土纪录片 石窟中国 第一集 2026-04-13 石窟中国 第二集 2026-04-13 石窟中国 第三集 2026-04-13 望首曲 2026-04-13 马家窑•彩陶上的中国 第一集《发现》 2026-04-13 马家窑•彩陶上的中国 第二集《密码》 2026-04-13 马家窑•彩陶上的中国 第三集《流变》 2026-04-13 戈壁是一片海——我在高原种夏菜 2026-04-13 戈壁是一片海——香菇夫妻致富路 2026-04-13 戈壁是一片海——沙海养虾人 2026-04-13 戈壁是一片海——戈壁滩上致富果 2026-04-13 戈壁是一片海——戈壁热带梦 2026-04-13 探秘神鹰谷（上） 2026-04-13 探秘神鹰谷（下） 2026-04-13 南梁纪事 第一集《太白起义枪声响》 2026-04-13 南梁纪事 第二集《黄土塬上举红旗》 2026-04-13 南梁纪事 第三集《南梁川里建政权》 2026-04-13 南梁纪事 第四集《边区引领新风尚》 2026-04-13 南梁纪事 第五集《列宁小学播火种》 2026-04-13 南梁纪事 第六集《红军长征过甘肃》 2026-04-13 上一页 1 2 3 ... 8 下一页 共8页 到第页 确定 友情链接 甘公网安备 62010202000681号 ICP备案号：陇ICP备05003750号-1 信息网络传播视听节目许可证号：2807187 | 网站标识码：6200000036 版权所有：甘肃省广播电视局 | 技术支持：甘肃省广播电视局政务网站 联系我们 | 网站地图",
+  "anchors": [
+    {
+      "tag": "a",
+      "className": "",
+      "id": "",
+      "href": "https://gdj.gansu.gov.cn/gdj/index_m.shtml",
+      "text": ""
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "",
+      "href": "javascript:search();",
+      "text": "搜 索"
+    },
+    {
+      "tag": "a",
+      "className": "icon1",
+      "id": "select_sy",
+      "href": "https://gdj.gansu.gov.cn/gdj/index_m.shtml",
+      "text": "首 页"
+    },
+    {
+      "tag": "a",
+      "className": "icon2 ",
+      "id": "select_c109209",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109209/news.shtml",
+      "text": "新闻中心"
+    },
+    {
+      "tag": "a",
+      "className": "icon3 ",
+      "id": "select_c109227",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109227/xxgkzn.shtml",
+      "text": "政府信息公开"
+    },
+    {
+      "tag": "a",
+      "className": "icon4 ",
+      "id": "select_c109251",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109251/wsbs.shtml",
+      "text": "网上办事"
+    },
+    {
+      "tag": "a",
+      "className": "icon5 ",
+      "id": "select_c109256",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109256/hdjl.shtml",
+      "text": "互动交流"
+    },
+    {
+      "tag": "a",
+      "className": "icon6 ",
+      "id": "select_c109261",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109261/djjg.shtml",
+      "text": "机关党建"
+    },
+    {
+      "tag": "a",
+      "className": "icon7  select",
+      "id": "select_c109217",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109217/video_item.shtml",
+      "text": "陇上精品"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "",
+      "href": "https://gdj.gansu.gov.cn/gdj/index_m.shtml",
+      "text": "首页"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109216/video_item.shtml",
+      "text": "陇上精品"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109217/video_item.shtml",
+      "text": "本土纪录片"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109218/video_item.shtml",
+      "text": "优秀公益广告"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "news_c109284",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109284/video_item.shtml",
+      "text": "2019年"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "news_c109280",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109280/video_item.shtml",
+      "text": "2020年"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "news_c109281",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109281/video_item.shtml",
+      "text": "2021年"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "news_c109282",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109282/video_item.shtml",
+      "text": "2022年"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "news_c109283",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109283/video_item.shtml",
+      "text": "2023年"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "news_c109285",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109285/video_item.shtml",
+      "text": "2024年"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "news_c114198",
+      "href": "https://gdj.gansu.gov.cn/gdj/c114198/video_item.shtml",
+      "text": "2025年"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "news_c109272",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109272/video_item.shtml",
+      "text": "文化自信▪敦煌篇"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "news_c109274",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109274/video_item.shtml",
+      "text": "庆祝中国共产党成立100周年"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "news_c109275",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109275/video_item.shtml",
+      "text": "文化自信"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "news_c109276",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109276/video_item.shtml",
+      "text": "乡村振兴"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "news_c109277",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109277/video_item.shtml",
+      "text": "拼搏奋进"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "news_c109278",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109278/video_item.shtml",
+      "text": "脱贫攻坚"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "news_c109278k",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109278k/video_item.shtml",
+      "text": "文明健康"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "news_c109279",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109279/video_item.shtml",
+      "text": "疫情防控"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109219/video_item.shtml",
+      "text": "网络视听节目"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109291/video_item.shtml",
+      "text": "2025年全省原创网络视听节目展播"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109217/202604/174316729.shtml",
+      "text": "石窟中国 第一集 2026-04-13"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109217/202604/174316732.shtml",
+      "text": "石窟中国 第二集 2026-04-13"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109217/202604/174316731.shtml",
+      "text": "石窟中国 第三集 2026-04-13"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109217/202604/174316679.shtml",
+      "text": "望首曲 2026-04-13"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109217/202604/174316653.shtml",
+      "text": "马家窑•彩陶上的中国 第一集《发现》 2026-04-13"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109217/202604/174316644.shtml",
+      "text": "马家窑•彩陶上的中国 第二集《密码》 2026-04-13"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109217/202604/174316641.shtml",
+      "text": "马家窑•彩陶上的中国 第三集《流变》 2026-04-13"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109217/202604/174316605.shtml",
+      "text": "戈壁是一片海——我在高原种夏菜 2026-04-13"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109217/202604/174316603.shtml",
+      "text": "戈壁是一片海——香菇夫妻致富路 2026-04-13"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109217/202604/174316600.shtml",
+      "text": "戈壁是一片海——沙海养虾人 2026-04-13"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109217/202604/174316571.shtml",
+      "text": "戈壁是一片海——戈壁滩上致富果 2026-04-13"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109217/202604/174316529.shtml",
+      "text": "戈壁是一片海——戈壁热带梦 2026-04-13"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109217/202604/174316525.shtml",
+      "text": "探秘神鹰谷（上） 2026-04-13"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109217/202604/174316513.shtml",
+      "text": "探秘神鹰谷（下） 2026-04-13"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109217/202604/174316501.shtml",
+      "text": "南梁纪事 第一集《太白起义枪声响》 2026-04-13"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109217/202604/174316496.shtml",
+      "text": "南梁纪事 第二集《黄土塬上举红旗》 2026-04-13"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109217/202604/174316489.shtml",
+      "text": "南梁纪事 第三集《南梁川里建政权》 2026-04-13"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109217/202604/174316483.shtml",
+      "text": "南梁纪事 第四集《边区引领新风尚》 2026-04-13"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109217/202604/174316476.shtml",
+      "text": "南梁纪事 第五集《列宁小学播火种》 2026-04-13"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109217/202604/174316471.shtml",
+      "text": "南梁纪事 第六集《红军长征过甘肃》 2026-04-13"
+    },
+    {
+      "tag": "a",
+      "className": "zxfPagenum nextpage",
+      "id": "",
+      "href": "javascript:;",
+      "text": "2"
+    },
+    {
+      "tag": "a",
+      "className": "zxfPagenum",
+      "id": "",
+      "href": "javascript:;",
+      "text": "3"
+    },
+    {
+      "tag": "a",
+      "className": "zxfPagenum",
+      "id": "",
+      "href": "javascript:;",
+      "text": "8"
+    },
+    {
+      "tag": "a",
+      "className": "nextbtn",
+      "id": "",
+      "href": "javascript:;",
+      "text": "下一页"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "",
+      "href": "http://bszs.conac.cn/sitename?method=show&id=081D2A26C6795754E053022819AC1FAF",
+      "text": ""
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "",
+      "href": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=62010202000681",
+      "text": "甘公网安备 62010202000681号"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "",
+      "href": "https://beian.miit.gov.cn/",
+      "text": "ICP备案号：陇ICP备05003750号-1"
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109267/wzdt.shtml",
+      "text": "联系我们"
+    },
+    {
+      "tag": "a",
+      "className": "netmap",
+      "id": "",
+      "href": "https://gdj.gansu.gov.cn/gdj/c109268/wzdt.shtml",
+      "text": "网站地图"
+    },
+    {
+      "tag": "a",
+      "className": "cart1 def",
+      "id": "toolbarCtrl",
+      "href": "http://gdj.gansu.gov.cn/toolbar/wca.html",
+      "text": ""
+    },
+    {
+      "tag": "a",
+      "className": "btn_top",
+      "id": "goto-top",
+      "href": "javascript:void(0)",
+      "text": ""
+    }
+  ],
+  "headings": [
+    {
+      "tag": "h2",
+      "className": "",
+      "id": "",
+      "href": "",
+      "text": "本土纪录片"
+    },
+    {
+      "tag": "h2",
+      "className": "",
+      "id": "",
+      "href": "",
+      "text": "优秀公益广告"
+    },
+    {
+      "tag": "div",
+      "className": "three-title",
+      "id": "cj1",
+      "href": "",
+      "text": "历年优秀"
+    },
+    {
+      "tag": "div",
+      "className": "three-title",
+      "id": "cj2",
+      "href": "",
+      "text": "主题分类"
+    },
+    {
+      "tag": "h2",
+      "className": "",
+      "id": "",
+      "href": "",
+      "text": "网络视听节目"
+    },
+    {
+      "tag": "div",
+      "className": "three-title",
+      "id": "",
+      "href": "",
+      "text": "2025年全省原创网络视听节目展播"
+    },
+    {
+      "tag": "div",
+      "className": "title",
+      "id": "",
+      "href": "",
+      "text": "本土纪录片"
+    },
+    {
+      "tag": "h4",
+      "className": "",
+      "id": "",
+      "href": "",
+      "text": "本土纪录片"
+    }
+  ],
+  "likely": [
+    {
+      "tag": "div",
+      "className": "nav_item w1200",
+      "id": "",
+      "href": "",
+      "text": "首 页 新闻中心 政府信息公开 网上办事 互动交流 机关党建 陇上精品"
+    },
+    {
+      "tag": "div",
+      "className": "news clearfix",
+      "id": "",
+      "href": "",
+      "text": "陇上精品 本土纪录片 优秀公益广告 历年优秀 主题分类 网络视听节目 2025年全省原创网络视听节目展播 本土纪录片 石窟中国 第一集 2026-04-13 石窟中国 第二集 2026-04-13 石窟中国 第三集 2026-04-13 望首曲 2026-04-13 马家窑•彩陶上的中国 第一集《发现》 2026-04-13 马家窑•彩陶上的中国 第二集《密码》 2026-04-13 马家窑•彩陶上的中国 第三集《流变》 2026-04-13 戈壁是一片海——我在高原种夏菜 2026-04-13 戈壁是一片海——香菇夫妻致富路 2026-04-13 戈壁是一片海——沙海养虾人 2026-04-13 戈壁是一片海——戈壁滩上致富果 2026-04-13 戈壁是一片海——戈壁热带梦 2026-04-13 探秘神鹰谷（上） 2026-04-13 探秘神鹰谷（下） 2026-04-13 南梁纪事 第一集《太白起义枪声响》 2026-04-13 南梁纪事 第二集《黄土塬上举红旗》 2026-04-13 南梁纪事 第三集《南梁川里建政权》 2026-04-13 南梁纪事 第四集《边区引领新风尚》 "
+    },
+    {
+      "tag": "div",
+      "className": "nav-item",
+      "id": "news_c109218",
+      "href": "",
+      "text": "优秀公益广告 历年优秀 主题分类"
+    },
+    {
+      "tag": "div",
+      "className": "sub_item",
+      "id": "",
+      "href": "",
+      "text": "历年优秀 主题分类"
+    },
+    {
+      "tag": "div",
+      "className": "three-item",
+      "id": "cj11",
+      "href": "",
+      "text": "2019年 2020年 2021年 2022年 2023年 2024年 2025年"
+    },
+    {
+      "tag": "div",
+      "className": "three-item",
+      "id": "cj22",
+      "href": "",
+      "text": "文化自信▪敦煌篇 庆祝中国共产党成立100周年 文化自信 乡村振兴 拼搏奋进 脱贫攻坚 文明健康 疫情防控"
+    },
+    {
+      "tag": "div",
+      "className": "nav-item",
+      "id": "news_c109219",
+      "href": "",
+      "text": "网络视听节目 2025年全省原创网络视听节目展播"
+    },
+    {
+      "tag": "div",
+      "className": "sub_item",
+      "id": "",
+      "href": "",
+      "text": "2025年全省原创网络视听节目展播"
+    },
+    {
+      "tag": "li",
+      "className": "none-icon",
+      "id": "news_c109291",
+      "href": "",
+      "text": "2025年全省原创网络视听节目展播"
+    },
+    {
+      "tag": "div",
+      "className": "three-title",
+      "id": "",
+      "href": "",
+      "text": "2025年全省原创网络视听节目展播"
+    },
+    {
+      "tag": "div",
+      "className": "news_list-item",
+      "id": "",
+      "href": "",
+      "text": "石窟中国 第一集 2026-04-13 石窟中国 第二集 2026-04-13 石窟中国 第三集 2026-04-13 望首曲 2026-04-13 马家窑•彩陶上的中国 第一集《发现》 2026-04-13 马家窑•彩陶上的中国 第二集《密码》 2026-04-13 马家窑•彩陶上的中国 第三集《流变》 2026-04-13 戈壁是一片海——我在高原种夏菜 2026-04-13 戈壁是一片海——香菇夫妻致富路 2026-04-13 戈壁是一片海——沙海养虾人 2026-04-13 戈壁是一片海——戈壁滩上致富果 2026-04-13 戈壁是一片海——戈壁热带梦 2026-04-13 探秘神鹰谷（上） 2026-04-13 探秘神鹰谷（下） 2026-04-13 南梁纪事 第一集《太白起义枪声响》 2026-04-13 南梁纪事 第二集《黄土塬上举红旗》 2026-04-13 南梁纪事 第三集《南梁川里建政权》 2026-04-13 南梁纪事 第四集《边区引领新风尚》 2026-04-13 南梁纪事 第五集《列宁小学播火种》 2026-04-13 南梁纪事 第六集《红军长征过甘肃》 2"
+    },
+    {
+      "tag": "ul",
+      "className": "pagelist clearfix",
+      "id": "",
+      "href": "",
+      "text": "石窟中国 第一集 2026-04-13 石窟中国 第二集 2026-04-13 石窟中国 第三集 2026-04-13 望首曲 2026-04-13 马家窑•彩陶上的中国 第一集《发现》 2026-04-13 马家窑•彩陶上的中国 第二集《密码》 2026-04-13 马家窑•彩陶上的中国 第三集《流变》 2026-04-13 戈壁是一片海——我在高原种夏菜 2026-04-13 戈壁是一片海——香菇夫妻致富路 2026-04-13 戈壁是一片海——沙海养虾人 2026-04-13 戈壁是一片海——戈壁滩上致富果 2026-04-13 戈壁是一片海——戈壁热带梦 2026-04-13 探秘神鹰谷（上） 2026-04-13 探秘神鹰谷（下） 2026-04-13 南梁纪事 第一集《太白起义枪声响》 2026-04-13 南梁纪事 第二集《黄土塬上举红旗》 2026-04-13 南梁纪事 第三集《南梁川里建政权》 2026-04-13 南梁纪事 第四集《边区引领新风尚》 2026-04-13 南梁纪事 第五集《列宁小学播火种》 2026-04-13 南梁纪事 第六集《红军长征过甘肃》 2"
+    },
+    {
+      "tag": "li",
+      "className": "",
+      "id": "",
+      "href": "",
+      "text": "石窟中国 第一集 2026-04-13"
+    },
+    {
+      "tag": "li",
+      "className": "",
+      "id": "",
+      "href": "",
+      "text": "石窟中国 第二集 2026-04-13"
+    },
+    {
+      "tag": "li",
+      "className": "",
+      "id": "",
+      "href": "",
+      "text": "石窟中国 第三集 2026-04-13"
+    },
+    {
+      "tag": "li",
+      "className": "",
+      "id": "",
+      "href": "",
+      "text": "望首曲 2026-04-13"
+    },
+    {
+      "tag": "li",
+      "className": "",
+      "id": "",
+      "href": "",
+      "text": "马家窑•彩陶上的中国 第一集《发现》 2026-04-13"
+    },
+    {
+      "tag": "li",
+      "className": "",
+      "id": "",
+      "href": "",
+      "text": "马家窑•彩陶上的中国 第二集《密码》 2026-04-13"
+    },
+    {
+      "tag": "li",
+      "className": "",
+      "id": "",
+      "href": "",
+      "text": "马家窑•彩陶上的中国 第三集《流变》 2026-04-13"
+    },
+    {
+      "tag": "li",
+      "className": "",
+      "id": "",
+      "href": "",
+      "text": "戈壁是一片海——我在高原种夏菜 2026-04-13"
+    },
+    {
+      "tag": "li",
+      "className": "",
+      "id": "",
+      "href": "",
+      "text": "戈壁是一片海——香菇夫妻致富路 2026-04-13"
+    },
+    {
+      "tag": "li",
+      "className": "",
+      "id": "",
+      "href": "",
+      "text": "戈壁是一片海——沙海养虾人 2026-04-13"
+    },
+    {
+      "tag": "li",
+      "className": "",
+      "id": "",
+      "href": "",
+      "text": "戈壁是一片海——戈壁滩上致富果 2026-04-13"
+    },
+    {
+      "tag": "li",
+      "className": "",
+      "id": "",
+      "href": "",
+      "text": "戈壁是一片海——戈壁热带梦 2026-04-13"
+    },
+    {
+      "tag": "li",
+      "className": "",
+      "id": "",
+      "href": "",
+      "text": "探秘神鹰谷（上） 2026-04-13"
+    },
+    {
+      "tag": "li",
+      "className": "",
+      "id": "",
+      "href": "",
+      "text": "探秘神鹰谷（下） 2026-04-13"
+    },
+    {
+      "tag": "li",
+      "className": "",
+      "id": "",
+      "href": "",
+      "text": "南梁纪事 第一集《太白起义枪声响》 2026-04-13"
+    },
+    {
+      "tag": "li",
+      "className": "",
+      "id": "",
+      "href": "",
+      "text": "南梁纪事 第二集《黄土塬上举红旗》 2026-04-13"
+    },
+    {
+      "tag": "li",
+      "className": "",
+      "id": "",
+      "href": "",
+      "text": "南梁纪事 第三集《南梁川里建政权》 2026-04-13"
+    },
+    {
+      "tag": "li",
+      "className": "",
+      "id": "",
+      "href": "",
+      "text": "南梁纪事 第四集《边区引领新风尚》 2026-04-13"
+    },
+    {
+      "tag": "li",
+      "className": "",
+      "id": "",
+      "href": "",
+      "text": "南梁纪事 第五集《列宁小学播火种》 2026-04-13"
+    },
+    {
+      "tag": "li",
+      "className": "",
+      "id": "",
+      "href": "",
+      "text": "南梁纪事 第六集《红军长征过甘肃》 2026-04-13"
+    },
+    {
+      "tag": "div",
+      "className": "layui-form-item",
+      "id": "",
+      "href": "",
+      "text": "-中央政府省政府及省直部门- 中国政府网 中国·甘肃 省发展改革委 省教育厅 省科技厅 省工信厅 省民委 省公安厅 省民政厅 省司法厅 省财政厅 省人社厅 省自然资源厅 省生态环境厅 省住建厅 省交通运输厅 省水利厅 省农业农村厅 省商务厅 省文旅厅 省卫生健康委 省退役军人厅 省应急厅 省审计厅 省政府外事办 省政府国资委 省林草局 省市场监管局 省体育局 省金融监管局 省粮食储备局 省文物局 省网络公司 -中央政府省政府及省直部门-中国政府网中国·甘肃省发展改革委省教育厅省科技厅省工信厅省民委省公安厅省民政厅省司法厅省财政厅省人社厅省自然资源厅省生态环境厅省住建厅省交通运输厅省水利厅省农业农村厅省商务厅省文旅厅省卫生健康委省退役军人厅省应急厅省审计厅省政府外事办省政府国资委省林草局省市场监管局省体育局省金融监管局省粮食储备局省文物局省网络公司 -广电总局及各省局- 国家广播电视总局 北京局 天津局 河北局 山西局 内蒙古局 辽宁局 吉林局 上海局 江苏局 浙江局 安徽局 福建局 山东局 河南局 湖北局 湖南局 广东局 广西局 海南厅 重庆委 四川局 贵州局 云南局 陕西局 青海局 "
+    }
+  ],
+  "html": "<html><head>\n<meta charset=\"UTF-8\">\n<meta name=\"channelId\" content=\"c0c8c340c68d4381998c567d89c3e38e\">\n<meta name=\"code\" content=\"c109217\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/gdj/xhtml/css/m.base.css\">\n<link rel=\"stylesheet\" href=\"/gdj/xhtml/css/layui.css\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/gdj/xhtml/css/member.css\">\n<link rel=\"Bookmark\" href=\"/gdj/xhtml/picture/favicon.png\">\n<link rel=\"Shortcut Icon\" href=\"/gdj/xhtml/picture/favicon.png\">\n\n<meta name=\"SiteName\" content=\"甘肃省广播电视局\">\n<meta name=\"SiteDomain\" content=\"http://gdj.gansu.gov.cn/\">\n<meta name=\"SiteIDCode\" content=\"6200000036\">\n<meta name=\"ColumnName\" content=\"本土纪录片\">\n<meta name=\"ColumnDescription\" content=\"本土纪录片\">\n<meta name=\"ColumnKeywords\" content=\"本土纪录片\">\n<meta name=\"ColumnType\" content=\"人文陇右\">\n\n<meta name=\"others\" content=\"页面生成时间 2026-04-13 16:16:26\">\n<title>本土纪录片</title>\n<meta name=\"keywords\" content=\"甘肃省广播电视局\">\n<meta name=\"description\" content=\"甘肃省广播电视局\">\n<style>\n.eventList {\n    float: right;\n    width: 980px;\n}\n.newList {\n/*border-bottom: 1px dotted #444343;\n            margin-bottom: 12px;\n            padding-bottom: 10px;*/\n}\n.border0 .newList ul li {\n    border-bottom: 0 !important;\n    padding-left: 0 !important;\n}\n.title {\n    height: 45px;\n    line-height: 45px;\n    margin-bottom: 5px;\n}\n.title h4 {\n    float: left;\n    width: 110px;\n    text-align: left;\n    font-size: 20px;\n    color: #2a7ccf;\n    font-weight: 700;\n    border-bottom: 2px solid #2a7ccf;\n}\n.title p {\n    float: left;\n    width: 868px;\n    height: 47px;\n    border-bottom: 2px solid #888989;\n    margin-left: 2px;\n}\n.newList ul li em {\n    float: right;\n    font-size: 14px;\n    line-height: 40px;\n}\n.newList ul li .left {\n    float: left;\n    width: 900px;\n}\n.newList ul li .left p {\n    width: 850px;\n}\n#page_div .page_jump, #page_div .total_count {\n    display: none;\n}\n.page a, .page span {\n    border: 1px solid #58A0D3;\n    padding: 5px;\n}\n#page_div a.current {\n    background: #58A0D3;\n    color: #fff;\n}\n.page span, .page p {\n    line-height: unset;\n}\n  \n  .news_list-item ul li p {\n\n text-indent: 10px;\n text-align: left;\n}\n\n</style>\n<!--[if lt IE 9]><script r='m'>document.createElement(\"section\")</script><![endif]--><link id=\"layuicss-laydate\" rel=\"stylesheet\" href=\"https://gdj.gansu.gov.cn/gdj/xhtml/js/css/modules/laydate/default/laydate.css?v=5.0.9\" media=\"all\"><link id=\"layuicss-layer\" rel=\"stylesheet\" href=\"https://gdj.gansu.gov.cn/gdj/xhtml/js/css/modules/layer/default/layer.css?v=3.1.1\" media=\"all\"><link id=\"layuicss-skincodecss\" rel=\"stylesheet\" href=\"https://gdj.gansu.gov.cn/gdj/xhtml/js/css/modules/code.css\" media=\"all\"></head>\n\n<body>\n<div class=\"header\">\n  \t\n\t<div class=\"toptext w1200\" style=\"position: relative;\">\n  \t<script src=\"https://hm.baidu.com/hm.js?69d230062588e1acf7504716d0f34616\"></script><script>\n      function getCurrentDate() {\n\n      var myDate = new Date();\n\n      var year = myDate.getFullYear(); //年\n\n      var month = myDate.getMonth() + 1; //月\n\n      var day = myDate.getDate(); //日\n\n      var days = myDate.getDay();\n\n      switch(days) {\n\n            case 1:\n\n                  days = '星期一';\n\n                  break;\n\n            case 2:\n\n                  days = '星期二';\n\n                  break;\n\n            case 3:\n\n                  days = '星期三';\n\n                  break;\n\n            case 4:\n\n                  days = '星期四';\n\n                  break;\n\n            case 5:\n\n                  days = '星期五';\n\n                  break;\n\n            case 6:\n\n                  days = '星期六';\n\n                  break;\n\n            case 0:\n\n                  days = '星期日';\n\n                  break;\n\n\n\n      }\n\n      var str = year + \"年\" + month + \"月\" + day + \"日  \" + days;\n\n      return str;\n\n}\n    document.write(getCurrentDate());\n      </script>2026年4月21日  星期二\n  </div>\n\t<div class=\"logo w1200 clearfix\">\n\t\t<div class=\"img\"><a target=\"_blank\" ondragstart=\"return false\" href=\"/gdj/index_m.shtml\"><img src=\"/gdj/xhtml/picture/logo.png\"></a></div>\n\t\t<div class=\"search clearfix\">\n\t\t\t<div class=\"weather clearfix\">\n\t\t\t\t\n\t\t\t</div>\n\n\t\t\t<div class=\"s_box clearfix\">\n\t\t\t\t<!--<form action=\"/home/search/index.html\" method=\"get\" id=\"search_f\">-->\n\t\t\t\t\t<img src=\"/gdj/xhtml/picture/search.png\">\n\t\t\t\t\t<input type=\"text\" name=\"keyword\" id=\"keywords\" onkeydown=\"huichesearch()\" value=\"\" placeholder=\"请您输入关键字查询\">\n\t\t\t\t\t<a style=\"background:#2a7ccf\" ondragstart=\"return false\" href=\"javascript:search();\">搜 索</a>\n\t\t\t\t<!--</form>-->\n              <script type=\"text/javascript\">\n\nfunction search(){\n\tvar keyword = document.getElementById(\"keywords\").value;\n\tif(\"\" == keyword  || null == keyword || \"请输入关键字\" == keyword){\n\t\talert(\"请输入检索关键字！\");\n\t\treturn false;\n\t}else{ \n\t\twindow.open(\"/guestweb4/s?siteCode=6200000036&checkHandle=1&pageSize=10&left_right_index=0&searchWord=\"+keyword);\n\t}\n}\n      function huichesearch(e){//回车搜索\n        var event = window.event || arguments.callee.caller.arguments[0];\n      if (event.keyCode == 13)\n            {\n                search();\n            }\n}\n</script>\n\t\t\t</div>\n\n\t\t\t<ul class=\"layui-nav notLogin\">\n\t\t\t\t<li class=\"layui-nav-item\" lay-unselect=\"\">\n\t\t\t\t\t<!--<a style=\"color:#2a7ccf\" ondragstart=\"return false\" target=\"_blank\" href=\"\"><img src=\"/gdj/xhtml/picture/nologin.png\"\n\t\t\t\t\t\t class=\"layui-nav-img\">登录</a>-->\n\t\t\t\t</li>\n\t\t\t<span class=\"layui-nav-bar\"></span></ul>\n\t\t</div>\n\t</div>\n</div>\n<style>\n.nav .nav_item ul li {\n   \n    width: 170px;\n\n}\n.nav .nav_item a.icon7 {\n\tbackground: url(/gdj/xhtml/images/nav7.png) 15px center no-repeat;\n\tbackground-size: 27px 27px;\n}\n  \n  .nav .nav_item a.select.icon7 {\n\tbackground: #fff url(https://gdj.gansu.gov.cn/gdj/xhtml/images/nav7_7.png) 15px center no-repeat;\n\tbackground-size: 27px 27px;\n\tcolor: #2a7ccf;\n\tborder-top: 1px solid #2a7ccf;\n\tborder-bottom: 1px solid #2a7ccf;\n}\n</style>\n<div class=\"nav\" style=\"background:#2a7ccf\">\n\t<div class=\"nav_item w1200\">\n\t\t<ul class=\"clearfix\">\n\t\t\t<li style=\"background:#2a7ccf\">\n\t\t\t\t<a target=\"_blank\" ondragstart=\"return false\" class=\"icon1\" id=\"select_sy\" href=\"/gdj/index_m.shtml\">首 页</a>\n\t\t\t</li>\n\t\t\t<li class=\"itemNews\" style=\"background:#2a7ccf\">\n\t\t\t\t<a target=\"_blank\" ondragstart=\"return false\" class=\"icon2 \" id=\"select_c109209\" href=\"/gdj/c109209/news.shtml\">新闻中心</a>\n\t\t\t</li>\n\t\t\t<li class=\"itemNews\" style=\"background:#2a7ccf\">\n\t\t\t\t<a target=\"_blank\" ondragstart=\"return false\" class=\"icon3 \" id=\"select_c109227\" href=\"/gdj/c109227/xxgkzn.shtml\">政府信息公开</a>\n\t\t\t</li>\n\t\t\t<li class=\"itemNews\" style=\"background:#2a7ccf\">\n\t\t\t\t<a target=\"_blank\" ondragstart=\"return false\" class=\"icon4 \" id=\"select_c109251\" href=\"/gdj/c109251/wsbs.shtml\">网上办事</a>\n\t\t\t</li>\n\t\t\t<li class=\"itemNews\" style=\"background:#2a7ccf\">\n\t\t\t\t<a target=\"_blank\" ondragstart=\"return false\" class=\"icon5 \" id=\"select_c109256\" href=\"/gdj/c109256/hdjl.shtml\">互动交流</a>\n\t\t\t</li>\n\t\t\t<li class=\"itemNews\" style=\"background:#2a7ccf\">\n\t\t\t\t<a target=\"_blank\" ondragstart=\"return false\" class=\"icon6 \" id=\"select_c109261\" href=\"/gdj/c109261/djjg.shtml\">机关党建</a>\n\t\t\t</li>\n          <li class=\"itemNews\" style=\"background:#2a7ccf\">\n\t\t\t\t<a target=\"_blank\" ondragstart=\"return false\" class=\"icon7  select\" id=\"select_c109217\" href=\"/gdj/c109217/video_item.shtml\">陇上精品</a>\n\t\t\t</li> \n\t\t</ul>\n\t</div>\n</div>\n\n<div class=\"content w1200\"> <span class=\"\" style=\"padding-bottom: 20px;width: 100%;display: inline-block;\">\n<a href=\"/gdj/index_m.shtml\" target=\"_blank\">首页</a>&gt;<a href=\"/gdj/c109216/video_item.shtml\" target=\"_blank\">陇上精品</a>&gt;<span>本土纪录片</span>\n\n  </span>\n  <div class=\"news clearfix\">\n    <div class=\"subnav\">\n\t<div class=\"left_nav\">陇上精品</div>\n\t<div class=\"layui-row\">\n\t\t<div class=\"nav-item\" id=\"news_c109217\">\n\t\t\t<h2><a ondragstart=\"return false\" href=\"/gdj/c109217/video_item.shtml\" style=\"color:#2a7ccf;\">本土纪录片</a></h2>\n\t\t \n\t\t<div class=\"selected\"></div></div>\n\t\t\n      \n      <div class=\"nav-item\" id=\"news_c109218\">\n\t\t\t<h2><a ondragstart=\"return false\" href=\"/gdj/c109218/video_item.shtml\" style=\"color:#2a7ccf;\">优秀公益广告</a></h2>\n\t\t\t<div class=\"sub_item\">\n\t\t\t\t<ul>\n\t\t\t\t\t<li class=\"none-icon\" style=\"border-bottom: 0;padding-bottom: 0;\" id=\"news_c109278e\">\n\t\t\t\t\t\t<div class=\"three-title\" style=\"color:#2a7ccf; cursor: pointer;\" id=\"cj1\">历年优秀<em></em></div>\n\n\t\t\t\t\t\t<div class=\"three-item\" style=\"display:none;\" id=\"cj11\">\n                            <a ondragstart=\"return false\" href=\"/gdj/c109284/video_item.shtml\" id=\"news_c109284\">2019年<em></em><span></span></a>\n\t\t\t\t\t\t\t<a ondragstart=\"return false\" href=\"/gdj/c109280/video_item.shtml\" id=\"news_c109280\">2020年<em></em><span></span></a>\n                            <a ondragstart=\"return false\" href=\"/gdj/c109281/video_item.shtml\" id=\"news_c109281\">2021年<em></em><span></span></a>\n                            <a ondragstart=\"return false\" href=\"/gdj/c109282/video_item.shtml\" id=\"news_c109282\">2022年<em></em><span></span></a>\n                            <a ondragstart=\"return false\" href=\"/gdj/c109283/video_item.shtml\" id=\"news_c109283\">2023年<em></em><span></span></a>\n                            <a ondragstart=\"return false\" href=\"/gdj/c109285/video_item.shtml\" id=\"news_c109285\">2024年<em></em><span></span></a>\n                            <a ondragstart=\"return false\" href=\"/gdj/c114198/video_item.shtml\" id=\"news_c114198\">2025年<em></em><span></span></a></div>\n\t\t\t\t\t</li>\n                  <li class=\"none-icon\" style=\"border-bottom: 0;padding-bottom: 0;\" id=\"news_c109271\">\n\t\t\t\t\t\t<div class=\"three-title\" style=\"color:#2a7ccf; cursor: pointer;\" id=\"cj2\">主题分类<em></em></div>\n\n\t\t\t\t\t\t<div class=\"three-item\" style=\"display:none;\" id=\"cj22\">\n\t\t\t\t\t\t\t<a ondragstart=\"return false\" href=\"/gdj/c109272/video_item.shtml\" id=\"news_c109272\" style=\"height:auto; line-height:25px; padding-top:10px; padding-bottom:10px;\">文化自信▪敦煌篇<em></em><span></span></a>\n                            \n                            <a ondragstart=\"return false\" href=\"/gdj/c109274/video_item.shtml\" id=\"news_c109274\" style=\"height:auto; line-height:25px; padding-top:10px; padding-bottom:10px;\">庆祝中国共产党成立100周年<em></em><span></span></a>\n                            <a ondragstart=\"return false\" href=\"/gdj/c109275/video_item.shtml\" id=\"news_c109275\">文化自信<em></em><span></span></a>\n                            <a ondragstart=\"return false\" href=\"/gdj/c109276/video_item.shtml\" id=\"news_c109276\">乡村振兴<em></em><span></span></a>\n                            <a ondragstart=\"return false\" href=\"/gdj/c109277/video_item.shtml\" id=\"news_c109277\">拼搏奋进<em></em><span></span></a>\n                            <a ondragstart=\"return false\" href=\"/gdj/c109278/video_item.shtml\" id=\"news_c109278\">脱贫攻坚<em></em><span></span></a>\n                            <a ondragstart=\"return false\" href=\"/gdj/c109278k/video_item.shtml\" id=\"news_c109278k\">文明健康<em></em><span></span></a>\n                            <a ondragstart=\"return false\" href=\"/gdj/c109279/video_item.shtml\" id=\"news_c109279\">疫情防控<em></em><span></span></a></div>\n\t\t\t\t\t</li>\n                  \n\t\t\t\t</ul>\n\t\t\t</div>\n\t\t</div>\n      \n      \n      \n      \n      \n      \n      \n      \n\t\t<div class=\"nav-item\" id=\"news_c109219\">\n\t\t\t<h2><a ondragstart=\"return false\" href=\"/gdj/c109219/video_item.shtml\" style=\"color:#2a7ccf;\">网络视听节目</a></h2>\n\t\t\t<div class=\"sub_item\">\n\t\t\t\t<ul>\n                  <li class=\"none-icon\" style=\"border-bottom: 0;padding-bottom: 0;\" id=\"news_c109291\">\n\t\t\t\t\t\t<div class=\"three-title\"><a ondragstart=\"return false\" href=\"/gdj/c109291/video_item.shtml\" style=\"color:#2a7ccf;\">2025年全省原创网络视听节目展播</a><em></em></div>\n\n\t\t\t\t\n\t\t\t\t\t</li>\n                  \n\t\t\t\t</ul>\n\t\t\t</div>\n\t\t</div>\n      \n      \n\t\n\t</div>\n  \n<style>\n.sub_item ul li.none-icon-cj{\nbackground: url(https://gdj.gansu.gov.cn/gdj/xhtml/images/arrow_cj.png) 30px 22px no-repeat;\nbackground-size: 12px 8px;\n}\n</style>\n  \n<script>\nconst cj1 = document.getElementById ('cj1');\nconst cj11 = document.getElementById ('cj11');  \nconst cj111 = document.getElementById ('news_c109278e'); \n\n  \n  cj1.addEventListener ('click', function () {\n  cj11.style.display = cj11.style.display === 'none' ? 'block' : 'none';\n  cj111.classList.toggle ('none-icon-cj');\n});\n  \n  \nconst cj2 = document.getElementById ('cj2');\nconst cj22 = document.getElementById ('cj22');  \nconst cj222 = document.getElementById ('news_c109271'); \n\n  \n  cj2.addEventListener ('click', function () {\n  cj22.style.display = cj22.style.display === 'none' ? 'block' : 'none';\n  cj222.classList.toggle ('none-icon-cj');\n});\n</script>\n</div>\n    <div class=\"eventList border0\">\n      <div class=\"title\">\n        <h4 style=\"width:290px;font-size:18px;\">\n          本土纪录片\n        </h4>\n        <p style=\"width: 685px;\"></p>\n      </div>\n      <style>\n      \n        .news_list-item ul li p {\n\n text-indent: 10px;\n text-align: left;\n}\n\n</style>\n      \n      <div class=\"news_list-item\" style=\"margin-top: 20px;\">\n        <input id=\"page\" type=\"hidden\" value=\"1\">\n        <input id=\"pageSize\" type=\"hidden\" value=\"20\">\n        <ul class=\"pagelist clearfix\"><li><a ondragstart=\"return false\" href=\"/gdj/c109217/202604/174316729.shtml\" title=\"石窟中国 第一集\" target=\"_blank\"><div class=\"video_area\"><img src=\"/gdj/c109217/202604/174316729/images/11d35612c9f641248208bc4aab39de43.png\"></div><p>石窟中国 第一集<br><span style=\"text-align:center;\">2026-04-13</span></p></a></li><li><a ondragstart=\"return false\" href=\"/gdj/c109217/202604/174316732.shtml\" title=\"石窟中国 第二集\" target=\"_blank\"><div class=\"video_area\"><img src=\"/gdj/c109217/202604/174316732/images/29b96445f9904959b9ecdd4432de0265.png\"></div><p>石窟中国 第二集<br><span style=\"text-align:center;\">2026-04-13</span></p></a></li><li><a ondragstart=\"return false\" href=\"/gdj/c109217/202604/174316731.shtml\" title=\"石窟中国 第三集\" target=\"_blank\"><div class=\"video_area\"><img src=\"/gdj/c109217/202604/174316731/images/b3c2943e514746619dff0e63d42df565.png\"></div><p>石窟中国 第三集<br><span style=\"text-align:center;\">2026-04-13</span></p></a></li><li><a ondragstart=\"return false\" href=\"/gdj/c109217/202604/174316679.shtml\" title=\"望首曲\" target=\"_blank\"><div class=\"video_area\"><img src=\"/gdj/c109217/202604/174316679/images/77e93740d7af4a52a68143e68006cf8f.png\"></div><p>望首曲<br><span style=\"text-align:center;\">2026-04-13</span></p></a></li><li><a ondragstart=\"return false\" href=\"/gdj/c109217/202604/174316653.shtml\" title=\"马家窑•彩陶上的中国 第一集《发现》\" target=\"_blank\"><div class=\"video_area\"><img src=\"/gdj/c109217/202604/174316653/images/294ea00b56e44edeb36cbd606165e158.png\"></div><p>马家窑•彩陶上的中国 第一集《发现》<br><span style=\"text-align:center;\">2026-04-13</span></p></a></li><li><a ondragstart=\"return false\" href=\"/gdj/c109217/202604/174316644.shtml\" title=\"马家窑•彩陶上的中国 第二集《密码》\" target=\"_blank\"><div class=\"video_area\"><img src=\"/gdj/c109217/202604/174316644/images/dc772e5b648b45cca055afe0b67baa1d.png\"></div><p>马家窑•彩陶上的中国 第二集《密码》<br><span style=\"text-align:center;\">2026-04-13</span></p></a></li><li><a ondragstart=\"return false\" href=\"/gdj/c109217/202604/174316641.shtml\" title=\"马家窑•彩陶上的中国 第三集《流变》\" target=\"_blank\"><div class=\"video_area\"><img src=\"/gdj/c109217/202604/174316641/images/8457e25e58214839badbdf0359bb094b.png\"></div><p>马家窑•彩陶上的中国 第三集《流变》<br><span style=\"text-align:center;\">2026-04-13</span></p></a></li><li><a ondragstart=\"return false\" href=\"/gdj/c109217/202604/174316605.shtml\" title=\"戈壁是一片海——我在高原种夏菜\" target=\"_blank\"><div class=\"video_area\"><img src=\"/gdj/c109217/202604/174316605/images/7f5b403f131046c4ae29da81bfa5ef4a.png\"></div><p>戈壁是一片海——我在高原种夏菜<br><span style=\"text-align:center;\">2026-04-13</span></p></a></li><li><a ondragstart=\"return false\" href=\"/gdj/c109217/202604/174316603.shtml\" title=\"戈壁是一片海——香菇夫妻致富路\" target=\"_blank\"><div class=\"video_area\"><img src=\"/gdj/c109217/202604/174316603/images/1f7fe5dd72c9430a9ee9cfbc3e97f561.png\"></div><p>戈壁是一片海——香菇夫妻致富路<br><span style=\"text-align:center;\">2026-04-13</span></p></a></li><li><a ondragstart=\"return false\" href=\"/gdj/c109217/202604/174316600.shtml\" title=\"戈壁是一片海——沙海养虾人\" target=\"_blank\"><div class=\"video_area\"><img src=\"/gdj/c109217/202604/174316600/images/e6b86c40348d4ac4bafa77be57a16857.png\"></div><p>戈壁是一片海——沙海养虾人<br><span style=\"text-align:center;\">2026-04-13</span></p></a></li><li><a ondragstart=\"return false\" href=\"/gdj/c109217/202604/174316571.shtml\" title=\"戈壁是一片海——戈壁滩上致富果\" target=\"_blank\"><div class=\"video_area\"><img src=\"/gdj/c109217/202604/174316571/images/ea19bccb9d5c4c9e99e8029e27160aab.png\"></div><p>戈壁是一片海——戈壁滩上致富果<br><span style=\"text-align:center;\">2026-04-13</span></p></a></li><li><a ondragstart=\"return false\" href=\"/gdj/c109217/202604/174316529.shtml\" title=\"戈壁是一片海——戈壁热带梦\" target=\"_blank\"><div class=\"video_area\"><img src=\"/gdj/c109217/202604/174316529/images/9ed8c0d516374dfdb6a6c13f6b91a359.png\"></div><p>戈壁是一片海——戈壁热带梦<br><span style=\"text-align:center;\">2026-04-13</span></p></a></li><li><a ondragstart=\"return false\" href=\"/gdj/c109217/202604/174316525.shtml\" title=\"探秘神鹰谷（上）\" target=\"_blank\"><div class=\"video_area\"><img src=\"/gdj/c109217/202604/174316525/images/338feed4463d4c4aa6f58d333e5f31fd.png\"></div><p>探秘神鹰谷（上）<br><span style=\"text-align:center;\">2026-04-13</span></p></a></li><li><a ondragstart=\"return false\" href=\"/gdj/c109217/202604/174316513.shtml\" title=\"探秘神鹰谷（下）\" target=\"_blank\"><div class=\"video_area\"><img src=\"/gdj/c109217/202604/174316513/images/5fa7ab2291d74459bee6091d45969877.png\"></div><p>探秘神鹰谷（下）<br><span style=\"text-align:center;\">2026-04-13</span></p></a></li><li><a ondragstart=\"return false\" href=\"/gdj/c109217/202604/174316501.shtml\" title=\"南梁纪事 第一集《太白起义枪声响》\" target=\"_blank\"><div class=\"video_area\"><img src=\"/gdj/c109217/202604/174316501/images/061116db65fd4f8ab77ff294d76ddb73.png\"></div><p>南梁纪事 第一集《太白起义枪声响》<br><span style=\"text-align:center;\">2026-04-13</span></p></a></li><li><a ondragstart=\"return false\" href=\"/gdj/c109217/202604/174316496.shtml\" title=\"南梁纪事 第二集《黄土塬上举红旗》\" target=\"_blank\"><div class=\"video_area\"><img src=\"/gdj/c109217/202604/174316496/images/a163a3ad8ebe425b98d9d43d11a29193.png\"></div><p>南梁纪事 第二集《黄土塬上举红旗》<br><span style=\"text-align:center;\">2026-04-13</span></p></a></li><li><a ondragstart=\"return false\" href=\"/gdj/c109217/202604/174316489.shtml\" title=\"南梁纪事 第三集《南梁川里建政权》\" target=\"_blank\"><div class=\"video_area\"><img src=\"/gdj/c109217/202604/174316489/images/08ae00a8f9804e64b087c55dd1b5fd6e.png\"></div><p>南梁纪事 第三集《南梁川里建政权》<br><span style=\"text-align:center;\">2026-04-13</span></p></a></li><li><a ondragstart=\"return false\" href=\"/gdj/c109217/202604/174316483.shtml\" title=\"南梁纪事 第四集《边区引领新风尚》\" target=\"_blank\"><div class=\"video_area\"><img src=\"/gdj/c109217/202604/174316483/images/72e50d4f451240a6a5e987cb50efcbde.png\"></div><p>南梁纪事 第四集《边区引领新风尚》<br><span style=\"text-align:center;\">2026-04-13</span></p></a></li><li><a ondragstart=\"return false\" href=\"/gdj/c109217/202604/174316476.shtml\" title=\"南梁纪事 第五集《列宁小学播火种》\" target=\"_blank\"><div class=\"video_area\"><img src=\"/gdj/c109217/202604/174316476/images/a707ecc33a084b6a94bae110e7bc6194.png\"></div><p>南梁纪事 第五集《列宁小学播火种》<br><span style=\"text-align:center;\">2026-04-13</span></p></a></li><li><a ondragstart=\"return false\" href=\"/gdj/c109217/202604/174316471.shtml\" title=\"南梁纪事 第六集《红军长征过甘肃》\" target=\"_blank\"><div class=\"video_area\"><img src=\"/gdj/c109217/202604/174316471/images/c95a65737ff749a19c970dabb0d518dc.png\"></div><p>南梁纪事 第六集《红军长征过甘肃》<br><span style=\"text-align:center;\">2026-04-13</span></p></a></li></ul>\n      </div>\n      <div class=\"pages\">\n        <div class=\"page\">\n          <div id=\"page_div\" style=\"display: flex;\"><span class=\"disabled\">上一页</span><span class=\"current\">1</span><a href=\"javascript:;\" class=\"zxfPagenum nextpage\">2</a><a href=\"javascript:;\" class=\"zxfPagenum\">3</a><span>...</span><a href=\"javascript:;\" class=\"zxfPagenum\">8</a><a href=\"javascript:;\" class=\"nextbtn\">下一页</a><span>共<b>8</b>页</span><span class=\"jump\">到第<input type=\"number\" class=\"zxfinput\" value=\"2\">页</span><span class=\"zxfokbtn\">确定</span></div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n\n<style>\n            .izl-rmenu {\n                margin-right: 0;\n                width: 82px;\n                position: fixed;\n                right: 20px;\n                top: 250px;\n                -webkit-box-shadow: #DDD 0px 1px 5px;\n                -moz-box-shadow: #DDD 0px 1px 5px;\n                box-shadow: #DDD 0px 1px 5px;\n                z-index: 999;\n            }\n            .izl-rmenu .consult {\n                background-image: url(/gdj/xhtml/images/app.jpg);\n                background-repeat: no-repeat;\n                display: block;\n                height: 76px;\n                width: 82px;\n                background-size: 100%;\n                border-bottom: 1px solid #ddd;\n            }\n            .izl-rmenu .cart {\n                background-image: url(/gdj/xhtml/images/gzh.jpg);\n                background-repeat: no-repeat;\n                display: block;\n                height: 16px;\n                font-size: 12px;\n                line-height: 16px;\n                color: #45BDFF;\n                text-align: center;\n                height: 83px;\n                width: 83px;\n                background-size: 100%;\n            \t \n            }\n            .izl-rmenu .consult .pic1 {\n                display: none;\n                position: absolute;\n                left: -160px;\n                top: 0;\n                width: 160px;\n                height: 160px;\n                background: url(/gdj/xhtml/images/app.png);\n                background-size: 100%;\n            }\n            .izl-rmenu .cart .pic {\n                display: none;\n                position: absolute;\n                left: -160px;\n                top: 65px;\n                width: 160px;\n                height: 160px;\n                background: url(/gdj/xhtml/images/weixin.jpg);\n                background-size: 100%;\n            }\n            .izl-rmenu .btn_top {\n                background-image: url(/gdj/xhtml/images/back.jpg);\n                background-repeat: no-repeat;\n                display: block;\n                height: 83px;\n                width: 83px;\n                background-size: 100%;\n                -webkit-transition: all 0s ease-in-out;\n                -moz-transition: all 0s ease-in-out;\n                -o-transition: all 0s ease-in-out;\n                transition: all 0s ease-in-out;\n            }\n        </style>\n<!---未登录状态---> \n<div class=\"bg login_box\"></div>\n\t\t<!--<div class=\"layer-window login_box\">\n\t\t\t<p>您还未登录，登录后将直接提交信件！</p>\n\t\t\t<div class=\"btn\">\n\t\t\t\t<a href=\"javascript:;\" class=\"btn\">取消</a><a ondragstart=\"return false\" target=\"_blank\"\n\t\t\t\t class=\"btn2\">确认</a>\n\t\t\t</div>\n\t\t</div>-->\n\t\t<div class=\"friends\" style=\"background:#2a7ccf\">\n\t\t\t<div class=\"friendLink w1200\" style=\"background:#2a7ccf\">\n\t\t\t\t<span>友情链接</span>\n\t\t\t\t<form class=\"layui-form\">\n\t\t\t\t\t<div class=\"layui-form-item\">\n\t\t\t\t\t\t<div class=\"layui-input-inline\">\n\t\t\t\t\t\t\t<select lay-filter=\"links\" name=\"links\">\n\t\t\t\t\t\t\t\t<option value=\"\">-中央政府省政府及省直部门-</option>\n                              \n\t\t\t\t\t\t\t\t<option value=\"http://www.gov.cn/\">中国政府网</option>\n\n\t\t\t\t\t\t\t\t<option value=\" http://www.gansu.gov.cn/\">中国·甘肃</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://fzgg.gansu.gov.cn/\">省发展改革委</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://jyt.gansu.gov.cn/\">省教育厅</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://kjt.gansu.gov.cn/\">省科技厅</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://gxt.gansu.gov.cn/\">省工信厅</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://mzsw.gansu.gov.cn/\">省民委</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://gat.gansu.gov.cn/\">省公安厅</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://mzt.gansu.gov.cn/\">省民政厅</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://sft.gansu.gov.cn/\">省司法厅</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://czt.gansu.gov.cn/\">省财政厅</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://rst.gansu.gov.cn/\">省人社厅</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://zrzy.gansu.gov.cn/\">省自然资源厅</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://sthj.gansu.gov.cn/\">省生态环境厅</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://zjt.gansu.gov.cn/?tabid=1\">省住建厅</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://jtys.gansu.gov.cn/\">省交通运输厅</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://slt.gansu.gov.cn/\">省水利厅</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://nync.gansu.gov.cn/\">省农业农村厅</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://swt.gansu.gov.cn/\">省商务厅</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://wlt.gansu.gov.cn/\">省文旅厅</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://wsjk.gansu.gov.cn/\">省卫生健康委</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://tyjr.gansu.gov.cn/\">省退役军人厅</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://yjgl.gansu.gov.cn/  \">省应急厅</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://sjt.gansu.gov.cn/\">省审计厅</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://wsb.gansu.gov.cn/\">省政府外事办</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://gzw.gansu.gov.cn/\">省政府国资委</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://lycy.gansu.gov.cn/\">省林草局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://scjg.gansu.gov.cn/\">省市场监管局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://tyj.gansu.gov.cn/\">省体育局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://jrjg.gansu.gov.cn/\">省金融监管局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://lscb.gansu.gov.cn/\">省粮食储备局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://wwj.gansu.gov.cn/\">省文物局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://www.gsbtn96333.com.cn/\">省网络公司</option>\n\n\t\t\t\t\t\t\t</select><div class=\"layui-unselect layui-form-select\"><div class=\"layui-select-title\"><input type=\"text\" placeholder=\"-中央政府省政府及省直部门-\" value=\"\" readonly=\"\" class=\"layui-input layui-unselect\"><i class=\"layui-edge\"></i></div><dl class=\"layui-anim layui-anim-upbit\"><dd lay-value=\"\" class=\"layui-select-tips\">-中央政府省政府及省直部门-</dd><dd lay-value=\"http://www.gov.cn/\" class=\"\">中国政府网</dd><dd lay-value=\" http://www.gansu.gov.cn/\" class=\"\">中国·甘肃</dd><dd lay-value=\"http://fzgg.gansu.gov.cn/\" class=\"\">省发展改革委</dd><dd lay-value=\"http://jyt.gansu.gov.cn/\" class=\"\">省教育厅</dd><dd lay-value=\"http://kjt.gansu.gov.cn/\" class=\"\">省科技厅</dd><dd lay-value=\"http://gxt.gansu.gov.cn/\" class=\"\">省工信厅</dd><dd lay-value=\"http://mzsw.gansu.gov.cn/\" class=\"\">省民委</dd><dd lay-value=\"http://gat.gansu.gov.cn/\" class=\"\">省公安厅</dd><dd lay-value=\"http://mzt.gansu.gov.cn/\" class=\"\">省民政厅</dd><dd lay-value=\"http://sft.gansu.gov.cn/\" class=\"\">省司法厅</dd><dd lay-value=\"http://czt.gansu.gov.cn/\" class=\"\">省财政厅</dd><dd lay-value=\"http://rst.gansu.gov.cn/\" class=\"\">省人社厅</dd><dd lay-value=\"http://zrzy.gansu.gov.cn/\" class=\"\">省自然资源厅</dd><dd lay-value=\"http://sthj.gansu.gov.cn/\" class=\"\">省生态环境厅</dd><dd lay-value=\"http://zjt.gansu.gov.cn/?tabid=1\" class=\"\">省住建厅</dd><dd lay-value=\"http://jtys.gansu.gov.cn/\" class=\"\">省交通运输厅</dd><dd lay-value=\"http://slt.gansu.gov.cn/\" class=\"\">省水利厅</dd><dd lay-value=\"http://nync.gansu.gov.cn/\" class=\"\">省农业农村厅</dd><dd lay-value=\"http://swt.gansu.gov.cn/\" class=\"\">省商务厅</dd><dd lay-value=\"http://wlt.gansu.gov.cn/\" class=\"\">省文旅厅</dd><dd lay-value=\"http://wsjk.gansu.gov.cn/\" class=\"\">省卫生健康委</dd><dd lay-value=\"http://tyjr.gansu.gov.cn/\" class=\"\">省退役军人厅</dd><dd lay-value=\"http://yjgl.gansu.gov.cn/  \" class=\"\">省应急厅</dd><dd lay-value=\"http://sjt.gansu.gov.cn/\" class=\"\">省审计厅</dd><dd lay-value=\"http://wsb.gansu.gov.cn/\" class=\"\">省政府外事办</dd><dd lay-value=\"http://gzw.gansu.gov.cn/\" class=\"\">省政府国资委</dd><dd lay-value=\"http://lycy.gansu.gov.cn/\" class=\"\">省林草局</dd><dd lay-value=\"http://scjg.gansu.gov.cn/\" class=\"\">省市场监管局</dd><dd lay-value=\"http://tyj.gansu.gov.cn/\" class=\"\">省体育局</dd><dd lay-value=\"http://jrjg.gansu.gov.cn/\" class=\"\">省金融监管局</dd><dd lay-value=\"http://lscb.gansu.gov.cn/\" class=\"\">省粮食储备局</dd><dd lay-value=\"http://wwj.gansu.gov.cn/\" class=\"\">省文物局</dd><dd lay-value=\"http://www.gsbtn96333.com.cn/\" class=\"\">省网络公司</dd></dl></div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"layui-input-inline\">\n\t\t\t\t\t\t\t<select lay-filter=\"links\" name=\"links\">\n\t\t\t\t\t\t\t\t<option value=\"\">-广电总局及各省局-</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://www.nrta.gov.cn/index.html\">国家广播电视总局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://gdj.beijing.gov.cn/\">北京局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://whly.tj.gov.cn/\">天津局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://rta.hebei.gov.cn/\">河北局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://gdj.shanxi.gov.cn/\">山西局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://gbdsj.nmg.gov.cn/\">内蒙古局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://gdj.ln.gov.cn/\">辽宁局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://gdj.jl.gov.cn/\">吉林局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://whlyj.sh.gov.cn/\">上海局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://jsgd.jiangsu.gov.cn/\">江苏局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://gdj.zj.gov.cn/\">浙江局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://gdj.ah.gov.cn/\">安徽局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://gdj.fujian.gov.cn/\">福建局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://gd.shandong.gov.cn/\">山东局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"https://gd.henan.gov.cn/\">河南局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://gdj.hubei.gov.cn/\">湖北局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://gbdsj.hunan.gov.cn/\">湖南局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://gbdsj.gd.gov.cn/\">广东局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://gbdsj.gxzf.gov.cn/\">广西局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://lwt.hainan.gov.cn/\">海南厅</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://whlyw.cq.gov.cn/index.html\">重庆委</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://gdj.sc.gov.cn/\">四川局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://gbdsj.guizhou.gov.cn/\">贵州局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://ynsgbdsj.yn.gov.cn/\">云南局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://gdj.shaanxi.gov.cn/\">陕西局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://gdj.qinghai.gov.cn/\">青海局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://gdj.nx.gov.cn/\">宁夏局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://gdj.xinjiang.gov.cn/\">新疆局</option>\n\n\t\t\t\t\t\t\t</select><div class=\"layui-unselect layui-form-select\"><div class=\"layui-select-title\"><input type=\"text\" placeholder=\"-广电总局及各省局-\" value=\"\" readonly=\"\" class=\"layui-input layui-unselect\"><i class=\"layui-edge\"></i></div><dl class=\"layui-anim layui-anim-upbit\"><dd lay-value=\"\" class=\"layui-select-tips\">-广电总局及各省局-</dd><dd lay-value=\"http://www.nrta.gov.cn/index.html\" class=\"\">国家广播电视总局</dd><dd lay-value=\"http://gdj.beijing.gov.cn/\" class=\"\">北京局</dd><dd lay-value=\"http://whly.tj.gov.cn/\" class=\"\">天津局</dd><dd lay-value=\"http://rta.hebei.gov.cn/\" class=\"\">河北局</dd><dd lay-value=\"http://gdj.shanxi.gov.cn/\" class=\"\">山西局</dd><dd lay-value=\"http://gbdsj.nmg.gov.cn/\" class=\"\">内蒙古局</dd><dd lay-value=\"http://gdj.ln.gov.cn/\" class=\"\">辽宁局</dd><dd lay-value=\"http://gdj.jl.gov.cn/\" class=\"\">吉林局</dd><dd lay-value=\"http://whlyj.sh.gov.cn/\" class=\"\">上海局</dd><dd lay-value=\"http://jsgd.jiangsu.gov.cn/\" class=\"\">江苏局</dd><dd lay-value=\"http://gdj.zj.gov.cn/\" class=\"\">浙江局</dd><dd lay-value=\"http://gdj.ah.gov.cn/\" class=\"\">安徽局</dd><dd lay-value=\"http://gdj.fujian.gov.cn/\" class=\"\">福建局</dd><dd lay-value=\"http://gd.shandong.gov.cn/\" class=\"\">山东局</dd><dd lay-value=\"https://gd.henan.gov.cn/\" class=\"\">河南局</dd><dd lay-value=\"http://gdj.hubei.gov.cn/\" class=\"\">湖北局</dd><dd lay-value=\"http://gbdsj.hunan.gov.cn/\" class=\"\">湖南局</dd><dd lay-value=\"http://gbdsj.gd.gov.cn/\" class=\"\">广东局</dd><dd lay-value=\"http://gbdsj.gxzf.gov.cn/\" class=\"\">广西局</dd><dd lay-value=\"http://lwt.hainan.gov.cn/\" class=\"\">海南厅</dd><dd lay-value=\"http://whlyw.cq.gov.cn/index.html\" class=\"\">重庆委</dd><dd lay-value=\"http://gdj.sc.gov.cn/\" class=\"\">四川局</dd><dd lay-value=\"http://gbdsj.guizhou.gov.cn/\" class=\"\">贵州局</dd><dd lay-value=\"http://ynsgbdsj.yn.gov.cn/\" class=\"\">云南局</dd><dd lay-value=\"http://gdj.shaanxi.gov.cn/\" class=\"\">陕西局</dd><dd lay-value=\"http://gdj.qinghai.gov.cn/\" class=\"\">青海局</dd><dd lay-value=\"http://gdj.nx.gov.cn/\" class=\"\">宁夏局</dd><dd lay-value=\"http://gdj.xinjiang.gov.cn/\" class=\"\">新疆局</dd></dl></div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"layui-input-inline\">\n\t\t\t\t\t\t\t<select lay-filter=\"links\" name=\"links\">\n\t\t\t\t\t\t\t\t<option value=\"\">-各市州局-</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://wlj.lanzhou.gov.cn/\">兰州局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://wlj.pingliang.gov.cn/\">平凉局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://jyg.gov.cn/wlj/\">嘉峪关局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://wlj.jiuquan.gov.cn/\">酒泉局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"https://www.tianshui.gov.cn/wlj/\">天水局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://wtgl.gswuwei.gov.cn/\">武威局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://www.zhangye.gov.cn/wgxj/index.html\">张掖局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://wtgdly.zgqingyang.gov.cn/\">庆阳局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://wlj.dingxi.gov.cn/\">定西局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"https://wglj.linxia.gov.cn/\">临夏局</option>\n\n\t\t\t\t\t\t\t\t<option value=\"http://www.zh404.cn/\">矿区局</option>\n\n\t\t\t\t\t\t\t</select><div class=\"layui-unselect layui-form-select\"><div class=\"layui-select-title\"><input type=\"text\" placeholder=\"-各市州局-\" value=\"\" readonly=\"\" class=\"layui-input layui-unselect\"><i class=\"layui-edge\"></i></div><dl class=\"layui-anim layui-anim-upbit\"><dd lay-value=\"\" class=\"layui-select-tips\">-各市州局-</dd><dd lay-value=\"http://wlj.lanzhou.gov.cn/\" class=\"\">兰州局</dd><dd lay-value=\"http://wlj.pingliang.gov.cn/\" class=\"\">平凉局</dd><dd lay-value=\"http://jyg.gov.cn/wlj/\" class=\"\">嘉峪关局</dd><dd lay-value=\"http://wlj.jiuquan.gov.cn/\" class=\"\">酒泉局</dd><dd lay-value=\"https://www.tianshui.gov.cn/wlj/\" class=\"\">天水局</dd><dd lay-value=\"http://wtgl.gswuwei.gov.cn/\" class=\"\">武威局</dd><dd lay-value=\"http://www.zhangye.gov.cn/wgxj/index.html\" class=\"\">张掖局</dd><dd lay-value=\"http://wtgdly.zgqingyang.gov.cn/\" class=\"\">庆阳局</dd><dd lay-value=\"http://wlj.dingxi.gov.cn/\" class=\"\">定西局</dd><dd lay-value=\"https://wglj.linxia.gov.cn/\" class=\"\">临夏局</dd><dd lay-value=\"http://www.zh404.cn/\" class=\"\">矿区局</dd></dl></div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</form>\n\t\t\t</div>\n\t\t</div>\n<div class=\"footer\">\n\t<div style=\"width:830px;margin:0 auto;text-align:center;\" class=\"clearfix\">\n\t\t<div style=\"float:left;margin-right: 50px;\">\n\n\t\t\t<a style=\"float:left;padding-top:8px;\" href=\"http://bszs.conac.cn/sitename?method=show&amp;id=081D2A26C6795754E053022819AC1FAF\" target=\"_blank\"><img src=\"/gdj/xhtml/picture/f1.png\"></a>\n\t\t\t<!--<a style=\"float:left;padding-top:17px;padding-left: 50px;\" href=\"http://121.43.68.40/exposure/jiucuo.html?site_code=6200000036&url=http%3A%2F%2Fgdj.gansu.gov.cn%2F\"\n\t\t\t target=\"_blank\"><img src=\"/gdj/xhtml/picture/f2.png\"></a>-->\n          <style>\n          #_span_jiucuo{\n                position: relative;\n    \t\t\ttop: 15px;\n          }\n          </style>\n          <script id=\"_jiucuo_\" sitecode=\"6200000036\" src=\"https://zfwzgl.www.gov.cn/exposure/jiucuo.js\"></script>\n\t\t\t<!--<div style=\"float:left;padding-left:10px;padding-left: 60px;\">\n\t\t\t\t\t\t\t<img src=\"/gdj/xhtml/picture/weixin.jpg\" width=\"75\">\n\t\t\t\t\t\t\t<p class=\"center\" style=\"padding-top: 0;\">甘肃省广电局<br>微信公众号</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div style=\"float:left;padding-left:10px;padding-left: 60px;\">\n\t\t\t\t\t\t\t<img src=\"/gdj/xhtml/picture/app.png\" width=\"75\">\n\t\t\t\t\t\t\t<p class=\"center\" style=\"padding-top: 0;\">甘肃省广电局<br>官方APP</p>\n\t\t\t\t\t\t</div>-->\n\n\t\t</div>\n\t\t<div style=\"float:left;\">\n\t\t\t<p style=\"margin-bottom: 14px;\">\n\t\t\t\t<a ondragstart=\"return false\" href=\"http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=62010202000681\" target=\"_blank\">\n\t\t\t\t\t甘公网安备 62010202000681号\n\t\t\t\t</a>\n\t\t\t\t<a ondragstart=\"return false\" href=\"https://beian.miit.gov.cn/\" target=\"_blank\">ICP备案号：陇ICP备05003750号-1</a>\n\t\t\t</p>\n\t\t\t<p style=\"margin-bottom: 14px;\">信息网络传播视听节目许可证号：2807187 | 网站标识码：6200000036</p>\n\t\t\t<p style=\"margin-bottom: 14px;\">版权所有：甘肃省广播电视局 | 技术支持：甘肃省广播电视局政务网站</p>\n\t\t\t<p style=\"margin-bottom: 14px;text-align: center;\"><a href=\"/gdj/c109267/wzdt.shtml\" target=\"_blank\">联系我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a class=\"netmap\" href=\"/gdj/c109268/wzdt.shtml\" target=\"_blank\">网站地图</a></p>\n\t\t</div>\n\n\t</div>\n\t<script>\n\t\tvar _hmt = _hmt || [];\n\t\t(function() {\n\t\t\tvar hm = document.createElement(\"script\");\n\t\t\thm.src = \"https://hm.baidu.com/hm.js?69d230062588e1acf7504716d0f34616\";\n\t\t\tvar s = document.getElementsByTagName(\"script\")[0];\n\t\t\ts.parentNode.insertBefore(hm, s);\n\t\t})();\n\t</script>\n</div>\n<div class=\"izl-rmenu\">\n  <style>\n   .izl-rmenu .cart1 {\n                background-image: url(/gdj/xhtml/images/ly.png);\n                background-repeat: no-repeat;\n                display: block;\n                height: 16px;\n                font-size: 12px;\n                line-height: 16px;\n                color: #45BDFF;\n                text-align: center;\n                height: 83px;\n                width: 83px;\n                background-size: 100%;\n        \n            }\n  </style>\n  <a class=\"cart1 def\" id=\"toolbarCtrl\" title=\"无障碍\" href=\"http://gdj.gansu.gov.cn/toolbar/wca.html\">\n\t\t<div class=\"pic def\"></div>\n\t</a>\n\t<!--<a class=\"consult\" target=\"_blank\">\n\t\t<div class=\"pic1 def\" style=\"display:none;\"></div>\n\t</a>-->\n\t<a class=\"cart def\">\n\t\t<div class=\"pic def\"></div>\n\t</a>\n\t<a href=\"javascript:void(0)\" id=\"goto-top\" class=\"btn_top\" style=\"display: block;\"></a>\n</div>\n<script language=\"JavaScript\">var _trackDataType = 'web';var _trackData = _trackData || [];</script>\n<script type=\"text/javascript\" charset=\"utf-8\" id=\"phpstat_js_id_10000005\" src=\"//www.gansu.gov.cn/phpstat/count/10000005/10000005.js\"></script><noscript>< img src=\"//www.gansu.gov.cn/phpstat/count/10000005/10000005.php\" alt=\"PHPStat Analytics\"/></noscript> \n<script src=\"/gdj/xhtml/js/jquery.min.js\"></script> \n<script type=\"text/javascript\" src=\"/gdj/xhtml/js/layui.all.js\"></script> \n<script type=\"text/javascript\" src=\"/gdj/xhtml/js/nav.js\"></script> \n<script type=\"text/javascript\" src=\"/gdj/xhtml/js/float.js\"></script> \n<script type=\"text/javascript\" src=\"/gdj/xhtml/js/page_list.js\"></script> \n<script type=\"text/javascript\" src=\"/gdj/xhtml/js/picPage.js\"></script> \n<script type=\"text/javascript\">\n       $(\"#select_c109217\").addClass(\"select\");\n      var pageid = \"c109217\";\n      $('#news_'+pageid).append(\"<div class='selected'></div>\");\n      \n\t\tvar form = layui.form, layer = layui.layer;\n\t\tform.on('select(links)', function(data){\n\t\t\tif(data.value != ''){\n\t\t\t\twindow.open(data.value,'_blank');\n\t\t\t}\n\t\t})\n\t\t$(\"#search_f\").on('click','a',function(){\n\t\t\tvar val = $.trim($(\"#search_key\").val());\n\t\t\tif(val != ''){\n\t\t\t\tdocument.getElementById('search_f').submit();\n\t\t\t}\n\t\t});\n\t\t$(\"#search_f\").submit(function(){\n\t\t\tvar val = $.trim($(\"#search_key\").val());\n\t\t\tif(val == ''){\n\t\t\t\treturn false;\n\t\t\t}\n\t\t\treturn true;\n\t\t});\n\t\t\n\t\t$(\".login_check_btn\").on('click','a',function(){\n\t\t\tvar uid = \"\";\n\t\t\tvar loginflag = $(this).attr(\"login-flag\");\n\t\t\tif(uid == '' && loginflag == 0){\n\t\t\t\t$(\".login_box\").show();\n\t\t\t\treturn false;\n\t\t\t}\n\t\t\treturn true;\n\t\t});\n\t\t\n\t\t$(\".login_check_btn\").on('click','p',function(){\n\t\t\tvar url = $(this).attr(\"data-url\");\n\t\t\tvar uid = \"\";\n\t\t\tif(uid == ''){\n\t\t\t\t$(\".login_box\").show();\n\t\t\t\treturn;\n\t\t\t}\n\t\t\twindow.open(url,'_blank');\n\t\t});\n\t\t\n\t\t$('.layer-window .btn a.btn').click(function(){\n\t\t\t$('.bg,.layer-window').hide();\n\t\t})\n\t\t\n\t\t// 右边侧边栏hover效果\n\t\t\t\t$('.izl-rmenu a').hover(function () {\n\t\t\t\t\t$('.izl-rmenu a .def').hide()\n\t\t\t\t\t$(this).find('.def').show()\n\t\t\t\t},function () {\n\t\t\t\t\t$('.izl-rmenu a .def').hide()\n\t\t\t\t\t// $(this).find('.def').show()\n\t\t\t\t})\n\n\t\t\t\t$(window).scroll(function(){\n\t\t\t\t\tvar w_height = $(window).height();//浏览器高度\n\t\t\t\t\tvar scroll_top = $(document).scrollTop();//滚动条到顶部的垂直高度\n\t\t\t\t\tif(scroll_top > w_height){\n\t\t\t\t\t\t$(\"#goto-top\").fadeIn(500);\n\t\t\t\t\t}else{\n\t\t\t\t\t\t$(\"#goto-top\").fadeOut(500);\n\t\t\t\t\t}\n\t\t\t\t});\n\t\t\t\t//置顶\n\t\t\t\t$(\"#goto-top\").click(function(e){\n\t\t\t\t\t\te.preventDefault();\n\t\t\t\t\t\t$(document.documentElement).animate({\n\t\t\t\t\t\t\tscrollTop: 0\n\t\t\t\t\t\t\t},200);\n\t\t\t\t\t\t//支持chrome\n\t\t\t\t\t\t$(document.body).animate({\n\t\t\t\t\t\t\tscrollTop: 0\n\t\t\t\t\t\t\t},200);\n\t\t\t\t});\n\t</script> \n<script type=\"text/javascript\">\n\t// JavaScript Document\n\t// 加入收藏 <a onclick=\"AddFavorite(window.location,document.title)\">加入收藏</a>\n\tfunction AddFavorite(sURL, sTitle) {\n\t    try {\n\t        window.external.addFavorite(sURL, sTitle);\n\t    } catch (e) {\n\t        try {\n\t            window.sidebar.addPanel(sTitle, sURL, \"\");\n\t        } catch (e) {\n\t            alert(\"加入收藏失败，请使用Ctrl+D进行添加\");\n\t        }\n\t    }\n\t}\n\t//设为首页 <a onclick=\"SetHome(this,window.location)\" >设为首页</a>\n\tfunction SetHome(obj, vrl) {\n\t    try {\n\t        obj.style.behavior = 'url(#default#homepage)';\n\t        obj.setHomePage(vrl);\n\t    } catch (e) {\n\t        if (window.netscape) {\n\t            try {\n\t                netscape.security.PrivilegeManager.enablePrivilege(\"UniversalXPConnect\");\n\t            } catch (e) {\n\t                alert(\"此操作被浏览器拒绝！\\n请在浏览器地址栏输入“about:config”并回车\\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。\");\n\t            }\n\t            var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);\n\t            prefs.setCharPref('browser.startup.homepage', vrl);\n\t        }\n\t    }\n\t}\n\tfunction doPrint() {   \n\t    bdhtml=window.document.body.innerHTML;   \n\t    sprnstr=\"<!--startprint-->\";   \n\t    eprnstr=\"<!--endprint-->\";   \n\t    prnhtml=bdhtml.substr(bdhtml.indexOf(sprnstr)+17);   \n\t    prnhtml=prnhtml.substring(0,prnhtml.indexOf(eprnstr));   \n\t    window.document.body.innerHTML=prnhtml;  \n\t    window.print();   \n\t}\n\n\t</script>\n\n</body></html>"
+}

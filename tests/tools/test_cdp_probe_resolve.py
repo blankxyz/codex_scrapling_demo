@@ -1,11 +1,12 @@
 import os
 import urllib.error
+from types import SimpleNamespace
 from unittest.mock import patch, MagicMock
 import pytest
 
 
 # 导入目标模块（此时 resolve_cdp_url 还不存在，测试会失败）
-from tools.cdp_probe import resolve_cdp_url
+from tools.cdp_probe import resolve_cdp_url, select_existing_page
 
 
 def _mock_urlopen_success(url, timeout=None):
@@ -72,7 +73,7 @@ def test_raises_when_all_fail(monkeypatch):
     message = str(excinfo.value)
     assert "No reachable CDP endpoint found" in message
     assert "Codex sandbox" in message
-    assert "docker-brave CDP backend" in message
+    assert "rerun the same probe command with escalated permissions" in message
 
 
 def test_deduplicates_candidates(monkeypatch):
@@ -90,3 +91,21 @@ def test_deduplicates_candidates(monkeypatch):
         resolve_cdp_url("http://127.0.0.1:9222")
 
     assert call_log.count("http://127.0.0.1:9222/json/version") == 1
+
+
+def test_select_existing_page_prefers_exact_url():
+    pages = [
+        SimpleNamespace(url="https://example.com/list"),
+        SimpleNamespace(url="https://example.com/list?page=2"),
+    ]
+    result = select_existing_page(pages, "https://example.com/list", "")
+    assert result is pages[0]
+
+
+def test_select_existing_page_falls_back_to_prefix():
+    pages = [
+        SimpleNamespace(url="https://example.com/list?page=2"),
+        SimpleNamespace(url="https://example.com/other"),
+    ]
+    result = select_existing_page(pages, "https://example.com/list", "https://example.com/list")
+    assert result is pages[0]

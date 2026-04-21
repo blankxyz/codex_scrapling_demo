@@ -42,7 +42,8 @@ Use browser evidence. CDP is preferred when available because it exposes rendere
 2. Connect to browser:
    - Prefer Chrome CDP: use `tools/cdp_probe.py` which auto-detects the endpoint. Do not hardcode `127.0.0.1:9222` in commands.
    - Prefer running this analysis step without sandbox restrictions. In this repo, `run_pipeline.sh` defaults Step 1 analysis to `danger-full-access` for that reason.
-   - If the direct CDP action fails with "No reachable CDP endpoint found" or another local-connectivity error from a sandboxed run, do not keep retrying inside the sandbox. Switch to a non-sandbox run for the same probe command, or use the repo's `docker-brave` backend if that is the intended analysis environment.
+   - If the direct CDP action fails with "No reachable CDP endpoint found" or another local-connectivity error from a sandboxed run, do not keep retrying inside the sandbox. Switch to a non-sandbox run for the same probe command.
+   - If the site shows a front-door challenge in fresh automation pages but works in the user-visible Chrome window, prefer reusing the already open visible tab instead of opening a brand-new page. `tools/cdp_probe.py` supports this via `--reuse-open-tab`.
    - Treat host-loopback CDP (`127.0.0.1:9222`) and Docker-bridge CDP as different reachability cases. The sandbox may fail on the first while the second is still usable.
    - If the escalated probe also fails, report the concrete error and either stop or switch to another local browser-rendered method when the workflow permits.
    - Before writing a new probe script, look for an existing reusable local probe tool and use it first. In this repo, prefer `tools/cdp_probe.py` for generic CDP DOM/network/detail capture.
@@ -56,8 +57,20 @@ Use browser evidence. CDP is preferred when available because it exposes rendere
        --out analysis_outputs/_example_probe.json
      ```
 
+   - When the user has already opened and cleared the real page in a visible Chrome window, prefer:
+
+     ```bash
+     env -u HTTP_PROXY -u HTTPS_PROXY -u http_proxy -u https_proxy -u ALL_PROXY -u all_proxy \
+       .venv/bin/python tools/cdp_probe.py \
+       --reuse-open-tab \
+       --skip-networkidle \
+       --url "https://example.com/list.html" \
+       --out analysis_outputs/_example_probe.json
+     ```
+
+   - `--skip-networkidle` is appropriate for media-heavy pages or challenge-cleared tabs that keep long-lived requests open.
+
    - If you are forced to start from a sandboxed run, move to a non-sandbox execution around that exact probe command pattern once instead of asking for separate approvals per page or per retry.
-   - If you need a local browser that is more likely reachable from sandboxed analysis, prefer the repo's Docker-backed Brave CDP flow (`./start_brave_cdp.sh` / `run_pipeline.sh --cdp-backend docker-brave`) over inventing a new browser launcher.
 
    - Only write a one-off probe when the reusable script cannot capture a site-specific behavior that is required for analysis, and explain that gap briefly.
    - Open or reuse a tab for the list URL.
