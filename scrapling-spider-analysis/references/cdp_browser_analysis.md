@@ -8,6 +8,14 @@
 若要覆盖探测结果，设置环境变量 `CHROME_CDP_URL` 或传入 `--cdp-url` 参数。
 连接成功后，浏览器观测应包含渲染 DOM 和网络响应。
 
+CDP 分析优先使用非沙盒执行。只有在调用链明确要求沙盒时，才把它当成受限运行。
+
+如果报错 `No reachable CDP endpoint found`，先把它当成“当前执行环境连不到本地 CDP”而不是“站点打不开”：
+
+- Codex 沙盒里的命令可能看不到宿主机 loopback 上的 `127.0.0.1:9222`。
+- 这时应优先改为非沙盒重跑同一条探测命令，而不是继续在沙盒里重复尝试。
+- 如果项目环境本来就提供 Docker Brave CDP，优先切到 `docker-brave` 后端，因为它更容易通过 Docker bridge 被探测到。
+
 ### CDP 地址自动探测
 
 `cdp_probe.py` 按以下优先级自动探测，无需手动干预：
@@ -35,6 +43,8 @@ env -u HTTP_PROXY -u HTTPS_PROXY -u http_proxy -u https_proxy -u ALL_PROXY -u al
   --url "https://example.com/list.html" \
   --out analysis_outputs/_example_probe.json
 ```
+
+如果这条命令在沙盒里失败且错误是“找不到可达 CDP 端点”，应直接把这条完整命令改为非沙盒执行后重跑。
 
 Write a one-off probe only when this generic tool cannot expose the interaction you need.
 

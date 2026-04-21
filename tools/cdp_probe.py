@@ -52,7 +52,10 @@ def resolve_cdp_url(hint: str) -> str:
             errors.append(f"{addr}: {exc}")
 
     raise RuntimeError(
-        "No reachable CDP endpoint found. Tried:\n"
+        "No reachable CDP endpoint found. "
+        "If Chrome/Brave CDP is running on the host but this command is inside the Codex sandbox, "
+        "rerun the same probe command with escalated permissions or use the repo's docker-brave CDP backend.\n"
+        "Tried:\n"
         + "\n".join(f"  {e}" for e in errors)
     )
 

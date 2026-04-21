@@ -9,13 +9,13 @@ description: Analyze dynamic list-to-detail websites for Scrapling spider genera
 
 Analyze a target list page so a later Scrapling spider can be generated with minimal follow-up. Produce concrete, crawler-ready findings in `analysis_outputs/`.
 
-Use browser evidence. CDP is preferred when available because it exposes rendered DOM and network/XHR without relying on search engines or standalone HTTP probing. By default, connect to CDP directly instead of probing or pre-validating the endpoint first; if it cannot be used, fail at the actual connection step and report the error or fall back only when the workflow explicitly allows it.
+Use browser evidence. CDP is preferred when available because it exposes rendered DOM and network/XHR without relying on search engines or standalone HTTP probing. For CDP-backed analysis, prefer running without sandbox restrictions up front rather than probing from a restricted sandbox first. Treat "CDP unreachable from the current sandbox" as an environment/access problem first, not as target-site evidence.
 
 ## Interaction Policy
 
 - Minimize user interruptions. Do not ask for confirmation for routine workspace reads/writes, selector probing, or repeated analysis steps.
 - Batch browser/CDP probes and artifact writes so the user does not have to approve many small commands.
-- If a command needs sandbox escalation, request it once with a reasonably scoped `prefix_rule` that covers the repeated browser/CDP probing needed for this analysis.
+- Prefer non-sandbox execution for CDP/browser analysis when the environment allows it. If the current run is sandboxed and CDP is required, switch to a non-sandbox run instead of accumulating retries.
 - Do not repeatedly stop for "press enter"/confirmation prompts. Make a reasonable assumption, continue, and report assumptions in the final analysis.
 - Ask the user only for genuinely missing inputs that cannot be inferred safely, such as the target URL or an explicitly required output schema.
 
@@ -26,6 +26,7 @@ Use browser evidence. CDP is preferred when available because it exposes rendere
 - If Python is needed during analysis, use only the current workspace virtualenv interpreter at `.venv/bin/python`.
 - Do not use `python`, `python3`, or any system interpreter for analysis commands, even as a fallback.
 - Default to Chrome CDP. `tools/cdp_probe.py` auto-detects the available CDP endpoint (tries `--cdp-url` value first, then `$CHROME_CDP_URL`, `127.0.0.1:9222`, then Docker bridge range `172.17.0.1-20`). Do not hardcode the CDP address in prompts or commands.
+- If the error indicates no reachable CDP endpoint, consider sandbox/network isolation first. A host-local CDP bound to loopback may be invisible from the Codex sandbox.
 - If CDP is unavailable, use local browser/dynamic rendering tools, not search.
 - If the user asks for first page only, do not click or request pagination except to verify whether pagination exists when explicitly needed.
 - Write analysis artifacts to `analysis_outputs/`.
@@ -40,7 +41,10 @@ Use browser evidence. CDP is preferred when available because it exposes rendere
 
 2. Connect to browser:
    - Prefer Chrome CDP: use `tools/cdp_probe.py` which auto-detects the endpoint. Do not hardcode `127.0.0.1:9222` in commands.
-   - If the direct CDP action fails, report the concrete error and either stop or switch to another local browser-rendered method when the workflow permits.
+   - Prefer running this analysis step without sandbox restrictions. In this repo, `run_pipeline.sh` defaults Step 1 analysis to `danger-full-access` for that reason.
+   - If the direct CDP action fails with "No reachable CDP endpoint found" or another local-connectivity error from a sandboxed run, do not keep retrying inside the sandbox. Switch to a non-sandbox run for the same probe command, or use the repo's `docker-brave` backend if that is the intended analysis environment.
+   - Treat host-loopback CDP (`127.0.0.1:9222`) and Docker-bridge CDP as different reachability cases. The sandbox may fail on the first while the second is still usable.
+   - If the escalated probe also fails, report the concrete error and either stop or switch to another local browser-rendered method when the workflow permits.
    - Before writing a new probe script, look for an existing reusable local probe tool and use it first. In this repo, prefer `tools/cdp_probe.py` for generic CDP DOM/network/detail capture.
    - When invoking that tool or any other Python helper, call it with `.venv/bin/python` explicitly.
    - Always invoke `tools/cdp_probe.py` with the `env -u` proxy-clearing prefix (belt-and-suspenders: the tool also clears them internally, but the shell-level unset prevents proxy inheritance by Playwright child processes):
@@ -51,6 +55,9 @@ Use browser evidence. CDP is preferred when available because it exposes rendere
        --url "https://example.com/list.html" \
        --out analysis_outputs/_example_probe.json
      ```
+
+   - If you are forced to start from a sandboxed run, move to a non-sandbox execution around that exact probe command pattern once instead of asking for separate approvals per page or per retry.
+   - If you need a local browser that is more likely reachable from sandboxed analysis, prefer the repo's Docker-backed Brave CDP flow (`./start_brave_cdp.sh` / `run_pipeline.sh --cdp-backend docker-brave`) over inventing a new browser launcher.
 
    - Only write a one-off probe when the reusable script cannot capture a site-specific behavior that is required for analysis, and explain that gap briefly.
    - Open or reuse a tab for the list URL.

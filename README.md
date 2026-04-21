@@ -14,7 +14,9 @@ Rules captured in the skill:
 - Do not use search engines.
 - Do not use non-browser target fetching as analysis evidence.
 - Use only `.venv/bin/python` for analysis-time Python commands; do not fall back to system `python` or `python3`.
-- Default to Chrome CDP at `http://127.0.0.1:9222` for analysis, without a separate preflight validation step.
+- Default to Chrome CDP analysis through `tools/cdp_probe.py`, which auto-detects the endpoint.
+- Prefer running CDP-backed analysis without sandbox restrictions. `run_pipeline.sh` now defaults Step 1 analysis to `danger-full-access`.
+- If a sandboxed command cannot reach CDP, treat it as an environment/access issue first: switch that analysis run to non-sandbox, or prefer the repo's Docker-backed Brave CDP path.
 - Prefer reusing the generic local probe script at `tools/cdp_probe.py` before writing a one-off probe.
 - Save analysis results to `analysis_outputs/`.
 - Produce crawler-ready selectors, XHR/API findings, first-page titles, detail selectors, and strategy notes.
@@ -68,6 +70,18 @@ Rules captured in the skill:
 
 ```bash
 ./start_chrome_cdp.sh
+```
+
+If Codex is running in a sandbox and cannot see host-local CDP, prefer either a non-sandbox analysis run or:
+
+```bash
+./start_brave_cdp.sh
+```
+
+or run the end-to-end pipeline with:
+
+```bash
+./run_pipeline.sh <list-url> --cdp-backend docker-brave
 ```
 
 2. Analyze a list page:

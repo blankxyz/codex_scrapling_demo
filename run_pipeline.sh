@@ -22,21 +22,32 @@ cd "$SCRIPT_DIR"
 
 # ── 默认值 ──
 MODEL=""
+ANALYSIS_SANDBOX="danger-full-access"
 SANDBOX="workspace-write"
 NO_RUN=false
 HEADLESS=true
 URL=""
 SLUG_OVERRIDE=""
+CDP_BACKEND="auto"   # chrome | docker-brave | auto
 DEPLOY_REPO="/home/blank/playground/prefect_demo"
 
 # ── 参数解析 ──
 while [[ $# -gt 0 ]]; do
   case "$1" in
     --model)   MODEL="$2"; shift 2 ;;
-    --sandbox) SANDBOX="$2"; shift 2 ;;
+    --sandbox) SANDBOX="$2"; ANALYSIS_SANDBOX="$2"; shift 2 ;;
+    --analysis-sandbox) ANALYSIS_SANDBOX="$2"; shift 2 ;;
     --slug)    SLUG_OVERRIDE="$2"; shift 2 ;;
     --no-run)  NO_RUN=true; shift ;;
     --no-headless) HEADLESS=false; shift ;;
+    --cdp-backend)
+      CDP_BACKEND="$2"
+      case "$CDP_BACKEND" in
+        chrome|docker-brave|auto) ;;
+        *) echo "错误: --cdp-backend 必须是 chrome、docker-brave 或 auto" >&2; exit 1 ;;
+      esac
+      shift 2
+      ;;
     -h|--help)
       cat <<'HELP'
 用法: run_pipeline.sh <list-url> [选项]
@@ -50,9 +61,14 @@ while [[ $# -gt 0 ]]; do
   --slug <slug>           手动指定爬虫标识，覆盖自动生成的值
                           用于：网站 URL 变更但需要更新同一个爬虫
   --model <model>         Codex 使用的模型 (默认: codex 配置默认值)
-  --sandbox <mode>        Sandbox 模式 (默认: workspace-write)
+  --sandbox <mode>        全流程统一 Sandbox 模式
+                          默认不设置；若传入则分析/生成/转换都使用该值
+  --analysis-sandbox <mode>
+                          Step 1 分析专用 Sandbox 模式 (默认: danger-full-access)
   --no-run                跳过最后的爬虫执行步骤
   --no-headless           Chrome 使用有头模式（默认无头）
+  --cdp-backend <mode>    CDP 后端: chrome | docker-brave | auto (默认 auto)
+                          auto: docker 可用且 brave-browser/ 存在时用 docker-brave，否则用 chrome
   -h, --help              显示此帮助信息
 
 流程:
@@ -72,6 +88,9 @@ while [[ $# -gt 0 ]]; do
 
   # 只生成不运行
   ./run_pipeline.sh https://example.com/news/ --no-run
+
+  # 强制整个流程都走 workspace-write
+  ./run_pipeline.sh https://example.com/news/ --sandbox workspace-write
 HELP
       exit 0
       ;;
@@ -87,7 +106,7 @@ done
 
 if [[ -z "$URL" ]]; then
   echo "错误: 请提供列表页 URL" >&2
-  echo "用法: $0 <list-url> [--slug <slug>] [--model <model>] [--sandbox <mode>] [--no-run]" >&2
+  echo "用法: $0 <list-url> [--slug <slug>] [--model <model>] [--sandbox <mode>] [--analysis-sandbox <mode>] [--no-run]" >&2
   echo "运行 $0 --help 查看详细帮助" >&2
   exit 1
 fi
@@ -118,46 +137,75 @@ fi
 echo "═══════════════════════════════════════════"
 echo "  Pipeline: $URL"
 echo "  Slug:     $SLUG"
+echo "  Analysis sandbox: $ANALYSIS_SANDBOX"
+echo "  Other steps:      $SANDBOX"
 echo "═══════════════════════════════════════════"
 
 # ── 构建 codex exec 公共参数 ──
+ANALYSIS_CODEX_ARGS=(-s "$ANALYSIS_SANDBOX")
 CODEX_ARGS=(-s "$SANDBOX")
 if [[ -n "$MODEL" ]]; then
+  ANALYSIS_CODEX_ARGS+=(-m "$MODEL")
   CODEX_ARGS+=(-m "$MODEL")
 fi
 
-# ── CDP 重启 ──
-CDP_URL="${CHROME_CDP_URL:-http://127.0.0.1:9222}"
-CDP_PORT="${CHROME_CDP_PORT:-9222}"
-echo ""
-echo "▶ 关闭已有的 Chrome CDP 进程 ..."
-if lsof -ti :"$CDP_PORT" >/dev/null 2>&1; then
-  lsof -ti :"$CDP_PORT" | xargs kill 2>/dev/null || true
-  sleep 1
-fi
-
-echo "▶ 启动新的 Chrome CDP ..."
-CHROME_HEADLESS="$HEADLESS" "$SCRIPT_DIR/start_chrome_cdp.sh" &
-CDP_PID=$!
-
-# 轮询等待 CDP 就绪（最多 15 秒）
-echo -n "  等待 CDP 就绪 "
-for i in $(seq 1 15); do
-  if curl -sf "${CDP_URL}/json/version" >/dev/null 2>&1; then
-    echo " OK"
-    break
+# ── CDP 后端选择 ──
+if [[ "$CDP_BACKEND" == "auto" ]]; then
+  if command -v docker >/dev/null 2>&1 \
+     && [[ -f "$SCRIPT_DIR/brave-browser/docker-compose.yaml" ]]; then
+    CDP_BACKEND="docker-brave"
+    echo "  auto 检测: 使用 docker-brave 后端"
+  else
+    CDP_BACKEND="chrome"
+    echo "  auto 检测: 使用 chrome 后端"
   fi
-  echo -n "."
-  sleep 1
-done
-
-if ! curl -sf "${CDP_URL}/json/version" >/dev/null 2>&1; then
-  echo ""
-  echo "错误: Chrome CDP 启动超时，请检查 Chrome 安装" >&2
-  kill "$CDP_PID" 2>/dev/null || true
-  exit 1
 fi
-echo "  CDP 就绪 (PID: $CDP_PID)"
+
+# ── CDP 启动 ──
+CDP_PID=""
+if [[ "$CDP_BACKEND" == "docker-brave" ]]; then
+  # 始终使用 127.0.0.1:9222（Docker 端口映射），忽略 CHROME_CDP_URL
+  CDP_URL="http://127.0.0.1:9222"
+  CDP_PORT="9222"
+
+  echo ""
+  echo "▶ 启动 Docker Brave CDP ..."
+  "$SCRIPT_DIR/start_brave_cdp.sh"
+  echo "  CDP 就绪 (docker-brave)"
+
+else
+  # Chrome 模式
+  CDP_URL="${CHROME_CDP_URL:-http://127.0.0.1:9222}"
+  CDP_PORT="${CHROME_CDP_PORT:-9222}"
+
+  echo ""
+  echo "▶ 关闭已有的 Chrome CDP 进程 ..."
+  if lsof -ti :"$CDP_PORT" >/dev/null 2>&1; then
+    lsof -ti :"$CDP_PORT" | xargs kill 2>/dev/null || true
+    sleep 1
+  fi
+
+  echo "▶ 启动新的 Chrome CDP ..."
+  CHROME_HEADLESS="$HEADLESS" "$SCRIPT_DIR/start_chrome_cdp.sh" &
+  CDP_PID=$!
+  trap 'kill "$CDP_PID" 2>/dev/null || true' EXIT INT TERM
+
+  echo -n "  等待 CDP 就绪 "
+  for i in $(seq 1 15); do
+    if curl -sf "${CDP_URL}/json/version" >/dev/null 2>&1; then
+      echo " OK"; break
+    fi
+    echo -n "."; sleep 1
+  done
+
+  if ! curl -sf "${CDP_URL}/json/version" >/dev/null 2>&1; then
+    echo ""
+    echo "错误: Chrome CDP 启动超时，请检查 Chrome 安装" >&2
+    kill "$CDP_PID" 2>/dev/null || true
+    exit 1
+  fi
+  echo "  CDP 就绪 (PID: $CDP_PID)"
+fi
 
 # ── Step 1: Analysis ──
 echo ""
@@ -167,7 +215,7 @@ echo "════════════════════════�
 
 ANALYSIS_PROMPT="使用当前目录的 \$scrapling-spider-analysis 分析这个列表页，并把结果输出到 analysis_outputs/${SLUG}_analysis.json：${URL}"
 
-codex exec "${CODEX_ARGS[@]}" "$ANALYSIS_PROMPT"
+codex exec "${ANALYSIS_CODEX_ARGS[@]}" "$ANALYSIS_PROMPT"
 
 # 检查 analysis 输出（严格匹配，不回退）
 ANALYSIS_JSON="analysis_outputs/${SLUG}_analysis.json"

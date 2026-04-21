@@ -63,11 +63,16 @@ def test_falls_back_to_env_var(monkeypatch):
 
 
 def test_raises_when_all_fail(monkeypatch):
-    """所有候选地址不通时抛出 RuntimeError，错误信息包含候选列表。"""
+    """所有候选地址不通时抛出 RuntimeError，错误信息包含沙盒排障提示。"""
     monkeypatch.delenv("CHROME_CDP_URL", raising=False)
     with patch("urllib.request.urlopen", side_effect=urllib.error.URLError("refused")):
-        with pytest.raises(RuntimeError, match="No reachable CDP endpoint found"):
+        with pytest.raises(RuntimeError) as excinfo:
             resolve_cdp_url("http://127.0.0.1:9222")
+
+    message = str(excinfo.value)
+    assert "No reachable CDP endpoint found" in message
+    assert "Codex sandbox" in message
+    assert "docker-brave CDP backend" in message
 
 
 def test_deduplicates_candidates(monkeypatch):
