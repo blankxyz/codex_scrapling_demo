@@ -41,6 +41,7 @@ If Python is needed during generation or validation, use only the current worksp
    - Default to `AsyncStealthySession` for protected government/news sites where normal dynamic rendering returns errors or needs browser fingerprints.
    - Use `AsyncDynamicSession` only when analysis or validation shows normal dynamic rendering works.
    - Never require `cdp_url` in production spiders. Runtime dynamic rendering should launch/drive Scrapling's browser itself.
+   - Do not add `real_chrome` or `SCRAPLING_REAL_CHROME` to generated code.
    - Set `capture_xhr` only when using browser-rendered XHR capture rather than direct API requests.
    - Set `google_search=False`.
 
@@ -87,7 +88,9 @@ If Python is needed during generation or validation, use only the current worksp
    - If both text and video signals exist, prefer the video schema unless the user explicitly requires dual emission.
    - Normalize whitespace.
 
-6. Validate:
+6. Save and validate:
+   - Write the generated spider directly to the exact output path requested by the user.
+   - Returning code in chat without creating the file is a failure.
    - Run `.venv/bin/python -m py_compile <spider>`.
    - Prefer running schema checks in a temporary snippet or external test command. Do not embed schema validator functions in the production spider unless the user explicitly asks.
    - Run an output schema check for at least one text item and one video item when both types exist or may plausibly coexist under the same section:
@@ -104,7 +107,9 @@ If Python is needed during generation or validation, use only the current worksp
 
 - CDP may be used to analyze a site, but generated production spiders must not require a running local Chrome CDP endpoint.
 - Prefer direct stable APIs over browser-rendered XHR capture. Prefer browser-rendered XHR capture over reconstructing anti-bot token URLs manually.
+- Do not emit `real_chrome`-style toggles or environment variables in generated code.
 - Do not add pagination unless the user asks for it.
+- Do not stop after printing code; the requested spider file must actually be created on disk.
 - For `SECTIONS` spiders, do not interpret multiple sections as permission to paginate. Default to page 1 for each section.
 - Do not write unrelated framework scaffolding.
 - Do not let generated spiders grow unnecessarily large. Avoid copied boilerplate, unused helpers, duplicate normalizers, embedded test code, and diagnostic-only code.

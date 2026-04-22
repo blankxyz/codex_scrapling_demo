@@ -1,0 +1,6 @@
+interface:
+  display_name: "Scrapling Analysis To Prefect Generator"
+  short_description: "Generate Prefect spiders directly from Scrapling analysis outputs"
+  default_prompt: "Use $scrapling-analysis-to-prefect-generator to generate a Prefect spider directly from analysis_outputs while keeping Scrapling as the crawler foundation."
+policy:
+  allow_implicit_invocation: true

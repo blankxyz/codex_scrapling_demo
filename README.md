@@ -1,6 +1,6 @@
 # Codex Scrapling Demo
 
-This directory contains three local Codex skills for a browser-first Scrapling crawler workflow.
+This directory contains four local Codex skills for a browser-first Scrapling crawler workflow.
 
 ## Skills
 
@@ -39,7 +39,9 @@ Rules captured in the skill:
 - Generate production spiders that do not depend on CDP.
 - Use only `.venv/bin/python` for generator-time Python commands and validation; do not fall back to system `python` or `python3`.
 - Use Scrapling dynamic rendering; prefer `AsyncStealthySession` for protected sites.
+- Do not emit `real_chrome` or `SCRAPLING_REAL_CHROME` in generated spiders.
 - Do not add pagination unless explicitly requested.
+- Must write the requested spider file to disk; returning code only is not enough.
 - If the generated spider uses `SECTIONS`, only the first page of each section should be fetched by default.
 - Preserve the user-provided output schema.
 - Every generated spider should include both text and video detail handling by default, and resolve the final type per detail page at runtime.
@@ -60,10 +62,29 @@ Rules captured in the skill:
 
 - Read the source spider first and preserve its extraction logic and item schema.
 - Rewrite the entrypoint into Prefect `@task` / `@flow` structure at the user-specified target path.
+- Keep Scrapling as the fetch/render/parse foundation; Prefect only replaces orchestration.
+- Do not emit `real_chrome` or `SCRAPLING_REAL_CHROME` in converted spiders.
 - Adapt storage to the target Prefect project's `common/*`, choosing between `result_sink` and `spider_store` intentionally.
 - Allow the user to explicitly specify `accountcode`, and preserve that exact value in the converted spider.
 - Use only `.venv/bin/python` for conversion-time Python commands and validation.
+- Must write the requested Prefect file to disk; returning code only is not enough.
 - Do not add pagination unless the source spider already had it or the user explicitly asks for it.
+
+### `scrapling-analysis-to-prefect-generator`
+
+Use this skill to generate a Prefect spider directly from `analysis_outputs/*` without first creating an intermediate local Scrapling spider file.
+
+Rules captured in the skill:
+
+- Read `analysis_outputs/*_analysis.json` first, and use `*_analysis.md` only as support.
+- Generate Prefect `@task` / `@flow` structure directly from the analysis result.
+- Keep Scrapling as the crawler foundation for fetching, rendering, and parsing.
+- Do not emit `real_chrome` or `SCRAPLING_REAL_CHROME` in generated spiders.
+- Do not replace Scrapling with generic HTTP clients or non-Scrapling browser tooling unless the user explicitly asks for that.
+- Adapt storage to the target Prefect project's `common/*`, choosing between `result_sink` and `spider_store` intentionally.
+- Use only `.venv/bin/python` for generation-time Python commands and validation.
+- Must write the requested Prefect file to disk; returning code only is not enough.
+- Do not add pagination unless the analysis or the user explicitly requires it.
 
 ## Recommended Workflow
 
@@ -100,6 +121,7 @@ Rules captured in the skill:
   - `scrapling-spider-analysis/`
   - `scrapling-spider-generator/`
   - `scrapling-to-prefect-generator/`
+  - `scrapling-analysis-to-prefect-generator/`
 
 ## Notes
 

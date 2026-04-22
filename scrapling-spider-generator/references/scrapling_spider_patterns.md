@@ -13,7 +13,6 @@ def configure_sessions(self, manager) -> None:
         AsyncStealthySession(
             capture_xhr="/common/search/",
             google_search=False,
-            real_chrome=True,
             extra_headers={"Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8"},
             network_idle=False,
             wait=3000,
@@ -24,11 +23,7 @@ def configure_sessions(self, manager) -> None:
     )
 ```
 
-Make `real_chrome` configurable only when useful:
-
-```python
-real_chrome = os.getenv("SCRAPLING_REAL_CHROME", "1") != "0"
-```
+Do not add `real_chrome` or `SCRAPLING_REAL_CHROME` to generated code. Keep browser session arguments minimal unless analysis proves a specific option is required.
 
 Do not include `cdp_url` in generated production spiders.
 

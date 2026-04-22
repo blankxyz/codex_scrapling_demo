@@ -33,7 +33,7 @@ echo "  http://127.0.0.1:${PORT}/json/version"
 echo "  http://127.0.0.1:${PORT}/json"
 echo
 
-HEADLESS="${CHROME_HEADLESS:-true}"
+HEADLESS="${CHROME_HEADLESS:-false}"
 
 HEADLESS_FLAGS=()
 if [[ "$HEADLESS" == "true" ]]; then
@@ -43,8 +43,15 @@ else
   echo "  headless:      off"
 fi
 
+WSL2_FLAGS=()
+if uname -r | grep -qi microsoft; then
+  echo "  environment:   WSL2 (--no-sandbox etc.)"
+  WSL2_FLAGS=(--no-sandbox --disable-dev-shm-usage --disable-software-rasterizer)
+fi
+
 exec "$CHROME_BIN" \
   "${HEADLESS_FLAGS[@]}" \
+  "${WSL2_FLAGS[@]}" \
   --remote-debugging-address=127.0.0.1 \
   --remote-debugging-port="$PORT" \
   --user-data-dir="$USER_DATA_DIR" \

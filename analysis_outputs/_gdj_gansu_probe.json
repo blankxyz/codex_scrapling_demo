@@ -1,0 +1,52 @@
+{
+  "source_url": "https://gdj.gansu.gov.cn/gdj/c109217/video_item.shtml",
+  "cdp_url": "http://127.0.0.1:9222",
+  "saved_at": 1776843116,
+  "dom": {
+    "url": "https://gdj.gansu.gov.cn/gdj/c109217/video_item.shtml",
+    "title": "",
+    "bodyText": "",
+    "anchors": [],
+    "likely": [],
+    "headings": [],
+    "html": "<html><head></head><body></body></html>"
+  },
+  "network": [
+    {
+      "url": "https://gdj.gansu.gov.cn/gdj/c109217/video_item.shtml",
+      "status": 400,
+      "method": "GET",
+      "resource_type": "document",
+      "request_headers": {
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en;q=0.9",
+        "connection": "keep-alive",
+        "cookie": "4hP44ZykCTt5O=60npeJgJpzjB.6.E_EVrmhknatGM3FQ6vP6GelB0JQIURHMF0rvlWK.RydJ24d21iLHzmIlyryutTctJrdSibsoA; 4hP44ZykCTt5P=0ZZd9rHSTxS1sXr9RlB7pDuvarsTDYl5ibOLHlGR6VF7ujKOAnN7.cJmS8BeaEEHCCLglPGCePTc6Ws6RJAip.uVX4TeVZSjnXtMr6W0YM_BaWBY.G.VhHhlT3dX2DZRSRo4WzXPpNCmN8FHuM8RqXf59h8.Q.BTltRe4cYZwljVQxOsH0ftMnVEZpoN7TVpFuJdw.VHE9_YATuaS9blo2WeQnhbPcmRG2DzvxhtvnPSB5xljypNGuTHf.w7MZzeb",
+        "host": "gdj.gansu.gov.cn",
+        "sec-fetch-dest": "document",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-site": "none",
+        "sec-fetch-user": "?1",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/146.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\""
+      },
+      "response_headers": {
+        "cache-control": "no-store",
+        "connection": "close",
+        "content-type": "text/html",
+        "date": "Wed, 22 Apr 2026 07:08:19 GMT",
+        "expires": "Wed, 22 Apr 2026 07:08:19 GMT",
+        "pragma": "no-cache",
+        "server": "******",
+        "set-cookie": "4hP44ZykCTt5P=; Path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT; Secure; HttpOnly",
+        "transfer-encoding": "chunked"
+      },
+      "body": "\r\n\r\n\r\n"
+    }
+  ],
+  "detail": {}
+}

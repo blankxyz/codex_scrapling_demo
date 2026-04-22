@@ -20,8 +20,15 @@ The conversion should preserve:
 The conversion must adapt:
 
 - `Spider` / `Request` orchestration into Prefect `@task` and `@flow`
-- Scrapling spider class entrypoint into plain functions plus flow entrypoint
+- Scrapling spider class entrypoint into Prefect-friendly functions plus flow entrypoint
 - storage and dedupe behavior to the target Prefect project's `common/*`
+
+The conversion must keep Scrapling as the crawler foundation:
+
+- Prefect only replaces orchestration, not the fetching/parsing base library.
+- List/detail fetching in the converted file must still use Scrapling APIs such as `FetcherSession`, `AsyncDynamicSession`, `AsyncStealthySession`, `Selector`, or equivalent local Scrapling interfaces already used by the target project.
+- Do not rewrite HTTP access to `requests`, `httpx`, `aiohttp`, `urllib`, or raw Playwright/Selenium unless the user explicitly asks for a non-Scrapling port.
+- Do not add `real_chrome` or `SCRAPLING_REAL_CHROME` to converted code.
 
 ## Inputs
 
@@ -59,7 +66,10 @@ If a local Prefect Docker environment exists and the user asks for runnable veri
    - Replace the Scrapling `Spider` class with small task functions such as `fetch_list_entries()` and `fetch_details(...)`.
    - Add one `@flow(..., log_prints=True)` function as the primary entrypoint.
    - Keep helper functions top-level and simple.
-   - Prefer `scrapling.Fetcher` in the target Prefect project unless the existing local Prefect patterns for that site require browser automation.
+   - Keep Scrapling as the fetch layer. Prefer the same Scrapling session family as the source spider unless the target project has an established Scrapling wrapper for that site shape.
+   - For static/API flows, prefer Scrapling HTTP/session interfaces already used in this repo or the target project.
+   - For rendered or protected flows, prefer Scrapling browser-backed sessions such as `AsyncDynamicSession` or `AsyncStealthySession`.
+   - Do not downgrade a Scrapling spider into generic HTTP clients just because it is being moved into Prefect.
    - Add Prefect fallback shims only if existing nearby spiders use them and the environment may run without Prefect installed.
 
 5. Preserve item schema:
@@ -69,6 +79,8 @@ If a local Prefect Docker environment exists and the user asks for runnable veri
    - If the user provides `accountcode`, write that exact value into the converted spider and do not silently inherit a different value from the source spider or nearby Prefect examples.
 
 6. Save and validate:
+   - Write the converted spider directly to the exact target file requested by the user.
+   - Returning code in chat without creating the file is a failure.
    - Run `.venv/bin/python -m py_compile <target_file>`.
    - If feasible, run the flow locally once or run the key task functions against a small sample.
    - If a local Prefect Docker environment is available, verify the converted spider in the running worker/container used by that environment.
@@ -82,8 +94,10 @@ If a local Prefect Docker environment exists and the user asks for runnable veri
 - Do not introduce pagination that the source spider did not already have.
 - Do not silently change storage semantics. State and implement either `result_sink` or `spider_store`.
 - Do not replace the source item schema with a new schema just because a Prefect target project exists.
+- Do not replace Scrapling fetching/parsing with another crawler base library unless the user explicitly requests that change.
 - Do not drop or overwrite an explicit user-provided `accountcode`.
 - Do not add deployment scripts unless the user asks for them.
+- Do not stop after printing code; the requested Prefect spider file must actually be created on disk.
 - Do not use system `python` or `python3`; use `.venv/bin/python` only.
 - Do not assume the running Docker worker mounts the current repo. Verify the active container code path before testing.
 - Do not claim the spider is runnable in Prefect until at least `py_compile` passes; if Docker verification was requested and available, run it there before claiming success.

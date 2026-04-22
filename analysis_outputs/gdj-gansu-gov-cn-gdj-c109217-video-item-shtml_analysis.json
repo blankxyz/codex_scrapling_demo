@@ -1,7 +1,16 @@
 {
   "source_url": "https://gdj.gansu.gov.cn/gdj/c109217/video_item.shtml",
   "slug": "gdj-gansu-gov-cn-gdj-c109217-video-item-shtml",
-  "analysis_method": "local_visible_chrome_cdp_live_tab",
+  "analysis_method": {
+    "primary": "browser-rendered",
+    "tool": "patchright/playwright via .venv/bin/python",
+    "cdp_used": false,
+    "notes": [
+      "Direct CDP probe against a fresh automation page returned HTTP 400 with empty DOM.",
+      "A local browser-rendered probe succeeded after the site first returned HTTP 412 and then reloaded the page through challenge JavaScript.",
+      "Selectors and API findings below come from rendered DOM plus browser-observed network traffic."
+    ]
+  },
   "site": {
     "domain": "gdj.gansu.gov.cn",
     "base_url": "https://gdj.gansu.gov.cn",
@@ -9,13 +18,14 @@
     "column_name": "本土纪录片"
   },
   "list": {
-    "first_page_only": true,
+    "first_page_only": false,
     "item_count": 20,
     "item_selector": ".news_list-item ul.pagelist > li",
-    "link_selector": ".news_list-item ul.pagelist > li > a",
+    "link_selector": ".news_list-item ul.pagelist > li > a[href*=\"/gdj/c109217/\"][href$=\".shtml\"]",
     "title_selector": ".news_list-item ul.pagelist > li > a > p",
     "publish_time_selector": ".news_list-item ul.pagelist > li > a > p > span",
-    "wait_selector": ".news_list-item ul.pagelist > li > a[href*='/gdj/c109217/'][href$='.shtml']",
+    "wait_selector": ".news_list-item ul.pagelist > li > a[href*=\"/gdj/c109217/\"][href$=\".shtml\"]",
+    "pagination_selector": "#page_div",
     "first_page_titles": [
       "石窟中国 第一集",
       "石窟中国 第二集",
@@ -40,53 +50,50 @@
     ]
   },
   "api": {
-    "exists": false,
-    "capture_xhr": "",
+    "exists": true,
+    "capture_xhr": "/common/search/",
     "method": "GET",
-    "path": "",
+    "path": "/common/search/c0c8c340c68d4381998c567d89c3e38e",
     "channel_id": "c0c8c340c68d4381998c567d89c3e38e",
-    "page_param": "",
-    "page_size_param": "",
-    "dynamic_token": false,
+    "page_param": "page",
+    "page_size_param": "_pageSize",
+    "dynamic_token": true,
+    "observed_request_example": "https://gdj.gansu.gov.cn/common/search/c0c8c340c68d4381998c567d89c3e38e?UAta9QfS=<dynamic>&_isAgg=true&_isJson=true&_pageSize=20&_template=index&_rangeTimeGte=&_rangeTimeLt=&_channelName=&page=",
     "response_paths": {
-      "rows": "",
-      "page": "",
-      "total": "",
-      "detail_url": "",
-      "title": "",
-      "publish_time": "",
-      "column_name": "",
-      "source": ""
+      "rows": "data.results",
+      "page": "data.page",
+      "total": "data.total",
+      "detail_url": "data.results[].url",
+      "title": "data.results[].title",
+      "publish_time": "data.results[].publishedTimeStr",
+      "column_name": "data.results[].channelName",
+      "source": "data.results[].domainMetaList[].resultList[?(@.key=='source')].value"
     }
   },
   "detail": {
     "sample_url": "https://gdj.gansu.gov.cn/gdj/c109217/202604/174316729.shtml",
-    "title_selector": ".newsDetails #title_f, .newsDetails #title_mm",
-    "meta_selector": ".newsDetails .notice",
+    "title_selector": ".newsDetails h6#title_f, .newsDetails h6#title_mm",
+    "meta_selector": ".newsDetails .notice.clearfix, .newsDetails .notice",
     "content_selector": ".newsDetails #content",
-    "publish_time_regex": "发布时间：\\s*(\\d{4}-\\d{2}-\\d{2}\\s+\\d{2}:\\d{2}:\\d{2})",
-    "source_regex": "来源：\\s*([^\\s【]+)?",
+    "video_selector": ".newsDetails #content video[src], .newsDetails #content source[src$='.mp4']",
+    "publish_time_regex": "发布时间[:：]\\s*(\\d{4}-\\d{2}-\\d{2}(?:\\s+\\d{2}:\\d{2}:\\d{2})?)",
+    "source_regex": "来源[:：]\\s*([^\\s【]*)",
     "views_regex": "浏览次数[:：]\\s*(\\d+)",
-    "wait_selector": ".newsDetails #content video[src$='.mp4'], .newsDetails #content source[src$='.mp4']",
-    "content_duplicated": true
+    "wait_selector": ".newsDetails #content video[src], .newsDetails #content",
+    "content_duplicated": true,
+    "sample_video_url": "https://gdj.gansu.gov.cn/gdj/c109217/202604/174316729/files/bfea8e05eab240d9bc977a3a02121a27.mp4"
   },
   "spider_strategy": {
     "session": "AsyncStealthySession",
     "google_search": false,
     "network_idle": false,
-    "pagination": "none",
+    "pagination": "Use the browser-observed /common/search/ endpoint with page= and _pageSize=20 when full pagination is needed; otherwise first-page DOM parsing is stable.",
     "notes": [
-      "List page was analyzable only after attaching to the user-visible Chrome session.",
-      "The list is server-rendered HTML rather than XHR-fed JSON.",
-      "Page 1 contains 20 items and the paginator shows 8 pages, but page-turning behavior was not reverse-engineered in this run.",
-      "Detail pages are video details with a direct MP4 in .newsDetails #content video[src].",
-      "Desktop and mobile detail templates both exist in the same HTML; prefer desktop .newsDetails selectors first."
+      "Fresh automation requests hit anti-bot logic first, so prefer a stealth session rather than a plain dynamic session.",
+      "Do not hardcode the dynamic UAta9QfS token; capture /common/search/ XHR from the browser session instead.",
+      "The list page already contains first-page items in rendered DOM, so DOM parsing is a valid fallback if XHR capture is unavailable.",
+      "Detail pages duplicate title/meta/content blocks for desktop and mobile layouts; normalize by selecting the first matching title and content container.",
+      "Detail pages are video pages: extract mp4 from the inline video element under #content."
     ]
-  },
-  "evidence": {
-    "used_cdp": true,
-    "cdp_url": "http://127.0.0.1:9222",
-    "visible_tab_probe": "analysis_outputs/gdj-gansu-gov-cn-gdj-c109217-video-item-shtml_visible_tab.json",
-    "detail_probe": "analysis_outputs/gdj-gansu-gov-cn-gdj-c109217-detail_visible.json"
   }
 }
