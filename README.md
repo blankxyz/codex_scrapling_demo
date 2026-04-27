@@ -34,7 +34,7 @@ Use this skill to generate a runnable Scrapling spider from prior analysis outpu
 
 Rules captured in the skill:
 
-- Read `analysis_outputs/*_analysis.json` and `analysis_outputs/*_analysis.md`.
+- Read `analysis_outputs/<slug>/analysis.json` and `analysis_outputs/<slug>/analysis.md` (legacy flat `*_analysis.json` still supported as fallback).
 - Prefer browser-captured XHR/API findings from analysis.
 - Generate production spiders that do not depend on CDP.
 - Use only `.venv/bin/python` for generator-time Python commands and validation; do not fall back to system `python` or `python3`.
@@ -72,12 +72,13 @@ Rules captured in the skill:
 
 ### `scrapling-analysis-to-prefect-generator`
 
-Use this skill to generate a Prefect spider directly from `analysis_outputs/*` without first creating an intermediate local Scrapling spider file.
+Use this skill to generate a Prefect spider directly from `analysis_outputs/*` without first creating an intermediate local Scrapling spider file. By default, output should go to the GitLab repo `/home/blank/bohui_lab/codex_scrapling_demo/scrapling-prefect-spiders`.
 
 Rules captured in the skill:
 
-- Read `analysis_outputs/*_analysis.json` first, and use `*_analysis.md` only as support.
+- Read `analysis_outputs/<slug>/analysis.json` first, and use `<slug>/analysis.md` only as support (legacy flat names still supported as fallback).
 - Generate Prefect `@task` / `@flow` structure directly from the analysis result.
+- Unless the user explicitly overrides it, write the generated spider to `/home/blank/bohui_lab/codex_scrapling_demo/scrapling-prefect-spiders/spiders/`.
 - Keep Scrapling as the crawler foundation for fetching, rendering, and parsing.
 - Do not emit `real_chrome` or `SCRAPLING_REAL_CHROME` in generated spiders.
 - Do not replace Scrapling with generic HTTP clients or non-Scrapling browser tooling unless the user explicitly asks for that.
@@ -103,7 +104,7 @@ Rules captured in the skill:
 3. Generate the spider:
 
 ```text
-使用当前目录的 $scrapling-spider-generator，根据 analysis_outputs/hinews-cn-module-b0ba0a6167674227932bbeca1cc20e77_analysis 里的分析结果生成 Scrapling 爬虫。只抓第一页。
+使用当前目录的 $scrapling-spider-generator，根据 analysis_outputs/hinews-cn-module-b0ba0a6167674227932bbeca1cc20e77/analysis.json 里的分析结果生成 Scrapling 爬虫。只抓第一页。
 ```
 
 4. Run the generated spider:

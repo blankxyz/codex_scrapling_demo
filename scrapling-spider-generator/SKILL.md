@@ -16,9 +16,12 @@ This skill is for code generation, not site analysis. If analysis is missing or 
 Use these sources in order:
 
 1. Current user request, especially output schema, account codes, project names, pagination limits, and runtime constraints.
-2. `analysis_outputs/*_analysis.json` and `analysis_outputs/*_analysis.md`.
-3. Existing local spiders for style and helper conventions.
-4. Local Scrapling package APIs, read from `.venv/lib/.../site-packages/scrapling` when unsure.
+2. Scrapling API / pattern references (authoritative — consult before writing fetch or parse code):
+   - [../scrapling-analysis-to-prefect-generator/references/scrapling-fetching.md](../scrapling-analysis-to-prefect-generator/references/scrapling-fetching.md) — session types, XHR capture, proxy & header patterns.
+   - [../scrapling-analysis-to-prefect-generator/references/scrapling-parsing.md](../scrapling-analysis-to-prefect-generator/references/scrapling-parsing.md) — `Selector` API, CSS/XPath, text extraction, duplicated containers.
+3. `analysis_outputs/<slug>/analysis.json` and `analysis_outputs/<slug>/analysis.md` (fallback to legacy flat `analysis_outputs/*_analysis.json` if the subfolder form is absent).
+4. Existing local spiders for style and helper conventions.
+5. Local Scrapling package APIs, read from `.venv/lib/.../site-packages/scrapling` when unsure.
 
 Do not use network search engines. Do not introduce non-browser HTTP clients for target pages when the analysis says the site requires browser execution.
 
@@ -27,7 +30,7 @@ If Python is needed during generation or validation, use only the current worksp
 ## Workflow
 
 1. Identify the list target and analysis file:
-   - Prefer the newest relevant `analysis_outputs/*_analysis.json`.
+   - Prefer the newest relevant `analysis_outputs/*/analysis.json`; fall back to `analysis_outputs/*_analysis.json` for legacy artifacts only.
    - Extract list URL, column name, channel/API endpoint, first-page size, detail URL field, title field, publish-time field, detail selectors, and pagination decision.
    - Detect whether the same site likely has multiple sibling sections/channels with the same DOM/API shape and only different section ids, classify codes, route params, or column names.
    - Unless the user explicitly asks for pagination, generate first-page only.

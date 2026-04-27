@@ -17,7 +17,7 @@ NO_RUN=false
 HEADLESS=true
 URL=""
 SLUG_OVERRIDE=""
-DEPLOY_REPO="/home/blank/playground/prefect_demo"
+DEPLOY_REPO="/home/blank/bohui_lab/codex_scrapling_demo/scrapling-prefect-spiders"
 
 slug_from_url() {
   local url="$1"
@@ -36,18 +36,21 @@ insert_registry_entry() {
   local flow_name="$3"
   local slug="$4"
   local tmpfile
+  local anchor_time
 
   if grep -qF "$entry" "$registry_file"; then
     echo "  registry.yaml 已包含 $entry，跳过"
     return 0
   fi
 
+  anchor_time=$(next_anchor_time "$registry_file")
   tmpfile=$(mktemp)
   cat >"$tmpfile" <<EOF
 
   - entrypoint: ${entry}
     name: ${flow_name}
     interval: 86400
+    anchor_time: "${anchor_time}"
     description: ${slug} 自动生成爬虫
     tags: [auto-generated]
 EOF
@@ -55,6 +58,49 @@ EOF
   sed -i "/^# 平台工具 flow/r $tmpfile" "$registry_file"
   rm -f "$tmpfile"
   echo "  已注册到 registry.yaml: $entry"
+}
+
+next_anchor_time() {
+  local registry_file="$1"
+  local existing
+  existing=$(grep -oP 'anchor_time:\s*"\K\d{2}:\d{2}' "$registry_file" || true)
+
+  while IFS= read -r candidate; do
+    if [[ -z "$candidate" ]]; then
+      continue
+    fi
+    if ! grep -qxF "$candidate" <<<"$existing"; then
+      echo "$candidate"
+      return 0
+    fi
+  done <<'EOF'
+01:00
+04:00
+07:00
+10:00
+13:00
+16:00
+19:00
+22:00
+01:30
+04:30
+07:30
+10:30
+13:30
+16:30
+19:30
+22:30
+00:30
+03:30
+06:30
+09:30
+12:30
+15:30
+18:30
+21:30
+EOF
+
+  echo "00:00"
 }
 
 while [[ $# -gt 0 ]]; do
@@ -78,7 +124,7 @@ while [[ $# -gt 0 ]]; do
 选项:
   --slug <slug>              手动指定爬虫标识，覆盖自动生成的值
   --deploy-repo <path>       目标 Prefect 仓库路径
-                             默认: /home/blank/playground/prefect_demo
+                             默认: /home/blank/bohui_lab/codex_scrapling_demo/scrapling-prefect-spiders
   --model <model>            Codex 使用的模型
   --sandbox <mode>           全流程统一 Sandbox 模式
   --analysis-sandbox <mode>  Step 1 分析专用 Sandbox 模式
@@ -88,7 +134,7 @@ while [[ $# -gt 0 ]]; do
   -h, --help                 显示帮助
 
 流程:
-  Step 1  分析列表页结构，输出 analysis_outputs/<slug>_analysis.json
+  Step 1  分析列表页结构，输出 analysis_outputs/<slug>/analysis.json
   Step 2  直接输出 Prefect spider 到目标仓库 spiders/<slug>_spider.py
   Step 3  在目标仓库注册到 registry.yaml 并 git commit
   Step 4  可选本地执行目标仓库中的 spider 文件
@@ -96,7 +142,7 @@ while [[ $# -gt 0 ]]; do
 示例:
   ./run_pipeline_all.sh https://www.nxnews.net/sh/jjcz/
   ./run_pipeline_all.sh https://example.com/news/ --slug old-slug
-  ./run_pipeline_all.sh https://example.com/news/ --deploy-repo /path/to/prefect_demo --no-run
+  ./run_pipeline_all.sh https://example.com/news/ --deploy-repo /path/to/scrapling-prefect-spiders --no-run
 HELP
       exit 0
       ;;
@@ -190,10 +236,13 @@ echo "════════════════════════�
 echo "  Step 1/4: 分析列表页"
 echo "═══════════════════════════════════════════"
 
-ANALYSIS_PROMPT="使用当前目录的 \$scrapling-spider-analysis 分析这个列表页，并把结果输出到 analysis_outputs/${SLUG}_analysis.json：${URL}"
+ANALYSIS_DIR="analysis_outputs/${SLUG}"
+ANALYSIS_JSON="${ANALYSIS_DIR}/analysis.json"
+mkdir -p "$ANALYSIS_DIR"
+
+ANALYSIS_PROMPT="使用当前目录的 \$scrapling-spider-analysis 分析这个列表页，并把结果输出到 ${ANALYSIS_JSON}：${URL}"
 codex exec "${ANALYSIS_CODEX_ARGS[@]}" "$ANALYSIS_PROMPT"
 
-ANALYSIS_JSON="analysis_outputs/${SLUG}_analysis.json"
 if [[ ! -f "$ANALYSIS_JSON" ]]; then
   echo "错误: 未找到本次分析结果 $ANALYSIS_JSON" >&2
   exit 1
@@ -206,7 +255,7 @@ echo "  Step 2/4: 直接生成 Prefect flow"
 echo "═══════════════════════════════════════════"
 
 PREFECT_SPIDER="${DEPLOY_REPO}/spiders/${SLUG}_spider.py"
-PREFECT_PROMPT="使用当前目录的 \$scrapling-analysis-to-prefect-generator，根据 analysis_outputs/${SLUG}_analysis.json 里的分析结果，直接生成基于 Scrapling 的 Prefect flow，输出到 ${PREFECT_SPIDER}。只抓第一页。必须直接把代码写入这个文件路径；如果没有落盘到该文件就算失败。"
+PREFECT_PROMPT="使用当前目录的 \$scrapling-analysis-to-prefect-generator，根据 ${ANALYSIS_JSON} 里的分析结果，直接生成基于 Scrapling 的 Prefect flow，输出到 ${PREFECT_SPIDER}。只抓第一页。必须直接把代码写入这个文件路径；如果没有落盘到该文件就算失败。"
 codex exec "${CODEX_ARGS[@]}" "$PREFECT_PROMPT"
 
 if [[ ! -f "$PREFECT_SPIDER" ]]; then

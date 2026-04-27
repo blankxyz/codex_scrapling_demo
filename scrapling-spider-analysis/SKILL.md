@@ -1,9 +1,25 @@
 ---
 name: scrapling-spider-analysis
-description: Analyze dynamic list-to-detail websites for Scrapling spider generation using browser/CDP evidence only. Use when the user provides a list-page URL and asks for crawler analysis, API discovery, selector extraction, first-page titles, or analysis outputs under analysis_outputs. Do not use search engines or non-browser target fetching.
+description: Analyze a list-to-detail site with browser/CDP evidence and emit Scrapling-ready artifacts to analysis_outputs/.
 ---
 
 # Scrapling Spider Analysis
+
+## When to use
+
+- User provides a list-page URL and asks for crawler analysis, API discovery, selector extraction, first-page titles, or `analysis_outputs/` artifacts.
+
+## When not to use
+
+- Only a one-off HTTP fetch is needed (no spider required).
+- User wants to modify or regenerate an existing spider (use the generator skill).
+- Task requires search engine lookup of the target site.
+
+## Language convention
+
+- This file (SKILL.md) is English so the harness can match triggers reliably.
+- `references/*.md` files are 中文, targeted at operators reading reference material directly.
+- JSON artifact field names are English; human-readable strings (titles, column names) follow the source site encoding.
 
 ## Goal
 
@@ -22,60 +38,86 @@ Use browser evidence. CDP is preferred when available because it exposes rendere
 ## Hard Rules
 
 - Do not use search engines.
-- Do not use non-browser target fetching for site analysis. Avoid `curl`, `wget`, `requests`, or direct API calls to the target as evidence unless the user explicitly asks for a browser-observed request to be replayed for debugging.
-- If Python is needed during analysis, use only the current workspace virtualenv interpreter at `.venv/bin/python`.
-- Do not use `python`, `python3`, or any system interpreter for analysis commands, even as a fallback.
-- Default to Chrome CDP. `tools/cdp_probe.py` auto-detects the available CDP endpoint (tries `--cdp-url` value first, then `$CHROME_CDP_URL`, `127.0.0.1:9222`, then Docker bridge range `172.17.0.1-20`). Do not hardcode the CDP address in prompts or commands.
-- If the error indicates no reachable CDP endpoint, consider sandbox/network isolation first. A host-local CDP bound to loopback may be invisible from the Codex sandbox.
+- Do not use `curl`, `wget`, `requests`, or any direct HTTP call to the target as analysis evidence.
+- Use only `.venv/bin/python` for any Python helper; never `python` or `python3`.
+- Use `tools/cdp_probe.py` for CDP analysis; it auto-detects the endpoint — do not hardcode addresses.
 - If CDP is unavailable, use local browser/dynamic rendering tools, not search.
-- If the user asks for first page only, do not click or request pagination except to verify whether pagination exists when explicitly needed.
-- Write analysis artifacts to `analysis_outputs/`.
-- The output must support the next step: generating a Scrapling list-to-detail spider.
+- Do not paginate unless the user explicitly asks; verify pagination existence only when needed.
+- Write final artifacts to `analysis_outputs/`; output must support spider generation.
+
+For command patterns, proxy-clearing prefix, and `--reuse-open-tab` usage, see [references/cdp_browser_analysis.md](references/cdp_browser_analysis.md).
 
 ## Workflow
 
 1. Prepare output names:
-   - Convert the list URL host/path into a slug like `gdj-gansu-gov-cn-c109213`.
-   - Write `analysis_outputs/<slug>_analysis.md`.
-   - Write `analysis_outputs/<slug>_analysis.json`.
+
+   **Slug rule** (apply consistently to avoid downstream drift):
+   1. Take `host` + `"/"` + `path` from the list URL.
+   2. Replace `.` → `-` and `/` → `-`.
+   3. Strip leading/trailing `-`.
+   4. If the result ends with `-html` or `-shtml`, remove that suffix.
+   5. Lowercase the whole string.
+
+   Examples:
+   - `www.hngrrb.cn/shizheng/` → `www-hngrrb-cn-shizheng`
+   - `gdj.gansu.gov.cn/gdj/c109213/` → `gdj-gansu-gov-cn-gdj-c109213`
+   - `www.zhengguannews.cn/list/17.html` → `www-zhengguannews-cn-list-17`
+
+   Write into a **per-slug subfolder** `analysis_outputs/<slug>/`:
+   - `analysis.md` — human-readable report
+   - `analysis.json` — machine-readable artifact
+   - `_probe.json` — intermediate CDP probe capture
+   - `_detail_probe.json` — optional, when sampling a detail page
+
+   Rationale: one site = one folder, so re-analysis is `rm -rf analysis_outputs/<slug>/` and `ls analysis_outputs/` shows a site list, not a flat file pile. Create the directory (`mkdir -p`) before writing probe/artifact outputs.
 
 2. Connect to browser:
-   - Prefer Chrome CDP: use `tools/cdp_probe.py` which auto-detects the endpoint. Do not hardcode `127.0.0.1:9222` in commands.
-   - Prefer running this analysis step without sandbox restrictions. In this repo, `run_pipeline.sh` defaults Step 1 analysis to `danger-full-access` for that reason.
-   - If the direct CDP action fails with "No reachable CDP endpoint found" or another local-connectivity error from a sandboxed run, do not keep retrying inside the sandbox. Switch to a non-sandbox run for the same probe command.
-   - If the site shows a front-door challenge in fresh automation pages but works in the user-visible Chrome window, prefer reusing the already open visible tab instead of opening a brand-new page. `tools/cdp_probe.py` supports this via `--reuse-open-tab`.
-   - Treat host-loopback CDP (`127.0.0.1:9222`) and Docker-bridge CDP as different reachability cases. The sandbox may fail on the first while the second is still usable.
-   - If the escalated probe also fails, report the concrete error and either stop or switch to another local browser-rendered method when the workflow permits.
-   - Before writing a new probe script, look for an existing reusable local probe tool and use it first. In this repo, prefer `tools/cdp_probe.py` for generic CDP DOM/network/detail capture.
-   - When invoking that tool or any other Python helper, call it with `.venv/bin/python` explicitly.
-   - Always invoke `tools/cdp_probe.py` with the `env -u` proxy-clearing prefix (belt-and-suspenders: the tool also clears them internally, but the shell-level unset prevents proxy inheritance by Playwright child processes):
+   - Use `tools/cdp_probe.py` with the `env -u` proxy-clearing prefix. See [references/cdp_browser_analysis.md](references/cdp_browser_analysis.md) for exact command patterns.
+   - Prefer non-sandbox execution (`run_pipeline.sh` defaults Step 1 to `danger-full-access`).
+   - If the challenge was cleared in a visible Chrome window, use `--reuse-open-tab --skip-networkidle`.
+   - Do not retry CDP failures inside the sandbox; follow the **Failure & fallback decision tree** below instead.
+   - Reuse `tools/cdp_probe.py` for all generic probes; write a one-off script only when it cannot cover a site-specific interaction.
+   - Request one approval for the full browser-analysis command pattern, not per-page approvals.
 
-     ```bash
-     env -u HTTP_PROXY -u HTTPS_PROXY -u http_proxy -u https_proxy -u ALL_PROXY -u all_proxy \
-       .venv/bin/python tools/cdp_probe.py \
-       --url "https://example.com/list.html" \
-       --out analysis_outputs/_example_probe.json
-     ```
+## Failure & fallback decision tree
 
-   - When the user has already opened and cleared the real page in a visible Chrome window, prefer:
+1. **CDP connection fails** (`No reachable CDP endpoint found`)
+   - Is the current command running inside a Codex sandbox?
+     - **Yes** → switch to a non-sandbox run of the same `tools/cdp_probe.py` command. Do not retry inside the sandbox.
+     - **No** → check whether `chrome --remote-debugging-port=9222` is running. If not, prompt the user to start Chrome or run `./start_chrome_cdp.sh`.
 
-     ```bash
-     env -u HTTP_PROXY -u HTTPS_PROXY -u http_proxy -u https_proxy -u ALL_PROXY -u all_proxy \
-       .venv/bin/python tools/cdp_probe.py \
-       --reuse-open-tab \
-       --skip-networkidle \
-       --url "https://example.com/list.html" \
-       --out analysis_outputs/_example_probe.json
-     ```
+2. **CDP reachable but target shows a challenge / verification page** (WAF, Cloudflare, login wall)
+   - Preferred: have the user open and clear the challenge in the visible Chrome window, then switch to `--reuse-open-tab --skip-networkidle`.
+   - Fallback: use `AsyncStealthySession` and add a `risk: challenge-page` note to `spider_strategy.notes`.
 
-   - `--skip-networkidle` is appropriate for media-heavy pages or challenge-cleared tabs that keep long-lived requests open.
+3. **DOM rendered but no list API/XHR found**
+   - Do not fabricate an API. Set `api.exists=false`, record full DOM selectors in `list.*`, set `spider_strategy.session="AsyncDynamicSession"`, and add a `"DOM-only"` note.
 
-   - If you are forced to start from a sandboxed run, move to a non-sandbox execution around that exact probe command pattern once instead of asking for separate approvals per page or per retry.
+4. **List DOM empty or structurally abnormal**
+   - Check for iframe embedding or scroll-triggered loading; document `wait_selector` and scroll strategy in `notes`.
+   - If still no data, stop and report the concrete observation (page text excerpt, last XHR seen). Do not invent selectors.
 
-   - Only write a one-off probe when the reusable script cannot capture a site-specific behavior that is required for analysis, and explain that gap briefly.
-   - Open or reuse a tab for the list URL.
-   - Enable DOM/runtime/network observation through CDP or browser automation.
-   - If starting or controlling Chrome requires approval, request one approval for the full browser-analysis command pattern rather than separate approvals for each page probe.
+## Strategy Selection Policy
+
+Analysis always uses browser/CDP for evidence (see Hard Rules). The output must recommend the cheapest viable runtime for the spider, in this priority:
+
+1. **Tier A — API + AsyncFetcher** (preferred)
+   - A stable, replayable list API exists.
+   - No dynamic anti-bot token required by the browser (or the token is in a static cookie / fixed header that AsyncFetcher can reproduce).
+   - Response is JSON with clear `rows / title / detail_url / publish_time`.
+   - Set `spider_strategy.runtime_tier = "api"`, `spider_strategy.session = "AsyncFetcher"`, `api.exists = true`, and fill `api.*` completely.
+
+2. **Tier B — HTML + AsyncFetcher** (fallback when no API)
+   - List data is present in the initial server-rendered HTML (visible in view-source, not injected by JS after load).
+   - No challenge page, no required cookies beyond vanilla UA.
+   - Set `spider_strategy.runtime_tier = "fetcher-html"`, `spider_strategy.session = "AsyncFetcher"`, `api.exists = false`, and fill `list.*` DOM selectors.
+
+3. **Tier C — Browser session** (last resort)
+   - Required when ANY of: dynamic anti-bot token, JS-rendered list, login wall, Cloudflare/WAF challenge, scroll-triggered loading.
+   - Set `spider_strategy.runtime_tier = "browser"`, and pick `AsyncStealthySession` (challenge/fingerprinting) or `AsyncDynamicSession` (plain JS rendering).
+   - If `capture_xhr` is needed for a browser-only token, record the pattern.
+
+The analysis MUST justify the chosen tier by adding a string to `spider_strategy.notes` starting with `"decision: "`, e.g. `"decision: Tier A — /common/search API returns JSON with stable query params; no browser token observed."`. When Tier C is chosen, also add a `"risk: ..."` note explaining why A and B were ruled out, based on browser evidence.
 
 3. Observe rendered list page:
    - Page title and visible column name.
@@ -98,12 +140,11 @@ Use browser evidence. CDP is preferred when available because it exposes rendere
    - Whether article content is duplicated in multiple containers.
    - Any media/download/file selectors if relevant.
 
-6. Decide crawler strategy:
-   - `session`: `AsyncStealthySession` or `AsyncDynamicSession`.
-   - `capture_xhr` pattern if API exists.
-   - First-page only or pagination plan.
-   - DOM fallback selectors.
-   - Required wait selectors for list and detail pages.
+6. Decide crawler strategy (apply **Strategy Selection Policy** above):
+   - Start from Tier A. Did CDP capture a list API/XHR that AsyncFetcher can replay (no browser-only token)?
+   - If not, try Tier B. Is the list visible in the initial server-rendered HTML?
+   - If still no, fall to Tier C and choose between `AsyncStealthySession` and `AsyncDynamicSession`.
+   - Record the chosen `runtime_tier`, `session` class, `capture_xhr` pattern (Tier C with token), pagination plan, DOM fallback selectors, and required wait selectors.
 
 7. Save artifacts:
    - Markdown: human-readable explanation, first-page titles, selectors, API details, strategy.
@@ -115,6 +156,7 @@ Use this shape when possible:
 
 ```json
 {
+  "schema_version": "1",
   "source_url": "",
   "slug": "",
   "site": {
@@ -165,7 +207,8 @@ Use this shape when possible:
     "content_duplicated": false
   },
   "spider_strategy": {
-    "session": "AsyncStealthySession",
+    "runtime_tier": "api",
+    "session": "AsyncFetcher",
     "google_search": false,
     "network_idle": false,
     "pagination": "none",
@@ -173,6 +216,15 @@ Use this shape when possible:
   }
 }
 ```
+
+### list.first_page_titles rules
+
+- Include only titles produced by `list.item_selector` + `list.title_selector`; exclude nav/header/footer/breadcrumb anchors.
+- Preserve DOM order (top-to-bottom as rendered on the page).
+- Trim leading/trailing whitespace; collapse internal whitespace to single spaces.
+- De-duplicate only adjacent identical entries; non-adjacent duplicates may be legitimate and must be preserved.
+- Exclude entries where title text is empty after trim, or where `href` is missing, `#`, or starts with `javascript:`.
+- Length must equal `list.item_count`. If any entry was excluded by the rules above, add an `assumption` note to `spider_strategy.notes` explaining the skip.
 
 ## Reporting
 

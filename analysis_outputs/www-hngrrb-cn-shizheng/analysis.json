@@ -1,0 +1,77 @@
+{
+  "schema_version": "1",
+  "source_url": "http://www.hngrrb.cn/shizheng/",
+  "slug": "www-hngrrb-cn-shizheng",
+  "site": {
+    "domain": "www.hngrrb.cn",
+    "base_url": "http://www.hngrrb.cn",
+    "page_title": "时政- 河南工人日报 河南工人日报官方网站",
+    "column_name": "时政"
+  },
+  "list": {
+    "first_page_only": true,
+    "item_count": 11,
+    "item_selector": "main.list-page .first-news, main.list-page .list-page-box .news-page > .media",
+    "link_selector": "a[href*='/shizheng/']",
+    "title_selector": ".news-ds p, .media-heading",
+    "publish_time_selector": ".clear > span.left",
+    "wait_selector": "main.list-page .list-page-box .news-page",
+    "first_page_titles": [
+      "丙午年黄帝故里拜祖大典隆重举行",
+      "我国服务贸易稳居全球前列",
+      "河南一季度农险为453.7万户农户提供风险保障1172.05亿元",
+      "河南省级碳计量中心建设工作全面启动",
+      "中国报业经营管理大会在贵州兴义召开",
+      "2026年河南省事业单位招聘联考启动",
+      "国务院印发《关于推进服务业扩能提质的意见》",
+      "全国5G基站总数已达495.8万个",
+      "一季度央企固定资产投资同比增23.5%",
+      "三部门发文破解“工厂开窗还是关窗生产”执法标准不一难题",
+      "一季度我省GDP达15914.52亿元 同比增长5.2%"
+    ]
+  },
+  "api": {
+    "exists": false,
+    "capture_xhr": "",
+    "method": "GET",
+    "path": "",
+    "channel_id": "",
+    "page_param": "",
+    "page_size_param": "",
+    "dynamic_token": false,
+    "response_paths": {
+      "rows": "",
+      "page": "",
+      "total": "",
+      "detail_url": "",
+      "title": "",
+      "publish_time": "",
+      "column_name": "",
+      "source": ""
+    }
+  },
+  "detail": {
+    "sample_url": "http://www.hngrrb.cn/shizheng/202604/120519.html",
+    "title_selector": "main.post-page .post-main > h2",
+    "meta_selector": "main.post-page .post-main .post-share > span.left",
+    "content_selector": "main.post-page .post-main .post-text",
+    "publish_time_regex": "(\\d{4}年\\d{2}月\\d{2}日\\d{2}:\\d{2})",
+    "source_regex": "来源：\\s*([^\\s]+)",
+    "views_regex": "",
+    "wait_selector": "main.post-page .post-main h2",
+    "content_duplicated": false
+  },
+  "spider_strategy": {
+    "runtime_tier": "fetcher-html",
+    "session": "AsyncFetcher",
+    "google_search": false,
+    "network_idle": false,
+    "pagination": "not requested; next page href pattern observed as /shizheng/list_2.html",
+    "notes": [
+      "decision: Tier B — list content is present in the initial server-rendered HTML document and no browser-only list token or JSON list API was observed in CDP network logs.",
+      "DOM-only: the list can be extracted directly from main.list-page without executing page interactions.",
+      "featured item uses .first-news and does not expose publish time on the list page; regular list items are under .list-page-box .news-page > .media.",
+      "observed XHRs only hit /ajax/ for paper image / click tracking and are not the news list source."
+    ]
+  }
+}

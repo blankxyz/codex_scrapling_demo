@@ -1,0 +1,82 @@
+{
+  "schema_version": "1",
+  "source_url": "https://www.zhengguannews.cn/list/17.html",
+  "slug": "www-zhengguannews-cn-list-17",
+  "site": {
+    "domain": "www.zhengguannews.cn",
+    "base_url": "https://www.zhengguannews.cn",
+    "page_title": "正观新闻 - 居中 守正 观天下",
+    "column_name": "独家"
+  },
+  "list": {
+    "first_page_only": true,
+    "item_count": 15,
+    "item_selector": ".item-list #scrolllist > .col-4",
+    "link_selector": ".item-list #scrolllist > .col-4 .video-title > a[href]",
+    "title_selector": ".item-list #scrolllist > .col-4 .video-title > a",
+    "publish_time_selector": ".item-list #scrolllist > .col-4 .creat-time",
+    "wait_selector": ".item-list #scrolllist > .col-4 .video-title > a[href]",
+    "first_page_titles": [
+      "铭记历史 山河见证",
+      "新大众文艺浪尖上，做文化的“摆渡人” ——专访北大教授张颐武",
+      "老手艺的守护人：一双“泥腿子”，踏出郑州非遗活地图",
+      "老河大东门，一家21岁书店的最后守望",
+      "程韬光的文化跋涉：用三种身份，读懂一座城",
+      "送别“当代福尔摩斯”李昌钰：9年前曾做客郑报，一生践行 “人生没有不可能”",
+      "《人民的名义》“程度”卷入债务纠纷",
+      "“梅姨”落网！寻子父亲申军良哽咽：“如果不找到她，我死不瞑目”",
+      "平均年龄超70岁！郑州火车站的“银发雷锋团”，暖了亿万赶路人",
+      "追踪｜男子遭前岳父砍杀身亡 凶手获死缓并限制减刑 受害方家属称将继续申诉",
+      "墨白长篇小说《扑克牌的N种玩法》研讨会在郑州举行",
+      "万家灯火背后的春运“守夜人”：凌晨4点的闹钟，为谁而响？",
+      "文学归根处，中原起新声——豫籍文艺名家“归根还巢”两年记",
+      "90 后乡村 “面子特派员”：跨越百里，把年味和孝心送到家",
+      "鳌太线上的“生死劫”"
+    ]
+  },
+  "api": {
+    "exists": true,
+    "capture_xhr": "/data",
+    "method": "POST",
+    "path": "/data",
+    "channel_id": "17",
+    "page_param": "data[pageindex]",
+    "page_size_param": "data[pagesize]",
+    "dynamic_token": false,
+    "response_paths": {
+      "rows": "data",
+      "page": "",
+      "total": "",
+      "detail_url": "url",
+      "title": "title",
+      "publish_time": "reltime",
+      "column_name": "catename",
+      "source": ""
+    }
+  },
+  "detail": {
+    "sample_url": "https://wap.zhengguannews.cn/html/news/485662.html",
+    "title_selector": ".news-main h2.news-title",
+    "meta_selector": ".news-main .news-maker.laiyuan, .news-main .news-mate",
+    "content_selector": ".news-main .news-text",
+    "publish_time_regex": "(\\d{4}-\\d{2}-\\d{2}\\s+\\d{2}:\\d{2})",
+    "source_regex": "",
+    "views_regex": "",
+    "wait_selector": ".news-main h2.news-title, .news-main .news-text",
+    "content_duplicated": false
+  },
+  "spider_strategy": {
+    "runtime_tier": "fetcher-html",
+    "session": "AsyncFetcher",
+    "google_search": false,
+    "network_idle": false,
+    "pagination": "none requested; later pages load via POST /data with data[pageindex], data[pagesize], and data[cateid]",
+    "notes": [
+      "decision: Tier B — the first-page list is present in the initial server-rendered HTML, so first-page extraction does not require a browser session.",
+      "DOM-only for page 1: .item-list #scrolllist > .col-4 already contains titles, links, and publish-time text in the loaded document.",
+      "observed pagination API: POST /data with m=nlist&data[recmd]=0&data[pageindex]=2&data[pagesize]=15&data[cateid]=17 returned stable JSON rows and no browser-only token was observed.",
+      "desktop detail links under /news/<id>.html are not uniformly reliable; normalizing to https://wap.zhengguannews.cn/html/news/<id>.html is safer for article extraction.",
+      "the first visible list item is a /special/2117.html专题页 rather than a standard /news/ detail; filter or branch if the spider should collect only articles."
+    ]
+  }
+}

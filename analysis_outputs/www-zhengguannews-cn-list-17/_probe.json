@@ -1,0 +1,1393 @@
+{
+  "source_url": "https://www.zhengguannews.cn/list/17.html",
+  "cdp_url": "http://127.0.0.1:9222",
+  "saved_at": 1777013868,
+  "dom": {
+    "url": "https://www.zhengguannews.cn/list/17.html",
+    "title": "正观新闻 - 居中 守正 观天下",
+    "bodyText": "首页 郑州 独家 财经 文旅体 评论 河南 区县 房产 金融 通信 健康 汽车 消费 教育 正观号 下载客户端 登录注册 短信验证登录 账户密码登录 获取验证码 已阅读并同意《用户使用协议》 及《隐私政策》 登录 铭记历史 山河见证 2025-07-24 17:31 新大众文艺浪尖上，做文化的“摆渡人” ——专访北大教授张颐武 2 天前 老手艺的守护人：一双“泥腿子”，踏出郑州非遗活地图 8 天前 老河大东门，一家21岁书店的最后守望 2026-04-09 10:50 程韬光的文化跋涉：用三种身份，读懂一座城 2026-03-30 18:45 送别“当代福尔摩斯”李昌钰：9年前曾做客郑报，一生践行 “人生没有不可能” 2026-03-28 19:05 《人民的名义》“程度”卷入债务纠纷 2026-03-27 15:33 “梅姨”落网！寻子父亲申军良哽咽：“如果不找到她，我死不瞑目” 2026-03-21 17:13 平均年龄超70岁！郑州火车站的“银发雷锋团”，暖了亿万赶路人 2026-03-19 17:10 追踪｜男子遭前岳父砍杀身亡 凶手获死缓并限制减刑 受害方家属称将继续申诉 2026-03-13 17:56 墨白长篇小说《扑克牌的N种玩法》研讨会在郑州举行 2026-03-09 15:33 万家灯火背后的春运“守夜人”：凌晨4点的闹钟，为谁而响？ 2026-02-25 14:28 文学归根处，中原起新声——豫籍文艺名家“归根还巢”两年记 2026-02-24 14:41 90 后乡村 “面子特派员”：跨越百里，把年味和孝心送到家 2026-02-13 14:42 鳌太线上的“生死劫” 2026-01-29 15:35 关于我们 用户协议 隐私政策 版权所有 豫ICP备20021444号-1 网络视听许可证：11642105号 豫公网安备41010402002605号 © 正观新闻",
+    "anchors": [
+      {
+        "tag": "a",
+        "className": "nav-link",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/",
+        "src": "",
+        "text": "首页",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "nav-link",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/list/16.html",
+        "src": "",
+        "text": "郑州",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "nav-link",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/list/17.html",
+        "src": "",
+        "text": "独家",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "nav-link",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/list/4.html",
+        "src": "",
+        "text": "财经",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "nav-link",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/list/61.html",
+        "src": "",
+        "text": "文旅体",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "nav-link",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/list/18.html",
+        "src": "",
+        "text": "评论",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "nav-link",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/list/19.html",
+        "src": "",
+        "text": "河南",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "nav-link",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/list/63.html",
+        "src": "",
+        "text": "区县",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "nav-link",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/list/51.html",
+        "src": "",
+        "text": "房产",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "nav-link",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/list/22.html",
+        "src": "",
+        "text": "金融",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "nav-link",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/list/52.html",
+        "src": "",
+        "text": "通信",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "nav-link",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/list/15.html",
+        "src": "",
+        "text": "健康",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "nav-link",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/list/53.html",
+        "src": "",
+        "text": "汽车",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "nav-link",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/list/9.html",
+        "src": "",
+        "text": "消费",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "nav-link",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/list/50.html",
+        "src": "",
+        "text": "教育",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "nav-link",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/zghhome.html",
+        "src": "",
+        "text": "正观号",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "down",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/down.html",
+        "src": "",
+        "text": "下载客户端",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "phone-btn",
+        "id": "",
+        "href": "https://apps.apple.com/cn/app/id1495292950",
+        "src": "",
+        "text": "iPhone版",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "phone-btn",
+        "id": "",
+        "href": "https://sj.qq.com/appdetail/com.zbrm.zgnews?&from_wxz=1",
+        "src": "",
+        "text": "Android版",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "javascript:void(0);",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "javascript:void(0);",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/news/486643.html",
+        "src": "",
+        "text": "中超观察（第七轮） 超越在本轮",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/news/486637.html",
+        "src": "",
+        "text": "文旅的风丨4·23世界读书日：读书的花样，正在刷新你的想象",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/news/486759.html",
+        "src": "",
+        "text": "豫篮联赛 | 周五晚上，郑州队首次主场亮相",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/news/486705.html",
+        "src": "",
+        "text": "伊朗媒体首次发布画面：革命卫队海军扣押集装箱船",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/news/486752.html",
+        "src": "",
+        "text": "本周六，来惠济！和孩子沉浸式当半天小学生，解锁双语教育新体验",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "vcode",
+        "href": "javascript:void(0)",
+        "src": "",
+        "text": "获取验证码",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/list/17.html#",
+        "src": "",
+        "text": "《用户使用协议》",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/list/17.html#",
+        "src": "",
+        "text": "《隐私政策》",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "lbtn",
+        "href": "javascript:void(0);",
+        "src": "",
+        "text": "登录",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/special/2117.html",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "two-line",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/special/2117.html",
+        "src": "",
+        "text": "铭记历史 山河见证",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/news/486474.html",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "two-line",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/news/486474.html",
+        "src": "",
+        "text": "新大众文艺浪尖上，做文化的“摆渡人” ——专访北大教授张颐武",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/news/485662.html",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "two-line",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/news/485662.html",
+        "src": "",
+        "text": "老手艺的守护人：一双“泥腿子”，踏出郑州非遗活地图",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/news/484770.html",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "two-line",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/news/484770.html",
+        "src": "",
+        "text": "老河大东门，一家21岁书店的最后守望",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/news/483555.html",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "two-line",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/news/483555.html",
+        "src": "",
+        "text": "程韬光的文化跋涉：用三种身份，读懂一座城",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/news/483369.html",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "two-line",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/news/483369.html",
+        "src": "",
+        "text": "送别“当代福尔摩斯”李昌钰：9年前曾做客郑报，一生践行 “人生没有不可能”",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/news/483243.html",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "two-line",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/news/483243.html",
+        "src": "",
+        "text": "《人民的名义》“程度”卷入债务纠纷",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/news/482520.html",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "two-line",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/news/482520.html",
+        "src": "",
+        "text": "“梅姨”落网！寻子父亲申军良哽咽：“如果不找到她，我死不瞑目”",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/news/482245.html",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "two-line",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/news/482245.html",
+        "src": "",
+        "text": "平均年龄超70岁！郑州火车站的“银发雷锋团”，暖了亿万赶路人",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/news/480261.html",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "two-line",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/news/480261.html",
+        "src": "",
+        "text": "追踪｜男子遭前岳父砍杀身亡 凶手获死缓并限制减刑 受害方家属称将继续申诉",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/news/480719.html",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "two-line",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/news/480719.html",
+        "src": "",
+        "text": "墨白长篇小说《扑克牌的N种玩法》研讨会在郑州举行",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/news/478822.html",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "two-line",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/news/478822.html",
+        "src": "",
+        "text": "万家灯火背后的春运“守夜人”：凌晨4点的闹钟，为谁而响？",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/news/478678.html",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "two-line",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/news/478678.html",
+        "src": "",
+        "text": "文学归根处，中原起新声——豫籍文艺名家“归根还巢”两年记",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/news/478099.html",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "two-line",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/news/478099.html",
+        "src": "",
+        "text": "90 后乡村 “面子特派员”：跨越百里，把年味和孝心送到家",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/news/476017.html",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "two-line",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/news/476017.html",
+        "src": "",
+        "text": "鳌太线上的“生死劫”",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://weibo.com/u/7373111326",
+        "src": "",
+        "text": "微博",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "get-top",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "",
+        "childCount": 1
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/about/us.html",
+        "src": "",
+        "text": "关于我们",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/about/xy.html",
+        "src": "",
+        "text": "用户协议",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/about/ys.html",
+        "src": "",
+        "text": "隐私政策",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://www.zhengguannews.cn/about/copyright.html",
+        "src": "",
+        "text": "版权所有",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://beian.miit.gov.cn/",
+        "src": "",
+        "text": "豫ICP备20021444号-1",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "https://www.zynews.cn/static/2021-06/29/content_12905822.htm",
+        "src": "",
+        "text": "网络视听许可证：11642105号",
+        "childCount": 0
+      },
+      {
+        "tag": "a",
+        "className": "",
+        "id": "",
+        "href": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=41010402002605",
+        "src": "",
+        "text": "豫公网安备41010402002605号",
+        "childCount": 0
+      }
+    ],
+    "likely": [
+      {
+        "tag": "li",
+        "className": "one-line",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "1 中超观察（第七轮） 超越在本轮",
+        "childCount": 2
+      },
+      {
+        "tag": "li",
+        "className": "one-line",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "2 文旅的风丨4·23世界读书日：读书的花样，正在刷新你的想象",
+        "childCount": 2
+      },
+      {
+        "tag": "li",
+        "className": "one-line",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "3 豫篮联赛 | 周五晚上，郑州队首次主场亮相",
+        "childCount": 2
+      },
+      {
+        "tag": "li",
+        "className": "one-line",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "4 伊朗媒体首次发布画面：革命卫队海军扣押集装箱船",
+        "childCount": 2
+      },
+      {
+        "tag": "li",
+        "className": "one-line",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "5 本周六，来惠济！和孩子沉浸式当半天小学生，解锁双语教育新体验",
+        "childCount": 2
+      },
+      {
+        "tag": "div",
+        "className": "item-list",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "铭记历史 山河见证 2025-07-24 17:31 新大众文艺浪尖上，做文化的“摆渡人” ——专访北大教授张颐武 2 天前 老手艺的守护人：一双“泥腿子”，踏出郑州非遗活地图 8 天前 老河大东门，一家21岁书店的最后守望 2026-04-09 10:50 程韬光的文化跋涉：用三种身份，读懂一座城 2026-03-30 18:45 送别“当代福尔摩斯”李昌钰：9年前曾做客郑报，一生践行 “人生没有不可能” 2026-03-28 19:05 《人民的名义》“程度”卷入债务纠纷 2026-03-27 15:33 “梅姨”落网！寻子父亲申军良哽咽：“如果不找到她，我死不瞑目” 2026-03-21 17:13 平均年龄超70岁！郑州火车站的“银发雷锋团”，暖了亿万赶路人 2026-03-19 17:10 追踪｜男子遭前岳父砍杀身亡 凶手获死缓并限制减刑 受害方家属称将继续申诉 2026-03-13 17:56 墨白长篇小说《扑克牌的N种玩法》研讨会在郑州举行 2026-03-09 15:33 万家灯火背后的春运“守夜人”：凌晨4点的闹钟，为谁而响？ 2026-02-25 14:28 文学归",
+        "childCount": 2
+      },
+      {
+        "tag": "div",
+        "className": "video-title",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "铭记历史 山河见证",
+        "childCount": 1
+      },
+      {
+        "tag": "div",
+        "className": "video-title",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "新大众文艺浪尖上，做文化的“摆渡人” ——专访北大教授张颐武",
+        "childCount": 1
+      },
+      {
+        "tag": "div",
+        "className": "video-title",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "老手艺的守护人：一双“泥腿子”，踏出郑州非遗活地图",
+        "childCount": 1
+      },
+      {
+        "tag": "div",
+        "className": "video-title",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "老河大东门，一家21岁书店的最后守望",
+        "childCount": 1
+      },
+      {
+        "tag": "div",
+        "className": "video-title",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "程韬光的文化跋涉：用三种身份，读懂一座城",
+        "childCount": 1
+      },
+      {
+        "tag": "div",
+        "className": "video-title",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "送别“当代福尔摩斯”李昌钰：9年前曾做客郑报，一生践行 “人生没有不可能”",
+        "childCount": 1
+      },
+      {
+        "tag": "div",
+        "className": "video-title",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "《人民的名义》“程度”卷入债务纠纷",
+        "childCount": 1
+      },
+      {
+        "tag": "div",
+        "className": "video-title",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "“梅姨”落网！寻子父亲申军良哽咽：“如果不找到她，我死不瞑目”",
+        "childCount": 1
+      },
+      {
+        "tag": "div",
+        "className": "video-title",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "平均年龄超70岁！郑州火车站的“银发雷锋团”，暖了亿万赶路人",
+        "childCount": 1
+      },
+      {
+        "tag": "div",
+        "className": "video-title",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "追踪｜男子遭前岳父砍杀身亡 凶手获死缓并限制减刑 受害方家属称将继续申诉",
+        "childCount": 1
+      },
+      {
+        "tag": "div",
+        "className": "video-title",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "墨白长篇小说《扑克牌的N种玩法》研讨会在郑州举行",
+        "childCount": 1
+      },
+      {
+        "tag": "div",
+        "className": "video-title",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "万家灯火背后的春运“守夜人”：凌晨4点的闹钟，为谁而响？",
+        "childCount": 1
+      },
+      {
+        "tag": "div",
+        "className": "video-title",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "文学归根处，中原起新声——豫籍文艺名家“归根还巢”两年记",
+        "childCount": 1
+      },
+      {
+        "tag": "div",
+        "className": "video-title",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "90 后乡村 “面子特派员”：跨越百里，把年味和孝心送到家",
+        "childCount": 1
+      },
+      {
+        "tag": "div",
+        "className": "video-title",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "鳌太线上的“生死劫”",
+        "childCount": 1
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h3",
+        "className": "",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "历史搜索",
+        "childCount": 0
+      },
+      {
+        "tag": "h3",
+        "className": "",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "当前热榜",
+        "childCount": 0
+      },
+      {
+        "tag": "h3",
+        "className": "",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "登录注册",
+        "childCount": 0
+      },
+      {
+        "tag": "div",
+        "className": "video-title",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "铭记历史 山河见证",
+        "childCount": 1
+      },
+      {
+        "tag": "div",
+        "className": "video-title",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "新大众文艺浪尖上，做文化的“摆渡人” ——专访北大教授张颐武",
+        "childCount": 1
+      },
+      {
+        "tag": "div",
+        "className": "video-title",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "老手艺的守护人：一双“泥腿子”，踏出郑州非遗活地图",
+        "childCount": 1
+      },
+      {
+        "tag": "div",
+        "className": "video-title",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "老河大东门，一家21岁书店的最后守望",
+        "childCount": 1
+      },
+      {
+        "tag": "div",
+        "className": "video-title",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "程韬光的文化跋涉：用三种身份，读懂一座城",
+        "childCount": 1
+      },
+      {
+        "tag": "div",
+        "className": "video-title",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "送别“当代福尔摩斯”李昌钰：9年前曾做客郑报，一生践行 “人生没有不可能”",
+        "childCount": 1
+      },
+      {
+        "tag": "div",
+        "className": "video-title",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "《人民的名义》“程度”卷入债务纠纷",
+        "childCount": 1
+      },
+      {
+        "tag": "div",
+        "className": "video-title",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "“梅姨”落网！寻子父亲申军良哽咽：“如果不找到她，我死不瞑目”",
+        "childCount": 1
+      },
+      {
+        "tag": "div",
+        "className": "video-title",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "平均年龄超70岁！郑州火车站的“银发雷锋团”，暖了亿万赶路人",
+        "childCount": 1
+      },
+      {
+        "tag": "div",
+        "className": "video-title",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "追踪｜男子遭前岳父砍杀身亡 凶手获死缓并限制减刑 受害方家属称将继续申诉",
+        "childCount": 1
+      },
+      {
+        "tag": "div",
+        "className": "video-title",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "墨白长篇小说《扑克牌的N种玩法》研讨会在郑州举行",
+        "childCount": 1
+      },
+      {
+        "tag": "div",
+        "className": "video-title",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "万家灯火背后的春运“守夜人”：凌晨4点的闹钟，为谁而响？",
+        "childCount": 1
+      },
+      {
+        "tag": "div",
+        "className": "video-title",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "文学归根处，中原起新声——豫籍文艺名家“归根还巢”两年记",
+        "childCount": 1
+      },
+      {
+        "tag": "div",
+        "className": "video-title",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "90 后乡村 “面子特派员”：跨越百里，把年味和孝心送到家",
+        "childCount": 1
+      },
+      {
+        "tag": "div",
+        "className": "video-title",
+        "id": "",
+        "href": "",
+        "src": "",
+        "text": "鳌太线上的“生死劫”",
+        "childCount": 1
+      }
+    ],
+    "html": "<html lang=\"zh-CN\"><head>\n  <style>\n\n[class|=dream],[class|=dream]::after,[class|=dream]::before{box-sizing:border-box;outline:0}.dream-msg-progress{width:13px;height:13px}.dream-msg__circle{stroke-width:2;stroke-linecap:square;fill:none;transform:rotate(-90deg);transform-origin:center}.dream-msg-stage:hover .dream-msg__circle{-webkit-animation-play-state:paused!important;animation-play-state:paused!important}.dream-msg__background{stroke-width:2;fill:none}.dream-msg-stage{position:fixed;top:20px;left:50%;width:auto;transform:translate(-50%,0);z-index:3000}.dream-msg-wrapper{position:relative;left:50%;transform:translate(-50%,0);transform:translate3d(-50%,0,0);transition:height .3s ease,padding .3s ease;padding:6px 0;will-change:transform,opacity}.dream-msg{padding:10px 21px;border-radius:4px;box-shadow:0 4px 12px rgba(0,0,0,0.15);position:relative;left:50%;transform:translate(-50%,0);transform:translate3d(-50%,0,0);display:flex;align-items:center}.dream-msg-content,.dream-msg-icon,.dream-msg-wait{display:inline-block}.dream-msg-icon{position:relative;width:15px;height:15px;border-radius:100%;display:flex;justify-content:center;align-items:center}.dream-msg-icon svg{position:absolute;top:50%;left:53%;transform:translate(-50%,-50%);width:12px;height:12px}.dream-msg-wait{width:20px;height:20px;position:relative;fill:#4eb127}.dream-msg-wait svg{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}.dream-msg-close{width:14px;height:14px}.dream-msg-content{margin:0 10px;min-width:32px;text-align:left;font-size:14px;font-weight:500;font-family:-apple-system,Microsoft Yahei,sans-serif;text-shadow:0 0 1px rgba(0,0,0,.01)}.dream-msg.info{color:#0fafad;background-color:#e7fdfc;box-shadow:0 0 2px 0 rgba(0,1,1,.01),0 0 0 1px #c0faf9}.dream-msg.info .dream-msg-icon{background-color:#0fafad}.dream-msg.success{color:#333;background-color:#fff;box-shadow:0 0 2px 0 rgba(0,1,0,.01),0 0 0 1px #fff}.dream-msg.success .dream-msg-icon{background-color:#4ebb23}.dream-msg.warning{color:#f1b306;background-color:#fff9eb;box-shadow:0 0 2px 0 rgba(1,1,0,.01),0 0 0 1px #fcf2cd}.dream-msg.warning .dream-msg-icon{background-color:#f1b306}.dream-msg.error{color:#f34b51;background-color:#fff7f7;box-shadow:0 0 2px 0 rgba(1,0,0,.01),0 0 0 1px #ffe3e3}.dream-msg.error .dream-msg-icon{background-color:#f34b51}.dream-msg.loading{color:#0B69E3;background-color:#DEEEFC;box-shadow:0 0 2px 0 rgba(0,1,1,.01),0 0 0 1px #DEEEFC}.dream-msg_loading{flex-shrink:0;width:20px;height:20px;position:relative}.dream-msg-circular{-webkit-animation:dream-msg-rotate 2s linear infinite both;animation:dream-msg-rotate 2s linear infinite both;transform-origin:center center;height:18px!important;width:18px!important}.dream-msg-path{stroke-dasharray:1,200;stroke-dashoffset:0;stroke:#0B69E3;-webkit-animation:dream-msg-dash 1.5s ease-in-out infinite;animation:dream-msg-dash 1.5s ease-in-out infinite;stroke-linecap:round}@-webkit-keyframes dream-msg-rotate{100%{transform:translate(-50%,-50%) rotate(360deg)}}@keyframes dream-msg-rotate{100%{transform:translate(-50%,-50%) rotate(360deg)}}@-webkit-keyframes dream-msg-dash{0%{stroke-dasharray:1,200;stroke-dashoffset:0}50%{stroke-dasharray:89,200;stroke-dashoffset:-35px}100%{stroke-dasharray:89,200;stroke-dashoffset:-124px}}@keyframes dream-msg-dash{0%{stroke-dasharray:1,200;stroke-dashoffset:0}50%{stroke-dasharray:89,200;stroke-dashoffset:-35px}100%{stroke-dasharray:89,200;stroke-dashoffset:-124px}}.dream-msg.info .dream-msg-wait{fill:#0fafad}.dream-msg.success .dream-msg-wait{fill:#4ebb23}.dream-msg.warning .dream-msg-wait{fill:#f1b306}.dream-msg.error .dream-msg-wait{fill:#f34b51}.dream-msg.loading .dream-msg-wait{fill:#0fafad}.dream-msg-pointer{cursor:pointer}@-webkit-keyframes dream-msg_info{0%{stroke:#0fafad}to{stroke:#0fafad;stroke-dasharray:0 100}}@keyframes dream-msg_info{0%{stroke:#0fafad}to{stroke:#0fafad;stroke-dasharray:0 100}}@-webkit-keyframes dream-msg_success{0%{stroke:#4eb127}to{stroke:#4eb127;stroke-dasharray:0 100}}@keyframes dream-msg_success{0%{stroke:#4eb127}to{stroke:#4eb127;stroke-dasharray:0 100}}@-webkit-keyframes dream-msg_warning{0%{stroke:#fcbc0b}to{stroke:#fcbc0b;stroke-dasharray:0 100}}@keyframes dream-msg_warning{0%{stroke:#fcbc0b}to{stroke:#fcbc0b;stroke-dasharray:0 100}}@-webkit-keyframes dream-msg_error{0%{stroke:#eb262d}to{stroke:#eb262d;stroke-dasharray:0 100}}@keyframes dream-msg_error{0%{stroke:#eb262d}to{stroke:#eb262d;stroke-dasharray:0 100}}.dream-msg-fade-in{-webkit-animation:dream-msg-fade .2s ease-out both;animation:dream-msg-fade .2s ease-out both}.dream-msg-fade-out{animation:dream-msg-fade .3s linear reverse both}@-webkit-keyframes dream-msg-fade{0%{opacity:0;transform:translate(-50%,0);transform:translate3d(-50%,-80%,0)}to{opacity:1;transform:translate(-50%,0);transform:translate3d(-50%,0,0)}}@keyframes dream-msg-fade{0%{opacity:0;transform:translate(-50%,0);transform:translate3d(-50%,-80%,0)}to{opacity:1;transform:translate(-50%,0);transform:translate3d(-50%,0,0)}}\n        </style><title>  正观新闻 - 居中 守正 观天下</title><meta name=\"apple-itunes-app\" content=\"app-id=1495292950\"><meta name=\"keywords\" content=\"正观新闻 黄河评论 正观  居中 守正 观天下 新闻 政务 服务 新型主流媒体 河南 郑州 河南新闻 郑州新闻 ZMG 郑州报业集团\"><meta name=\"description\" content=\"正观新闻,努力打造成为具有全国影响力的集‘新闻+政务+服务’于一体的新型主流媒体”，正观，意为“居中、守正、观天下”，旨在扎根郑州、立足中原、影响全国。\"><script src=\"https://hm.baidu.com/hm.js?7f3f3d6ba57ae1ef7e777fbf702cdf36\"></script><script src=\"https://hm.baidu.com/hm.js?7f3f3d6ba57ae1ef7e777fbf702cdf36\"></script><script>let key={w:\"7f3f3d6ba57ae1ef7e777fbf702cdf36\",m:\"055def7cc0fc8501002518d71301060f\"};let k=location.host.split(\".\")[0]==\"www\"?\"w\":\"m\";var _hmt = _hmt || [];(function() {var hm = document.createElement(\"script\"); hm.src = \"https://hm.baidu.com/hm.js?\"+key[k];var s = document.getElementsByTagName(\"script\")[0];s.parentNode.insertBefore(hm, s);})();</script>   <meta charset=\"UTF-8\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<link rel=\"stylesheet\" href=\"https://static.zhengguannews.cn/www/assets/css/swiper.min.css\">\n<link rel=\"stylesheet\" href=\"https://static.zhengguannews.cn/www/assets/css/main.css\">\n<script src=\"https://static.zhengguannews.cn/www/assets/js/jquery.min.js\"></script>\n<script src=\"https://static.zhengguannews.cn/www/assets/js/msg.min.js\"></script>\n \n<link rel=\"stylesheet\" href=\"https://static.zhengguannews.cn/www/assets/css/newsitem.css\">\n<style>\n    .done-btn {\n        font-size: 16px;\n        font-weight: normal;\n        line-height: 28px;\n        text-align: center;\n        margin-bottom: 24px;\n        color: #999;\n    }\n</style>\n <script> let staticurl = \"https://static.zhengguannews.cn/www\";</script>\n</head>       \n<body>  <header style=\"position: relative;\">\n    <div class=\"header\" style=\"position: relative; left: auto; width: 765px;\">\n        <div class=\"d-flex\">\n            <div class=\"web-logo\"> <img src=\"https://static.zhengguannews.cn/www/assets/images/logo.svg\" alt=\"\" srcset=\"\"> </div>\n            <nav class=\"top-menu\">\n                <ul class=\"navbar-nav\">  <li class=\"nav-item \"> <a href=\"/\" class=\"nav-link\"> 首页 </a> </li>    <li class=\"nav-item  \"> <a href=\"/list/16.html\" class=\"nav-link\"> 郑州 </a> </li>    <li class=\"nav-item  active a  \"> <a href=\"/list/17.html\" class=\"nav-link\"> 独家 </a> </li>    <li class=\"nav-item  \"> <a href=\"/list/4.html\" class=\"nav-link\"> 财经 </a> </li>    <li class=\"nav-item  \"> <a href=\"/list/61.html\" class=\"nav-link\"> 文旅体 </a> </li>    <li class=\"nav-item  \"> <a href=\"/list/18.html\" class=\"nav-link\"> 评论 </a> </li>    <li class=\"nav-item  \"> <a href=\"/list/19.html\" class=\"nav-link\"> 河南 </a> </li>    <li class=\"nav-item  \"> <a href=\"/list/63.html\" class=\"nav-link\"> 区县 </a> </li>    <li class=\"nav-item  \"> <a href=\"/list/51.html\" class=\"nav-link\"> 房产 </a> </li>    <li class=\"nav-item  \"> <a href=\"/list/22.html\" class=\"nav-link\"> 金融 </a> </li>    <li class=\"nav-item  \"> <a href=\"/list/52.html\" class=\"nav-link\"> 通信 </a> </li>    <li class=\"nav-item  \"> <a href=\"/list/15.html\" class=\"nav-link\"> 健康 </a> </li>    <li class=\"nav-item  \"> <a href=\"/list/53.html\" class=\"nav-link\"> 汽车 </a> </li>    <li class=\"nav-item  \"> <a href=\"/list/9.html\" class=\"nav-link\"> 消费 </a> </li>    <li class=\"nav-item  \"> <a href=\"/list/50.html\" class=\"nav-link\"> 教育 </a> </li>  <li class=\"nav-item \"> <a href=\"/zghhome.html\" class=\"nav-link\"> 正观号 </a> </li> </ul>\n            </nav>\n            <div class=\"search-box\"> <span class=\"input-group-addon\" id=\"search-box\"> <i class=\"icon-search\"></i> </span> </div>\n            <div class=\"login-box d-flex align-center\"> <span class=\"input-group-addon\" id=\"login\"> <i class=\"icon-member\"></i> </span></div>\n            <div class=\"down-btn\">\n                <ul id=\"nav\" class=\"nav clearfix\">\n                    <li class=\"nLi on\"> <a href=\"/down.html\" class=\"down\"> <i class=\"icon icon-phone-white\"></i>\n                            下载客户端</a>\n                        <ul class=\"sub\">\n                            <div class=\"row\">\n                                <div class=\"col-6\"> <img src=\"https://static.zhengguannews.cn/www/assets/images/down.png\" alt=\"\"> </div>\n                                <div class=\"col-6\"> <a href=\"https://apps.apple.com/cn/app/id1495292950\" class=\"phone-btn\"> <img src=\"https://static.zhengguannews.cn/www/assets/images/iphone.png\" alt=\"\" srcset=\"\">\n                                        iPhone版 </a> <a href=\"https://sj.qq.com/appdetail/com.zbrm.zgnews?&amp;from_wxz=1\" class=\"phone-btn\"> <img src=\"https://static.zhengguannews.cn/www/assets/images/and.png\" alt=\"\" srcset=\"\">\n                                        Android版 </a>\n                                    <p>扫描二维码<br>下载正观新闻客户端</p>\n                                </div>\n                            </div>\n                        </ul>\n                    </li>\n                </ul>\n            </div>\n        </div>\n    </div> <div class=\"search-main-box\">\n    <div class=\"search-mark\"></div>\n    <div class=\"s-box\">\n        <div class=\"search-header\"> <input id=\"keyword\" class=\"search-input\" placeholder=\"请输入搜索关键词\"> <a href=\"javascript:void(0);\"> <i class=\"icon-search\" id=\"search\"></i> </a> </div>\n        <div class=\"row\">\n            <div class=\"col-6\">\n                <div class=\"search-history\">\n                    <h3>历史搜索</h3>\n                    <div class=\"search-recical\"> <a href=\"javascript:void(0);\"> <i class=\"icon-del\" id=\"delhist\"></i>\n                        </a>\n                    </div>\n                </div>\n                <div class=\"history-a\">\n                    <ul id=\"historylist\"> </ul>\n                </div>\n            </div>\n            <div class=\"col-6\">\n                <h3>当前热榜</h3>\n                <ul>   <li class=\"one-line\">\n                        <span>1</span> <a href=\"/news/486643.html\">中超观察（第七轮） 超越在本轮</a>\n                    </li>  <li class=\"one-line\">\n                        <span>2</span> <a href=\"/news/486637.html\">文旅的风丨4·23世界读书日：读书的花样，正在刷新你的想象</a>\n                    </li>  <li class=\"one-line\">\n                        <span>3</span> <a href=\"/news/486759.html\">豫篮联赛 | 周五晚上，郑州队首次主场亮相</a>\n                    </li>  <li class=\"one-line\">\n                        <span>4</span> <a href=\"/news/486705.html\">伊朗媒体首次发布画面：革命卫队海军扣押集装箱船</a>\n                    </li>  <li class=\"one-line\">\n                        <span>5</span> <a href=\"/news/486752.html\">本周六，来惠济！和孩子沉浸式当半天小学生，解锁双语教育新体验</a>\n                    </li> \n                </ul>\n            </div>\n        </div>\n    </div>\n</div>\n<script src=\"https://static.zhengguannews.cn/www/assets/js/search.js\"></script> <div class=\"loginbox-main\">\n    <style>\n        .lon {\n            background-color: var(--c2) !important;\n        }\n    </style>\n    <div class=\"mask\"></div>\n    <div class=\"login-tabs\">\n        <div class=\"close-btn\"> <i class=\"icon-close\"></i> </div>\n        <h3>登录注册</h3>\n        <div role=\"tablist\" class=\"login-tabbar d-flex\">\n            <div id=\"tab1\" role=\"tab\" aria-selected=\"true\" aria-controls=\"panel1\" class=\"col login-tabbar__item login__item_on\">\n                <p>短信验证登录</p>\n            </div>\n            <div id=\"tab2\" role=\"tab\" aria-selected=\"false\" autocomplete=\"off\" aria-controls=\"panel2\" class=\"col login-tabbar__item\">\n                <p>账户密码登录</p>\n            </div>\n        </div>\n        <div class=\"form__item\"> <input id=\"phone1\" type=\"tel\" class=\"login-input\" placeholder=\"输入11位手机号\" value=\"\" autocomplete=\"off\"> </div>\n        <div id=\"panel1\" role=\"tabpanel\" aria-labelledby=\"tab1\" class=\"weui-tab__panel\">\n            <div class=\"form__item\"> <input class=\"login-input password\" name=\"code\" type=\"number\" autocomplete=\"off\" placeholder=\"请输入验证码\" maxlength=\"6\" id=\"code1\"> <a href=\"javascript:void(0)\" id=\"vcode\">获取验证码</a>\n            </div>\n        </div>\n        <div id=\"panel2\" role=\"tabpanel\" aria-labelledby=\"tab2\" class=\"weui-tab__panel\" style=\"display: none;\">\n            <div class=\"form__item\"> <input class=\"login-input password\" autocomplete=\"new-password\" name=\"pass\" placeholder=\"请输入密码\" type=\"password\" maxlength=\"16\" id=\"code2\"> </div>\n        </div>\n        <div class=\"msg-agreement\"> <label class=\"d-flex align-center\" for=\"s11\">\n                <div class=\"weui-cell__hd\"> <input type=\"checkbox\" class=\"weui-check\" name=\"checkbox1\" id=\"s11\"> <i class=\"weui-icon-checked\"></i> </div>\n                <div class=\"weui-cell__bd\">\n                    <p> 已阅读并同意<a href=\"#\">《用户使用协议》</a> 及<a href=\"#\">《隐私政策》</a></p>\n                </div>\n            </label> </div>\n        <div class=\"button-submit\"> <a href=\"javascript:void(0);\" id=\"lbtn\">登录</a> </div>\n    </div>\n</div>\n<script>function logout() {\n        $.post('/data', { m: 'logout' }, function (d) {\n            if (d.state > 0) { alert(\"退出成功\", { title: '提示', icon: 1, end: function () { location.href = location.href; } }); } else { /* 清除登录 */ alert(\"退出异常\", { title: '提示', icon: 3 }); }\n        })\n    }</script>\n<script> let loginopen = false, ltype = 0; $('#login').on('click', function () { if (!loginopen) { $('.loginbox-main').addClass('show'); $('html,body').css({ 'overflow': 'hidden' }); } else { $('.loginbox-main').removeClass('show'); $('html,body').css({ 'overflow': 'auto' }); } loginopen = !loginopen; }); $('.close-btn').on('click', function () { $('.loginbox-main').removeClass('show'); $('html,body').css({ 'overflow': 'auto' });/*滚动条出现*/loginopen = !loginopen; }); $('.mask').on('click', function () { $('.loginbox-main').removeClass('show'); loginopen = !loginopen; });\n    $('.login-tabbar__item').on('click', function () { $(this).attr('aria-selected', 'true').addClass('login__item_on'); $(this).siblings('.login__item_on').removeClass('login__item_on').attr('aria-selected', 'false'); var panelId = '#' + $(this).attr('aria-controls'); ltype = '#panel1' == panelId ? 0 : 1; $(panelId).css('display', 'block'); $(panelId).siblings('.weui-tab__panel').css('display', 'none'); }); var timer; function readtime() { timer = setInterval(function () { time--; localStorage.setItem('time', time); $('#vcode').text(\"倒计时 \" + time); if (time == 0) { localStorage.setItem('time', 0); $('#vcode').text(\"发送验证码 \"); clearInterval(timer); $('#vcode').removeClass(\"disabled \"); time = 60; } }, 1000); }; var time = localStorage.getItem('time'); if (time > 0) { readtime(); } else { time = 60; }; $('#vcode').click(function () { var mobile = $('#phone1').val(); if (!/^1[3456789]\\d{9}$/.test(mobile)) { alert(\"请先输入正确帐号\", { title: '提示', icon: 3 }); return; } if ($(this).hasClass('disabled')) { return; } $('#vcode').addClass('disabled'); $('#vcode').text(\"倒计时 \" + time); $.post('/data', { m: 'code', data: { mobile, type: 0 } }, function (d) { console.log(d); }); readtime(60); }); $('#s11').on('change', function () { if ($(this).prop('checked')) $('#lbtn').addClass('lon'); else $('#lbtn').removeClass('lon'); }); $('.button-submit').click(function () { var name = $('#phone1').val(); if (!$('#s11').prop('checked')) { alert(\"请阅读并同意《用户使用协议》 及《隐私政策》\", { title: '提示', icon: 3 }); return false; } var vcode = $('#code1').val().toString(8); var code2 = $('#code2').val().toString(8);        /*0叹号 1对号 2error 3问好  4lock 5红脸 6绿脸 icon*/        if ($.trim(name) == '') { alert(\"请输入帐号\", { title: '提示', icon: 3 }); $('input[name=name]').focus(); return false; } if (ltype == 0 && $.trim(vcode) == '') { alert(\"请输入验证码\", { title: '提示', icon: 3 }); $('input[name=vcode]').focus(); return false; } else if (ltype == 1 && $.trim(code2) == '') { alert(\"请输入密码\", { title: '提示', icon: 3 }); $('input[name=pass]').focus(); } let para = ltype == 0 ? { usermobile: name, code: vcode } : { username: name, password: code2 }; $.post('/data', { m: 'login' + ltype, data: para }, function (d) { if (d.state == 0) { alert(d.msg, { time: 1000, title: '提示', icon: 2 }); } else alert(\"登录成功\", { time: 1000, title: '提示', icon: 1, end: function () { location.href = location.href; } }); }); return false; });</script>\n\n</header> <main>\n    <div class=\"container\"> <!--Adsbox-->\n<!--版位招租-->\n\n\n        <div class=\"bg-w\" data-fp=\"\"> \n            <div class=\"item-list\">\n                <div class=\"row\" id=\"scrolllist\"> \n                     <div class=\"col-4\">\n                        <div class=\"video-img\"> <a href=\"/special/2117.html\"> <img data-src=\"https://media.zhengguannews.cn/picture/news/special/2025/07/141-24172005882-690_150.jpg?x-oss-process=style/www_list2\" src=\"https://media.zhengguannews.cn/picture/news/special/2025/07/141-24172005882-690_150.jpg?x-oss-process=style/www_list2\" class=\"lazyload\" alt=\"\"> </a> </div>\n                        <div class=\"video-title\"> <a href=\"/special/2117.html\" class=\"two-line\"> 铭记历史 山河见证\n                            </a> </div>\n                        <div class=\"creat-time\"> 2025-07-24 17:31 </div>\n                    </div>  <div class=\"col-4\">\n                        <div class=\"video-img\"> <a href=\"/news/486474.html\"> <img data-src=\"https://media.zhengguannews.cn/picture/catch/2026/04/236/22113022239.png?x-oss-process=style/www_list2\" src=\"https://media.zhengguannews.cn/picture/catch/2026/04/236/22113022239.png?x-oss-process=style/www_list2\" class=\"lazyload\" alt=\"\"> </a> </div>\n                        <div class=\"video-title\"> <a href=\"/news/486474.html\" class=\"two-line\"> 新大众文艺浪尖上，做文化的“摆渡人” ——专访北大教授张颐武\n                            </a> </div>\n                        <div class=\"creat-time\"> 2 天前 </div>\n                    </div>  <div class=\"col-4\">\n                        <div class=\"video-img\"> <a href=\"/news/485662.html\"> <img data-src=\"https://media.zhengguannews.cn/picture/catch/2026/04/250/16112634361.png?x-oss-process=style/www_list2\" src=\"//static.zhengguannews.cn/www/assets/images/load.gif\" class=\"lazyload\" alt=\"\"> </a> </div>\n                        <div class=\"video-title\"> <a href=\"/news/485662.html\" class=\"two-line\"> 老手艺的守护人：一双“泥腿子”，踏出郑州非遗活地图\n                            </a> </div>\n                        <div class=\"creat-time\"> 8 天前 </div>\n                    </div>  <div class=\"col-4\">\n                        <div class=\"video-img\"> <a href=\"/news/484770.html\"> <img data-src=\"https://media.zhengguannews.cn/picture/catch/2026/04/236/09105226353.png?x-oss-process=style/www_list2\" src=\"//static.zhengguannews.cn/www/assets/images/load.gif\" class=\"lazyload\" alt=\"\"> </a> </div>\n                        <div class=\"video-title\"> <a href=\"/news/484770.html\" class=\"two-line\"> 老河大东门，一家21岁书店的最后守望\n                            </a> </div>\n                        <div class=\"creat-time\"> 2026-04-09 10:50 </div>\n                    </div>  <div class=\"col-4\">\n                        <div class=\"video-img\"> <a href=\"/news/483555.html\"> <img data-src=\"https://media.zhengguannews.cn/picture/2026/03/194/30184628366.jpeg?x-oss-process=style/www_list2\" src=\"//static.zhengguannews.cn/www/assets/images/load.gif\" class=\"lazyload\" alt=\"\"> </a> </div>\n                        <div class=\"video-title\"> <a href=\"/news/483555.html\" class=\"two-line\"> 程韬光的文化跋涉：用三种身份，读懂一座城\n                            </a> </div>\n                        <div class=\"creat-time\"> 2026-03-30 18:45 </div>\n                    </div>  <div class=\"col-4\">\n                        <div class=\"video-img\"> <a href=\"/news/483369.html\"> <img data-src=\"https://media.zhengguannews.cn/picture/catch/2026/03/250/28190245615.jpeg?x-oss-process=style/www_list2\" src=\"//static.zhengguannews.cn/www/assets/images/load.gif\" class=\"lazyload\" alt=\"\"> </a> </div>\n                        <div class=\"video-title\"> <a href=\"/news/483369.html\" class=\"two-line\"> 送别“当代福尔摩斯”李昌钰：9年前曾做客郑报，一生践行 “人生没有不可能”\n                            </a> </div>\n                        <div class=\"creat-time\"> 2026-03-28 19:05 </div>\n                    </div>  <div class=\"col-4\">\n                        <div class=\"video-img\"> <a href=\"/news/483243.html\"> <img data-src=\"https://media.zhengguannews.cn/picture/2026/03/253/27153615184.png?x-oss-process=style/www_list2\" src=\"//static.zhengguannews.cn/www/assets/images/load.gif\" class=\"lazyload\" alt=\"\"> </a> </div>\n                        <div class=\"video-title\"> <a href=\"/news/483243.html\" class=\"two-line\"> 《人民的名义》“程度”卷入债务纠纷\n                            </a> </div>\n                        <div class=\"creat-time\"> 2026-03-27 15:33 </div>\n                    </div>  <div class=\"col-4\">\n                        <div class=\"video-img\"> <a href=\"/news/482520.html\"> <img data-src=\"https://media.zhengguannews.cn/picture/static/constimg/zg_news.jpg?x-oss-process=style/www_list2\" src=\"//static.zhengguannews.cn/www/assets/images/load.gif\" class=\"lazyload\" alt=\"\"> </a> </div>\n                        <div class=\"video-title\"> <a href=\"/news/482520.html\" class=\"two-line\"> “梅姨”落网！寻子父亲申军良哽咽：“如果不找到她，我死不瞑目”\n                            </a> </div>\n                        <div class=\"creat-time\"> 2026-03-21 17:13 </div>\n                    </div>  <div class=\"col-4\">\n                        <div class=\"video-img\"> <a href=\"/news/482245.html\"> <img data-src=\"https://media.zhengguannews.cn/picture/catch/2026/03/253/19171010780.png?x-oss-process=style/www_list2\" src=\"//static.zhengguannews.cn/www/assets/images/load.gif\" class=\"lazyload\" alt=\"\"> </a> </div>\n                        <div class=\"video-title\"> <a href=\"/news/482245.html\" class=\"two-line\"> 平均年龄超70岁！郑州火车站的“银发雷锋团”，暖了亿万赶路人\n                            </a> </div>\n                        <div class=\"creat-time\"> 2026-03-19 17:10 </div>\n                    </div>  <div class=\"col-4\">\n                        <div class=\"video-img\"> <a href=\"/news/480261.html\"> <img data-src=\"https://media.zhengguannews.cn/picture/static/constimg/zg_news.jpg?x-oss-process=style/www_list2\" src=\"//static.zhengguannews.cn/www/assets/images/load.gif\" class=\"lazyload\" alt=\"\"> </a> </div>\n                        <div class=\"video-title\"> <a href=\"/news/480261.html\" class=\"two-line\"> 追踪｜男子遭前岳父砍杀身亡 凶手获死缓并限制减刑 受害方家属称将继续申诉\n                            </a> </div>\n                        <div class=\"creat-time\"> 2026-03-13 17:56 </div>\n                    </div>  <div class=\"col-4\">\n                        <div class=\"video-img\"> <a href=\"/news/480719.html\"> <img data-src=\"https://media.zhengguannews.cn/picture/catch/2026/03/236/09153736395.jpeg?x-oss-process=style/www_list2\" src=\"//static.zhengguannews.cn/www/assets/images/load.gif\" class=\"lazyload\" alt=\"\"> </a> </div>\n                        <div class=\"video-title\"> <a href=\"/news/480719.html\" class=\"two-line\"> 墨白长篇小说《扑克牌的N种玩法》研讨会在郑州举行\n                            </a> </div>\n                        <div class=\"creat-time\"> 2026-03-09 15:33 </div>\n                    </div>  <div class=\"col-4\">\n                        <div class=\"video-img\"> <a href=\"/news/478822.html\"> <img data-src=\"https://media.zhengguannews.cn/picture/202602/25143033543.png?x-oss-process=style/www_list2\" src=\"//static.zhengguannews.cn/www/assets/images/load.gif\" class=\"lazyload\" alt=\"\"> </a> </div>\n                        <div class=\"video-title\"> <a href=\"/news/478822.html\" class=\"two-line\"> 万家灯火背后的春运“守夜人”：凌晨4点的闹钟，为谁而响？\n                            </a> </div>\n                        <div class=\"creat-time\"> 2026-02-25 14:28 </div>\n                    </div>  <div class=\"col-4\">\n                        <div class=\"video-img\"> <a href=\"/news/478678.html\"> <img data-src=\"https://media.zhengguannews.cn/picture/catch/202602/2414410029.jpeg?x-oss-process=style/www_list2\" src=\"//static.zhengguannews.cn/www/assets/images/load.gif\" class=\"lazyload\" alt=\"\"> </a> </div>\n                        <div class=\"video-title\"> <a href=\"/news/478678.html\" class=\"two-line\"> 文学归根处，中原起新声——豫籍文艺名家“归根还巢”两年记\n                            </a> </div>\n                        <div class=\"creat-time\"> 2026-02-24 14:41 </div>\n                    </div>  <div class=\"col-4\">\n                        <div class=\"video-img\"> <a href=\"/news/478099.html\"> <img data-src=\"https://media.zhengguannews.cn/picture/202602/13144400267.png?x-oss-process=style/www_list2\" src=\"//static.zhengguannews.cn/www/assets/images/load.gif\" class=\"lazyload\" alt=\"\"> </a> </div>\n                        <div class=\"video-title\"> <a href=\"/news/478099.html\" class=\"two-line\"> 90 后乡村 “面子特派员”：跨越百里，把年味和孝心送到家\n                            </a> </div>\n                        <div class=\"creat-time\"> 2026-02-13 14:42 </div>\n                    </div>  <div class=\"col-4\">\n                        <div class=\"video-img\"> <a href=\"/news/476017.html\"> <img data-src=\"https://media.zhengguannews.cn/picture/202601/29154136305.jpg?x-oss-process=style/www_list2\" src=\"//static.zhengguannews.cn/www/assets/images/load.gif\" class=\"lazyload\" alt=\"\"> </a> </div>\n                        <div class=\"video-title\"> <a href=\"/news/476017.html\" class=\"two-line\"> 鳌太线上的“生死劫”\n                            </a> </div>\n                        <div class=\"creat-time\"> 2026-01-29 15:35 </div>\n                    </div>  </div>\n                <div class=\"row\">\n                    <div class=\"col-12\">\n                        <p class=\"done-btn col\" style=\"display: none;\" id=\"isload\">\n                            ————&nbsp;&nbsp;&nbsp;加载中。。。&nbsp;&nbsp;&nbsp;————</p>\n                        <p class=\"done-btn col\" style=\"display: none;\" id=\"nomore\">\n                            ————&nbsp;&nbsp;&nbsp;已经到底了&nbsp;&nbsp;&nbsp;————</p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</main>  <!---Top--><div class=\"container\">    <div class=\"to-top\" style=\"cursor: pointer; display: none; position: fixed; bottom: 120px; left: 51%; margin-left: 650px;\">\n        <div class=\"phone\"> <i class=\"icon-icon_app\"></i> <div class=\"code shadow-box\"> <img src=\"https://static.zhengguannews.cn/www/assets/images/app.png\" alt=\"\"> <p>扫描二维码 <br>下载客户端</p> </div>        </div>\n        <div class=\"wechat\"> <i class=\"icon-icon_wechat\"></i> <div class=\"code shadow-box\"> <p>微信公众号</p> <img src=\"https://static.zhengguannews.cn/www/assets/images/weixin.png\" alt=\"\"> <a href=\"https://weibo.com/u/7373111326\" target=\"_blank\"> <div class=\"weibo_button\"> <div class=\"weibo_icon\"></div> <span>微博</span> </div></a> </div>\n        </div> <a class=\"get-top\"> <i class=\"icon-icon_top\"></i> </a> </div></div>\n<footer>    <div class=\"container\">        <div class=\"footer\"><ul class=\"footer-link\">    <li> <a href=\"/about/us.html\">关于我们</a> </li>    <li> <a href=\"/about/xy.html\">用户协议</a> </li>    <li> <a href=\"/about/ys.html\">隐私政策</a> </li>    <li> <a href=\"/about/copyright.html\">版权所有</a> </li> </ul><p><a href=\"https://beian.miit.gov.cn/\" target=\"_blank\">豫ICP备20021444号-1</a> <a href=\"https://www.zynews.cn/static/2021-06/29/content_12905822.htm\" target=\"_blank\">网络视听许可证：11642105号</a> <a href=\"http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=41010402002605\" target=\"_blank\">豫公网安备41010402002605号</a> © 正观新闻 </p>        </div>    </div></footer>   <script src=\"https://static.zhengguannews.cn/www/assets/js/slider.min.js\"></script>\n<script src=\"https://static.zhengguannews.cn/www/assets/js/swiper.min.js\"></script>\n<script src=\"https://static.zhengguannews.cn/www/assets/js/totop.min.js\"></script>\n<script src=\"https://static.zhengguannews.cn/www/assets/js/main.js\"></script>\n<script src=\"https://static.zhengguannews.cn/www/assets/js/hc-sticky.js\"></script> \n<script>let isload = false, noMore = false; let pageindex = 2, pagesize = 15; function waterfall() { let rec = document.getElementById('scrolllist').getBoundingClientRect(); if (rec.bottom < 1300) { if (isload == false && noMore == false) { isload = true, chesate(); $(\"#isload\").show(); $.post('/data', { \"m\": \"nlist\", \"data\": { \"recmd\": 0, \"pageindex\": pageindex, \"pagesize\": pagesize, 'cateid': ' 17' } }, function (d) { let data = d.data; data.map(item => { $('#scrolllist').append(` <div class=\"col-4\"><div class=\"video-img\"><a href=\"${item.url}\"> <img src=\"${item.listimg}\" alt=\"\"> </a></div><div class=\"video-title\"><a href=\"${item.url}\" class=\"two-line\">${item.title}</a></div>   <div class=\"creat-time\">${item.reltime}</div></div>`); }); if (data.length < 15) { noMore = true, chesate(); } else { pageindex++; } isload = false, chesate(); }) } } else { chesate(); } } function chesate() { if (noMore) { $(\"#nomore\").show(); window.onscroll = null } else $(\"#nomore\").hide(); if (isload) $(\"#isload\").show(); else $(\"#isload\").hide(); } window.onscroll = waterfall; window.onload = function () { /*顶部幻灯片*/var swiper = new Swiper('.swiper-banner', { autoplay: 3000, loop: true, loopedSlides: 3, centeredSlides: true, parallax: true, slidesPerView: 'auto', pagination: '.swiper-pagination', nextButton: '.swiper-button-next', speed: 600, prevButton: '.swiper-button-prev', });/*/顶部系在按钮*/ jQuery(\"#nav\").slide({ type: \"menu\", titCell: \".nLi\", targetCell: \".sub\", effect: \"slideDown\", delayTime: 300, triggerTime: 0, returnDefault: true }); };</script>\n\n  <script>\n    var _hmt = _hmt || [];\n    (function () {      var hm = document.createElement(\"script\");      hm.src = \"https://hm.baidu.com/hm.js?7f3f3d6ba57ae1ef7e777fbf702cdf36\";      var s = document.getElementsByTagName(\"script\")[0];      s.parentNode.insertBefore(hm, s);    })();\n  </script>\n</body></html>"
+  },
+  "network": [
+    {
+      "url": "https://www.zhengguannews.cn/list/17.html",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "document",
+      "request_headers": {
+        ":authority": "www.zhengguannews.cn",
+        ":method": "GET",
+        ":path": "/list/17.html",
+        ":scheme": "https",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "uuid=1776853045055-f9ce-4807-bc0c-7acba8cad259; uuid.sig=y35TKb78H1Jz45kCiSf-6EOksIR6px6-BfuvphA2UPU; uuid=1776853052116-27cb-4e00-bd1f-e37839f007af; uuid.sig=KQbDCGnPudUcF02sg_wJztM9SJ1j5AIStc04_M48YzQ; csrfToken=kl0K0q_4Bh66hbvai7jC0LTE",
+        "priority": "u=0, i",
+        "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\"",
+        "sec-fetch-dest": "document",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-site": "none",
+        "sec-fetch-user": "?1",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+      },
+      "response_headers": {
+        "content-encoding": "gzip",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Fri, 24 Apr 2026 06:57:31 GMT",
+        "x-cache-status": "HIT",
+        "x-content-type-options": "nosniff",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-readtime": "2",
+        "x-xss-protection": "1; mode=block"
+      },
+      "body": "<!DOCTYPE html>\r\n<html lang=\"zh-CN\">\r\n\r\n<head>\r\n  <title>  正观新闻 - 居中 守正 观天下</title><meta name=\"apple-itunes-app\" content=\"app-id=1495292950\" /><meta name=\"keywords\" content=\"正观新闻 黄河评论 正观  居中 守正 观天下 新闻 政务 服务 新型主流媒体 河南 郑州 河南新闻 郑州新闻 ZMG 郑州报业集团\" /><meta name=\"description\" content=\"正观新闻,努力打造成为具有全国影响力的集‘新闻+政务+服务’于一体的新型主流媒体”，正观，意为“居中、守正、观天下”，旨在扎根郑州、立足中原、影响全国。\" /><script>let key={w:\"7f3f3d6ba57ae1ef7e777fbf702cdf36\",m:\"055def7cc0fc8501002518d71301060f\"};let k=location.host.split(\".\")[0]==\"www\"?\"w\":\"m\";var _hmt = _hmt || [];(function() {var hm = document.createElement(\"script\"); hm.src = \"https://hm.baidu.com/hm.js?\"+key[k];var s = document.getElementsByTagName(\"script\")[0];s.parentNode.insertBefore(hm, s);})();</script>   <meta charset=\"UTF-8\">\r\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n<link rel=\"stylesheet\" href=\"https://static.zhengguannews.cn/www/assets/css/swiper.min.css\">\r\n<link rel=\"stylesheet\" href=\"https://static.zhengguannews.cn/www/assets/css/main.css\">\r\n<script src=\"https://static.zhengguannews.cn/www/assets/js/jquery.min.js\"></script>\r\n<script src=\"https://static.zhengguannews.cn/www/assets/js/msg.min.js\"></script>\r\n \r\n<link rel=\"stylesheet\" href=\"https://static.zhengguannews.cn/www/assets/css/newsitem.css\">\r\n<style>\r\n    .done-btn {\r\n        font-size: 16px;\r\n        font-weight: normal;\r\n        line-height: 28px;\r\n        text-align: center;\r\n        margin-bottom: 24px;\r\n        color: #999;\r\n    }\r\n</style>\r\n <script> let staticurl = \"https://static.zhengguannews.cn/www\";</script>\r\n</head>       \r\n<body >  <header>\r\n    <div class=\"header\">\r\n        <div class=\"d-flex\">\r\n            <div class=\"web-logo\"> <img src=\"https://static.zhengguannews.cn/www/assets/images/logo.svg\" alt=\"\" srcset=\"\"> </div>\r\n            <nav class=\"top-menu\">\r\n                <ul class=\"navbar-nav\">  <li class=\"nav-item \"> <a href=\"/\" class=\"nav-link\"> 首页 </a> </li>    <li class=\"nav-item  \"> <a href=\"/list/16.html\" class=\"nav-link\"> 郑州 </a> </li>    <li class=\"nav-item  active a  \"> <a href=\"/list/17.html\" class=\"nav-link\"> 独家 </a> </li>    <li class=\"nav-item  \"> <a href=\"/list/4.html\" class=\"nav-link\"> 财经 </a> </li>    <li class=\"nav-item  \"> <a href=\"/list/61.html\" class=\"nav-link\"> 文旅体 </a> </li>    <li class=\"nav-item  \"> <a href=\"/list/18.html\" class=\"nav-link\"> 评论 </a> </li>    <li class=\"nav-item  \"> <a href=\"/list/19.html\" class=\"nav-link\"> 河南 </a> </li>    <li class=\"nav-item  \"> <a href=\"/list/63.html\" class=\"nav-link\"> 区县 </a> </li>    <li class=\"nav-item  \"> <a href=\"/list/51.html\" class=\"nav-link\"> 房产 </a> </li>    <li class=\"nav-item  \"> <a href=\"/list/22.html\" class=\"nav-link\"> 金融 </a> </li>    <li class=\"nav-item  \"> <a href=\"/list/52.html\" class=\"nav-link\"> 通信 </a> </li>    <li class=\"nav-item  \"> <a href=\"/list/15.html\" class=\"nav-link\"> 健康 </a> </li>    <li class=\"nav-item  \"> <a href=\"/list/53.html\" class=\"nav-link\"> 汽车 </a> </li>    <li class=\"nav-item  \"> <a href=\"/list/9.html\" class=\"nav-link\"> 消费 </a> </li>    <li class=\"nav-item  \"> <a href=\"/list/50.html\" class=\"nav-link\"> 教育 </a> </li>  <li class=\"nav-item \"> <a href=\"/zghhome.html\" class=\"nav-link\"> 正观号 </a> </li> </ul>\r\n            </nav>\r\n            <div class=\"search-box\"> <span class=\"input-group-addon\" id=\"search-box\"> <i class=\"icon-search\"></i> </span> </div>\r\n            <div class=\"login-box d-flex align-center\"> <span class=\"input-group-addon\" id=\"login\"> <i class=\"icon-member\"></i> </span></div>\r\n            <div class=\"down-btn\">\r\n                <ul id=\"nav\" class=\"nav clearfix\">\r\n                    <li class=\"nLi\"> <a href=\"/down.html\" class=\"down\"> <i class=\"icon icon-phone-white\"></i>\r\n                            下载客户端</a>\r\n                        <ul class=\"sub\">\r\n                            <div class=\"row\">\r\n                                <div class=\"col-6\"> <img src=\"https://static.zhengguannews.cn/www/assets/images/down.png\" alt=\"\"> </div>\r\n                                <div class=\"col-6\"> <a href=\"https://apps.apple.com/cn/app/id1495292950\"\r\n                                        class=\"phone-btn\"> <img src=\"https://static.zhengguannews.cn/www/assets/images/iphone.png\" alt=\"\" srcset=\"\">\r\n                                        iPhone版 </a> <a\r\n                                        href=\"https://sj.qq.com/appdetail/com.zbrm.zgnews?&from_wxz=1\"\r\n                                        class=\"phone-btn\"> <img src=\"https://static.zhengguannews.cn/www/assets/images/and.png\" alt=\"\" srcset=\"\">\r\n                                        Android版 </a>\r\n                                    <p>扫描二维码<br />下载正观新闻客户端</p>\r\n                                </div>\r\n                            </div>\r\n                        </ul>\r\n                    </li>\r\n                </ul>\r\n            </div>\r\n        </div>\r\n    </div> <div class=\"search-main-box\">\r\n    <div class=\"search-mark\"></div>\r\n    <div class=\"s-box\">\r\n        <div class=\"search-header\"> <input id=\"keyword\" class=\"search-input\" placeholder=\"请输入搜索关键词\"> <a\r\n                href=\"javascript:void(0);\"> <i class=\"icon-search\" id=\"search\"></i> </a> </div>\r\n        <div class=\"row\">\r\n            <div class=\"col-6\">\r\n                <div class=\"search-history\">\r\n                    <h3>历史搜索</h3>\r\n                    <div class=\"search-recical\"> <a href=\"javascript:void(0);\"> <i class=\"icon-del\" id=\"delhist\"></i>\r\n                        </a>\r\n                    </div>\r\n                </div>\r\n                <div class=\"history-a\">\r\n                    <ul id=\"historylist\"> </ul>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-6\">\r\n                <h3>当前热榜</h3>\r\n                <ul>   <li class=\"one-line\">\r\n                        <span>1</span> <a href=\"/news/486643.html\">中超观察（第七轮） 超越在本轮</a>\r\n                    </li>  <li class=\"one-line\">\r\n                        <span>2</span> <a href=\"/news/486637.html\">文旅的风丨4·23世界读书日：读书的花样，正在刷新你的想象</a>\r\n                    </li>  <li class=\"one-line\">\r\n                        <span>3</span> <a href=\"/news/486759.html\">豫篮联赛 | 周五晚上，郑州队首次主场亮相</a>\r\n                    </li>  <li class=\"one-line\">\r\n                        <span>4</span> <a href=\"/news/486705.html\">伊朗媒体首次发布画面：革命卫队海军扣押集装箱船</a>\r\n                    </li>  <li class=\"one-line\">\r\n                        <span>5</span> <a href=\"/news/486752.html\">本周六，来惠济！和孩子沉浸式当半天小学生，解锁双语教育新体验</a>\r\n                    </li> \r\n                </ul>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n<script src=\"https://static.zhengguannews.cn/www/assets/js/search.js\"></script> <div class=\"loginbox-main\">\r\n    <style>\r\n        .lon {\r\n            background-color: var(--c2) !important;\r\n        }\r\n    </style>\r\n    <div class=\"mask\"></div>\r\n    <div class=\"login-tabs\">\r\n        <div class=\"close-btn\"> <i class=\"icon-close\"></i> </div>\r\n        <h3>登录注册</h3>\r\n        <div role=\"tablist\" class=\"login-tabbar d-flex\">\r\n            <div id=\"tab1\" role=\"tab\" aria-selected=\"true\" aria-controls=\"panel1\"\r\n                class=\"col login-tabbar__item login__item_on\">\r\n                <p>短信验证登录</p>\r\n            </div>\r\n            <div id=\"tab2\" role=\"tab\" aria-selected=\"false\" autocomplete=\"off\" aria-controls=\"panel2\"\r\n                class=\"col login-tabbar__item\">\r\n                <p>账户密码登录</p>\r\n            </div>\r\n        </div>\r\n        <div class=\"form__item\"> <input id=\"phone1\" type=\"tel\" class=\"login-input\" placeholder=\"输入11位手机号\" value=\"\"\r\n                autocomplete=\"off\"> </div>\r\n        <div id=\"panel1\" role=\"tabpanel\" aria-labelledby=\"tab1\" class=\"weui-tab__panel\">\r\n            <div class=\"form__item\"> <input class=\"login-input password\" name=\"code\" type=\"number\" autocomplete=\"off\"\r\n                    placeholder=\"请输入验证码\" maxlength=\"6\" id=\"code1\"> <a href=\"javascript:void(0)\" id=\"vcode\">获取验证码</a>\r\n            </div>\r\n        </div>\r\n        <div id=\"panel2\" role=\"tabpanel\" aria-labelledby=\"tab2\" class=\"weui-tab__panel\" style=\"display: none;\">\r\n            <div class=\"form__item\"> <input class=\"login-input password\"  autocomplete=\"new-password\" name=\"pass\" placeholder=\"请输入密码\" type=\"password\"\r\n                    maxlength=\"16\" id=\"code2\"> </div>\r\n        </div>\r\n        <div class=\"msg-agreement\"> <label class=\"d-flex align-center\" for=\"s11\">\r\n                <div class=\"weui-cell__hd\"> <input type=\"checkbox\" class=\"weui-check\" name=\"checkbox1\" id=\"s11\"> <i\r\n                        class=\"weui-icon-checked\"></i> </div>\r\n                <div class=\"weui-cell__bd\">\r\n                    <p> 已阅读并同意<a href=\"#\">《用户使用协议》</a> 及<a href=\"#\">《隐私政策》</a></p>\r\n                </div>\r\n            </label> </div>\r\n        <div class=\"button-submit\"> <a href=\"javascript:void(0);\" id=\"lbtn\">登录</a> </div>\r\n    </div>\r\n</div>\r\n<script>function logout() {\r\n        $.post('/data', { m: 'logout' }, function (d) {\r\n            if (d.state > 0) { alert(\"退出成功\", { title: '提示', icon: 1, end: function () { location.href = location.href; } }); } else { /* 清除登录 */ alert(\"退出异常\", { title: '提示', icon: 3 }); }\r\n        })\r\n    }</script>\r\n<script> let loginopen = false, ltype = 0; $('#login').on('click', function () { if (!loginopen) { $('.loginbox-main').addClass('show'); $('html,body').css({ 'overflow': 'hidden' }); } else { $('.loginbox-main').removeClass('show'); $('html,body').css({ 'overflow': 'auto' }); } loginopen = !loginopen; }); $('.close-btn').on('click', function () { $('.loginbox-main').removeClass('show'); $('html,body').css({ 'overflow': 'auto' });/*滚动条出现*/loginopen = !loginopen; }); $('.mask').on('click', function () { $('.loginbox-main').removeClass('show'); loginopen = !loginopen; });\r\n    $('.login-tabbar__item').on('click', function () { $(this).attr('aria-selected', 'true').addClass('login__item_on'); $(this).siblings('.login__item_on').removeClass('login__item_on').attr('aria-selected', 'false'); var panelId = '#' + $(this).attr('aria-controls'); ltype = '#panel1' == panelId ? 0 : 1; $(panelId).css('display', 'block'); $(panelId).siblings('.weui-tab__panel').css('display', 'none'); }); var timer; function readtime() { timer = setInterval(function () { time--; localStorage.setItem('time', time); $('#vcode').text(\"倒计时 \" + time); if (time == 0) { localStorage.setItem('time', 0); $('#vcode').text(\"发送验证码 \"); clearInterval(timer); $('#vcode').removeClass(\"disabled \"); time = 60; } }, 1000); }; var time = localStorage.getItem('time'); if (time > 0) { readtime(); } else { time = 60; }; $('#vcode').click(function () { var mobile = $('#phone1').val(); if (!/^1[3456789]\\d{9}$/.test(mobile)) { alert(\"请先输入正确帐号\", { title: '提示', icon: 3 }); return; } if ($(this).hasClass('disabled')) { return; } $('#vcode').addClass('disabled'); $('#vcode').text(\"倒计时 \" + time); $.post('/data', { m: 'code', data: { mobile, type: 0 } }, function (d) { console.log(d); }); readtime(60); }); $('#s11').on('change', function () { if ($(this).prop('checked')) $('#lbtn').addClass('lon'); else $('#lbtn').removeClass('lon'); }); $('.button-submit').click(function () { var name = $('#phone1').val(); if (!$('#s11').prop('checked')) { alert(\"请阅读并同意《用户使用协议》 及《隐私政策》\", { title: '提示', icon: 3 }); return false; } var vcode = $('#code1').val().toString(8); var code2 = $('#code2').val().toString(8);        /*0叹号 1对号 2error 3问好  4lock 5红脸 6绿脸 icon*/        if ($.trim(name) == '') { alert(\"请输入帐号\", { title: '提示', icon: 3 }); $('input[name=name]').focus(); return false; } if (ltype == 0 && $.trim(vcode) == '') { alert(\"请输入验证码\", { title: '提示', icon: 3 }); $('input[name=vcode]').focus(); return false; } else if (ltype == 1 && $.trim(code2) == '') { alert(\"请输入密码\", { title: '提示', icon: 3 }); $('input[name=pass]').focus(); } let para = ltype == 0 ? { usermobile: name, code: vcode } : { username: name, password: code2 }; $.post('/data', { m: 'login' + ltype, data: para }, function (d) { if (d.state == 0) { alert(d.msg, { time: 1000, title: '提示', icon: 2 }); } else alert(\"登录成功\", { time: 1000, title: '提示', icon: 1, end: function () { location.href = location.href; } }); }); return false; });</script>\r\n\r\n</header> <main>\r\n    <div class=\"container\"> <!--Adsbox-->\r\n<!--版位招租-->\r\n\r\n\r\n        <div class=\"bg-w\" data-fp=\"\"> \r\n            <div class=\"item-list\">\r\n                <div class=\"row\" id=\"scrolllist\"> \r\n                     <div class=\"col-4\">\r\n                        <div class=\"video-img\"> <a href=\"/special/2117.html\"> <img data-src=\"https://media.zhengguannews.cn/picture/news/special/2025/07/141-24172005882-690_150.jpg?x-oss-process=style/www_list2\"  src=\"//static.zhengguannews.cn/www/assets/images/load.gif\" class=\"lazyload\" alt=\"\"> </a> </div>\r\n                        <div class=\"video-title\"> <a href=\"/special/2117.html\" class=\"two-line\"> 铭记历史 山河见证\r\n                            </a> </div>\r\n                        <div class=\"creat-time\"> 2025-07-24 17:31 </div>\r\n                    </div>  <div class=\"col-4\">\r\n                        <div class=\"video-img\"> <a href=\"/news/486474.html\"> <img data-src=\"https://media.zhengguannews.cn/picture/catch/2026/04/236/22113022239.png?x-oss-process=style/www_list2\"  src=\"//static.zhengguannews.cn/www/assets/images/load.gif\" class=\"lazyload\" alt=\"\"> </a> </div>\r\n                        <div class=\"video-title\"> <a href=\"/news/486474.html\" class=\"two-line\"> 新大众文艺浪尖上，做文化的“摆渡人” ——专访北大教授张颐武\r\n                            </a> </div>\r\n                        <div class=\"creat-time\"> 2 天前 </div>\r\n                    </div>  <div class=\"col-4\">\r\n                        <div class=\"video-img\"> <a href=\"/news/485662.html\"> <img data-src=\"https://media.zhengguannews.cn/picture/catch/2026/04/250/16112634361.png?x-oss-process=style/www_list2\"  src=\"//static.zhengguannews.cn/www/assets/images/load.gif\" class=\"lazyload\" alt=\"\"> </a> </div>\r\n                        <div class=\"video-title\"> <a href=\"/news/485662.html\" class=\"two-line\"> 老手艺的守护人：一双“泥腿子”，踏出郑州非遗活地图\r\n                            </a> </div>\r\n                        <div class=\"creat-time\"> 8 天前 </div>\r\n                    </div>  <div class=\"col-4\">\r\n                        <div class=\"video-img\"> <a href=\"/news/484770.html\"> <img data-src=\"https://media.zhengguannews.cn/picture/catch/2026/04/236/09105226353.png?x-oss-process=style/www_list2\"  src=\"//static.zhengguannews.cn/www/assets/images/load.gif\" class=\"lazyload\" alt=\"\"> </a> </div>\r\n                        <div class=\"video-title\"> <a href=\"/news/484770.html\" class=\"two-line\"> 老河大东门，一家21岁书店的最后守望\r\n                            </a> </div>\r\n                        <div class=\"creat-time\"> 2026-04-09 10:50 </div>\r\n                    </div>  <div class=\"col-4\">\r\n                        <div class=\"video-img\"> <a href=\"/news/483555.html\"> <img data-src=\"https://media.zhengguannews.cn/picture/2026/03/194/30184628366.jpeg?x-oss-process=style/www_list2\"  src=\"//static.zhengguannews.cn/www/assets/images/load.gif\" class=\"lazyload\" alt=\"\"> </a> </div>\r\n                        <div class=\"video-title\"> <a href=\"/news/483555.html\" class=\"two-line\"> 程韬光的文化跋涉：用三种身份，读懂一座城\r\n                            </a> </div>\r\n                        <div class=\"creat-time\"> 2026-03-30 18:45 </div>\r\n                    </div>  <div class=\"col-4\">\r\n                        <div class=\"video-img\"> <a href=\"/news/483369.html\"> <img data-src=\"https://media.zhengguannews.cn/picture/catch/2026/03/250/28190245615.jpeg?x-oss-process=style/www_list2\"  src=\"//static.zhengguannews.cn/www/assets/images/load.gif\" class=\"lazyload\" alt=\"\"> </a> </div>\r\n                        <div class=\"video-title\"> <a href=\"/news/483369.html\" class=\"two-line\"> 送别“当代福尔摩斯”李昌钰：9年前曾做客郑报，一生践行 “人生没有不可能”\r\n                            </a> </div>\r\n                        <div class=\"creat-time\"> 2026-03-28 19:05 </div>\r\n                    </div>  <div class=\"col-4\">\r\n                        <div class=\"video-img\"> <a href=\"/news/483243.html\"> <img data-src=\"https://media.zhengguannews.cn/picture/2026/03/253/27153615184.png?x-oss-process=style/www_list2\"  src=\"//static.zhengguannews.cn/www/assets/images/load.gif\" class=\"lazyload\" alt=\"\"> </a> </div>\r\n                        <div class=\"video-title\"> <a href=\"/news/483243.html\" class=\"two-line\"> 《人民的名义》“程度”卷入债务纠纷\r\n                            </a> </div>\r\n                        <div class=\"creat-time\"> 2026-03-27 15:33 </div>\r\n                    </div>  <div class=\"col-4\">\r\n                        <div class=\"video-img\"> <a href=\"/news/482520.html\"> <img data-src=\"https://media.zhengguannews.cn/picture/static/constimg/zg_news.jpg?x-oss-process=style/www_list2\"  src=\"//static.zhengguannews.cn/www/assets/images/load.gif\" class=\"lazyload\" alt=\"\"> </a> </div>\r\n                        <div class=\"video-title\"> <a href=\"/news/482520.html\" class=\"two-line\"> “梅姨”落网！寻子父亲申军良哽咽：“如果不找到她，我死不瞑目”\r\n                            </a> </div>\r\n                        <div class=\"creat-time\"> 2026-03-21 17:13 </div>\r\n                    </div>  <div class=\"col-4\">\r\n                        <div class=\"video-img\"> <a href=\"/news/482245.html\"> <img data-src=\"https://media.zhengguannews.cn/picture/catch/2026/03/253/19171010780.png?x-oss-process=style/www_list2\"  src=\"//static.zhengguannews.cn/www/assets/images/load.gif\" class=\"lazyload\" alt=\"\"> </a> </div>\r\n                        <div class=\"video-title\"> <a href=\"/news/482245.html\" class=\"two-line\"> 平均年龄超70岁！郑州火车站的“银发雷锋团”，暖了亿万赶路人\r\n                            </a> </div>\r\n                        <div class=\"creat-time\"> 2026-03-19 17:10 </div>\r\n                    </div>  <div class=\"col-4\">\r\n                        <div class=\"video-img\"> <a href=\"/news/480261.html\"> <img data-src=\"https://media.zhengguannews.cn/picture/static/constimg/zg_news.jpg?x-oss-process=style/www_list2\"  src=\"//static.zhengguannews.cn/www/assets/images/load.gif\" class=\"lazyload\" alt=\"\"> </a> </div>\r\n                        <div class=\"video-title\"> <a href=\"/news/480261.html\" class=\"two-line\"> 追踪｜男子遭前岳父砍杀身亡 凶手获死缓并限制减刑 受害方家属称将继续申诉\r\n                            </a> </div>\r\n                        <div class=\"creat-time\"> 2026-03-13 17:56 </div>\r\n                    </div>  <div class=\"col-4\">\r\n                        <div class=\"video-img\"> <a href=\"/news/480719.html\"> <img data-src=\"https://media.zhengguannews.cn/picture/catch/2026/03/236/09153736395.jpeg?x-oss-process=style/www_list2\"  src=\"//static.zhengguannews.cn/www/assets/images/load.gif\" class=\"lazyload\" alt=\"\"> </a> </div>\r\n                        <div class=\"video-title\"> <a href=\"/news/480719.html\" class=\"two-line\"> 墨白长篇小说《扑克牌的N种玩法》研讨会在郑州举行\r\n                            </a> </div>\r\n                        <div class=\"creat-time\"> 2026-03-09 15:33 </div>\r\n                    </div>  <div class=\"col-4\">\r\n                        <div class=\"video-img\"> <a href=\"/news/478822.html\"> <img data-src=\"https://media.zhengguannews.cn/picture/202602/25143033543.png?x-oss-process=style/www_list2\"  src=\"//static.zhengguannews.cn/www/assets/images/load.gif\" class=\"lazyload\" alt=\"\"> </a> </div>\r\n                        <div class=\"video-title\"> <a href=\"/news/478822.html\" class=\"two-line\"> 万家灯火背后的春运“守夜人”：凌晨4点的闹钟，为谁而响？\r\n                            </a> </div>\r\n                        <div class=\"creat-time\"> 2026-02-25 14:28 </div>\r\n                    </div>  <div class=\"col-4\">\r\n                        <div class=\"video-img\"> <a href=\"/news/478678.html\"> <img data-src=\"https://media.zhengguannews.cn/picture/catch/202602/2414410029.jpeg?x-oss-process=style/www_list2\"  src=\"//static.zhengguannews.cn/www/assets/images/load.gif\" class=\"lazyload\" alt=\"\"> </a> </div>\r\n                        <div class=\"video-title\"> <a href=\"/news/478678.html\" class=\"two-line\"> 文学归根处，中原起新声——豫籍文艺名家“归根还巢”两年记\r\n                            </a> </div>\r\n                        <div class=\"creat-time\"> 2026-02-24 14:41 </div>\r\n                    </div>  <div class=\"col-4\">\r\n                        <div class=\"video-img\"> <a href=\"/news/478099.html\"> <img data-src=\"https://media.zhengguannews.cn/picture/202602/13144400267.png?x-oss-process=style/www_list2\"  src=\"//static.zhengguannews.cn/www/assets/images/load.gif\" class=\"lazyload\" alt=\"\"> </a> </div>\r\n                        <div class=\"video-title\"> <a href=\"/news/478099.html\" class=\"two-line\"> 90 后乡村 “面子特派员”：跨越百里，把年味和孝心送到家\r\n                            </a> </div>\r\n                        <div class=\"creat-time\"> 2026-02-13 14:42 </div>\r\n                    </div>  <div class=\"col-4\">\r\n                        <div class=\"video-img\"> <a href=\"/news/476017.html\"> <img data-src=\"https://media.zhengguannews.cn/picture/202601/29154136305.jpg?x-oss-process=style/www_list2\"  src=\"//static.zhengguannews.cn/www/assets/images/load.gif\" class=\"lazyload\" alt=\"\"> </a> </div>\r\n                        <div class=\"video-title\"> <a href=\"/news/476017.html\" class=\"two-line\"> 鳌太线上的“生死劫”\r\n                            </a> </div>\r\n                        <div class=\"creat-time\"> 2026-01-29 15:35 </div>\r\n                    </div>  </div>\r\n                <div class=\"row\">\r\n                    <div class=\"col-12\">\r\n                        <p class=\"done-btn col\" style=\"display: none;\" id=\"isload\">\r\n                            ————&nbsp;&nbsp;&nbsp;加载中。。。&nbsp;&nbsp;&nbsp;————</p>\r\n                        <p class=\"done-btn col\" style=\"display: none;\" id=\"nomore\">\r\n                            ————&nbsp;&nbsp;&nbsp;已经到底了&nbsp;&nbsp;&nbsp;————</p>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</main>  <!---Top--><div class=\"container\">    <div class=\"to-top\">\r\n        <div class=\"phone\"> <i class=\"icon-icon_app\"></i> <div class=\"code shadow-box\"> <img src=\"https://static.zhengguannews.cn/www/assets/images/app.png\" alt=\"\"> <p>扫描二维码 <br />下载客户端</p> </div>        </div>\r\n        <div class=\"wechat\"> <i class=\"icon-icon_wechat\"></i> <div class=\"code shadow-box\"> <p>微信公众号</p> <img src=\"https://static.zhengguannews.cn/www/assets/images/weixin.png\" alt=\"\"> <a href=\"https://weibo.com/u/7373111326\" target=\"_blank\"> <div class=\"weibo_button\"> <div class=\"weibo_icon\"></div> <span>微博</span> </div></a> </div>\r\n        </div> <a class=\"get-top\"> <i class=\"icon-icon_top\"></i> </a> </div></div>\r\n<footer>    <div class=\"container\">        <div class=\"footer\"><ul class=\"footer-link\">    <li> <a href=\"/about/us.html\">关于我们</a> </li>    <li> <a href=\"/about/xy.html\">用户协议</a> </li>    <li> <a href=\"/about/ys.html\">隐私政策</a> </li>    <li> <a href=\"/about/copyright.html\">版权所有</a> </li> </ul><p><a href=\"https://beian.miit.gov.cn/\" target=\"_blank\">豫ICP备20021444号-1</a> <a href=\"https://www.zynews.cn/static/2021-06/29/content_12905822.htm\" target=\"_blank\">网络视听许可证：11642105号</a> <a href=\"http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=41010402002605\" target=\"_blank\">豫公网安备41010402002605号</a> © 正观新闻 </p>        </div>    </div></footer>   <script src=\"https://static.zhengguannews.cn/www/assets/js/slider.min.js\"></script>\r\n<script src=\"https://static.zhengguannews.cn/www/assets/js/swiper.min.js\"></script>\r\n<script src=\"https://static.zhengguannews.cn/www/assets/js/totop.min.js\"></script>\r\n<script src=\"https://static.zhengguannews.cn/www/assets/js/main.js\"></script>\r\n<script src=\"https://static.zhengguannews.cn/www/assets/js/hc-sticky.js\"></script> \r\n<script>let isload = false, noMore = false; let pageindex = 2, pagesize = 15; function waterfall() { let rec = document.getElementById('scrolllist').getBoundingClientRect(); if (rec.bottom < 1300) { if (isload == false && noMore == false) { isload = true, chesate(); $(\"#isload\").show(); $.post('/data', { \"m\": \"nlist\", \"data\": { \"recmd\": 0, \"pageindex\": pageindex, \"pagesize\": pagesize, 'cateid': ' 17' } }, function (d) { let data = d.data; data.map(item => { $('#scrolllist').append(` <div class=\"col-4\"><div class=\"video-img\"><a href=\"${item.url}\"> <img src=\"${item.listimg}\" alt=\"\"> </a></div><div class=\"video-title\"><a href=\"${item.url}\" class=\"two-line\">${item.title}</a></div>   <div class=\"creat-time\">${item.reltime}</div></div>`); }); if (data.length < 15) { noMore = true, chesate(); } else { pageindex++; } isload = false, chesate(); }) } } else { chesate(); } } function chesate() { if (noMore) { $(\"#nomore\").show(); window.onscroll = null } else $(\"#nomore\").hide(); if (isload) $(\"#isload\").show(); else $(\"#isload\").hide(); } window.onscroll = waterfall; window.onload = function () { /*顶部幻灯片*/var swiper = new Swiper('.swiper-banner', { autoplay: 3000, loop: true, loopedSlides: 3, centeredSlides: true, parallax: true, slidesPerView: 'auto', pagination: '.swiper-pagination', nextButton: '.swiper-button-next', speed: 600, prevButton: '.swiper-button-prev', });/*/顶部系在按钮*/ jQuery(\"#nav\").slide({ type: \"menu\", titCell: \".nLi\", targetCell: \".sub\", effect: \"slideDown\", delayTime: 300, triggerTime: 0, returnDefault: true }); };</script>\r\n</body>\r\n  <script>\r\n    var _hmt = _hmt || [];\r\n    (function () {      var hm = document.createElement(\"script\");      hm.src = \"https://hm.baidu.com/hm.js?7f3f3d6ba57ae1ef7e777fbf702cdf36\";      var s = document.getElementsByTagName(\"script\")[0];      s.parentNode.insertBefore(hm, s);    })();\r\n  </script>\r\n</html>"
+    }
+  ],
+  "detail": {
+    "url": "https://wap.zhengguannews.cn/html/news/486643.html",
+    "title": "中超观察（第七轮） 超越在本轮 正观新闻",
+    "bodyText": "专题丨正观晚播报 正观：新闻早餐 品读天下 专题｜树立和践行正确政绩观学习教育 专题丨正观晚播报 正观：新闻早餐 品读天下 下载 中超观察（第七轮） 超越在本轮 正观新闻记者 郭韬略 文 新华社 图 2026-04-23 15:21 本轮中超迎来了本赛季的第一次周中赛事，8场比赛在两个比赛日全部完成。密集的赛程中，领先集团的新贵们表现依然强势，几支老牌球队也显现出了应有的韧劲儿。随着上海申花和山东泰山取得胜利，两队双双跻身前六名，本赛季首次出现负分球队超越未受罚球队的情况，而北京国安和武汉三镇也各自凭借一场胜利积分转正。 成都蓉城2∶1战胜云南玉昆，继续领跑积分榜。 新贵强势 中超“变天”？ 联赛开始进入赛程密集期，今后一个多月时间内的表现将会直接影响各支队伍的全年走势，而怎样的开端又影响着各队进入魔鬼赛程后的心态。 本轮排在积分榜前列的队伍表现依然强势。领头羊成都蓉城主场迎战云南玉昆，两支崇尚进攻的球队联袂为成都球迷奉献了一场激烈的对攻战，在上半场1球落后的情况下，成都蓉城下半场在10分钟之内连扳2球，最终逆转取胜。7轮不败，最近4轮更是豪取4连胜，成都蓉城用稳定和高效，证明着他们的“冠军相”成色。 如果说作为最大夺冠热门的成都蓉城表现完全符合外界预期的话，那么近邻重庆铜梁龙则是在酝酿着一个谁也不知道会有多大的冷门。升班马的身份，教练和队员都非常年轻，但这样一支队伍从一开始就不断改写着历史。本轮做客上海滩，更是2∶1将卫冕冠军上海海港掀翻，不败纪录增加到了7场，这支青年军体内蕴含的能量究竟有多大，目前谁也无法断言。 同样强势的还有大连英博，在赛季初遭遇两连败打击的他们，随后迅速拉升，本轮凭借斯坦丘一记无解的世界波，客场战胜辽宁铁人，赢下“东北德比”，实现了惊人的五连胜。完全没有“二年级魔咒”阴影的大连英博，目前稳居前三名。 值得一提的是，三支排名前列的球队依靠的并非是赛季初就积分领先的先天优势，而是球场上的真实表现。这样势头延续下去，今年的中超当真会要“变天”。 张稀哲最后时刻的进球帮助北京国安1∶0战胜深圳新鹏城，积分转正。 老牌强队 逆势上扬 在新贵们用惊艳的表现牢牢占据积分榜前列的同时，随着中超进入赛程密集的胶着状态，几支老牌劲旅的底蕴和韧性也开始显现，帮助他们逆势上扬。 最令人称道的自然是上海申花，本轮他们在主场2∶0拿下青岛海牛，继续保持不败，积分上涨到7分，排名来到第5位。从最不利的-10分起步，用了7轮，他们不仅将所有受罚球队都抛在了身后，也开始逐步完成对未受罚球队的超越，虽然距离榜首的成都蓉城依然差距巨大，但谁也不能否认申花依然是冠军的有力争夺者之一。对比同城对手上海海港的低迷，申花目前的成绩就更难能可贵。当“上海滩双雄争霸”注定不会再是今年的争冠主旋律之后，申花却依然是主角之一。 同样反弹的还有山东泰山，随着克雷桑的复出，山东泰山在前场的攻击力也有了明显改善，在本轮逆转战胜天津津门虎之后，他们的积分也来到7分，是除申花之外，第二支开启“超越步伐”的受罚球队。胜利让此前笼罩在泰山教练组身上的信任危机有所缓解，但对比申花，他们所要做的是尽可能稳定。 本轮北京国安和武汉三镇都迎来了久违的胜利，也终于完成了“转正大业”。到目前为止，负分的球队仅剩下了天津津门虎和青岛海牛两支队伍，分别是-5和-2。但看看比赛过程，两队的表现其实并不像积分榜上显示的那样不堪。基莱斯在第13分钟就帮助津门虎领先，下半场谢蒂内射失点球则错过了极佳的领先机会，所以津门虎的这场失利也有相当大的偶然因素，而做客8万人体育场的青岛海牛，虽然0∶2输球，但比赛过程中双方打得有来有往，海牛也制造出了相当多的威胁，其表现也绝非是鱼腩。两支垫底的球队，既没有沉沦，更没有堕落，他们依然是保级对手们的巨大压力。 （正观新闻记者 郭韬略 文 新华社 图） 编辑：蔡胜文 二审：曹继慧 三审：王绍禹 版权声明 本文（包括但不限于文字、图片、音乐、视频等）版权归正观传媒科技（河南）有限公司所有，未经正观传媒科技（河南）有限公司授权，不得以任何方式加以使用，包括转载、摘编、复制或建立镜像。如需转载本文，请后台联系取得授权，并应在授权范围内使用，同时注明来源正观新闻及原作者，并不得将本文提供给任何第三方。 正观传媒科技（河南）有限公司保留追究侵权者法律责任的权利 打开正观新闻客户端，阅读体验更佳 相关新闻 第一观察｜领悟“义乌发展经验”的启示意义 2026-04-24 国内油价今年首次下调，加满一箱少花22元 2026-04-21 “齐天大圣”超越人类半马世界纪录，靠的是什么 2026-04-20 时政微观察丨加快建设网络强国，更好造福国家和人民 2026-04-19 中超观察（第六轮） 惨烈绞杀的开端 2026-04-19 最新评论 暂时还没有评论 打开APP查看更多精彩评论",
+    "headings": [
+      {
+        "tag": "p",
+        "className": "s-title",
+        "id": "",
+        "text": "专题丨正观晚播报"
+      },
+      {
+        "tag": "p",
+        "className": "s-title",
+        "id": "",
+        "text": "正观：新闻早餐 品读天下"
+      },
+      {
+        "tag": "p",
+        "className": "s-title",
+        "id": "",
+        "text": "专题｜树立和践行正确政绩观学习教育"
+      },
+      {
+        "tag": "p",
+        "className": "s-title",
+        "id": "",
+        "text": "专题丨正观晚播报"
+      },
+      {
+        "tag": "p",
+        "className": "s-title",
+        "id": "",
+        "text": "正观：新闻早餐 品读天下"
+      },
+      {
+        "tag": "h2",
+        "className": "news-title",
+        "id": "",
+        "text": "中超观察（第七轮） 超越在本轮"
+      },
+      {
+        "tag": "div",
+        "className": "line-title",
+        "id": "",
+        "text": "相关新闻"
+      },
+      {
+        "tag": "h3",
+        "className": "three-line",
+        "id": "",
+        "text": "第一观察｜领悟“义乌发展经验”的启示意义"
+      },
+      {
+        "tag": "h3",
+        "className": "three-line",
+        "id": "",
+        "text": "国内油价今年首次下调，加满一箱少花22元"
+      },
+      {
+        "tag": "h3",
+        "className": "three-line",
+        "id": "",
+        "text": "“齐天大圣”超越人类半马世界纪录，靠的是什么"
+      },
+      {
+        "tag": "h3",
+        "className": "three-line",
+        "id": "",
+        "text": "时政微观察丨加快建设网络强国，更好造福国家和人民"
+      },
+      {
+        "tag": "h3",
+        "className": "three-line",
+        "id": "",
+        "text": "中超观察（第六轮） 惨烈绞杀的开端"
+      },
+      {
+        "tag": "div",
+        "className": "line-title",
+        "id": "",
+        "text": "热门评论"
+      },
+      {
+        "tag": "div",
+        "className": "line-title",
+        "id": "",
+        "text": "最新评论"
+      },
+      {
+        "tag": "strong",
+        "className": "weui-dialog__title",
+        "id": "",
+        "text": "前往正观新闻APP查看原文体验更佳"
+      }
+    ],
+    "contentCandidates": [
+      {
+        "tag": "main",
+        "className": "",
+        "id": "",
+        "text": "专题丨正观晚播报 正观：新闻早餐 品读天下 专题｜树立和践行正确政绩观学习教育 专题丨正观晚播报 正观：新闻早餐 品读天下 下载 中超观察（第七轮） 超越在本轮 正观新闻记者 郭韬略 文 新华社 图 2026-04-23 15:21 本轮中超迎来了本赛季的第一次周中赛事，8场比赛在两个比赛日全部完成。密集的赛程中，领先集团的新贵们表现依然强势，几支老牌球队也显现出了应有的韧劲儿。随着上海申花和山东泰山取得胜利，两队双双跻身前六名，本赛季首次出现负分球队超越未受罚球队的情况，而北京国安和武汉三镇也各自凭借一场胜利积分转正。 成都蓉城2∶1战胜云南玉昆，继续领跑积分榜。 新贵强势 中超“变天”？ 联赛开始进入赛程密集期，今后一个多月时间内的表现将会直接影响各支队伍的全年走势，而怎样的开端又影响着各队进入魔鬼赛程后的心态。 本轮排在积分榜前列的队伍表现依然强势。领头羊成都蓉城主场迎战云南玉昆，两支崇尚进攻的球队联袂为成都球迷奉献了一场激烈的对攻战，在上半场1球落后的情况下，成都蓉城下半场在10分钟之内连扳2球，最终逆转取胜。7轮不败，最近4轮更是豪取4连胜，成都蓉城用稳定和高效，证明着他们的“冠军相”成色。 如果说作为最大夺冠热门的成都蓉城表现完全符合外界预期的话，那么近邻重庆铜梁龙则是在酝酿着一个谁也不知道会有多大的冷门。升班马的身份，教练和队员都非常年轻，但这样一支队伍从一开始就不断改写着历史。本轮做客上海滩，更是2∶1将卫冕冠军上海海港掀翻，不败纪录增加到了7场，这支青年军体内蕴含的能量究竟有多大，目前谁也无法断言。 同样强势的还有大连英博，在赛季初遭遇两连败打击的他们，随后迅速拉升，本轮凭借斯坦丘一记无解的世界波，客场战胜辽宁铁人，赢下“东北德比”，实现了惊人的五连胜。完全没有“二年级魔咒”阴影的大连英博，目前稳居前三名。 值得一提的是，三支排名前列的球队依靠的并非是赛季初就积分领先的先天优势，而是球场上的真实表现。这样势头延续下去，今年的中超当真会要“变天”。 张稀哲最后时刻的进球帮助北京国安1∶0战胜深圳新鹏城，积分转正。 老牌强队 逆势上扬 在新贵们用惊艳的表现牢牢占据积分榜前列的同时，随着中超进入赛程密集的胶着状态，几支老牌劲旅的底蕴和韧性也开始显现，帮助他们逆势上扬。 最令人称道的自然是上海申花，本轮他们在主场2∶0拿下青岛海牛，继续保持不败，积分上涨到"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "本轮中超迎来了本赛季的第一次周中赛事，8场比赛在两个比赛日全部完成。密集的赛程中，领先集团的新贵们表现依然强势，几支老牌球队也显现出了应有的韧劲儿。随着上海申花和山东泰山取得胜利，两队双双跻身前六名，本赛季首次出现负分球队超越未受罚球队的情况，而北京国安和武汉三镇也各自凭借一场胜利积分转正。"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "成都蓉城2∶1战胜云南玉昆，继续领跑积分榜。"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "联赛开始进入赛程密集期，今后一个多月时间内的表现将会直接影响各支队伍的全年走势，而怎样的开端又影响着各队进入魔鬼赛程后的心态。"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "本轮排在积分榜前列的队伍表现依然强势。领头羊成都蓉城主场迎战云南玉昆，两支崇尚进攻的球队联袂为成都球迷奉献了一场激烈的对攻战，在上半场1球落后的情况下，成都蓉城下半场在10分钟之内连扳2球，最终逆转取胜。7轮不败，最近4轮更是豪取4连胜，成都蓉城用稳定和高效，证明着他们的“冠军相”成色。"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "如果说作为最大夺冠热门的成都蓉城表现完全符合外界预期的话，那么近邻重庆铜梁龙则是在酝酿着一个谁也不知道会有多大的冷门。升班马的身份，教练和队员都非常年轻，但这样一支队伍从一开始就不断改写着历史。本轮做客上海滩，更是2∶1将卫冕冠军上海海港掀翻，不败纪录增加到了7场，这支青年军体内蕴含的能量究竟有多大，目前谁也无法断言。"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "同样强势的还有大连英博，在赛季初遭遇两连败打击的他们，随后迅速拉升，本轮凭借斯坦丘一记无解的世界波，客场战胜辽宁铁人，赢下“东北德比”，实现了惊人的五连胜。完全没有“二年级魔咒”阴影的大连英博，目前稳居前三名。"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "值得一提的是，三支排名前列的球队依靠的并非是赛季初就积分领先的先天优势，而是球场上的真实表现。这样势头延续下去，今年的中超当真会要“变天”。"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "张稀哲最后时刻的进球帮助北京国安1∶0战胜深圳新鹏城，积分转正。"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "在新贵们用惊艳的表现牢牢占据积分榜前列的同时，随着中超进入赛程密集的胶着状态，几支老牌劲旅的底蕴和韧性也开始显现，帮助他们逆势上扬。"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "最令人称道的自然是上海申花，本轮他们在主场2∶0拿下青岛海牛，继续保持不败，积分上涨到7分，排名来到第5位。从最不利的-10分起步，用了7轮，他们不仅将所有受罚球队都抛在了身后，也开始逐步完成对未受罚球队的超越，虽然距离榜首的成都蓉城依然差距巨大，但谁也不能否认申花依然是冠军的有力争夺者之一。对比同城对手上海海港的低迷，申花目前的成绩就更难能可贵。当“上海滩双雄争霸”注定不会再是今年的争冠主旋律之后，申花却依然是主角之一。"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "同样反弹的还有山东泰山，随着克雷桑的复出，山东泰山在前场的攻击力也有了明显改善，在本轮逆转战胜天津津门虎之后，他们的积分也来到7分，是除申花之外，第二支开启“超越步伐”的受罚球队。胜利让此前笼罩在泰山教练组身上的信任危机有所缓解，但对比申花，他们所要做的是尽可能稳定。"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "本轮北京国安和武汉三镇都迎来了久违的胜利，也终于完成了“转正大业”。到目前为止，负分的球队仅剩下了天津津门虎和青岛海牛两支队伍，分别是-5和-2。但看看比赛过程，两队的表现其实并不像积分榜上显示的那样不堪。基莱斯在第13分钟就帮助津门虎领先，下半场谢蒂内射失点球则错过了极佳的领先机会，所以津门虎的这场失利也有相当大的偶然因素，而做客8万人体育场的青岛海牛，虽然0∶2输球，但比赛过程中双方打得有来有往，海牛也制造出了相当多的威胁，其表现也绝非是鱼腩。两支垫底的球队，既没有沉沦，更没有堕落，他们依然是保级对手们的巨大压力。"
+      },
+      {
+        "tag": "div",
+        "className": "content-btn Copyright-btn",
+        "id": "",
+        "text": "版权声明 本文（包括但不限于文字、图片、音乐、视频等）版权归正观传媒科技（河南）有限公司所有，未经正观传媒科技（河南）有限公司授权，不得以任何方式加以使用，包括转载、摘编、复制或建立镜像。如需转载本文，请后台联系取得授权，并应在授权范围内使用，同时注明来源正观新闻及原作者，并不得将本文提供给任何第三方。 正观传媒科技（河南）有限公司保留追究侵权者法律责任的权利"
+      },
+      {
+        "tag": "div",
+        "className": "content-text",
+        "id": "",
+        "text": "本文（包括但不限于文字、图片、音乐、视频等）版权归正观传媒科技（河南）有限公司所有，未经正观传媒科技（河南）有限公司授权，不得以任何方式加以使用，包括转载、摘编、复制或建立镜像。如需转载本文，请后台联系取得授权，并应在授权范围内使用，同时注明来源正观新闻及原作者，并不得将本文提供给任何第三方。 正观传媒科技（河南）有限公司保留追究侵权者法律责任的权利"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "本文（包括但不限于文字、图片、音乐、视频等）版权归正观传媒科技（河南）有限公司所有，未经正观传媒科技（河南）有限公司授权，不得以任何方式加以使用，包括转载、摘编、复制或建立镜像。如需转载本文，请后台联系取得授权，并应在授权范围内使用，同时注明来源正观新闻及原作者，并不得将本文提供给任何第三方。"
+      },
+      {
+        "tag": "p",
+        "className": "",
+        "id": "",
+        "text": "正观传媒科技（河南）有限公司保留追究侵权者法律责任的权利"
+      }
+    ],
+    "html": "<html lang=\"zh_CN\"><head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\">\n    <meta name=\"renderer\" content=\"webkit\">\n    <meta name=\"apple-mobile-web-app-title\" content=\"正观新闻\">\n    <meta name=\"format-detection\" content=\"telephone=no, email=no, address=no\">\n    <title>中超观察（第七轮） 超越在本轮 正观新闻</title>\n    <link rel=\"stylesheet\" href=\"//static.zhengguannews.cn/wap/assets/css/global.css\">\n    <link href=\"//static.zhengguannews.cn/wap/assets/plugins/swiper/swiper.min.css\" rel=\"stylesheet\">\n    <link rel=\"stylesheet\" href=\"//static.zhengguannews.cn/wap/assets/css/news.css?t=1\">\n\n    <script src=\"https://hm.baidu.com/hm.js?055def7cc0fc8501002518d71301060f\"></script><script src=\"//static.zhengguannews.cn/wap/assets/plugins/jquery.min.js\"></script>\n    <script src=\"//res.wx.qq.com/open/js/jweixin-1.6.0.js\"></script>\n    <script src=\"//static.zhengguannews.cn/wap/assets/js/utils.js?t=1\"></script>\n    <script src=\"//static.zhengguannews.cn/wap/assets/js/jwxShare.js?t=5.6\"></script>\n    <script>\n        var newsid = '486643';\n        var shareInfo = {\n            title: \"中超观察（第七轮） 超越在本轮\",\n            desc: \"\",\n            link: location.href,\n            img: \"https://media.zhengguannews.cn/picture/2026/04/190/23154548375.jpg?x-oss-process=style/newsshare\"\n        }\n        if (utils.isweixin()) wxShare(shareInfo);\n\n    </script>\n    <meta name=\"apple-itunes-app\" content=\"app-id=1495292950\"><meta name=\"description\" content=\"正观新闻,努力打造成为具有全国影响力的集‘新闻+政务+服务’于一体的新型主流媒体”，正观，意为“居中、守正、观天下”，旨在扎根郑州、立足中原、影响全国。\"><meta name=\"keywords\" content=\"正观新闻 黄河评论 正观  居中 守正 观天下 新闻 政务 服务 新型主流媒体 河南 郑州 河南新闻 郑州新闻 ZMG 郑州报业集团\"><script>let key={w:\"7f3f3d6ba57ae1ef7e777fbf702cdf36\",m:\"055def7cc0fc8501002518d71301060f\"};let k=location.host.split(\".\")[0]==\"www\"?\"w\":\"m\";var _hmt = _hmt || [];(function() {var hm = document.createElement(\"script\"); hm.src = \"https://hm.baidu.com/hm.js?\"+key[k];var s = document.getElementsByTagName(\"script\")[0];s.parentNode.insertBefore(hm, s);})();</script>\n</head>\n\n<body>\n    <!--Loading-->\n<div class=\"loading-box\" style=\"display: none;\">\n    <div class=\"loading\"></div>\n</div>\n<script>\n    document.onreadystatechange = function () {\n        if (document.readyState = \"complete\") {\n            $(\".loading-box\").fadeOut();\n        }\n    };\n</script>\n    <main>\n        <div style=\"display: none;\">\n            <img src=\"https://media.zhengguannews.cn/picture/2026/04/190/23154548375.jpg?x-oss-process=style/newsshare\" width=\"200\" height=\"200\" onerror=\"this.src='//static.zhengguannews.cn/wap/assets/images/weixinimg.png'\">\n        </div>\n        <div class=\"top-nav\">\n            <div class=\"swiper-container swiper-top swiper-container-initialized swiper-container-horizontal\">\n                <div class=\"swiper-wrapper topnews\" style=\"transition-duration: 0ms; transform: translate3d(-1048px, 0px, 0px);\"><div class=\"swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next\" data-swiper-slide-index=\"2\" style=\"width: 494px; margin-right: 30px;\"><a href=\"/html/special/2140.html?nid=453348\"><div><img class=\"lazyload\" onerror=\"this.src='//static.zhengguannews.cn/wap/assets/images/error.png'\" src=\"https://media.zhengguannews.cn/picture/news/2025/08/51-111058134-1380_300.jpg?x-oss-process=style/newslist\" alt=\"\"><p class=\"s-title\">专题丨正观晚播报</p></div></a></div><div class=\"swiper-slide swiper-slide-prev\" data-swiper-slide-index=\"0\" style=\"width: 494px; margin-right: 30px;\"><a href=\"/html/special/2448.html?nid=484481\"><div><img class=\"lazyload\" onerror=\"this.src='//static.zhengguannews.cn/wap/assets/images/error.png'\" src=\"https://media.zhengguannews.cn/picture/news/2026/04/94/07152500655-690_150.jpg?x-oss-process=style/newslist\" alt=\"\"><p class=\"s-title\">正观：新闻早餐 品读天下</p></div></a></div><div class=\"swiper-slide swiper-slide-active\" data-swiper-slide-index=\"1\" style=\"width: 494px; margin-right: 30px;\"><a href=\"/html/special/2414.html?nid=481135\"><div><img class=\"lazyload\" onerror=\"this.src='//static.zhengguannews.cn/wap/assets/images/error.png'\" src=\"https://media.zhengguannews.cn/picture/news/2026/03/151/12105119141-3450_750.jpg?x-oss-process=style/newslist\" alt=\"\"><p class=\"s-title\">专题｜树立和践行正确政绩观学习教育</p></div></a></div><div class=\"swiper-slide swiper-slide-next\" data-swiper-slide-index=\"2\" style=\"width: 494px; margin-right: 30px;\"><a href=\"/html/special/2140.html?nid=453348\"><div><img class=\"lazyload\" onerror=\"this.src='//static.zhengguannews.cn/wap/assets/images/error.png'\" src=\"https://media.zhengguannews.cn/picture/news/2025/08/51-111058134-1380_300.jpg?x-oss-process=style/newslist\" alt=\"\"><p class=\"s-title\">专题丨正观晚播报</p></div></a></div><div class=\"swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev\" data-swiper-slide-index=\"0\" style=\"width: 494px; margin-right: 30px;\"><a href=\"/html/special/2448.html?nid=484481\"><div><img class=\"lazyload\" onerror=\"this.src='//static.zhengguannews.cn/wap/assets/images/error.png'\" src=\"https://media.zhengguannews.cn/picture/news/2026/04/94/07152500655-690_150.jpg?x-oss-process=style/newslist\" alt=\"\"><p class=\"s-title\">正观：新闻早餐 品读天下</p></div></a></div></div>\n            <span class=\"swiper-notification\" aria-live=\"assertive\" aria-atomic=\"true\"></span></div>\n            <div class=\"swiper-pagination swiper-pagination-bullets\"><span class=\"swiper-pagination-bullet\"></span><span class=\"swiper-pagination-bullet swiper-pagination-bullet-active\"></span><span class=\"swiper-pagination-bullet\"></span></div>\n            <div class=\"down-link\"><a href=\"/down\">下载</a></div>\n        </div>\n\n        <div class=\"news-main\">\n            \n            <div class=\"top-img\">\n                <img class=\"\" onerror=\"this.src='//static.zhengguannews.cn/wap/assets/images/error.png'\" src=\"https://media.zhengguannews.cn/picture/newcate/2023/08/237-3015275880-778_171.png\">\n            </div>\n            \n            <!--新闻详情标题-->\n            <h2 class=\"news-title\">中超观察（第七轮） 超越在本轮</h2>\n            <div class=\"news-maker laiyuan\">\n                \n                \n                正观新闻记者 郭韬略 文 新华社 图\n                \n            </div>\n            <!--新闻详情mate-->\n            <div class=\"weui-flex news-mate\">\n                <div class=\"weui-flex__item\">\n                    \n                    <span>2026-04-23 15:21</span>\n                </div>\n                <!-- <div class=\"bobao\">\n                    <a href=\"video.html\">\n                        <span class=\"icon-radio\"></span>播报\n                    </a>\n                </div> -->\n            </div>\n            \n            <ul class=\"link-svg center-flex toprelatenews\" style=\"display: none;\">\n\n            </ul>\n            <!--新闻详情 -->\n            <div class=\"news-text max-h\">\n                <!--<p><img src='/assets/images/toplogo.png' alt='' class='toplogo' /></p>-->\n                <p></p>\n                <p><strong>本轮中超迎来了本赛季的第一次周中赛事，8场比赛在两个比赛日全部完成。密集的赛程中，领先集团的新贵们表现依然强势，几支老牌球队也显现出了应有的韧劲儿。随着上海申花和山东泰山取得胜利，两队双双跻身前六名，本赛季首次出现负分球队超越未受罚球队的情况，而北京国安和武汉三镇也各自凭借一场胜利积分转正。</strong></p><p style=\"text-align:center\"><img src=\"https://media.zhengguannews.cn/picture/2026/04/190/23160837362.png?x-oss-process=style/newsdetail\" class=\"\"></p><p></p><p style=\"color:#999999;text-align: center;font-size:13px;margin-top: -0.3rem;\">成都蓉城2<strong>∶</strong>1战胜云南玉昆，继续领跑积分榜。</p><p><strong>新贵强势 中超“变天”？</strong></p><p>联赛开始进入赛程密集期，今后一个多月时间内的表现将会直接影响各支队伍的全年走势，而怎样的开端又影响着各队进入魔鬼赛程后的心态。</p><p>本轮排在积分榜前列的队伍表现依然强势。领头羊成都蓉城主场迎战云南玉昆，两支崇尚进攻的球队联袂为成都球迷奉献了一场激烈的对攻战，在上半场1球落后的情况下，成都蓉城下半场在10分钟之内连扳2球，最终逆转取胜。7轮不败，最近4轮更是豪取4连胜，成都蓉城用稳定和高效，证明着他们的“冠军相”成色。</p><p>如果说作为最大夺冠热门的成都蓉城表现完全符合外界预期的话，那么近邻重庆铜梁龙则是在酝酿着一个谁也不知道会有多大的冷门。升班马的身份，教练和队员都非常年轻，但这样一支队伍从一开始就不断改写着历史。本轮做客上海滩，更是2<strong>∶</strong>1将卫冕冠军上海海港掀翻，不败纪录增加到了7场，这支青年军体内蕴含的能量究竟有多大，目前谁也无法断言。</p><p>同样强势的还有大连英博，在赛季初遭遇两连败打击的他们，随后迅速拉升，本轮凭借斯坦丘一记无解的世界波，客场战胜辽宁铁人，赢下“东北德比”，实现了惊人的五连胜。完全没有“二年级魔咒”阴影的大连英博，目前稳居前三名。</p><p>值得一提的是，三支排名前列的球队依靠的并非是赛季初就积分领先的先天优势，而是球场上的真实表现。这样势头延续下去，今年的中超当真会要“变天”。</p><p style=\"text-align:center\"><img src=\"//static.zhengguannews.cn/wap/assets/images/load.gif\" class=\"lazyload\" data-src=\"https://media.zhengguannews.cn/picture/2026/04/190/23160905771.png?x-oss-process=style/newsdetail\"></p><p><strong style=\"text-align: center;\"></strong></p><p style=\"color:#999999;text-align: center;font-size:13px;margin-top: -0.3rem;\">张稀哲最后时刻的进球帮助北京国安1<strong>∶</strong>0战胜深圳新鹏城，积分转正。</p><p><strong style=\"text-align: center;\">老牌强队 逆势上扬</strong></p><p>在新贵们用惊艳的表现牢牢占据积分榜前列的同时，随着中超进入赛程密集的胶着状态，几支老牌劲旅的底蕴和韧性也开始显现，帮助他们逆势上扬。</p><p>最令人称道的自然是上海申花，本轮他们在主场2<strong>∶</strong>0拿下青岛海牛，继续保持不败，积分上涨到7分，排名来到第5位。从最不利的-10分起步，用了7轮，他们不仅将所有受罚球队都抛在了身后，也开始逐步完成对未受罚球队的超越，虽然距离榜首的成都蓉城依然差距巨大，但谁也不能否认申花依然是冠军的有力争夺者之一。对比同城对手上海海港的低迷，申花目前的成绩就更难能可贵。当“上海滩双雄争霸”注定不会再是今年的争冠主旋律之后，申花却依然是主角之一。</p><p>同样反弹的还有山东泰山，随着克雷桑的复出，山东泰山在前场的攻击力也有了明显改善，在本轮逆转战胜天津津门虎之后，他们的积分也来到7分，是除申花之外，第二支开启“超越步伐”的受罚球队。胜利让此前笼罩在泰山教练组身上的信任危机有所缓解，但对比申花，他们所要做的是尽可能稳定。</p><p>本轮北京国安和武汉三镇都迎来了久违的胜利，也终于完成了“转正大业”。到目前为止，负分的球队仅剩下了天津津门虎和青岛海牛两支队伍，分别是-5和-2。但看看比赛过程，两队的表现其实并不像积分榜上显示的那样不堪。基莱斯在第13分钟就帮助津门虎领先，下半场谢蒂内射失点球则错过了极佳的领先机会，所以津门虎的这场失利也有相当大的偶然因素，而做客8万人体育场的青岛海牛，虽然0<strong>∶</strong>2输球，但比赛过程中双方打得有来有往，海牛也制造出了相当多的威胁，其表现也绝非是鱼腩。两支垫底的球队，既没有沉沦，更没有堕落，他们依然是保级对手们的巨大压力。</p><p style=\"text-align:center\"><img src=\"//static.zhengguannews.cn/wap/assets/images/load.gif\" class=\"lazyload\" data-src=\"https://media.zhengguannews.cn/picture/2026/04/190/23153527140.jpg?x-oss-process=style/newsdetail\"></p><p style=\"text-align:center\"><img src=\"//static.zhengguannews.cn/wap/assets/images/load.gif\" class=\"lazyload\" data-src=\"https://media.zhengguannews.cn/picture/2026/04/190/23153536885.jpg?x-oss-process=style/newsdetail\"></p><p>（正观新闻记者 郭韬略 文 新华社 图）</p>\n                <!--新闻作者-->\n\n                \n                \n                \n                \n                \n                \n                \n                <div class=\"news-maker\">\n                    编辑：蔡胜文\n                </div>\n                \n\n                \n                \n                                \n                   <div class=\"news-maker\">二审：曹继慧</div> <div class=\"news-maker\"> 三审：王绍禹 </div>\n                \n                 \n\n\n                \n                <div class=\"content-btn Copyright-btn\">\n                    <div class=\"header-content d-flex\">\n                        <div class=\"flex-item\" style=\"font-weight: bold;\">版权声明</div>\n                        <div class=\"copyright-logo\">\n                            <img src=\"//static.zhengguannews.cn/wap/assets/images/logo-copy.png\" alt=\"\" srcset=\"\">\n                        </div>\n                    </div>\n                    <div class=\"content-text\">\n                        <p></p><p>本文（包括但不限于文字、图片、音乐、视频等）版权归正观传媒科技（河南）有限公司所有，未经正观传媒科技（河南）有限公司授权，不得以任何方式加以使用，包括转载、摘编、复制或建立镜像。如需转载本文，请后台联系取得授权，并应在授权范围内使用，同时注明来源正观新闻及原作者，并不得将本文提供给任何第三方。</p><p><br></p><p>正观传媒科技（河南）有限公司保留追究侵权者法律责任的权利</p><p></p>\n                    </div>\n                </div>\n                \n            </div>\n\n            <div class=\"read-more\">\n                \n                <div class=\"show_article\">\n                    <span class=\"show_more_arrow\"></span>\n                </div>\n                \n                <div class=\"more_up\">\n                    <a href=\"javascript:;\" id=\"openapp\" onclick=\"utils.openclient('newsdetail','486643')\">\n                        打开正观新闻客户端，阅读体验更佳\n                    </a>\n                </div>\n            </div>\n\n            <!--推荐专题 -->\n            <div class=\"recomment\" style=\"display:none\"></div>\n\n            <!--相关新闻-->\n            <div class=\"aboutnews\" style=\"\">\n                <div class=\"line-title\">相关新闻</div>\n                <div class=\"other-news\">\n                    <div class=\"weui-flex wrap-flex\" id=\"relate\"> <div class=\"news-list-box\">     <a href=\"/html/news/486813.html\">         <div class=\"weui-flex\"><div class=\"left-img\"><img class=\"lazyload\" onerror=\"this.src='//static.zhengguannews.cn/wap/assets/images/error.png'\" src=\"//static.zhengguannews.cn/wap/assets/images/load.gif\" data-src=\"https://media.zhengguannews.cn/picture/static/constimg/zg_yw.png?x-oss-process=style/newslist\"></div>             <div class=\"weui-flex__item\">                 <div class=\"right-box\">                     <h3 class=\"three-line\">第一观察｜领悟“义乌发展经验”的启示意义</h3>                     <div class=\"weui-flex news-mate\">                         <div class=\"weui-flex__item\">2026-04-24</div>                     </div>                 </div>             </div>         </div>     </a> </div> <div class=\"news-list-box\">     <a href=\"/html/news/486327.html\">         <div class=\"weui-flex\"><div class=\"left-img\"><img class=\"lazyload\" onerror=\"this.src='//static.zhengguannews.cn/wap/assets/images/error.png'\" src=\"//static.zhengguannews.cn/wap/assets/images/load.gif\" data-src=\"https://media.zhengguannews.cn/picture/catch/2026/03/94/23172746264.jpeg\"></div>             <div class=\"weui-flex__item\">                 <div class=\"right-box\">                     <h3 class=\"three-line\">国内油价今年首次下调，加满一箱少花22元</h3>                     <div class=\"weui-flex news-mate\">                         <div class=\"weui-flex__item\">2026-04-21</div>                     </div>                 </div>             </div>         </div>     </a> </div> <div class=\"news-list-box\">     <a href=\"/html/news/486146.html\">         <div class=\"weui-flex\"><div class=\"left-img\"><img class=\"lazyload\" onerror=\"this.src='//static.zhengguannews.cn/wap/assets/images/error.png'\" src=\"//static.zhengguannews.cn/wap/assets/images/load.gif\" data-src=\"https://media.zhengguannews.cn/picture/2026/04/69/20094331393.png?x-oss-process=style/newslist\"></div>             <div class=\"weui-flex__item\">                 <div class=\"right-box\">                     <h3 class=\"three-line\">“齐天大圣”超越人类半马世界纪录，靠的是什么</h3>                     <div class=\"weui-flex news-mate\">                         <div class=\"weui-flex__item\">2026-04-20</div>                     </div>                 </div>             </div>         </div>     </a> </div> <div class=\"news-list-box\">     <a href=\"/html/news/486104.html\">         <div class=\"weui-flex\"><div class=\"left-img\"><img class=\"lazyload\" onerror=\"this.src='//static.zhengguannews.cn/wap/assets/images/error.png'\" src=\"//static.zhengguannews.cn/wap/assets/images/load.gif\" data-src=\"https://media.zhengguannews.cn/picture/static/constimg/zg_yw.png?x-oss-process=style/newslist\"></div>             <div class=\"weui-flex__item\">                 <div class=\"right-box\">                     <h3 class=\"three-line\">时政微观察丨加快建设网络强国，更好造福国家和人民</h3>                     <div class=\"weui-flex news-mate\">                         <div class=\"weui-flex__item\">2026-04-19</div>                     </div>                 </div>             </div>         </div>     </a> </div> <div class=\"news-list-box\">     <a href=\"/html/news/486094.html\">         <div class=\"weui-flex\"><div class=\"left-img\"><img class=\"lazyload\" onerror=\"this.src='//static.zhengguannews.cn/wap/assets/images/error.png'\" src=\"//static.zhengguannews.cn/wap/assets/images/load.gif\" data-src=\"https://media.zhengguannews.cn/picture/2026/04/190/19152102873.png?x-oss-process=style/newslist\"></div>             <div class=\"weui-flex__item\">                 <div class=\"right-box\">                     <h3 class=\"three-line\">中超观察（第六轮） 惨烈绞杀的开端</h3>                     <div class=\"weui-flex news-mate\">                         <div class=\"weui-flex__item\">2026-04-19</div>                     </div>                 </div>             </div>         </div>     </a> </div></div>\n                </div>\n            </div>\n            <!--热门评论-->\n            <div class=\"hotcomment\" style=\"display:none\">\n                <div class=\"line-title\">热门评论</div>\n                <div class=\"hot-content\" id=\"comment\"></div>\n            </div>\n            <!--最新评论-->\n            <div>\n                <div class=\"newcomment\">\n                    <div class=\"line-title\">最新评论</div>\n                    <div class=\"hot-content\" id=\"newcomment\">\n                        <img src=\"//static.zhengguannews.cn/wap/assets/images/comment.png\">\n                    </div><div class=\"down-to-comment\"><p class=\"news-mate\">暂时还没有评论</p></div>\n                    <div onclick=\"utils.openclient('newsdetail','486643')\" style=\" position: relative;\" id=\"openapptocomment\" class=\"appgo\">打开APP查看更多精彩评论</div>\n                </div>\n                <!--<div class=\"aboutcomment\" style=\"display:none\">\n                </div>-->\n            </div>\n            <!--阅读更多-->\n            <div id=\"dialogs\">\n                <!--BEGIN dialog1-->\n                <div class=\"js_dialog\" id=\"iosDialog1\" style=\"display: none;\">\n                    <div class=\"weui-mask\"></div>\n                    <div class=\"weui-dialog\">\n                        <div class=\"weui-dialog__hd\"><strong class=\"weui-dialog__title\">前往正观新闻APP查看原文<br>体验更佳</strong>\n                        </div>\n                        <div class=\"weui-dialog__ft\">\n                            <a href=\"javascript:;\" class=\"weui-dialog__btn weui-quxiao\">取消</a>\n                            <a onclick=\"utils.openclient('newsdetail','486643')\" id=\"openappofsure\" class=\"weui-dialog__btn weui-go\">前往</a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n\n    </main>\n    <footer>\n        <div class=\"down-box\">\n            <div class=\"down-iconlogo\"></div>\n\n            <div class=\"down-b\" onclick=\"utils.openclient('newsdetail','486643')\" id=\"openapps\" style=\"position: relative;\">\n                <a href=\"javascript:;\">打开APP</a>\n            </div>\n        </div>\n    </footer>\n    <div class=\"mobileview\">\n    <div id=\"js_pc_qr_code\" class=\"qr_code_pc_outer\" style=\"display: block;\">\n        <div class=\"qr_code_pc_inner\">\n            <div class=\"qr_code_pc\">\n                <div id=\"js_pc_qr_code_img\"><canvas width=\"106\" height=\"106\"></canvas></div>\n\t\t\t\t<p>微信扫一扫<br>在手机上浏览</p>\n            </div>\n        </div>       \n    </div>\n</div>\n\n\n    <script src=\"//static.zhengguannews.cn/wap/assets/plugins/jquery.qrcode.min.js\"></script>\n\n    <script src=\"//static.zhengguannews.cn/wap/assets/plugins/swiper/swiper.min.js\"></script>\n\n    <script src=\"//static.zhengguannews.cn/wap/assets/js/newsdetail.js\"></script>\n\n    <script type=\"text/javascript\" charset=\"utf-8\">\n        if (newsid > 0) {\n            if (utils.isweixin()) {\n                wxopenapp({ showbtn: \"openapp\", jumptype: \"newsdetail\", jumpid: newsid, width: \"346.7px\", height: \"47px\" });\n                wxopenapp({ showbtn: \"openappofsure\", jumptype: \"newsdetail\", jumpid: newsid, width: \"137px\", height: \"51.2px\" });\n                wxopenapp({ showbtn: \"openapptocomment\", jumptype: \"newsdetail\", jumpid: newsid, width: \"266.7px\", height: \"42.7px\" });\n                wxopenapp({ showbtn: \"openapps\", jumptype: \"newsdetail\", jumpid: newsid, width: \"79px\", height: \"30px\" });\n            }\n\n            if (utils.IsPC()) $('#js_pc_qr_code_img').qrcode({ width: 106, height: 106, text: window.top.document.URL });\n            loadrelatenews();\n            utils.loadclick(newsid, '', '0');\n        }\n    </script>\n</body></html>",
+    "network": [
+      {
+        "url": "https://wap.zhengguannews.cn/html/news/486643.html",
+        "status": 200,
+        "method": "GET",
+        "resource_type": "document",
+        "request_headers": {
+          ":authority": "wap.zhengguannews.cn",
+          ":method": "GET",
+          ":path": "/html/news/486643.html",
+          ":scheme": "https",
+          "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+          "accept-encoding": "gzip, deflate, br, zstd",
+          "accept-language": "en-US,en;q=0.9",
+          "cookie": "uuid=1776853052116-27cb-4e00-bd1f-e37839f007af; uuid.sig=KQbDCGnPudUcF02sg_wJztM9SJ1j5AIStc04_M48YzQ",
+          "if-modified-since": "Thu, 23 Apr 2026 08:11:48 GMT",
+          "priority": "u=0, i",
+          "referer": "https://www.zhengguannews.cn/",
+          "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"Linux\"",
+          "sec-fetch-dest": "document",
+          "sec-fetch-mode": "navigate",
+          "sec-fetch-site": "same-site",
+          "upgrade-insecure-requests": "1",
+          "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+        },
+        "response_headers": {
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "https://static.zhengguannews.cn",
+          "date": "Fri, 24 Apr 2026 06:57:43 GMT",
+          "etag": "\"aOy8qgVjB4/Ra5Yd0Ix7Ig==\"",
+          "last-modified": "Thu, 23 Apr 2026 08:11:48 GMT",
+          "vary": "Origin",
+          "x-readtime": "2"
+        },
+        "body": ""
+      },
+      {
+        "url": "https://www.zhengguannews.cn/news/486643.html",
+        "status": 200,
+        "method": "GET",
+        "resource_type": "document",
+        "request_headers": {
+          ":authority": "www.zhengguannews.cn",
+          ":method": "GET",
+          ":path": "/news/486643.html",
+          ":scheme": "https",
+          "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+          "accept-encoding": "gzip, deflate, br, zstd",
+          "accept-language": "en-US,en;q=0.9",
+          "cookie": "uuid=1776853045055-f9ce-4807-bc0c-7acba8cad259; uuid.sig=y35TKb78H1Jz45kCiSf-6EOksIR6px6-BfuvphA2UPU; uuid=1776853052116-27cb-4e00-bd1f-e37839f007af; uuid.sig=KQbDCGnPudUcF02sg_wJztM9SJ1j5AIStc04_M48YzQ; csrfToken=kl0K0q_4Bh66hbvai7jC0LTE",
+          "priority": "u=0, i",
+          "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"Linux\"",
+          "sec-fetch-dest": "document",
+          "sec-fetch-mode": "navigate",
+          "sec-fetch-site": "none",
+          "sec-fetch-user": "?1",
+          "upgrade-insecure-requests": "1",
+          "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+        },
+        "response_headers": {
+          "content-encoding": "gzip",
+          "content-type": "text/html; charset=utf-8",
+          "date": "Fri, 24 Apr 2026 06:57:43 GMT",
+          "x-content-type-options": "nosniff",
+          "x-download-options": "noopen",
+          "x-frame-options": "SAMEORIGIN",
+          "x-readtime": "312",
+          "x-xss-protection": "1; mode=block"
+        },
+        "body": ""
+      },
+      {
+        "url": "https://wap.zhengguannews.cn/ajax/?t=0.5911760716856181",
+        "status": 200,
+        "method": "POST",
+        "resource_type": "xhr",
+        "request_headers": {
+          ":authority": "wap.zhengguannews.cn",
+          ":method": "POST",
+          ":path": "/ajax/?t=0.5911760716856181",
+          ":scheme": "https",
+          "accept": "*/*",
+          "accept-encoding": "gzip, deflate, br, zstd",
+          "accept-language": "en-US,en;q=0.9",
+          "content-length": "129",
+          "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+          "cookie": "uuid=1776853052116-27cb-4e00-bd1f-e37839f007af; uuid.sig=KQbDCGnPudUcF02sg_wJztM9SJ1j5AIStc04_M48YzQ",
+          "origin": "https://wap.zhengguannews.cn",
+          "priority": "u=1, i",
+          "referer": "https://wap.zhengguannews.cn/html/news/486643.html",
+          "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"Linux\"",
+          "sec-fetch-dest": "empty",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-site": "same-origin",
+          "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "x-requested-with": "XMLHttpRequest"
+        },
+        "response_headers": {
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "https://static.zhengguannews.cn",
+          "content-length": "62",
+          "content-type": "application/json; charset=utf-8",
+          "date": "Fri, 24 Apr 2026 06:57:43 GMT",
+          "vary": "Origin",
+          "x-content-type-options": "nosniff",
+          "x-download-options": "noopen",
+          "x-frame-options": "SAMEORIGIN",
+          "x-readtime": "17",
+          "x-xss-protection": "1; mode=block"
+        },
+        "body": "{\"code\":0,\"msg\":\"success\",\"content\":[],\"isfabu\":1,\"server\":47}"
+      },
+      {
+        "url": "https://wap.zhengguannews.cn/ajax/?t=0.5511404265367248",
+        "status": 200,
+        "method": "POST",
+        "resource_type": "xhr",
+        "request_headers": {
+          ":authority": "wap.zhengguannews.cn",
+          ":method": "POST",
+          ":path": "/ajax/?t=0.5511404265367248",
+          ":scheme": "https",
+          "accept": "*/*",
+          "accept-encoding": "gzip, deflate, br, zstd",
+          "accept-language": "en-US,en;q=0.9",
+          "content-length": "53",
+          "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+          "cookie": "uuid=1776853052116-27cb-4e00-bd1f-e37839f007af; uuid.sig=KQbDCGnPudUcF02sg_wJztM9SJ1j5AIStc04_M48YzQ",
+          "origin": "https://wap.zhengguannews.cn",
+          "priority": "u=1, i",
+          "referer": "https://wap.zhengguannews.cn/html/news/486643.html",
+          "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"Linux\"",
+          "sec-fetch-dest": "empty",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-site": "same-origin",
+          "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "x-requested-with": "XMLHttpRequest"
+        },
+        "response_headers": {
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "https://static.zhengguannews.cn",
+          "content-encoding": "gzip",
+          "content-type": "application/json; charset=utf-8",
+          "date": "Fri, 24 Apr 2026 06:57:43 GMT",
+          "vary": "Origin",
+          "x-content-type-options": "nosniff",
+          "x-download-options": "noopen",
+          "x-frame-options": "SAMEORIGIN",
+          "x-readtime": "374",
+          "x-xss-protection": "1; mode=block"
+        },
+        "body": "{\"code\":6,\"msg\":\"success\",\"content\":[[{\"newsid\":\"486813\",\"title\":\"第一观察｜领悟“义乌发展经验”的启示意义\",\"breviaryimges\":\"https://media.zhengguannews.cn/picture/static/constimg/zg_yw.png?x-oss-process=style/newslist\",\"conntype\":0,\"connid\":\"0\",\"veer\":\"\",\"releasetime\":\"2026-04-24T10:05:40.000Z\",\"conntitle\":\"\",\"url\":\"/html/news/486813.html\"},{\"newsid\":\"486327\",\"title\":\"国内油价今年首次下调，加满一箱少花22元\",\"breviaryimges\":\"https://media.zhengguannews.cn/picture/catch/2026/03/94/23172746264.jpeg\",\"conntype\":0,\"connid\":\"0\",\"veer\":\"\",\"releasetime\":\"2026-04-21T14:42:38.000Z\",\"conntitle\":\"\",\"url\":\"/html/news/486327.html\"},{\"newsid\":\"486146\",\"title\":\"“齐天大圣”超越人类半马世界纪录，靠的是什么\",\"breviaryimges\":\"https://media.zhengguannews.cn/picture/2026/04/69/20094331393.png?x-oss-process=style/newslist\",\"conntype\":0,\"connid\":\"0\",\"veer\":\"\",\"releasetime\":\"2026-04-20T09:40:31.000Z\",\"conntitle\":\"\",\"url\":\"/html/news/486146.html\"},{\"newsid\":\"486104\",\"title\":\"时政微观察丨加快建设网络强国，更好造福国家和人民\",\"breviaryimges\":\"https://media.zhengguannews.cn/picture/static/constimg/zg_yw.png?x-oss-process=style/newslist\",\"conntype\":0,\"connid\":\"0\",\"veer\":\"\",\"releasetime\":\"2026-04-19T18:19:46.000Z\",\"conntitle\":\"\",\"url\":\"/html/news/486104.html\"},{\"newsid\":\"486094\",\"title\":\"中超观察（第六轮） 惨烈绞杀的开端\",\"breviaryimges\":\"https://media.zhengguannews.cn/picture/2026/04/190/19152102873.png?x-oss-process=style/newslist\",\"conntype\":0,\"connid\":\"0\",\"veer\":\"\",\"releasetime\":\"2026-04-19T14:52:12.000Z\",\"conntitle\":\"\",\"url\":\"/html/news/486094.html\"}],[],[],[{\"newsid\":\"484481\",\"title\":\"正观：新闻早餐 品读天下\",\"breviaryimges\":\"https://media.zhengguannews.cn/picture/news/2026/04/94/07152500655-690_150.jpg?x-oss-process=style/newslist\",\"conntype\":7,\"connid\":\"2448\",\"veer\":\"\",\"url\":\"/html/special/2448.html?nid=484481\"},{\"newsid\":\"481135\",\"title\":\"专题｜树立和践行正确政绩观学习教育\",\"breviaryimges\":\"https://media.zhengguannews.cn/picture/news/2026/03/151/12105119141-3450_750.jpg?x-oss-process=style/newslist\",\"conntype\":7,\"connid\":\"2414\",\"veer\":\"\",\"url\":\"/html/special/2414.html?nid=481135\"},{\"newsid\":\"453348\",\"title\":\"专题丨正观晚播报\",\"breviaryimges\":\"https://media.zhengguannews.cn/picture/news/2025/08/51-111058134-1380_300.jpg?x-oss-process=style/newslist\",\"conntype\":7,\"connid\":\"2140\",\"veer\":\"\",\"url\":\"/html/special/2140.html?nid=453348\"}],[],[]],\"server\":200}"
+      }
+    ]
+  }
+}
