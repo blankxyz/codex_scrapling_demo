@@ -3,3 +3,6 @@ __pycache__/
 *.pyc
 .venv/
 prefect_demo/
+scrapling-prefect-spiders/
+spiders/
+tests/
